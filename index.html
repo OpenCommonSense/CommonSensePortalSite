@@ -1,856 +1,357 @@
 <!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!-->
-<html lang="en">
-<!--<![endif]-->
-
-<head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <meta name="keywords" content="">
-
-    <title>Item Name | Documentation by Author Name</title>
-
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-
-    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.3.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="css/stroke.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="css/animate.css">
-    <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-
-    <link rel="stylesheet" type="text/css" href="js/syntax-highlighter/styles/shCore.css" media="all">
-    <link rel="stylesheet" type="text/css" href="js/syntax-highlighter/styles/shThemeRDark.css" media="all">
-
-    <!-- CUSTOM -->
-    <link rel="stylesheet" type="text/css" href="css/custom.css">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-</head>
-
-<body>
-    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
-
-    <script>
-        var mybutton = document.getElementById("myBtn");
-        window.onscroll = function() {scrollFunction()};
-        function scrollFunction() {
-            if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
-                mybutton.style.display = "block";
-            } else {
-                mybutton.style.display = "none";
-            }
-        }
-        function topFunction() {
-            window.scrollTo({ top: 0, behavior: 'smooth' })
-            document.documentElement.scrollTo({ top: 0, behavior: 'smooth' })
-        }
-
-        document.addEventListener("DOMContentLoaded", () => {
-            document.querySelector('#mode').addEventListener('click',()=>{
-                document.querySelector('html').classList.toggle('dark');
-            })
-        });
-
-
-    </script>
-
-    <div id="wrapper">
-
-        <div id="mode" >
-            <div class="dark">
-                <svg aria-hidden="true" viewBox="0 0 512 512">
-                    <title>lightmode</title>
-                    <path fill="currentColor" d="M256 160c-52.9 0-96 43.1-96 96s43.1 96 96 96 96-43.1 96-96-43.1-96-96-96zm246.4 80.5l-94.7-47.3 33.5-100.4c4.5-13.6-8.4-26.5-21.9-21.9l-100.4 33.5-47.4-94.8c-6.4-12.8-24.6-12.8-31 0l-47.3 94.7L92.7 70.8c-13.6-4.5-26.5 8.4-21.9 21.9l33.5 100.4-94.7 47.4c-12.8 6.4-12.8 24.6 0 31l94.7 47.3-33.5 100.5c-4.5 13.6 8.4 26.5 21.9 21.9l100.4-33.5 47.3 94.7c6.4 12.8 24.6 12.8 31 0l47.3-94.7 100.4 33.5c13.6 4.5 26.5-8.4 21.9-21.9l-33.5-100.4 94.7-47.3c13-6.5 13-24.7.2-31.1zm-155.9 106c-49.9 49.9-131.1 49.9-181 0-49.9-49.9-49.9-131.1 0-181 49.9-49.9 131.1-49.9 181 0 49.9 49.9 49.9 131.1 0 181z"></path>
-                </svg>
-            </div>
-            <div class="light">
-                <svg aria-hidden="true" viewBox="0 0 512 512">
-                    <title>darkmode</title>
-                    <path fill="currentColor" d="M283.211 512c78.962 0 151.079-35.925 198.857-94.792 7.068-8.708-.639-21.43-11.562-19.35-124.203 23.654-238.262-71.576-238.262-196.954 0-72.222 38.662-138.635 101.498-174.394 9.686-5.512 7.25-20.197-3.756-22.23A258.156 258.156 0 0 0 283.211 0c-141.309 0-256 114.511-256 256 0 141.309 114.511 256 256 256z"></path>
-                </svg>
-            </div>
-        </div>
-
-        <div class="container">
-
-            <section id="top" class="section docs-heading">
-
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="big-title text-center">
-                            <h1>Commonsense Reasoning: A Survey of Resources, Benchmarks, Models, and Open Challenges</h1>
-                            <p class="lead">Your awesome theme / template documentation version 1.0</p>
-                        </div>
-                        <!-- end title -->
-                    </div>
-                    <!-- end 12 -->
-                </div>
-                <!-- end row -->
-
-                <hr>
-
-            </section>
-            <!-- end section -->
-
-            <div class="row">
-
-                <div class="col-md-3">
-                    <nav class="docs-sidebar" data-spy="affix" data-offset-top="300" data-offset-bottom="200" role="navigation">
-                        <ul class="nav">
-                            <li><a href="#line1">Resources</a>
-                                <ul class="nav">
-                                    <li><a href="#line7_1">Commonsense Knowledge Graphs</a>
-                                        <ul class="nav-sub">
-                                            <li><a href="#line7_2">Human-Curated KGs</a></li>
-                                            <li><a href="#line7_3">Model-Generated KGs</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#line1_2">Commonsense Knowledge Corpora</a></li>
-                                    <li><a href="#line1_3">Explanation Bank</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#line2">Benchmarks</a>
-                                <ul class="nav">
-                                    <li><a href="#line2_1">Coreference Resolution</a></li>
-                                    <li><a href="#line2_2">Multiple-Choice Question Answering</a></li>
-                                    <li><a href="#line2_3">Reading Comprehension</a></li>
-                                    <li><a href="#line2_4">Reading Comprehension</a></li>
-                                    <li><a href="#line2_5">Language Generation</a></li>
-                                    <li><a href="#line2_6">Text Game</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#line3">Models</a>
-                                <ul class="nav">
-                                    <li><a href="#line3_1">LM-based</a></li>
-                                    <li><a href="#line3_2">LM + Graph Encoder</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#line4">Open Problems</a>
-                                <ul class="nav">
-                                    <li><a href="#line4_1">Neural</a></li>
-                                </ul>
-                            </li>
-                            <!-- <li><a href="#line5">Creating Blog Pages</a></li>
-                            <li><a href="#line6">Revolution Slider</a></li>
-                            <li><a href="#line7">How to Use Option Panel</a>
-                                <ul class="nav">
-                                    <li><a href="#line7_1">General Options</a></li>
-                                    <li><a href="#line7_2">Style Options</a></li>
-                                    <li><a href="#line7_3">Header Options</a></li>
-                                    <li><a href="#line7_4">Font Options</a></li>
-                                    <li><a href="#line7_5">Slider Options</a></li>
-                                    <li><a href="#line7_6">Page Options</a></li>
-                                    <li><a href="#line7_7">Import & Export</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#line8">Support Desk</a></li>
-                            <li><a href="#line9">Files & Sources</a></li>
-                            <li><a href="#line10">Version History (Changelog)</a></li>
-                            <li><a href="#line11">Copyright and license</a></li> -->
+<html lang="en-US">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+      <link rel="shortcut icon" href="/just-the-docs/favicon.ico" type="image/x-icon">
+      <link rel="stylesheet" href="/assets/css/just-the-docs-default.css">
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-2709176-10"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-2709176-10', { 'anonymize_ip': true }); </script> <script type="text/javascript" src="/assets/js/vendor/lunr.min.js"></script> <script type="text/javascript" src="/assets/js/just-the-docs.js"></script>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Home | Just the Docs</title>
+      <meta name="generator" content="Jekyll v3.9.0" />
+      <meta property="og:title" content="Home" />
+      <meta property="og:locale" content="en_US" />
+      <meta name="description" content="Just the Docs is a responsive Jekyll theme with built-in search that is easily customizable and hosted on GitHub Pages." />
+      <meta property="og:description" content="Just the Docs is a responsive Jekyll theme with built-in search that is easily customizable and hosted on GitHub Pages." />
+      <link rel="canonical" href="https://pmarsceill.github.io/just-the-docs/" />
+      <meta property="og:url" content="https://pmarsceill.github.io/just-the-docs/" />
+      <meta property="og:site_name" content="Just the Docs" />
+      <script type="application/ld+json"> {"description":"Just the Docs is a responsive Jekyll theme with built-in search that is easily customizable and hosted on GitHub Pages.","@type":"WebSite","headline":"Home","url":"https://pmarsceill.github.io/just-the-docs/","name":"Just the Docs","@context":"https://schema.org"}</script>
+   <body>
+      <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+         <symbol id="svg-link" viewBox="0 0 24 24">
+            <title>Link</title>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+               <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+               <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+            </svg>
+         </symbol>
+         <symbol id="svg-search" viewBox="0 0 24 24">
+            <title>Search</title>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+               <circle cx="11" cy="11" r="8"></circle>
+               <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+         </symbol>
+         <symbol id="svg-menu" viewBox="0 0 24 24">
+            <title>Menu</title>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+               <line x1="3" y1="12" x2="21" y2="12"></line>
+               <line x1="3" y1="6" x2="21" y2="6"></line>
+               <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+         </symbol>
+         <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+            <title>Expand</title>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+               <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+         </symbol>
+         <symbol id="svg-doc" viewBox="0 0 24 24">
+            <title>Document</title>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+               <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path>
+               <polyline points="13 2 13 9 20 9"></polyline>
+            </svg>
+         </symbol>
+      </svg>
+      <div class="side-bar">
+         <div class="site-header">
+            <a href="https://pmarsceill.github.io/just-the-docs/" class="site-title lh-tight"> Just the Docs </a> 
+            <a href="#" id="menu-button" class="site-button">
+               <svg viewBox="0 0 24 24" class="icon">
+                  <use xlink:href="#svg-menu"></use>
+               </svg>
+            </a>
+         </div>
+         <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+            <ul class="nav-list">
+               <li class="nav-list-item active"><a href="https://pmarsceill.github.io/just-the-docs/" class="nav-list-link active">Home</a>
+               <li class="nav-list-item"><a href="https://pmarsceill.github.io/just-the-docs/docs/configuration/" class="nav-list-link">Configuration</a>
+               <li class="nav-list-item">
+                  <a href="#" class="nav-list-expander">
+                     <svg viewBox="0 0 24 24">
+                        <use xlink:href="#svg-arrow-right"></use>
+                     </svg>
+                  </a>
+                  <a href="https://pmarsceill.github.io/just-the-docs/docs/ui-components" class="nav-list-link">UI Components</a>
+                  <ul class="nav-list ">
+                     <li class="nav-list-item "><a href="https://pmarsceill.github.io/just-the-docs/docs/ui-components/typography/" class="nav-list-link">Typography</a>
+                     <li class="nav-list-item "><a href="https://pmarsceill.github.io/just-the-docs/docs/ui-components/buttons/" class="nav-list-link">Buttons</a>
+                     <li class="nav-list-item "><a href="https://pmarsceill.github.io/just-the-docs/docs/ui-components/labels/" class="nav-list-link">Labels</a>
+                     <li class="nav-list-item "><a href="https://pmarsceill.github.io/just-the-docs/docs/ui-components/tables/" class="nav-list-link">Tables</a>
+                     <li class="nav-list-item "><a href="https://pmarsceill.github.io/just-the-docs/docs/ui-components/lists/" class="nav-list-link">Lists</a>
+                     <li class="nav-list-item ">
+                        <a href="#" class="nav-list-expander">
+                           <svg viewBox="0 0 24 24">
+                              <use xlink:href="#svg-arrow-right"></use>
+                           </svg>
+                        </a>
+                        <a href="https://pmarsceill.github.io/just-the-docs/docs/ui-components/code/" class="nav-list-link">Code</a>
+                        <ul class="nav-list">
+                           <li class="nav-list-item "> <a href="https://pmarsceill.github.io/just-the-docs/docs/ui-components/code/line-numbers/" class="nav-list-link">Code with line numbers</a>
                         </ul>
-                    </nav >
-                </div>
-                <div class="col-md-9">
-                    <section class="welcome">
-
-                        <div class="row">
-                            <div class="col-md-12 left-align">
-                               <h2 class="dark-text">Introduction<hr></h2>
-                                <div class="row">
-
-                                    <div class="col-md-12 full">
-                                        <div class="intro1">
-                                            <ul>
-                                                <li><strong>Item Name : </strong>Gather Responsive Event Template</li>
-                                                <li><strong>Item Version : </strong> v 1.0</li>
-                                                <li><strong>Author  : </strong> <a href="http://themeforest.net/user/surjithctly" target="_blank">Surjith S M</a></li>
-                                                <li><strong>Support Forum : </strong> <a href="https://support.surjithctly.in/forums" target="_blank">https://support.surjithctly.in/forums</a></li>
-                                                <li><strong>License : </strong> <a href="#" target="_blank">Un License</a></li>
-                                            </ul>
-                                        </div>
-
-                                        <hr>
-                                        <div>
-                                            <p>First of all, Thank you so much for purchasing this template and for being my loyal customer.
-                                                <strong>You are awesome!</strong>
-                                                <br> You are entitled to get free lifetime updates to this product + exceptional support from the author directly.
-                                            </p>
-
-                                            <p>This documentation is to help you regarding each step of customization. Please go through the documentation carefully to understand how this template is made and how to edit this properly. Basic HTML and CSS knowledge is required to customize this template. You may learn basics <a href="http://www.w3schools.com/" target="_blank">here</a>, <a href="https://developer.mozilla.org/" target="_blank">here</a> and <a href="http://learn.shayhowe.com/html-css/building-your-first-web-page/" target="_blank">here</a>. </p>
-
-                                            <h4>Requirements</h4>
-                                            <p>You will need the following sofwares to customize this template.</p>
-                                            <ol>
-                                                <li>Code Editing Software (eg: Dreamweaver, Sublime Text or Notepad)</li>
-                                                <li>Web Browser for testing (eg: Google Chrome or Mozilla Firefox)</li>
-                                                <li>FTP Tool to upload files to Server (eg: <a href="https://filezilla-project.org/download.php?type=client" target="_blank">FileZilla</a>) </li>
-                                            </ol>
-                                            <div class="intro2 clearfix">
-                                                <p><i class="fa fa-exclamation-triangle"></i> Be careful while editing the template. If not edited properly, the design layout may break completely.
-                                                    <br> No support is provided for faulty customization.
-                                                </p>
-                                            </div>
-
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <!-- end row -->
-                            </div>
-                        </div>
-                    </section>
-
-                    <section id="line1" class="section">
-
-                        <div class="row">
-                            <div class="col-md-12 left-align">
-                                <h2 class="dark-text">Resources <hr></h2>
-                            </div>
-                            <!-- end col -->
-                        </div>
-                        <!-- end row -->
-
-                        <div class="row">
-                            <div class="col-md-12">
-                                <p>Lorem the It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
-
-                                <h4>Bootstrap Grid System</h4>
-
-                                <pre class="brush: html; highlight: [2,4]">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                        YOUR CODES GOES HERE
-                                    </div>
-                                </div>
-                            </div></pre>
-
-                                <p>Our you can use the grid system with 2 columns like this;</p>
-
-                                <pre class="brush: html">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                        YOUR CODES GOES HERE
-                                    </div>
-                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                        YOUR CODES GOES HERE
-                                    </div>
-                                </div>
-                            </div>
-                         </pre>
-
-                                <p>Our you can use the grid system with 3 columns like this;</p>
-
-                                <pre class="brush: html">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                                        YOUR CODES GOES HERE
-                                    </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                                        YOUR CODES GOES HERE
-                                    </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                                        YOUR CODES GOES HERE
-                                    </div>
-                                </div>
-                            </div>
-                         </pre>
-                            </div>
-                            <!-- end col -->
-                        </div>
-                        <!-- end row -->
-
-                    </section>
-                    <!-- end section -->
-
-                    <section id="line2" class="section">
-
-                        <div class="row">
-                            <div class="col-md-12 left-align">
-                                <h2 class="dark-text">Benchmarks <hr></h2>
-                            </div>
-                            <!-- end col -->
-                        </div>
-                        <!-- end row -->
-
-                        <div class="intro2 clearfix">
-                            <p><i class="fa fa-wordpress"></i> Lorem the It is a long established fact that a reader will be distracted..
-                                <br> Please read more about WordPress here. <a href="#">WordPress Installation via FTP.</a> </p>
-                        </div>
-
-                        <hr>
-
-                        <h4>Upload via WordPress Admin</h4>
-
-                        <p>Lorem the It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
-
-                        <a href="#" class="btn btn-primary">Get a Installation Service</a> <a href="#" class="btn btn-info">Ask a Question</a>
-                        <hr>
-                        <div class="row">
-                            <div class="col-md-8 col-md-offset-2">
-                                <div class="media">
-                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/snFzbPm_RUE" frameborder="0" allowfullscreen></iframe>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </section>
-                    <!-- end section -->
-
-                    <section id="line3" class="section">
-
-                        <div class="row">
-                            <div class="col-md-12 left-align">
-                                <h2 class="dark-text">Models <hr></h2>
-                            </div>
-                            <!-- end col -->
-                        </div>
-                        <!-- end row -->
-
-                        <h4>Upload via WordPress Admin</h4>
-
-                        <p>Lorem the It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
-
-                        <a href="#" class="btn btn-primary">Get a Installation Service</a> <a href="#" class="btn btn-info">Ask a Question</a>
-
-                        <hr>
-
-                        <h4>Upload via FTP Server</h4>
-
-                        <p>Lorem the It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
-
-                        <a href="#" class="btn btn-primary">Get a Installation Service</a> <a href="#" class="btn btn-info">Ask a Question</a>
-                        <hr>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="media">
-                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/yQnQyI5WlKs" frameborder="0" allowfullscreen></iframe>
-                                </div>
-
-                            </div>
-                            <div class="col-md-6">
-                                <div class="media">
-                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/z0kEVwJB_go" frameborder="0" allowfullscreen></iframe>
-                                </div>
-
-                            </div>
-                        </div>
-
-                    </section>
-                    <!-- end section -->
-
-                    <section id="line4" class="section">
-
-                        <div class="row">
-                            <div class="col-md-12 left-align">
-                                <h2 class="dark-text">Open Problems <hr></h2>
-                            </div>
-                            <!-- end col -->
-                        </div>
-                        <!-- end row -->
-
-                        <div class="row">
-                            <div class="col-md-4">
-                                <img src="images/upload/plugin1.png" alt="" class="img-responsive img-thumbnail">
-                                <h4>Plugin name #1</h4>
-                                <p>Lorem the It is a long established fact that a reader will be distracted.. Please read more about WordPress here.</p>
-                            </div>
-                            <!-- end col -->
-
-                            <div class="col-md-4">
-                                <img src="images/upload/plugin2.png" alt="" class="img-responsive img-thumbnail">
-                                <h4>Plugin name #2</h4>
-                                <p>Lorem the It is a long established fact that a reader will be distracted.. Please read more about WordPress here.</p>
-                            </div>
-                            <!-- end col -->
-
-                            <div class="col-md-4">
-                                <img src="images/upload/plugin3.png" alt="" class="img-responsive img-thumbnail">
-                                <h4>Plugin name #3</h4>
-                                <p>Lorem the It is a long established fact that a reader will be distracted.. Please read more about WordPress here.</p>
-                            </div>
-                            <!-- end col -->
-
-                            <div class="col-md-12">
-                                <p>Lorem the It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
-
-                                <div class="text-center">
-                                    <a href="#" class="btn btn-primary">Get a Installation Service</a> <a href="#" class="btn btn-info">Ask a Question</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- end row -->
-
-                    </section>
-                    <!-- end section -->
-
-                    <section id="line5" class="section">
-
-                        <div class="row">
-                            <div class="col-md-12 left-align">
-                                <h2 class="dark-text">Creating Blog Pages <hr></h2>
-                            </div>
-                            <!-- end col -->
-                        </div>
-                        <!-- end row -->
-
-                        <div class="row">
-
-                            <div class="col-md-12">
-                                <p>Lorem the It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
-                            </div>
-
-                            <div class="col-md-4">
-                                <a href="upload/thumbnail.png" data-rel="prettyPhoto"><img src="images/upload/thumbnail.png" alt="" class="img-responsive img-thumbnail"></a>
-                                <h4 id="line5_1">WordPress Blog Page -</h4>
-                                <ul>
-                                    <li><strong>Step 1</strong> - Lorem the It is a long established fact that a reader ease read more about WordPress here.</li>
-                                    <li><strong>Step 2</strong> - Lorem the It is a long established fact that a reader will be distracted.. Please read more about WordPress here.</li>
-                                    <li><strong>Step 3</strong> - Lorem the It is a long established fact that a read.</li>
-                                </ul>
-                            </div>
-                            <!-- end col -->
-
-                            <div class="col-md-4">
-                                <a href="upload/thumbnail.png" data-rel="prettyPhoto"><img src="images/upload/thumbnail.png" alt="" class="img-responsive img-thumbnail"></a>
-                                <h4 id="line5_2">Blog Post Sections -</h4>
-                                <p>Lorem the It is a long established fact that a reader will be distracted.. Please read more about WordPress here.</p>
-                                <ul>
-                                    <li><strong>Step 1</strong> - Lorem the It is a long established fact that a reader ease read more about WordPress here.</li>
-                                    <li><strong>Step 2</strong> - Lorem the It is a long established fact that a reader will be distracted.. Please read more about WordPress here.</li>
-                                    <li><strong>Step 3</strong> - Lorem the It is a long established fact that a read.</li>
-                                </ul>
-                            </div>
-                            <!-- end col -->
-
-                            <div class="col-md-4">
-                                <a href="upload/thumbnail.png" data-rel="prettyPhoto"><img src="images/upload/thumbnail.png" alt="" class="img-responsive img-thumbnail"></a>
-                                <h4 id="line5_3">Create Blog Gallery -</h4>
-                                <p>Lorem the It is a long established fact that a reader will be distracted.. Please read more about WordPress here.</p>
-                                <ul>
-                                    <li><strong>Step 1</strong> - Lorem the It is a long established fact that a reader ease read more about WordPress here.</li>
-                                    <li><strong>Step 2</strong> - Lorem the It is a long established fact that a reader will be distracted.. Please read more about WordPress here.</li>
-                                    <li><strong>Step 3</strong> - Lorem the It is a long established fact that a read.</li>
-                                </ul>
-                            </div>
-                            <!-- end col -->
-
-                        </div>
-                        <!-- end row -->
-
-                    </section>
-                    <!-- end section -->
-
-                    <section id="line6" class="section">
-
-                        <div class="row">
-                            <div class="col-md-12 left-align">
-                                <h2 class="dark-text">How to Install Revolution Slider <hr></h2>
-                            </div>
-                            <!-- end col -->
-                        </div>
-                        <!-- end row -->
-
-                        <div class="row">
-
-                            <div class="col-md-12">
-                                <p>Lorem the It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
-                            </div>
-
-                            <div class="col-md-6">
-                                <a href="upload/thumbnail.png" data-rel="prettyPhoto"><img src="images/upload/thumbnail.png" alt="" class="img-responsive img-thumbnail"></a>
-                                <h4>Installation Slider</h4>
-                                <ul>
-                                    <li><strong>Step 1</strong> - Lorem the It is a long established fact that a reader ease read more about WordPress here.</li>
-                                    <li><strong>Step 2</strong> - Lorem the It is a long established fact that a reader will be distracted.. Please read more about WordPress here.</li>
-                                    <li><strong>Step 3</strong> - Lorem the It is a long established fact that a read.</li>
-                                </ul>
-                            </div>
-                            <!-- end col -->
-
-                            <div class="col-md-6">
-                                <a href="upload/thumbnail.png" data-rel="prettyPhoto"><img src="images/upload/thumbnail.png" alt="" class="img-responsive img-thumbnail"></a>
-                                <h4>Updating Slider</h4>
-                                <p>Lorem the It is a long established fact that a reader will be distracted.. Please read more about WordPress here.</p>
-                                <ul>
-                                    <li><strong>Step 1</strong> - Lorem the It is a long established fact that a reader ease read more about WordPress here.</li>
-                                    <li><strong>Step 2</strong> - Lorem the It is a long established fact that a reader will be distracted.. Please read more about WordPress here.</li>
-                                    <li><strong>Step 3</strong> - Lorem the It is a long established fact that a read.</li>
-                                </ul>
-                            </div>
-                            <!-- end col -->
-
-                        </div>
-                        <!-- end row -->
-
-                    </section>
-                    <!-- end section -->
-
-                    <section id="line7" class="section">
-
-                        <div class="row">
-                            <div class="col-md-12 left-align">
-                                <h2 class="dark-text">How to Use Option Panel <hr></h2>
-                            </div>
-                            <!-- end col -->
-                        </div>
-                        <!-- end row -->
-
-                        <div class="row">
-                            <div class="col-md-4">
-                                <a href="upload/thumbnail.png" data-rel="prettyPhoto"><img src="images/upload/thumbnail.png" alt="" class="img-responsive img-thumbnail"></a>
-                            </div>
-
-                            <div class="col-md-8">
-                                <h4 id="line7_1">General Options - </h4>
-                                <p>Lorem the It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. long established fact that a reader will English.</p>
-                            </div>
-                            <!-- end col -->
-                        </div>
-                        <!-- end row -->
-
-                        <hr>
-
-                        <div class="row">
-                            <div class="col-md-4">
-                                <a href="upload/thumbnail.png" data-rel="prettyPhoto"><img src="images/upload/thumbnail.png" alt="" class="img-responsive img-thumbnail"></a>
-                            </div>
-
-                            <div class="col-md-8">
-                                <h4 id="line7_2">Style Options - </h4>
-                                <p>Lorem the It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. long established fact that a reader will English.</p>
-                            </div>
-                            <!-- end col -->
-                        </div>
-                        <!-- end row -->
-
-                        <hr>
-
-                        <div class="row">
-                            <div class="col-md-4">
-                                <a href="upload/thumbnail.png" data-rel="prettyPhoto"><img src="images/upload/thumbnail.png" alt="" class="img-responsive img-thumbnail"></a>
-                            </div>
-
-                            <div class="col-md-8">
-                                <h4 id="line7_3">Header Options - </h4>
-                                <p>Lorem the It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. long established fact that a reader will English.</p>
-                            </div>
-                            <!-- end col -->
-                        </div>
-                        <!-- end row -->
-
-                        <hr>
-
-                        <div class="row">
-                            <div class="col-md-4">
-                                <a href="upload/thumbnail.png" data-rel="prettyPhoto"><img src="images/upload/thumbnail.png" alt="" class="img-responsive img-thumbnail"></a>
-                            </div>
-
-                            <div class="col-md-8">
-                                <h4 id="line7_4">Font Options - </h4>
-                                <p>Lorem the It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. long established fact that a reader will English.</p>
-                            </div>
-                            <!-- end col -->
-                        </div>
-                        <!-- end row -->
-
-                        <hr>
-
-                        <div class="row">
-                            <div class="col-md-4">
-                                <a href="upload/thumbnail.png" data-rel="prettyPhoto"><img src="images/upload/thumbnail.png" alt="" class="img-responsive img-thumbnail"></a>
-                            </div>
-
-                            <div class="col-md-8">
-                                <h4 id="line7_5">Slider Options - </h4>
-                                <p>Lorem the It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. long established fact that a reader will English.</p>
-                            </div>
-                            <!-- end col -->
-                        </div>
-                        <!-- end row -->
-
-                        <hr>
-
-                        <div class="row">
-                            <div class="col-md-4">
-                                <a href="upload/thumbnail.png" data-rel="prettyPhoto"><img src="images/upload/thumbnail.png" alt="" class="img-responsive img-thumbnail"></a>
-                            </div>
-
-                            <div class="col-md-8">
-                                <h4 id="line7_6">Page Options - </h4>
-                                <p>Lorem the It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. long established fact that a reader will English.</p>
-                            </div>
-                            <!-- end col -->
-                        </div>
-                        <!-- end row -->
-
-                        <hr>
-
-                        <div class="row">
-                            <div class="col-md-4">
-                                <a href="upload/thumbnail.png" data-rel="prettyPhoto"><img src="images/upload/thumbnail.png" alt="" class="img-responsive img-thumbnail"></a>
-                            </div>
-
-                            <div class="col-md-8">
-                                <h4 id="line7_7">Import & Export Options - </h4>
-                                <p>Lorem the It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. long established fact that a reader will English.</p>
-                            </div>
-                            <!-- end col -->
-                        </div>
-                        <!-- end row -->
-
-                    </section>
-                    <!-- end section -->
-
-                    <section id="line8" class="section">
-
-                        <div class="row">
-                            <div class="col-md-12 left-align">
-                                <h2 class="dark-text">Support Desk <hr></h2>
-                            </div>
-                            <!-- end col -->
-                        </div>
-                        <!-- end row -->
-
-                        <div class="row">
-                            <div class="col-md-6">
-                                <p>Please remember you have purchased a very affordable theme and you have not paid for a full-time web design agency. Occasionally we will help with small tweaks, but these requests will be put on a lower priority due to their nature. Support is also 100% optional and we provide it for your connivence, so please be patient, polite and respectful.</p>
-
-                                <p>Please visit our <a href="http://themeforest.net/user/yourusername"><strong>profile page</strong></a> or ask question <a href="mailto:yourusername@gmail.com">@yourusername</a></p>
-
-                                <strong>Support for my items includes:</strong>
-                                <ul>
-                                    <li>* Responding to questions or problems regarding the item and its features</li>
-                                    <li>* Fixing bugs and reported issues</li>
-                                    <li>* Providing updates to ensure compatibility with new software versions</li>
-                                </ul>
-                                <strong>Item support does not include:</strong>
-                                <ul>
-                                    <li>* Customization and installation services</li>
-                                    <li>* Support for third party software and plug-ins</li>
-                                </ul>
-
-                            </div>
-
-                            <div class="col-md-6">
-                                <strong>Before seeking support, please...</strong>
-                                <ul>
-                                    <li>* Make sure your question is a valid Theme Issue and not a customization request.</li>
-                                    <li>* Make sure you have read through the documentation and any related video guides before asking support on how to accomplish a task.</li>
-                                    <li>* Make sure to double check the theme FAQs.</li>
-                                    <li>* Try disabling any active plugins to make sure there isn't a conflict with a plugin. And if there is this way you can let us know.</li>
-                                    <li>* If you have customized your theme and now have an issue, back-track to make sure you didn't make a mistake. If you have made changes and can't find the issue, please provide us with your changelog.</li>
-                                    <li>* Almost 80% of the time we find that the solution to people's issues can be solved with a simple "Google Search". You might want to try that before seeking support. You might be able to fix the issue yourself much quicker than we can respond to your request.</li>
-                                    <li>* Make sure to state the name of the theme you are having issues with when requesting support via ThemeForest.</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!-- end row -->
-
-                    </section>
-                    <!-- end section -->
-
-                    <section id="line9" class="section">
-
-                        <div class="row">
-                            <div class="col-md-12 left-align">
-                                <h2 class="dark-text">Files & Sources <hr></h2>
-                            </div>
-                            <!-- end col -->
-                        </div>
-                        <!-- end row -->
-
-                        <div class="row">
-                            <div class="col-md-6">
-                                <strong>Included Stylesheets</strong>
-
-                                <p>These are the primary CSS files used for general front-end styling. Use these to customize your theme even further. All included JavaScript codes under <strong>yourthemename/css/</strong></p>
-
-                                <ul>
-                                    <li>1. style.css - Primary stylesheet</li>
-                                    <li>2. bootstrap.css - Bootstrap stylesheet</li>
-                                    <li>3. owl-carousel.css - OWL Carousel</li>
-                                    <li>4. fontawesome.css - FontAwesome Font Icons stylesheet</li>
-                                    <li>5. custom.css - Pathos Color Schemes stylesheet</li>
-                                    <li>6. prettyPhoto.css - Lightbox effect css file</li>
-                                    <li>7. flexslider.css - Flexslider css file</li>
-                                    <li>8. et-line.css - Elegant icons css file</li>
-                                    <li>9. carousel.css - OWL Carousel css file</li>
-                                    <li>10. animate.css - CSS3 animations css file</li>
-                                </ul>
-
-                            </div>
-
-                            <div class="col-md-6">
-                                <strong>Included JavaScript</strong>
-
-                                <p>These are the various attribution inks to the Javascript files included or modified to work with in this theme. All included JavaScript codes under <strong>yourthemename/js/</strong></p>
-
-                                <ul>
-                                    <li>1. bootstrap.js - Bootstrap JavaScript</li>
-                                    <li>2. custom.js - All JavaScript Plugins</li>
-                                    <li>3. retina.js - Retina JavaScript</li>
-                                    <li>4. jquery.js - Base JavaScript</li>
-                                    <li>5. prettyPhoto.js - Lightbox JavaScript</li>
-                                    <li>6. owl-carousel.js - Lightbox JavaScript</li>
-                                    <li>7. revslider.js - Revolution Slider JavaScript</li>
-                                    <li>8. flexslider.js - Flexslider JavaScript</li>
-                                    <li>9. awesome-grid.nin.js - Awesome grid portfolio JavaScript</li>
-                                    <li>10. circle.js - Coming soon page JavaScript</li>
-                                    <li>11. contact.js - Contact form validate JavaScript</li>
-                                    <li>12. isotope.js - Masonry Portfolio JavaScript</li>
-                                    <li>13. progress.js - Progress bar JavaScript</li>
-                                    <li>14. rotate.js - Text rotate effect JavaScript</li>
-                                    <li>15. wow.js - CSS3 animation JavaScript</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!-- end row -->
-
-                    </section>
-                    <!-- end section -->
-
-                    <section id="line10" class="section">
-
-                        <div class="row">
-                            <div class="col-md-12 left-align">
-                                <h2 class="dark-text">Version History (Changelog) <hr></h2>
-                            </div>
-                            <!-- end col -->
-                        </div>
-                        <!-- end row -->
-
-                        <div class="row">
-                            <div class="col-md-12">
-
-                                <p>You can find the version history (changelog.txt) file on <strong>yourthemename-full.zip</strong> folder or you can check changelog on theme sale page.</p>
-                                <p>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p>
-
-                                <hr>
-
-                                <h4>Changelog</h4>
-
-                                <pre class="brush: html">
-
-                                        -----------------------------------------------------------------------------------------
-                                        Version 3.8.4 - May 7th, 2015
-                                        -----------------------------------------------------------------------------------------
-
-                                        - new revolution slider plugin version
-                                        - fixed security issue with xss vulnerability
-                                        - improved demo importer for certain server environments
-                                        - updated WooCommerce template files for the outdated message in system status
-                                        - added suhosin check in system status 
-                                        - added information that explains ZipArchive is required on your server for importing demos 
-                                        - portfolio Grid template improvement
-                                        - added more information to demo popup message for individual demo requirements
-                                        - RTL style improvements
-                                        - breadcrumb function improved for various areas
-
-                                        -----------------------------------------------------------------------------------------
-                                        Version 3.8.3 - May 7th, 2015
-                                        -----------------------------------------------------------------------------------------
-                                        - fixed responsive / retina issue for larger logos
-                                        - fusion slider now uses responsive headings all the time
-                                        - dropped custom Avada styles for select boxes in IE since it is not supported
-                                        - fixed compatibility issue with Category Order and Taxonomy Terms Order plugin
-                                        - fixed issue of full width background being affected by padding options
-                                        - tested and fixed hellobar issue 
-                                        - typography settings now apply to single post pages
-                                        - improved smooth scroll in certain situations
-                                        - youtube & vimeo videos will show at normal size in light box as long as video embed link is not used
-                                        - fixed issue of â€œfixedâ€ featured image mode not working for carousels / recent work
-                                        - fixed issue of header tagline font not working with font options
-
-                                        -----------------------------------------------------------------------------------------
-                                        Version 3.8.2 - May 7th, 2015
-                                        -----------------------------------------------------------------------------------------
-                                        - fixed formatting issues with Turkish language files 
-                                        - letter spacing menu option improvement
-                                        - improved fusion slider max content width setting
-                                        - removed the â€œdisable first featured image on productsâ€ setting since it does not apply
-                                        - improved portfolio featured image loading
-                                        - removed encoding from tracking code, space before head, space before body, and custom CSS to stop it from parsing code within TO and removing special characters e.g. +
-                                        - woo login box now shows login fields for logged out users
-                                        - woo cart / my account links now show on mobile 
-                                        - fixed button styling issue with gravity forms
-
-
-                                      </pre>
-
-                            </div>
-                        </div>
-                        <!-- end row -->
-
-                    </section>
-                    <!-- end section -->
-
-                    <section id="line11" class="section">
-
-                        <div class="row">
-                            <div class="col-md-12 left-align">
-                                <h2 class="dark-text">Copyright and license <hr></h2>
-                            </div>
-                            <!-- end col -->
-                        </div>
-                        <!-- end row -->
-
-                        <div class="row">
-                            <div class="col-md-12">
-                                
-                                <p>Code released under the <a href="#" target="_blank">Un License</a> License.</p>                        
-                                <p>For more information about copyright and license check <a href="https://choosealicense.com/" target="_blank">choosealicense.com</a>.</p>
-                            
-                            </div>
-                        </div>
-                        <!-- end row -->
-
-                    </section>
-                    <!-- end section -->
-                </div>
-                <!-- // end .col -->
-
+                  </ul>
+               <li class="nav-list-item">
+                  <a href="#" class="nav-list-expander">
+                     <svg viewBox="0 0 24 24">
+                        <use xlink:href="#svg-arrow-right"></use>
+                     </svg>
+                  </a>
+                  <a href="https://pmarsceill.github.io/just-the-docs/docs/utilities" class="nav-list-link">Utilities</a>
+                  <ul class="nav-list ">
+                     <li class="nav-list-item "><a href="https://pmarsceill.github.io/just-the-docs/docs/utilities/color/" class="nav-list-link">Color</a>
+                     <li class="nav-list-item "><a href="https://pmarsceill.github.io/just-the-docs/docs/utilities/layout/" class="nav-list-link">Layout</a>
+                     <li class="nav-list-item "><a href="https://pmarsceill.github.io/just-the-docs/docs/utilities/responsive-modifiers/" class="nav-list-link">Responsive Modifiers</a>
+                     <li class="nav-list-item "><a href="https://pmarsceill.github.io/just-the-docs/docs/utilities/typography/" class="nav-list-link">Typography</a>
+                  </ul>
+               <li class="nav-list-item"><a href="https://pmarsceill.github.io/just-the-docs/docs/navigation-structure/" class="nav-list-link">Navigation Structure</a>
+               <li class="nav-list-item"><a href="https://pmarsceill.github.io/just-the-docs/docs/customization/" class="nav-list-link">Customization</a>
+               <li class="nav-list-item"><a href="https://pmarsceill.github.io/just-the-docs/docs/search/" class="nav-list-link">Search</a>
+               <li class="nav-list-item"><a href="https://pmarsceill.github.io/just-the-docs/docs/index-test/" class="nav-list-link">Markdown kitchen sink</a>
+            </ul>
+         </nav>
+         <footer class="site-footer"> This site uses <a href="https://github.com/pmarsceill/just-the-docs">Just the Docs</a>, a documentation theme for Jekyll.</footer>
+      </div>
+      <div class="main" id="top">
+         <div id="main-header" class="main-header">
+            <div class="search">
+               <div class="search-input-wrap">
+                  <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Just the Docs" aria-label="Search Just the Docs" autocomplete="off"> 
+                  <label for="search-input" class="search-label">
+                     <svg viewBox="0 0 24 24" class="search-icon">
+                        <use xlink:href="#svg-search"></use>
+                     </svg>
+                  </label>
+               </div>
+               <div id="search-results" class="search-results"></div>
             </div>
-            <!-- // end .row -->
-
-        </div>
-        <!-- // end container -->
-
-    </div>
-    <!-- end wrapper -->
-
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/retina.js"></script>
-    <script src="js/jquery.fitvids.js"></script>
-    <script src="js/wow.js"></script>
-    <script src="js/jquery.prettyPhoto.js"></script>
-
-    <!-- CUSTOM PLUGINS -->
-    <script src="js/custom.js"></script>
-    <script src="js/main.js"></script>
-
-    <script src="js/syntax-highlighter/scripts/shCore.js"></script>
-    <script src="js/syntax-highlighter/scripts/shBrushXml.js"></script>
-    <script src="js/syntax-highlighter/scripts/shBrushCss.js"></script>
-    <script src="js/syntax-highlighter/scripts/shBrushJScript.js"></script>
-
-</body>
-
-</html>
+            <nav aria-label="Auxiliary" class="aux-nav">
+               <ul class="aux-nav-list">
+                  <li class="aux-nav-list-item"> <a href="//github.com/pmarsceill/just-the-docs" class="site-button" > Just the Docs on GitHub </a>
+               </ul>
+            </nav>
+         </div>
+         <div id="main-content-wrap" class="main-content-wrap">
+            <div id="main-content" class="main-content" role="main">
+               <h1 class="fs-9" id="focus-on-writing-good-documentation">
+                  <a href="#focus-on-writing-good-documentation" class="anchor-heading" aria-labelledby="focus-on-writing-good-documentation">
+                     <svg viewBox="0 0 16 16" aria-hidden="true">
+                        <use xlink:href="#svg-link"></use>
+                     </svg>
+                  </a>
+                  Focus on writing good documentation
+               </h1>
+               <p class="fs-6 fw-300">Just the Docs gives your documentation a jumpstart with a responsive Jekyll theme that is easily customizable and hosted on GitHub Pages.</p>
+               <p><a href="#getting-started" class="btn btn-primary fs-5 mb-4 mb-md-0 mr-2">Get started now</a> <a href="https://github.com/pmarsceill/just-the-docs" class="btn fs-5 mb-4 mb-md-0">View it on GitHub</a></p>
+               <hr />
+               <h2 id="getting-started">
+                  <a href="#getting-started" class="anchor-heading" aria-labelledby="getting-started">
+                     <svg viewBox="0 0 16 16" aria-hidden="true">
+                        <use xlink:href="#svg-link"></use>
+                     </svg>
+                  </a>
+                  Getting started
+               </h2>
+               <h3 id="dependencies">
+                  <a href="#dependencies" class="anchor-heading" aria-labelledby="dependencies">
+                     <svg viewBox="0 0 16 16" aria-hidden="true">
+                        <use xlink:href="#svg-link"></use>
+                     </svg>
+                  </a>
+                  Dependencies
+               </h3>
+               <p>Just the Docs is built for <a href="https://jekyllrb.com">Jekyll</a>, a static site generator. View the <a href="https://jekyllrb.com/docs/">quick start guide</a> for more information. Just the Docs requires no special plugins and can run on GitHub Pages’ standard Jekyll compiler. The <a href="https://github.com/jekyll/jekyll-seo-tag">Jekyll SEO Tag plugin</a> is included by default (no need to run any special installation) to inject SEO and open graph metadata on docs pages. For information on how to configure SEO and open graph metadata visit the <a href="https://jekyll.github.io/jekyll-seo-tag/usage/">Jekyll SEO Tag usage guide</a>.</p>
+               <h3 id="quick-start-use-as-a-github-pages-remote-theme">
+                  <a href="#quick-start-use-as-a-github-pages-remote-theme" class="anchor-heading" aria-labelledby="quick-start-use-as-a-github-pages-remote-theme">
+                     <svg viewBox="0 0 16 16" aria-hidden="true">
+                        <use xlink:href="#svg-link"></use>
+                     </svg>
+                  </a>
+                  Quick start: Use as a GitHub Pages remote theme
+               </h3>
+               <ol>
+                  <li>
+                     Add Just the Docs to your Jekyll site’s <code class="language-plaintext highlighter-rouge">_config.yml</code> as a <a href="https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/">remote theme</a>
+                     <div class="language-yaml highlighter-rouge">
+                        <div class="highlight">
+                           <pre class="highlight"><code><span class="na">remote_theme</span><span class="pi">:</span> <span class="s">pmarsceill/just-the-docs</span>
+</code></pre>
+                        </div>
+                     </div>
+                     <p><small>You must have GitHub Pages enabled on your repo, one or more Markdown files, and a <code class="language-plaintext highlighter-rouge">_config.yml</code> file. <a href="https://github.com/pmarsceill/jtd-remote">See an example repository</a></small></p>
+               </ol>
+               <h3 id="local-installation-use-the-gem-based-theme">
+                  <a href="#local-installation-use-the-gem-based-theme" class="anchor-heading" aria-labelledby="local-installation-use-the-gem-based-theme">
+                     <svg viewBox="0 0 16 16" aria-hidden="true">
+                        <use xlink:href="#svg-link"></use>
+                     </svg>
+                  </a>
+                  Local installation: Use the gem-based theme
+               </h3>
+               <ol>
+                  <li>
+                     Install the Ruby Gem
+                     <div class="language-bash highlighter-rouge">
+                        <div class="highlight">
+                           <pre class="highlight"><code><span class="nv">$ </span>gem <span class="nb">install </span>just-the-docs
+</code></pre>
+                        </div>
+                     </div>
+                     <div class="language-yaml highlighter-rouge">
+                        <div class="highlight">
+                           <pre class="highlight"><code><span class="c1"># .. or add it to your your Jekyll site’s Gemfile</span>
+<span class="s">gem "just-the-docs"</span>
+</code></pre>
+                        </div>
+                     </div>
+                  <li>
+                     Add Just the Docs to your Jekyll site’s <code class="language-plaintext highlighter-rouge">_config.yml</code>
+                     <div class="language-yaml highlighter-rouge">
+                        <div class="highlight">
+                           <pre class="highlight"><code><span class="na">theme</span><span class="pi">:</span> <span class="s2">"</span><span class="s">just-the-docs"</span>
+</code></pre>
+                        </div>
+                     </div>
+                  <li>
+                     <em>Optional:</em> Initialize search data (creates <code class="language-plaintext highlighter-rouge">search-data.json</code>)
+                     <div class="language-bash highlighter-rouge">
+                        <div class="highlight">
+                           <pre class="highlight"><code><span class="nv">$ </span>bundle <span class="nb">exec </span>just-the-docs rake search:init
+</code></pre>
+                        </div>
+                     </div>
+                  <li>
+                     Run you local Jekyll server
+                     <div class="language-bash highlighter-rouge">
+                        <div class="highlight">
+                           <pre class="highlight"><code><span class="nv">$ </span>jekyll serve
+</code></pre>
+                        </div>
+                     </div>
+                     <div class="language-bash highlighter-rouge">
+                        <div class="highlight">
+                           <pre class="highlight"><code><span class="c"># .. or if you're using a Gemfile (bundler)</span>
+<span class="nv">$ </span>bundle <span class="nb">exec </span>jekyll serve
+</code></pre>
+                        </div>
+                     </div>
+                  <li>Point your web browser to <a href="http://localhost:4000">http://localhost:4000</a>
+               </ol>
+               <p>If you’re hosting your site on GitHub Pages, <a href="https://help.github.com/en/articles/setting-up-your-github-pages-site-locally-with-jekyll">set up GitHub Pages and Jekyll locally</a> so that you can more easily work in your development environment.</p>
+               <h3 id="configure-just-the-docs">
+                  <a href="#configure-just-the-docs" class="anchor-heading" aria-labelledby="configure-just-the-docs">
+                     <svg viewBox="0 0 16 16" aria-hidden="true">
+                        <use xlink:href="#svg-link"></use>
+                     </svg>
+                  </a>
+                  Configure Just the Docs
+               </h3>
+               <ul>
+                  <li><a href="/just-the-docs/docs/configuration/">See configuration options</a>
+               </ul>
+               <hr />
+               <h2 id="about-the-project">
+                  <a href="#about-the-project" class="anchor-heading" aria-labelledby="about-the-project">
+                     <svg viewBox="0 0 16 16" aria-hidden="true">
+                        <use xlink:href="#svg-link"></use>
+                     </svg>
+                  </a>
+                  About the project
+               </h2>
+               <p>Just the Docs is © 2017-2020 by <a href="http://patrickmarsceill.com">Patrick Marsceill</a>.</p>
+               <h3 id="license">
+                  <a href="#license" class="anchor-heading" aria-labelledby="license">
+                     <svg viewBox="0 0 16 16" aria-hidden="true">
+                        <use xlink:href="#svg-link"></use>
+                     </svg>
+                  </a>
+                  License
+               </h3>
+               <p>Just the Docs is distributed by an <a href="https://github.com/pmarsceill/just-the-docs/tree/master/LICENSE.txt">MIT license</a>.</p>
+               <h3 id="contributing">
+                  <a href="#contributing" class="anchor-heading" aria-labelledby="contributing">
+                     <svg viewBox="0 0 16 16" aria-hidden="true">
+                        <use xlink:href="#svg-link"></use>
+                     </svg>
+                  </a>
+                  Contributing
+               </h3>
+               <p>When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change. Read more about becoming a contributor in <a href="https://github.com/pmarsceill/just-the-docs#contributing">our GitHub repo</a>.</p>
+               <h4 id="thank-you-to-the-contributors-of-just-the-docs">
+                  <a href="#thank-you-to-the-contributors-of-just-the-docs" class="anchor-heading" aria-labelledby="thank-you-to-the-contributors-of-just-the-docs">
+                     <svg viewBox="0 0 16 16" aria-hidden="true">
+                        <use xlink:href="#svg-link"></use>
+                     </svg>
+                  </a>
+                  Thank you to the contributors of Just the Docs!
+               </h4>
+               <ul class="list-style-none">
+                  <li class="d-inline-block mr-1"> <a href="https://github.com/pmarsceill"><img src="https://avatars0.githubusercontent.com/u/896475?v=4" width="32" height="32" alt="pmarsceill" /></a>
+                  <li class="d-inline-block mr-1"> <a href="https://github.com/SgtSilvio"><img src="https://avatars0.githubusercontent.com/u/28134127?v=4" width="32" height="32" alt="SgtSilvio" /></a>
+                  <li class="d-inline-block mr-1"> <a href="https://github.com/pdmosses"><img src="https://avatars3.githubusercontent.com/u/18308236?v=4" width="32" height="32" alt="pdmosses" /></a>
+                  <li class="d-inline-block mr-1"> <a href="https://github.com/apps/dependabot-preview"><img src="https://avatars3.githubusercontent.com/in/2141?v=4" width="32" height="32" alt="dependabot-preview[bot]" /></a>
+                  <li class="d-inline-block mr-1"> <a href="https://github.com/malsf21"><img src="https://avatars1.githubusercontent.com/u/14893287?v=4" width="32" height="32" alt="malsf21" /></a>
+                  <li class="d-inline-block mr-1"> <a href="https://github.com/EricFromCanada"><img src="https://avatars3.githubusercontent.com/u/3324775?v=4" width="32" height="32" alt="EricFromCanada" /></a>
+                  <li class="d-inline-block mr-1"> <a href="https://github.com/stefanoborini"><img src="https://avatars3.githubusercontent.com/u/132967?v=4" width="32" height="32" alt="stefanoborini" /></a>
+                  <li class="d-inline-block mr-1"> <a href="https://github.com/daviddarnes"><img src="https://avatars3.githubusercontent.com/u/1177460?v=4" width="32" height="32" alt="daviddarnes" /></a>
+                  <li class="d-inline-block mr-1"> <a href="https://github.com/hvianna"><img src="https://avatars1.githubusercontent.com/u/1033735?v=4" width="32" height="32" alt="hvianna" /></a>
+                  <li class="d-inline-block mr-1"> <a href="https://github.com/gebeto"><img src="https://avatars0.githubusercontent.com/u/13422799?v=4" width="32" height="32" alt="gebeto" /></a>
+                  <li class="d-inline-block mr-1"> <a href="https://github.com/plancomps-admin"><img src="https://avatars0.githubusercontent.com/u/62553846?v=4" width="32" height="32" alt="plancomps-admin" /></a>
+                  <li class="d-inline-block mr-1"> <a href="https://github.com/pdebruic"><img src="https://avatars2.githubusercontent.com/u/67050?v=4" width="32" height="32" alt="pdebruic" /></a>
+                  <li class="d-inline-block mr-1"> <a href="https://github.com/r-brown"><img src="https://avatars3.githubusercontent.com/u/1361258?v=4" width="32" height="32" alt="r-brown" /></a>
+                  <li class="d-inline-block mr-1"> <a href="https://github.com/CodeSandwich"><img src="https://avatars2.githubusercontent.com/u/26183680?v=4" width="32" height="32" alt="CodeSandwich" /></a>
+                  <li class="d-inline-block mr-1"> <a href="https://github.com/iamcarrico"><img src="https://avatars3.githubusercontent.com/u/1394978?v=4" width="32" height="32" alt="iamcarrico" /></a>
+                  <li class="d-inline-block mr-1"> <a href="https://github.com/KasparEtter"><img src="https://avatars3.githubusercontent.com/u/16501371?v=4" width="32" height="32" alt="KasparEtter" /></a>
+                  <li class="d-inline-block mr-1"> <a href="https://github.com/mrfleap"><img src="https://avatars0.githubusercontent.com/u/5022578?v=4" width="32" height="32" alt="mrfleap" /></a>
+                  <li class="d-inline-block mr-1"> <a href="https://github.com/nergmada"><img src="https://avatars3.githubusercontent.com/u/5811572?v=4" width="32" height="32" alt="nergmada" /></a>
+                  <li class="d-inline-block mr-1"> <a href="https://github.com/RoiArthurB"><img src="https://avatars0.githubusercontent.com/u/16764085?v=4" width="32" height="32" alt="RoiArthurB" /></a>
+                  <li class="d-inline-block mr-1"> <a href="https://github.com/ghabs"><img src="https://avatars1.githubusercontent.com/u/3542567?v=4" width="32" height="32" alt="ghabs" /></a>
+                  <li class="d-inline-block mr-1"> <a href="https://github.com/folbert"><img src="https://avatars2.githubusercontent.com/u/214164?v=4" width="32" height="32" alt="folbert" /></a>
+                  <li class="d-inline-block mr-1"> <a href="https://github.com/bmann"><img src="https://avatars2.githubusercontent.com/u/280420?v=4" width="32" height="32" alt="bmann" /></a>
+                  <li class="d-inline-block mr-1"> <a href="https://github.com/montchr"><img src="https://avatars2.githubusercontent.com/u/1757914?v=4" width="32" height="32" alt="montchr" /></a>
+                  <li class="d-inline-block mr-1"> <a href="https://github.com/fogfish"><img src="https://avatars2.githubusercontent.com/u/716093?v=4" width="32" height="32" alt="fogfish" /></a>
+                  <li class="d-inline-block mr-1"> <a href="https://github.com/woernfl"><img src="https://avatars0.githubusercontent.com/u/28304331?v=4" width="32" height="32" alt="woernfl" /></a>
+                  <li class="d-inline-block mr-1"> <a href="https://github.com/flut1"><img src="https://avatars3.githubusercontent.com/u/1841618?v=4" width="32" height="32" alt="flut1" /></a>
+                  <li class="d-inline-block mr-1"> <a href="https://github.com/gnarea"><img src="https://avatars3.githubusercontent.com/u/369863?v=4" width="32" height="32" alt="gnarea" /></a>
+                  <li class="d-inline-block mr-1"> <a href="https://github.com/jakebresnehan"><img src="https://avatars3.githubusercontent.com/u/227719?v=4" width="32" height="32" alt="jakebresnehan" /></a>
+                  <li class="d-inline-block mr-1"> <a href="https://github.com/joesb"><img src="https://avatars0.githubusercontent.com/u/518081?v=4" width="32" height="32" alt="joesb" /></a>
+                  <li class="d-inline-block mr-1"> <a href="https://github.com/JoeNyland"><img src="https://avatars1.githubusercontent.com/u/7666402?v=4" width="32" height="32" alt="JoeNyland" /></a>
+                  <li class="d-inline-block mr-1"> <a href="https://github.com/novelistparty"><img src="https://avatars2.githubusercontent.com/u/1569364?v=4" width="32" height="32" alt="novelistparty" /></a>
+                  <li class="d-inline-block mr-1"> <a href="https://github.com/julienduchesne"><img src="https://avatars0.githubusercontent.com/u/29210090?v=4" width="32" height="32" alt="julienduchesne" /></a>
+                  <li class="d-inline-block mr-1"> <a href="https://github.com/m3nu"><img src="https://avatars1.githubusercontent.com/u/3916435?v=4" width="32" height="32" alt="m3nu" /></a>
+                  <li class="d-inline-block mr-1"> <a href="https://github.com/mscoutermarsh"><img src="https://avatars0.githubusercontent.com/u/155044?v=4" width="32" height="32" alt="mscoutermarsh" /></a>
+                  <li class="d-inline-block mr-1"> <a href="https://github.com/PierrickMartos"><img src="https://avatars1.githubusercontent.com/u/1785711?v=4" width="32" height="32" alt="PierrickMartos" /></a>
+                  <li class="d-inline-block mr-1"> <a href="https://github.com/ilivewithian"><img src="https://avatars0.githubusercontent.com/u/422605?v=4" width="32" height="32" alt="ilivewithian" /></a>
+                  <li class="d-inline-block mr-1"> <a href="https://github.com/blawqchain"><img src="https://avatars1.githubusercontent.com/u/20367776?v=4" width="32" height="32" alt="blawqchain" /></a>
+                  <li class="d-inline-block mr-1"> <a href="https://github.com/iefserge"><img src="https://avatars1.githubusercontent.com/u/6034700?v=4" width="32" height="32" alt="iefserge" /></a>
+                  <li class="d-inline-block mr-1"> <a href="https://github.com/stephenedmondson"><img src="https://avatars1.githubusercontent.com/u/3026795?v=4" width="32" height="32" alt="stephenedmondson" /></a>
+                  <li class="d-inline-block mr-1"> <a href="https://github.com/marksie1988"><img src="https://avatars0.githubusercontent.com/u/159166?v=4" width="32" height="32" alt="marksie1988" /></a>
+                  <li class="d-inline-block mr-1"> <a href="https://github.com/yavorg"><img src="https://avatars2.githubusercontent.com/u/1086030?v=4" width="32" height="32" alt="yavorg" /></a>
+                  <li class="d-inline-block mr-1"> <a href="https://github.com/apps/dependabot"><img src="https://avatars0.githubusercontent.com/in/29110?v=4" width="32" height="32" alt="dependabot[bot]" /></a>
+                  <li class="d-inline-block mr-1"> <a href="https://github.com/hallowf"><img src="https://avatars0.githubusercontent.com/u/34419077?v=4" width="32" height="32" alt="hallowf" /></a>
+                  <li class="d-inline-block mr-1"> <a href="https://github.com/jacobherrington"><img src="https://avatars3.githubusercontent.com/u/11466782?v=4" width="32" height="32" alt="jacobherrington" /></a>
+                  <li class="d-inline-block mr-1"> <a href="https://github.com/tiaitsch85"><img src="https://avatars3.githubusercontent.com/u/2466354?v=4" width="32" height="32" alt="tiaitsch85" /></a>
+               </ul>
+               <h3 id="code-of-conduct">
+                  <a href="#code-of-conduct" class="anchor-heading" aria-labelledby="code-of-conduct">
+                     <svg viewBox="0 0 16 16" aria-hidden="true">
+                        <use xlink:href="#svg-link"></use>
+                     </svg>
+                  </a>
+                  Code of Conduct
+               </h3>
+               <p>Just the Docs is committed to fostering a welcoming community.</p>
+               <p><a href="https://github.com/pmarsceill/just-the-docs/tree/master/CODE_OF_CONDUCT.md">View our Code of Conduct</a> on our GitHub repository.</p>
+               <hr>
+               <footer>
+                  <p><a href="#top" id="back-to-top">Back to top</a></p>
+                  <p class="text-small text-grey-dk-100 mb-0">Copyright &copy; 2017-2020 Patrick Marsceill. Distributed by an <a href="https://github.com/pmarsceill/just-the-docs/tree/master/LICENSE.txt">MIT license.</a></p>
+                  <div class="d-flex mt-2">
+                     <p class="text-small text-grey-dk-000 mb-0"> <a href="https://github.com/pmarsceill/just-the-docs/tree/master/index.md" id="edit-this-page">Edit this page on GitHub</a></p>
+                  </div>
+               </footer>
+            </div>
+         </div>
+         <div class="search-overlay"></div>
+      </div>
