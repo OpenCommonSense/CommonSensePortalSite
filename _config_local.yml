@@ -1,5 +1,5 @@
 # Local Setting
-baseurl: ""
+baseurl: "/homepage"
 url: ""
 
 # Theme
