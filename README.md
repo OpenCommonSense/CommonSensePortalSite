@@ -3,7 +3,7 @@
 ## Getting Started
 
 ### Prerequisites
-1. Install [`Jekyll`](https://jekyllrb.com/docs/installation/)
+1. Install [`Jekyll`](https://jekyllrb.com/docs/installation/).
 2. Install [`Ruby`](https://www.ruby-lang.org/en/documentation/installation/). 
 3. Install [`Bundler`](https://bundler.io). 
 
@@ -58,7 +58,7 @@ To enable a color scheme, set the `color_scheme` parameter in both the `_config.
 #### Example 
 ```
 # Color scheme supports "light" (default) and "dark"
-color_scheme: darkyml
+color_scheme: dark
 ```
 
 ### Custom schemes
