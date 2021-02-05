@@ -7,4 +7,4 @@ theme: "just-the-docs"
 # remote_theme: pmarsceill/just-the-docs
 
 color_scheme: light
-logo: "ocs_logo.png"
+logo: "https://commonsense.run/ocs_logo.png"
