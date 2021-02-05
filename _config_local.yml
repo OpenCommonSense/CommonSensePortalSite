@@ -1,9 +1,11 @@
 # Local Setting
 baseurl: ""
 url: ""
-
+include: [".well-known"]
 # Theme
 theme: "just-the-docs"
 # remote_theme: pmarsceill/just-the-docs
 
+repo_name: OpenCommonSense
 color_scheme: light
+logo: "/assets/logo.jpg"
