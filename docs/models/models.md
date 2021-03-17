@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Models
+title: Reasoning Models
 nav_order: 4
 has_children: true
 permalink: /docs/models

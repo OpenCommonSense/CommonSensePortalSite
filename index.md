@@ -2,21 +2,38 @@
 layout: default
 title: Home
 nav_order: 1
-description: "This is a open tutorial for commonsense reasoning."
+description: "This is an online compendium of commonsense knowledge and reasoning by Bill Yuchen Lin."
 permalink: /
 ---
 
-# Commonsense Reasoning
+# Commonsense.Run - The Portal Site for Commonsense Reasoning Research
 {: .fs-9 }
+&nbsp;
 
-A Survey of Resources, Benchmarks, Models, and Open Challenges.
-{: .fs-6 .fw-300 }
+An online compendium of commonsense knowledge & reasoning, maintained by [Bill Yuchen Lin](https://yuchenlin.xyz).
 
-[Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View it on GitHub](https://github.com/Commonsense-Run/commonsense-run.github.io){: .btn .fs-5 .mb-4 .mb-md-0 }
+Our main contributors: ...
+
+Join us on [Github]() to improve this portal site for everyone interested in commonsense reasoning. This site needs your help to grow! :)
+We also have a [Slack]() workspace to collect suggestions for this site and to connect people working on commonsense reasoning. Feel free to just drop in and say hi!
+
 
 ---
 
-# Commonsense Reasoning
+## Introduction
+This portal site is here to provide easy access to a comprensive colleciton of publications, benchmarks, resources that are related to *commonsense reasoning*. 
+
+
+<!-- {: .fs-6 .fw-300 } -->
+
+<!-- Our Contributors:  -->
+
+<!-- [Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View it on GitHub](https://github.com/Commonsense-Run/commonsense-run.github.io){: .btn .fs-5 .mb-4 .mb-md-0 } -->
+
+<!-- --- -->
+<!-- 
+## Introduction -->
+<!-- # Commonsense Reasoning
 
 To make it as easy as possible to write documentation in plain Markdown, most UI components are styled using default Markdown elements with few additional CSS classes needed.
-{: .fs-6 .fw-300 }
+{: .fs-6 .fw-300 } -->

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Resources
+title: Knowledge Resources
 nav_order: 2
 has_children: true
 permalink: /docs/resources

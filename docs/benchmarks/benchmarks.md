@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Benchmarks
+title: Evaluation Benchmarks
 nav_order: 3
 has_children: true
 permalink: /docs/benchmarks
