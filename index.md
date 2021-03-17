@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Home
+title: The Portal Site for Commonsense Reasoning Research
 nav_order: 1
-description: "This is an online compendium of commonsense knowledge and reasoning by Bill Yuchen Lin."
+description: "Commonsense.Run - The Portal Site for Commonsense Reasoning Research"
 permalink: /
 ---
 
@@ -14,8 +14,8 @@ An online compendium of commonsense knowledge & reasoning, maintained by [Bill Y
 
 Our main contributors: ...
 
-Join us on [Github]() to improve this portal site for everyone interested in commonsense reasoning. This site needs your help to grow! :)
-We also have a [Slack]() workspace to collect suggestions for this site and to connect people working on commonsense reasoning. Feel free to just drop in and say hi!
+This site needs your help to grow! Join us on [Github]() to improve this portal site for everyone interested in commonsense reasoning. 
+We also have a [Slack]() workspace to collect suggestions for this site and to connect people working on commonsense reasoning. Feel free to just drop in and say hi! :)
 
 
 ---
