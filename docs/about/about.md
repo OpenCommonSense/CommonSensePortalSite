@@ -2,7 +2,7 @@
 layout: default
 title: What is common sense?
 nav_order: 2
-has_children: true
+has_children: False
 permalink: /about/
 ---
 # Guide
