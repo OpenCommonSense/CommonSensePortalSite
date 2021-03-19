@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Reading Comprehension 
-parent: Benchmarks
+parent: Evaluation Benchmarks
 nav_order: 3
 permalink: /docs/benchmarks/reading-comprehension
 ---

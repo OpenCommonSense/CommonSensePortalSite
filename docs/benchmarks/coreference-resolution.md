@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Coreference Resolution
-parent: Benchmarks
+parent: Evaluation Benchmarks
 nav_order: 1
 permalink: /docs/benchmarks/coreference-resolution
 ---

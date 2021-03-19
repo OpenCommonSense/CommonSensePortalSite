@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Probes for Language Models 
-parent: Benchmarks
+parent: Evaluation Benchmarks
 nav_order: 4
 permalink: /docs/benchmarks/probes-language-models
 ---

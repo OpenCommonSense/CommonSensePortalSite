@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Text Game
-parent: Benchmarks
+parent: Evaluation Benchmarks
 nav_order: 6
 permalink: /docs/benchmarks/text-game
 ---

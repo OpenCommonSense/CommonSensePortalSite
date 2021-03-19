@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Multiple-Choice QA
-parent: Benchmarks
+parent: Evaluation Benchmarks
 nav_order: 2
 permalink: /docs/benchmarks/multiple-choice-question-answering
 ---

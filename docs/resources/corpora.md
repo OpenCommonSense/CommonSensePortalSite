@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Corpora
-parent: Resources
+parent: Knowledge Resources
 nav_order: 4
 permalink: /docs/resources/corpora
 ---

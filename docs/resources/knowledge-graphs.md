@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Knowledge Graphs
-parent: Resources
+parent: Knowledge Resources
 nav_order: 3
 permalink: /docs/resources/knowledge-graphs
 ---

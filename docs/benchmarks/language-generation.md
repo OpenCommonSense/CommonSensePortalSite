@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Language Generation
-parent: Benchmarks
+parent: Evaluation Benchmarks
 nav_order: 5
 permalink: /docs/benchmarks/language-generation
 ---

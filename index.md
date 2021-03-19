@@ -23,7 +23,7 @@ We also have a [Slack]() workspace to collect suggestions for this site and to c
 ## Introduction
 This portal site is here to provide easy access to a comprensive colleciton of publications, benchmarks, resources that are related to *commonsense reasoning*. 
 
-
+![Machine Common Sense](https://www.darpa.mil/DDM_Gallery/teaching-machines-619-316.jpg)
 <!-- {: .fs-6 .fw-300 } -->
 
 <!-- Our Contributors:  -->

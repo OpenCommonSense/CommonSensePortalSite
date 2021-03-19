@@ -1,7 +1,7 @@
 ---
 layout: default
 title: LM-based 
-parent: Models
+parent: Reasoning Models
 nav_order: 1
 permalink: /docs/models/LM-based
 ---

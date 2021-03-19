@@ -1,7 +1,7 @@
 ---
 layout: default
 title: LM + Graph Encoder
-parent: Models
+parent: Reasoning Models
 nav_order: 2
 permalink: /docs/models/LM-Graph-Encoder
 ---
