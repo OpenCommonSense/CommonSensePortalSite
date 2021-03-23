@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Introduction
 nav_order: 1
 description: "Commonsense.Run - The Portal Site for Commonsense Reasoning Research"
 permalink: /

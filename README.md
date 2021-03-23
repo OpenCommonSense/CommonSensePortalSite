@@ -12,18 +12,9 @@
 1. Open Terminal.
 2. `clone` the repository and `cd` into it.
 3. Run the Jekyll site locally.
-      ```
-        $ bundle exec jekyll serve --config _config_local.yml
-        > Configuration file: _config_local.yml
-        >            Source: /Users/xiaoyanq/inkLab/commonsense-run.github.io
-        >       Destination: /Users/xiaoyanq/inkLab/commonsense-run.github.io/_site
-        > Incremental build: disabled. Enable with --incremental
-        >      Generating...
-        >                    done in 0.309 seconds.
-        > Auto-regeneration: enabled for '/Users/xiaoyanq/inkLab/commonsense-run.github.io'
-        >    Server address: http://127.0.0.1:4000/
-        >  Server running... press ctrl-c to stop.
-      ```
+```bash
+bundle exec jekyll serve --config _config_local.yml
+``` 
 4. To preview your site, in your web browser, navigate to `http://localhost:4000`.
 
 
@@ -45,7 +36,7 @@
         nav_order: 4
       ```
 
-## Customization
+<!-- ## Customization
 
 ### Color schemes
 
@@ -73,4 +64,4 @@ For example, to change the link color from the purple default to blue, include t
 #### Example 
 ```scss
 $link-color: $blue-000;
-```
+``` -->

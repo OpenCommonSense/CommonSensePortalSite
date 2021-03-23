@@ -4,3 +4,14 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 color_scheme: light
 logo: "ocs_logo.png"
+
+
+
+title: Commonsense.Run - The Portal Site for Commonsense Reasoning Research
+email: yuchen.lin@usc.edu
+description: >- # this means to ignore newlines until "baseurl:"
+  An online compendium of commonsense knowledge & reasoning, maintained by Bill Yuchen Lin. 
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://commonsense.run" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: OpenCommonSense
+github_username:  yuchenlin
