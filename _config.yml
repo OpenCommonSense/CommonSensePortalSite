@@ -3,10 +3,10 @@ remote_theme: pmarsceill/just-the-docs
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 color_scheme: light
+
+
+# Changes
 logo: "ocs_logo.png"
-
-
-
 title: Commonsense.Run - The Portal Site for Commonsense Reasoning Research
 email: yuchen.lin@usc.edu
 description: >- # this means to ignore newlines until "baseurl:"
