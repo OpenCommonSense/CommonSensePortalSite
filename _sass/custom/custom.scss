@@ -1,8 +1,17 @@
 .main {
-    max-width: 1000px;
-    margin-left: 264px;
+    @media (min-width: 50rem){
+        position: relative;
+        max-width: calc(100%);
+    }
+
+    @media (min-width: 66.5rem){
+        margin-left: calc( 264px);
+    }
 }
 
 .side-bar {
-    width: 264px;
+    @media (min-width: 66.5rem){
+        width: auto;
+        min-width: 264px;
+    }
 }

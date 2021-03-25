@@ -15,3 +15,14 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://commonsense.run" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: OpenCommonSense
 github_username:  yuchenlin
+
+# Footer content
+# appears at the bottom of every page's main content
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
+
+# Footer last edited timestamp
+last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
+last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
