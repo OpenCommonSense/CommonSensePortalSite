@@ -6,7 +6,7 @@ has_children: true
 permalink: /docs/resources
 ---
 
-# Resources for Common Sense Knowledge 
+# Knowledge Resources for Common Sense  
 
 
 {: .fs-6 .fw-300 }

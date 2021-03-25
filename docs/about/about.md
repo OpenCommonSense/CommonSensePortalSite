@@ -7,3 +7,5 @@ permalink: /about/
 ---
 # What's Commonsense Reasoning?
 
+Editors: [Bill Yuchen Lin](https://yuchenlin.xyz/), 
+
