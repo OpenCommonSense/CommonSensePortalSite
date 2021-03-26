@@ -1,3 +1,17 @@
-// .site-nav, .site-header, .site-footer .main-content-wrap {
-//     width: 100%;
-//   }
+.main {
+    @media (min-width: 50rem){
+        position: relative;
+        max-width: calc(100%);
+    }
+
+    @media (min-width: 66.5rem){
+        margin-left: calc( 264px);
+    }
+}
+
+.side-bar {
+    @media (min-width: 66.5rem){
+        width: auto;
+        min-width: 264px;
+    }
+}
