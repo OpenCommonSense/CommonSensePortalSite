@@ -67,6 +67,10 @@
             <a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a>
           {%- endif -%}
 
+          {%- if node.toc_list -%}
+            <a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a>
+          {%- endif -%}
+
           <a href="{{ node.url | absolute_url }}" class="nav-list-link{% if page.url == node.url %} active{% endif %}">{{ node.title }}</a>
           {%- if node.has_children -%}
             {%- assign children_list = pages_list | where: "parent", node.title -%}
@@ -97,7 +101,7 @@
           {%- endif -%}
 
           {%- if node.toc_list -%}
-            {% include toc.html sanitize=true html=node.content class="nav-list" item_class="nav-list-link" anchor_class="navigation-list-link" %}
+            {% include toc.html sanitize=true html=node.content class="nav-list" item_class="nav-list-item" anchor_class="nav-list-link" %}
           {%- endif -%}
         </li>
         {%- endunless -%}
