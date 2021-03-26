@@ -15,7 +15,7 @@ An online compendium of commonsense knowledge & reasoning, maintained by [Bill Y
 
 Our main contributors: Yang Qiao, Xiang Ren, ...
 
-This site needs your help to grow! Join us on [Github]() to improve this portal site for everyone interested in commonsense reasoning. 
+This site needs your help to grow! Join us on [Github](https://github.com/OpenCommonSense/CommonSensePortalSite) to improve this portal site for everyone interested in commonsense reasoning. 
 We also have a [Slack]() workspace to collect suggestions for this site and to connect people working on commonsense reasoning. Feel free to just drop in and say hi! :)
 
 
