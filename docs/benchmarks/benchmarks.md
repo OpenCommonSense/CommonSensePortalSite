@@ -2,12 +2,13 @@
 layout: default
 title: Benchmark Datasets
 nav_order: 3
-has_children: true
+toc_list: true
+last_modified_date: March 26 2021
 permalink: /docs/datasets
 ---
 
 # Benchmark Datasets for Commonsense Reasoning
-
+{: .no_toc }
 
 
 Editors: [Bill Yuchen Lin](https://yuchenlin.xyz/), 
@@ -21,6 +22,7 @@ Editors: [Bill Yuchen Lin](https://yuchenlin.xyz/),
 | [CommonsenseQA](https://www.tau-nlp.org/commonsenseqa) |        |            |             |            |             |            |                   |
 
 ### Others 
+{: .no_toc }
 
 ## Language Model Probing
 
