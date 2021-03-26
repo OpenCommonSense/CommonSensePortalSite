@@ -1,10 +1,16 @@
 ---
 layout: default
-title: Papers with TL;DR
+title: Papers
 nav_order: 6
 has_children: false
 permalink: /papers/
+
+toc_list: true
+last_modified_date: March 26 2021
 ---
-# Additional materials
- 
+# Reading List for Commonsense Reasoning
+{: .no_toc }
+
+Editors: [Bill Yuchen Lin](https://yuchenlin.xyz/), 
+
  

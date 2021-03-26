@@ -15,7 +15,7 @@ Editors: [Bill Yuchen Lin](https://yuchenlin.xyz/),
 
 
 
-## Multiple-Choice Quesiton Answering
+## Multiple-Choice QA
 
 <!-- You can use this google sheet: https://docs.google.com/spreadsheets/d/1vJUwjFA_HRvzRI3ULSWXS7rLbHriJj5bTYSUiG4Iixo/edit?usp=sharing 
  and then conver it to markdown by https://tabletomarkdown.com/convert-spreadsheet-to-markdown/ -->
@@ -29,13 +29,13 @@ Editors: [Bill Yuchen Lin](https://yuchenlin.xyz/),
 ### Others 
 {: .no_toc }
 
-## Language Model Probing
+## LM Probing Tasks
 
 ## Reading Comprehension 
 
-## Open-Ended Question Answering 
+## Open-Ended QA
 
-## Constrained Language Generation 
+## Constrained NLG
 
 ## Text Game
 
