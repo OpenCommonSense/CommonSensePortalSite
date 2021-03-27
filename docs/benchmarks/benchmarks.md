@@ -10,7 +10,7 @@ permalink: /docs/datasets
 # Benchmark Datasets for Commonsense Reasoning
 {: .no_toc }
 
-Editors: [Bill Yuchen Lin](https://yuchenlin.xyz/), 
+Editors: [Bill Yuchen Lin](https://yuchenlin.xyz/), [Yang Qiao](https://www.linkedin.com/in/xiaoyang-qiao/)
 
 {: .fs-5 .fw-300 }
 
@@ -19,6 +19,16 @@ We present a comprehensive collection of datasets for testing commonsense reason
 | Name | Focus | Format |  SotA vs. Human  | \# Citations |
 | :------------:| :-----: | :------: | :----------: | :-------: | :-----------: | :------------: |
 | [CommonsenseQA](#commonsenseqa) | General | [MCQA](#Multiple-Choice-QA)  | [83.3]() /  88.9 (**Acc. %**)  | 174 |
+| [SocialIQA](#socialiqa) | Social Interactions | [MCQA](#Multiple-Choice-QA)  | [83.15]() /  88.1 (**Acc. %**)  | 90 |
+| [PhysicalIQA](#physicaliqa) | General | [MCQA](#Multiple-Choice-QA)  | [90.13]() /  94.9 (**Acc. %**)  | 43 |
+| [ARC](#arc) | Science | [MCQA](#Multiple-Choice-QA)  | [81.4]() /  unknown (**Acc. %**)  | 177 |
+| [OpenbookQA](#openbookqa) | General | [MCQA](#Multiple-Choice-QA)  | [87.2]() /  91.7 (**Acc. %**)  | 125 |
+| [SWAG and HellaSWAG](#swag-and-hellaswag) | General | [MCQA](#Multiple-Choice-QA)  | [93.85]() /  95.6 (**Acc. %**)  | 107 |
+| [WinoGrande](#winogrande) | General | [MCQA](#Multiple-Choice-QA)  | [91.28]() /  94 (**Acc. %**)  | 108 |
+| [MC-TACO](#mc-taco) | Temporal Commonsense | [MCQA](#Multiple-Choice-QA)  | [80.87]() /  75.8 (**Acc. %**)  | 25 |
+| [aNLI](#anli) | General | [MCQA](#Multiple-Choice-QA)  | [89.7]() /  92.9 (**Acc. %**)  | 89 |
+| [RiddleSense](#riddlesense) | General | [MCQA](#Multiple-Choice-QA)  | []() /  (**Acc. %**)  |  |
+
 
 <!-- Check https://leaderboard.allenai.org/ for more -->
 
@@ -78,26 +88,186 @@ Correct Choice: B
 ### SocialIQA 
 {: .no_toc }
 
+{: .fs-4 .fw-800 .text-blue-100}
+*SocialIQA: Commonsense Reasoning about Social Interactions*. Maarten Sap, Hannah Rashkin, Derek Chen, Ronan Le Bras, Yejin Choi. **EMNLP-19**
+
+<span class="fs-1">
+[Paper](https://arxiv.org/abs/1904.09728){: .btn .btn-blue .mr-1 target="_blank" }, [Official Link](https://leaderboard.allenai.org/socialiqa/submissions/get-started){: target="_blank" .btn .btn-green .mr-1 } </span>
+
+> - **Topics:** Social Interactions. It focuses on reasoning about people’s actions and their social implications.
+- **Size & Split:**  37,588 multiple choice questions in total --- train (33,410), dev (1,954), test (2,224).
+- **Data generation:** 
+- **An illustative example:**
+```
+Question: 
+    In the school play, Robin played a hero in the struggle to the death with the angry villain. How would others feel as a result?
+Choices:  
+    A) sorry for the villain
+    B) hopeful that Robin will succeed
+    C) like Robin should lose the fight
+Correct Choice: B
+``` 
+
+
+{: .fs-4 .fw-600 .text-red-300}
+> **Editors' comments**
+
+<!-- Mention the highlights or known issues of the dataset. -->
+
+
 
 ### PhysicalIQA
 {: .no_toc }
+
+{: .fs-4 .fw-800 .text-blue-100}
+*PIQA: Reasoning about Physical Commonsense in Natural Language*. Yonatan Bisk, Rowan Zellers, Ronan Le Bras, Jianfeng Gao, Yejin Choi. **AAAI-20**
+
+<span class="fs-1">
+[Paper](https://arxiv.org/abs/1911.11641){: .btn .btn-blue .mr-1 target="_blank" }, [Official Link](https://leaderboard.allenai.org/physicaliqa/submissions/get-started){: target="_blank" .btn .btn-green .mr-1 } </span>
+
+> - **Topics:** General. It focuses on how we interact with everyday objects in everyday situations.
+- **Size & Split:**  around 20,000 QA pairs of multiple-choice in total --- train (over 16,000), dev (∼2K), test (∼3k).
+- **Data generation:** 
+- **An illustative example:**
+```
+Question:
+    To separate egg whites from the yolk using a water bottle, you should
+Choices:
+    A) Squeeze the water bottle and press it against the yolk. Release, which creates suction and lifts the yolk.
+    B) Place the water bottle and press it against the yolk. Keep pushing, which creates suction and lifts the yolk.
+Correct Choice: B
+``` 
+
+
+{: .fs-4 .fw-600 .text-red-300}
+> **Editors' comments**
+
+<!-- Mention the highlights or known issues of the dataset. -->
+
 
 
 ### ARC 
 {: .no_toc }
 
+{: .fs-4 .fw-800 .text-blue-100}
+*Think you have Solved Question Answering? Try ARC, the AI2 Reasoning Challenge*. Peter Clark, Isaac Cowhey, Oren Etzioni, Tushar Khot, Ashish Sabharwal, Carissa Schoenick, Oyvind Tafjord. **unknown**
+
+<span class="fs-1">
+[Paper](https://arxiv.org/abs/1803.05457){: .btn .btn-blue .mr-1 target="_blank" }, [Official Link](https://leaderboard.allenai.org/arc/submissions/get-started){: target="_blank" .btn .btn-green .mr-1 } </span>
+
+> - **Topics:** Science. It focuses on natural, grade-school science questions.
+- **Size & Split:**  7,787 multiple choice questions in total --- train (3,370), dev (869), test (3,548).
+- **Data generation:** 
+- **An illustative example:**
+```
+Question:
+    Which property of a mineral can be determined just by looking at it?
+Choices:
+    A) luster  B) mass  C) weight  D) hardness
+Correct Choice: A
+``` 
+
+
+{: .fs-4 .fw-600 .text-red-300}
+> **Editors' comments**
+
+<!-- Mention the highlights or known issues of the dataset. -->
+
+
+
 ### OpenbookQA
 {: .no_toc }
+
+{: .fs-4 .fw-800 .text-blue-100}
+*Can a Suit of Armor Conduct Electricity? A New Dataset for Open Book Question Answering*. Todor Mihaylov, Peter Clark, Tushar Khot, Ashish Sabharwal. **EMNLP-18**
+
+<span class="fs-1">
+[Paper](https://arxiv.org/abs/1809.02789){: .btn .btn-blue .mr-1 target="_blank" }, [Official Link](https://leaderboard.allenai.org/open_book_qa/submissions/get-started){: target="_blank" .btn .btn-green .mr-1 } </span>
+
+> - **Topics:** General. The dataset is modeled after open book exams for assessing human understanding of a subject.
+- **Size & Split:**  5,957 multiple choice questions in total --- train (4,957), dev (500), test (500).
+- **Data generation:** 
+- **An illustative example:**
+```
+Question:
+    Which of these would let the most heat travel through?
+Choices:
+    A) a new pair of jeans
+    B) a steel spoon in a cafeteria  
+    C) a cotton candy at a store  
+    D) a calvi klein cotton hat
+Correct Choice: B
+``` 
+
+
+{: .fs-4 .fw-600 .text-red-300}
+> **Editors' comments**
+
+<!-- Mention the highlights or known issues of the dataset. -->
 
 
 ### SWAG and HellaSWAG
 {: .no_toc }
 
+{: .fs-4 .fw-800 .text-blue-100}
+*HellaSwag: Can a Machine Really Finish Your Sentence?*. Rowan Zellers, Ari Holtzman, Yonatan Bisk, Ali Farhadi, Yejin Choi. **ACL-19**
+
+<span class="fs-1">
+[Paper](https://arxiv.org/abs/1905.07830){: .btn .btn-blue .mr-1 target="_blank" }, [Official Link](https://rowanzellers.com/hellaswag/){: target="_blank" .btn .btn-green .mr-1 } </span>
+
+> - **Topics:** General. Mostly about grounded commonsense situations.
+- **Size & Split:**  around 70k multiple choice questions in total --- train (unknown), dev (unknown), test (unknown).
+- **Data generation:** 
+- **An illustative example:**
+```
+Question:
+    A woman is outside with a bucket and a dog. The dog is running around trying to avoid a bath. She
+Choices:
+    A) rinses the bucket off with soap and blow dries the dog's head.
+    B) uses a hose to keep it from getting soapy.
+    C) gets the dog wet, then it runs away again.
+    D) gets into the bath tub with the dog.
+Correct Choice: C
+``` 
+
+
+{: .fs-4 .fw-600 .text-red-300}
+> **Editors' comments**
+
+<!-- Mention the highlights or known issues of the dataset. -->
+
+
 ### WSC 
 {: .no_toc }
 
+
+
 ### WinoGrande
 {: .no_toc }
+
+{: .fs-4 .fw-800 .text-blue-100}
+*WinoGrande: An Adversarial Winograd Schema Challenge at Scale*. Keisuke Sakaguchi, Ronan Le Bras, Chandra Bhagavatula, Yejin Choi. **unknown**
+
+<span class="fs-1">
+[Paper](https://arxiv.org/abs/1907.10641){: .btn .btn-blue .mr-1 target="_blank" }, [Official Link](https://winogrande.allenai.org/){: target="_blank" .btn .btn-green .mr-1 } </span>
+
+> - **Topics:** General. (No complete yet)
+- **Size & Split:**  43,972 multiple choice questions in total --- train (40,938), dev (1,267), test (1,767).
+- **Data generation:** 
+- **An illustative example:**
+```
+Sentence: Katrina had the financial means to afford a new car while Monica did not, since _ had a high paying job.
+Option1: Katrina
+Option2: Monica
+Correct Option: Option1
+``` 
+
+
+{: .fs-4 .fw-600 .text-red-300}
+> **Editors' comments**
+
+<!-- Mention the highlights or known issues of the dataset. -->
+
 
 
 ### COPA and X-COPA 
@@ -108,16 +278,118 @@ Correct Choice: B
 ### CODAH 
 {: .no_toc }
 
+{: .fs-4 .fw-800 .text-blue-100}
+*CODAH: An Adversarially Authored Question-Answer Dataset for Common Sense*. Michael Chen, Mike D'Arcy, Alisa Liu, Jared Fernandez, Doug Downey. **RepEval-19**
+
+<span class="fs-1">
+[Paper](https://arxiv.org/abs/1904.04365){: .btn .btn-blue .mr-1 target="_blank" }, [Official Link](){: target="_blank" .btn .btn-green .mr-1 } </span>
+
+> - **Topics:** General. 
+- **Size & Split:**  
+- **Data generation:** 
+- **An illustative example:**
+```
+Question:
+Choices:
+Correct Choice: 
+``` 
+
+
+{: .fs-4 .fw-600 .text-red-300}
+> **Editors' comments**
+
+<!-- Mention the highlights or known issues of the dataset. -->
+
+
 
 ### MC-TACO
 {: .no_toc }
+
+{: .fs-4 .fw-800 .text-blue-100}
+*"Going on a vacation" takes longer than "Going for a walk": A Study of Temporal Commonsense Understanding*. Ben Zhou, Daniel Khashabi, Qiang Ning, Dan Roth. **EMNLP-19**
+
+<span class="fs-1">
+[Paper](https://arxiv.org/abs/1909.03065){: .btn .btn-blue .mr-1 target="_blank" }, [Official Link](https://leaderboard.allenai.org/mctaco/submissions/get-started){: target="_blank" .btn .btn-green .mr-1 } </span>
+
+> - **Topics:** Temporal Commonsense. Focusing on event ordering, duration, stationarity, frequency and time.
+- **Size:**  13k question-answer pairs in total.
+- **Data generation:** 
+- **An illustative example:**
+```
+Paragraph: 
+    Growing up on a farm near St. Paul, L. Mark Bailey didn't dream of becoming a judge.
+Question:
+    How many years did it take for Mark to become a judge?
+Choices:
+    A) 63 years  B) 7 weeks  C) 7 years  D) 7 seconds  E) 7 hours
+Correct Choice: C
+``` 
+
+
+{: .fs-4 .fw-600 .text-red-300}
+> **Editors' comments**
+
+<!-- Mention the highlights or known issues of the dataset. -->
+
+
 
 
 ### aNLI
 {: .no_toc }
 
+{: .fs-4 .fw-800 .text-blue-100}
+*Adversarial NLI: A New Benchmark for Natural Language Understanding*. Yixin Nie, Adina Williams, Emily Dinan, Mohit Bansal, Jason Weston, Douwe Kiela. **ACL-20**
+
+<span class="fs-1">
+[Paper](https://arxiv.org/abs/1910.14599){: .btn .btn-blue .mr-1 target="_blank" }, [Official Link](https://github.com/facebookresearch/anli){: target="_blank" .btn .btn-green .mr-1 } </span>
+
+> - **Topics:** General. (not complete yet)
+- **Size & Split:**  169,265 multiple choice questions in total --- train (162,865), dev (3,200), test (3,200).
+- **Data generation:** 
+- **An illustative example:**
+```
+Obs1: It was a gorgeous day outside.
+Obs2: She asked her neighbor for a jump-start.
+Hyp1: Mary decided to drive to the beach, but her car would not start due to a dead battery.
+Hyp2: It made a weird sound upon starting.
+Correct Hypothesis: Hyp1
+``` 
+
+
+{: .fs-4 .fw-600 .text-red-300}
+> **Editors' comments**
+
+<!-- Mention the highlights or known issues of the dataset. -->
+
+
+
 ### RiddleSense
 {: .no_toc }
+
+{: .fs-4 .fw-800 .text-blue-100}
+*RiddleSense: Answering Riddle Questions as Commonsense Reasoning*. Bill Yuchen Lin, Ziyi Wu, Yichi Yang, Dong-Ho Lee, Xiang Ren.
+
+<span class="fs-1">
+[Paper](https://arxiv.org/abs/2101.00376){: .btn .btn-blue .mr-1 target="_blank" }, [Official Link](https://inklab.usc.edu/RiddleSense/){: target="_blank" .btn .btn-green .mr-1 } </span>
+
+> - **Topics:** General. Mostly about riddle-style commonsense question answering.
+- **Size & Split:**  5,733 multiple choice questions in total --- train (3,510), dev (1,021), test (1,202).
+- **Data generation:** 
+- **An illustative example:**
+```
+Question:
+    My life can be measured in hours. I serve by being devoured. Thin, I am quick; Fat, I am slow. Wind is my foe. What am I?
+Choices:
+    A) paper  B) candle  C) lamp  D) 7  clock  E) worm
+Correct Choice: B
+``` 
+
+
+{: .fs-4 .fw-600 .text-red-300}
+> **Editors' comments**
+
+<!-- Mention the highlights or known issues of the dataset. -->
+
 
 
 
