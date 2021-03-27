@@ -18,20 +18,20 @@ We present a comprehensive collection of datasets for testing commonsense reason
 
 | Name | Focus | Format |  SotA vs. Human  | \# Citations |
 | :------------:| :-----: | :------: | :----------: | :-------: | :-----------: | :------------: |
-| [CommonsenseQA](#commonsenseqa) | General | [MCQA](#Multiple-Choice-QA)  | [83.3]() /  88.9 (**Acc. %**)  | 174 |
-| [SocialIQA](#socialiqa) | Social Interactions | [MCQA](#Multiple-Choice-QA)  | [83.15]() /  88.1 (**Acc. %**)  | 90 |
-| [PhysicalIQA](#physicaliqa) | General | [MCQA](#Multiple-Choice-QA)  | [90.13]() /  94.9 (**Acc. %**)  | 43 |
-| [ARC](#arc) | Science | [MCQA](#Multiple-Choice-QA)  | [81.4]() /  unknown (**Acc. %**)  | 177 |
-| [OpenbookQA](#openbookqa) | General | [MCQA](#Multiple-Choice-QA)  | [87.2]() /  91.7 (**Acc. %**)  | 125 |
-| [SWAG](#swag-and-hellaswag) | General | [MCQA](#Multiple-Choice-QA)  | [91.71]() /  88 (**Acc. %**)  | 281 |
-| [HellaSWAG](#swag-and-hellaswag) | General | [MCQA](#Multiple-Choice-QA)  | [93.85]() /  95.6 (**Acc. %**)  | 107 |
+| [CommonsenseQA](#commonsenseqa) | General | [MCQA](#Multiple-Choice-QA)  | 83.3 /  88.9 (**Acc. %**)  | 174 |
+| [SocialIQA](#socialiqa) | Social Interactions | [MCQA](#Multiple-Choice-QA)  | 83.15 /  88.1 (**Acc. %**)  | 90 |
+| [PhysicalIQA](#physicaliqa) | General | [MCQA](#Multiple-Choice-QA)  | 90.13 /  94.9 (**Acc. %**)  | 43 |
+| [ARC](#arc) | Science | [MCQA](#Multiple-Choice-QA)  | 81.4 /  unknown (**Acc. %**)  | 177 |
+| [OpenbookQA](#openbookqa) | General | [MCQA](#Multiple-Choice-QA)  | 87.2 /  91.7 (**Acc. %**)  | 125 |
+| [SWAG](#swag-and-hellaswag) | General | [MCQA](#Multiple-Choice-QA)  | 91.71 /  88 (**Acc. %**)  | 281 |
+| [HellaSWAG](#swag-and-hellaswag) | General | [MCQA](#Multiple-Choice-QA)  | 93.85 /  95.6 (**Acc. %**)  | 107 |
 | [WSC](#wsc) | General | [MCQA](#Multiple-Choice-QA)  |  |  |
-| [WinoGrande](#winogrande) | General | [MCQA](#Multiple-Choice-QA)  | [91.28]() /  94 (**Acc. %**)  | 108 |
+| [WinoGrande](#winogrande) | General | [MCQA](#Multiple-Choice-QA)  | 91.28 /  94 (**Acc. %**)  | 108 |
 | [COPA](#copa-and-x-copa) | General | [MCQA](#Multiple-Choice-QA)  |  | 17 |
 | [X-COPA](#copa-and-x-copa) | General | [MCQA](#Multiple-Choice-QA)  |  | 9 |
 | [CODAH](#codah) | General | [MCQA](#Multiple-Choice-QA)  |  | 5 |
-| [MC-TACO](#mc-taco) | Temporal Commonsense | [MCQA](#Multiple-Choice-QA)  | [80.87]() /  75.8 (**Acc. %**)  | 25 |
-| [aNLI](#anli) | General | [MCQA](#Multiple-Choice-QA)  | [89.7]() /  92.9 (**Acc. %**)  | 62 |
+| [MC-TACO](#mc-taco) | Temporal Commonsense | [MCQA](#Multiple-Choice-QA)  | 80.87 /  75.8 (**Acc. %**)  | 25 |
+| [aNLI](#anli) | General | [MCQA](#Multiple-Choice-QA)  | 89.7 /  92.9 (**Acc. %**)  | 62 |
 | [RiddleSense](#riddlesense) | General | [MCQA](#Multiple-Choice-QA)  |  |  |
 
 
@@ -218,7 +218,7 @@ Correct Choice: B
 *SWAG: A Large-Scale Adversarial Dataset for Grounded Commonsense Inference*. Rowan Zellers, Yonatan Bisk, Roy Schwartz, Yejin Choi. **EMNLP-18**
 
 <span class="fs-1">
-[Paper](https://arxiv.org/abs/1808.05326){: .btn .btn-blue .mr-1 target="_blank" }, [Official Link](https://rowanzellers.com/swag/){: target="_blank" .btn .btn-green .mr-1 }, [Huggingface Card](https://huggingface.co/datasets/swag){: target="_blank" .btn .btn-purple .mr-1 } </span>
+[Paper](https://arxiv.org/abs/1808.05326){: .btn .btn-blue .mr-1 target="_blank" }, [Official Page](https://leaderboard.allenai.org/swag/submissions/get-started){: target="_blank" .btn .btn-green .mr-1 }, [Intro Page](https://rowanzellers.com/swag/){: target="_blank" .btn .btn-green .mr-1 }, [Huggingface Card](https://huggingface.co/datasets/swag){: target="_blank" .btn .btn-purple .mr-1 } </span>
 
 > - **Topics:** General. Mostly about grounded situations. Each question is a video caption from LSMDC or ActivityNet Captions, with four answer choices about what might happen next in the scene. 
 - **Size & Split:**  around 113k in total --- train (73k), dev (20k), test (20k).
@@ -245,7 +245,7 @@ Correct Choice: D
 *HellaSwag: Can a Machine Really Finish Your Sentence?*. Rowan Zellers, Ari Holtzman, Yonatan Bisk, Ali Farhadi, Yejin Choi. **ACL-19**
 
 <span class="fs-1">
-[Paper](https://arxiv.org/abs/1905.07830){: .btn .btn-blue .mr-1 target="_blank" }, [Official Link](https://rowanzellers.com/hellaswag/){: target="_blank" .btn .btn-green .mr-1 }, [Huggingface Card](https://huggingface.co/datasets/hellaswag){: target="_blank" .btn .btn-purple .mr-1 } </span>
+[Paper](https://arxiv.org/abs/1905.07830){: .btn .btn-blue .mr-1 target="_blank" }, [Official Page](https://leaderboard.allenai.org/hellaswag/submissions/get-started){: target="_blank" .btn .btn-green .mr-1 }, [Intro Page](https://rowanzellers.com/hellaswag/){: target="_blank" .btn .btn-green .mr-1 }, [Huggingface Card](https://huggingface.co/datasets/hellaswag){: target="_blank" .btn .btn-purple .mr-1 } </span>
 
 > - **Topics:** General. Mostly about grounded commonsense situations.
 - **Size & Split:**  18,001 in total --- train (6,833), dev (3,641), test (7,527).
