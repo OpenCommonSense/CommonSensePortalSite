@@ -41,7 +41,7 @@ The task format for multiple-choice question answering (**MCQA**) is as follows.
 
 Notes:
 - There is **one and only one correct choice** for each input, and the others are distractors.
-- We do not consider the cases with additional input context (e.g., [passages](#CosmosQA)) here.
+- We do not consider the cases with additional input context (e.g., [passages](#CosmosQA), [images](#visual-commonsense-reasoning)) here.
 - The inputs can be either __interrogative questions__ (as in CommonsenseQA, SocialIQA, etc.) or __incomplete statements__ (as in SWAG, COPA, WSC, etc.).
 
  
@@ -123,6 +123,36 @@ Correct Choice: B
 {: .no_toc }
 
 
+
+---
+
+## Visually-Grounded QA
+
+### Visual Commonsense Reasoning
+{: .no_toc }
+ <!-- https://visualcommonsense.com/ -->
+
+---
+
+
+
+## Open-Ended QA
+
+### ProtoQA
+{: .no_toc }
+
+### OpenCSR
+{: .no_toc }
+
+
+---
+
+## Constrained NLG
+
+### CommonGen
+{: .no_toc }
+
+
 ---
 
 
@@ -148,25 +178,6 @@ Correct Choice: B
 ---
 
 
-## Open-Ended QA
-
-### ProtoQA
-{: .no_toc }
-
-### OpenCSR
-{: .no_toc }
-
-
----
-
-## Constrained NLG
-
-### CommonGen
-{: .no_toc }
-
-
----
-
 ## Text Game
 
 ### TWC
@@ -176,6 +187,8 @@ Correct Choice: B
 {: .no_toc }
 
 ---
+
+
 
 ## Other Related Datasets
 
