@@ -14,15 +14,11 @@ Editors: [Bill Yuchen Lin](https://yuchenlin.xyz/),
 
 {: .fs-5 .fw-300 }
 
-We present a comprehensive collection of datasets that are designed for testing commonsense reasoning ability. They are gourped by their fomulations, while they covered a wide range of aspects: properties of common objects, real-life situations, elementry science, social skills, etc. 
-
----
-
-Below is a table for summarizing the infomation 
+We present a comprehensive collection of datasets for testing commonsense reasoning ability. They are gourped by different fomulations, and covered a wide range of aspects: properties of common objects, real-life situations, elementry science, social skills, etc. 
 
 | Name | Focus | Format |  SotA vs. Human  | \# Citations |
 | :------------:| :-----: | :------: | :----------: | :-------: | :-----------: | :------------: |
-| [CommonsenseQA](#commonsenseqa) | General | [Multiple-Choice](#Multiple-Choice-QA)  | [83.3]() /  88.9 (**Acc. %**)  | 174 |
+| [CommonsenseQA](#commonsenseqa) | General | [MCQA](#Multiple-Choice-QA)  | [83.3]() /  88.9 (**Acc. %**)  | 174 |
 
 <!-- Check https://leaderboard.allenai.org/ for more -->
 
@@ -166,10 +162,10 @@ Correct Choice: B
 
 ## Reading Comprehension 
 
-### ReCORD
+### ReCoRD
 {: .no_toc }
 
-### CosmosQA
+### Cosmos QA
 {: .no_toc }
 
 
@@ -197,3 +193,7 @@ Correct Choice: B
 ### SNLI and MNLI
 {: .no_toc }
 
+### SuperGLUE Benchmark 
+{: .no_toc }
+
+<!-- https://super.gluebenchmark.com/tasks -->
