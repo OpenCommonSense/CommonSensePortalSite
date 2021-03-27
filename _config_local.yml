@@ -5,7 +5,7 @@ include: [".well-known"]
 # Theme
 theme: "just-the-docs"
 # remote_theme: pmarsceill/just-the-docs
-color_scheme: light
+color_scheme: blue
 logo: "https://commonsense.run/ocs_logo.png"
 
 title: Commonsense.Run - Portal Site for Commonsense Reasoning
