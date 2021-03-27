@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Misc.
+title: Miscellaneous
 nav_order: 7
 toc_list: true
 last_modified_date: March 26 2021

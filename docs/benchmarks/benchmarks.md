@@ -97,6 +97,9 @@ Correct Choice: B
 ### SWAG and HellaSWAG
 {: .no_toc }
 
+### WSC 
+{: .no_toc }
+
 ### WinoGrande
 {: .no_toc }
 
@@ -104,8 +107,6 @@ Correct Choice: B
 ### COPA and X-COPA 
 {: .no_toc }
 
-### WSC 
-{: .no_toc }
 
 
 ### CODAH 

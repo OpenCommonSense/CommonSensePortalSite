@@ -12,9 +12,13 @@ permalink: /docs/methods
 
 Editors: [Bill Yuchen Lin](https://yuchenlin.xyz/), 
 
-## Fine-tuning Pre-Trained LMs
+## Fine-tuning LMs
 
-## KG-Augmented Reasoning
+## Graph-Augmented Reasoning
 
 ## Weak Supervision
+
+## Symoblic Reasoning
+
+
 
