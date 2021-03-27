@@ -9,19 +9,12 @@ last_modified_date: March 25 2021
 
 # Commonsense.Run - The Portal Site for Commonsense Reasoning Research
 {: .fs-9 }
-&nbsp;
 
-An online compendium of commonsense knowledge & reasoning, maintained by [Bill Yuchen Lin](https://yuchenlin.xyz).
+An online compendium of commonsense knowledge & reasoning, initiated by [Bill Yuchen Lin](https://yuchenlin.xyz).
 
-Our main contributors: Yang Qiao, Xiang Ren, ...
-
-This site needs your help to grow! Join us on [Github](https://github.com/OpenCommonSense/CommonSensePortalSite) to improve this portal site for everyone interested in commonsense reasoning. 
-We also have a [Slack]() workspace to collect suggestions for this site and to connect people working on commonsense reasoning. Feel free to just drop in and say hi! :)
-
+Main contributors: [Bill Yuchen Lin](https://yuchenlin.xyz), [Xiang Ren](http://ink-ron.usc.edu/xiangren/), Yang Qiao, ..., and [you](#Contribute)!
 
 ---
-
-## Introduction
 This portal site is here to provide easy access to a comprensive colleciton of publications, benchmarks, resources that are related to *commonsense reasoning*. 
 
 ![Machine Common Sense](https://www.darpa.mil/DDM_Gallery/teaching-machines-619-316.jpg)
@@ -38,3 +31,12 @@ This portal site is here to provide easy access to a comprensive colleciton of p
 
 To make it as easy as possible to write documentation in plain Markdown, most UI components are styled using default Markdown elements with few additional CSS classes needed.
 {: .fs-6 .fw-300 } -->
+
+---
+
+# Contribute
+
+This site needs your help to grow! 
+Join us on [Github](https://github.com/OpenCommonSense/CommonSensePortalSite) to improve this portal site as editors. 
+
+We also have a [Slack]() workspace to collect suggestions for this site and to connect people working on commonsense reasoning. Feel free to just drop in and say hi! :)
