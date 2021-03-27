@@ -1,8 +1,19 @@
 # The Portal Site for Commonsense Reasoning Research
 
-## Getting Started
 
-### Prerequisites
+The website url is [https://commonsense.run/](https://commonsense.run/), and it is based on [Jekyll](https://docs.github.com/en/github/working-with-github-pages/setting-up-a-github-pages-site-with-jekyll) and [Just-the-Docs](https://pmarsceill.github.io/just-the-docs/) template.
+
+
+## Contribute
+
+If you want to edit a document, please find its markdown version in `docs` folder. You can also find click the `Edit this page on GitHub.` link in the footer of the page that you want to edit. 
+You can find useful examples and instructions [here](https://pmarsceill.github.io/just-the-docs/), for editing the markdown docs with `just-the-docs` template.
+
+
+## Locally Testing the Website (Optional)
+
+Only when you want to test the visualization on your local machines, you need to follow the below instructions to install the dependencies.
+
 1. Install [`Jekyll`](https://jekyllrb.com/docs/installation/).
 2. Install [`Ruby`](https://www.ruby-lang.org/en/documentation/installation/). 
 3. Install [`Bundler`](https://bundler.io). 
@@ -18,7 +29,7 @@ bundle exec jekyll serve --config _config_local.yml
 4. To preview your site, in your web browser, navigate to `http://localhost:4000`.
 
 
-## Adding a new page to your site
+<!-- ## Adding a new page to your site
 1. `cd` into the repository.
 2. `cd` into the `docs` folder.
 3. In the `docs` folder, create a new file for your page called PAGE-NAME.md, replacing PAGE-NAME with a meaningful filename for the page.
@@ -34,7 +45,7 @@ bundle exec jekyll serve --config _config_local.yml
         layout: default
         title: "PAGE TITLE"
         nav_order: 4
-      ```
+      ``` -->
 
 <!-- ## Customization
 
