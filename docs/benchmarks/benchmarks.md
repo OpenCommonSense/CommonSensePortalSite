@@ -58,8 +58,7 @@ Notes:
 - **Size & Split:** 12,102 in total --- train (9,741), dev (1,221), test (1,140).
 - **Data generation:** The questions are crowdsourced from human annotators. The authors present a question concept, _q_, and some candidate concepts, which are linked to _q_, and ask annotators to write a natural-language question mentioning _q_ and answered by only one of the answer candidates.
 - **An illustative example:**
-
->>>```
+```
 Question ID: b8c0a4703079cf661d7261a60a1bcbff
 Question concept: "magazines"
 Question: "Where would you find magazines along side many other printed works?"
