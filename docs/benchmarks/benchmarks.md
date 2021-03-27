@@ -190,10 +190,7 @@ Correct Choice: B
 ### LocatedNear Relation Extraction
 {: .no_toc }
 
-### SNLI and MNLI
-{: .no_toc }
-
-### SuperGLUE Benchmark 
+### GLUE and SuperGLUE Benchmark 
 {: .no_toc }
 
 <!-- https://super.gluebenchmark.com/tasks -->
