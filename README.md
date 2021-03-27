@@ -1,4 +1,4 @@
-# Commonsense Reasoning Portal Site
+# The Portal Site for Commonsense Reasoning Research
 
 ## Getting Started
 
