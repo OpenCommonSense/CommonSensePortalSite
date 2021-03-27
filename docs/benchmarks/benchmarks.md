@@ -24,6 +24,7 @@ Below is a table for summarizing the infomation
 | :------------:| :-----: | :------: | :----------: | :-------: | :-----------: | :------------: |
 | [CommonsenseQA](#commonsenseqa) | General | [Multiple-Choice](#Multiple-Choice-QA)  | [83.3]() /  88.9 (**Acc. %**)  | 174 |
 
+<!-- Check https://leaderboard.allenai.org/ for more -->
 
 ---
 
@@ -81,26 +82,42 @@ Correct Choice: B
 
 
 
-### SocialIQA and PhysicalIQA
+### SocialIQA 
 {: .no_toc }
-<!-- Describe both together about their similarities and differneces. -->
 
-### ARC and OpenbookQA
+
+### PhysicalIQA
+{: .no_toc }
+
+
+### ARC 
+{: .no_toc }
+
+### OpenbookQA
 {: .no_toc }
 
 
 ### SWAG and HellaSWAG
 {: .no_toc }
 
-### WSC and WinoGrande
+### WinoGrande
 {: .no_toc }
 
 
 ### COPA and X-COPA 
 {: .no_toc }
 
+### WSC 
+{: .no_toc }
+
+
 ### CODAH 
 {: .no_toc }
+
+
+### MC-TACO
+{: .no_toc }
+
 
 ### RiddleSense
 {: .no_toc }
@@ -161,3 +178,11 @@ Correct Choice: B
 ---
 
 ## Other Related Datasets
+
+
+### LocatedNear Relation Extraction
+{: .no_toc }
+
+### SNLI and MNLI
+{: .no_toc }
+
