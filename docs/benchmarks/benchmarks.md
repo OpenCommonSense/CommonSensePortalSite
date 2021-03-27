@@ -23,11 +23,16 @@ We present a comprehensive collection of datasets for testing commonsense reason
 | [PhysicalIQA](#physicaliqa) | General | [MCQA](#Multiple-Choice-QA)  | [90.13]() /  94.9 (**Acc. %**)  | 43 |
 | [ARC](#arc) | Science | [MCQA](#Multiple-Choice-QA)  | [81.4]() /  unknown (**Acc. %**)  | 177 |
 | [OpenbookQA](#openbookqa) | General | [MCQA](#Multiple-Choice-QA)  | [87.2]() /  91.7 (**Acc. %**)  | 125 |
-| [SWAG and HellaSWAG](#swag-and-hellaswag) | General | [MCQA](#Multiple-Choice-QA)  | [93.85]() /  95.6 (**Acc. %**)  | 107 |
+| [SWAG](#swag-and-hellaswag) | General | [MCQA](#Multiple-Choice-QA)  | [91.71]() /  88 (**Acc. %**)  | 281 |
+| [HellaSWAG](#swag-and-hellaswag) | General | [MCQA](#Multiple-Choice-QA)  | [93.85]() /  95.6 (**Acc. %**)  | 107 |
+| [WSC](#wsc) | General | [MCQA](#Multiple-Choice-QA)  |  |  |
 | [WinoGrande](#winogrande) | General | [MCQA](#Multiple-Choice-QA)  | [91.28]() /  94 (**Acc. %**)  | 108 |
+| [COPA](#copa-and-x-copa) | General | [MCQA](#Multiple-Choice-QA)  |  | 17 |
+| [X-COPA](#copa-and-x-copa) | General | [MCQA](#Multiple-Choice-QA)  |  | 9 |
+| [CODAH](#codah) | General | [MCQA](#Multiple-Choice-QA)  |  | 5 |
 | [MC-TACO](#mc-taco) | Temporal Commonsense | [MCQA](#Multiple-Choice-QA)  | [80.87]() /  75.8 (**Acc. %**)  | 25 |
-| [aNLI](#anli) | General | [MCQA](#Multiple-Choice-QA)  | [89.7]() /  92.9 (**Acc. %**)  | 89 |
-| [RiddleSense](#riddlesense) | General | [MCQA](#Multiple-Choice-QA)  | []() /  (**Acc. %**)  |  |
+| [aNLI](#anli) | General | [MCQA](#Multiple-Choice-QA)  | [89.7]() /  92.9 (**Acc. %**)  | 62 |
+| [RiddleSense](#riddlesense) | General | [MCQA](#Multiple-Choice-QA)  |  |  |
 
 
 <!-- Check https://leaderboard.allenai.org/ for more -->
@@ -95,7 +100,7 @@ Correct Choice: B
 [Paper](https://arxiv.org/abs/1904.09728){: .btn .btn-blue .mr-1 target="_blank" }, [Official Link](https://leaderboard.allenai.org/socialiqa/submissions/get-started){: target="_blank" .btn .btn-green .mr-1 } </span>
 
 > - **Topics:** Social Interactions. It focuses on reasoning about people’s actions and their social implications.
-- **Size & Split:**  37,588 multiple choice questions in total --- train (33,410), dev (1,954), test (2,224).
+- **Size & Split:**  37,588 in total --- train (33,410), dev (1,954), test (2,224).
 - **Data generation:** 
 - **An illustative example:**
 ```
@@ -123,9 +128,9 @@ Correct Choice: B
 *PIQA: Reasoning about Physical Commonsense in Natural Language*. Yonatan Bisk, Rowan Zellers, Ronan Le Bras, Jianfeng Gao, Yejin Choi. **AAAI-20**
 
 <span class="fs-1">
-[Paper](https://arxiv.org/abs/1911.11641){: .btn .btn-blue .mr-1 target="_blank" }, [Official Link](https://leaderboard.allenai.org/physicaliqa/submissions/get-started){: target="_blank" .btn .btn-green .mr-1 } </span>
+[Paper](https://arxiv.org/abs/1911.11641){: .btn .btn-blue .mr-1 target="_blank" }, [Official Link](https://leaderboard.allenai.org/physicaliqa/submissions/get-started){: target="_blank" .btn .btn-green .mr-1 }, [Huggingface Card](https://huggingface.co/datasets/piqa){: target="_blank" .btn .btn-purple .mr-1 } </span>
 
-> - **Topics:** General. It focuses on how we interact with everyday objects in everyday situations.
+> - **Topics:** General. It focuses on how people interact with everyday objects in everyday situations.
 - **Size & Split:**  around 20,000 QA pairs of multiple-choice in total --- train (over 16,000), dev (∼2K), test (∼3k).
 - **Data generation:** 
 - **An illustative example:**
@@ -153,10 +158,10 @@ Correct Choice: B
 *Think you have Solved Question Answering? Try ARC, the AI2 Reasoning Challenge*. Peter Clark, Isaac Cowhey, Oren Etzioni, Tushar Khot, Ashish Sabharwal, Carissa Schoenick, Oyvind Tafjord. **unknown**
 
 <span class="fs-1">
-[Paper](https://arxiv.org/abs/1803.05457){: .btn .btn-blue .mr-1 target="_blank" }, [Official Link](https://leaderboard.allenai.org/arc/submissions/get-started){: target="_blank" .btn .btn-green .mr-1 } </span>
+[Paper](https://arxiv.org/abs/1803.05457){: .btn .btn-blue .mr-1 target="_blank" }, [Official Link](https://leaderboard.allenai.org/arc/submissions/get-started){: target="_blank" .btn .btn-green .mr-1 }, [Huggingface Card](https://huggingface.co/datasets/ai2_arc){: target="_blank" .btn .btn-purple .mr-1 } </span>
 
 > - **Topics:** Science. It focuses on natural, grade-school science questions.
-- **Size & Split:**  7,787 multiple choice questions in total --- train (3,370), dev (869), test (3,548).
+- **Size & Split:**  7,787 in total --- train (3,370), dev (869), test (3,548).
 - **Data generation:** 
 - **An illustative example:**
 ```
@@ -182,10 +187,10 @@ Correct Choice: A
 *Can a Suit of Armor Conduct Electricity? A New Dataset for Open Book Question Answering*. Todor Mihaylov, Peter Clark, Tushar Khot, Ashish Sabharwal. **EMNLP-18**
 
 <span class="fs-1">
-[Paper](https://arxiv.org/abs/1809.02789){: .btn .btn-blue .mr-1 target="_blank" }, [Official Link](https://leaderboard.allenai.org/open_book_qa/submissions/get-started){: target="_blank" .btn .btn-green .mr-1 } </span>
+[Paper](https://arxiv.org/abs/1809.02789){: .btn .btn-blue .mr-1 target="_blank" }, [Official Link](https://leaderboard.allenai.org/open_book_qa/submissions/get-started){: target="_blank" .btn .btn-green .mr-1 }, [Huggingface Card](https://huggingface.co/datasets/openbookqa){: target="_blank" .btn .btn-purple .mr-1 } </span>
 
 > - **Topics:** General. The dataset is modeled after open book exams for assessing human understanding of a subject.
-- **Size & Split:**  5,957 multiple choice questions in total --- train (4,957), dev (500), test (500).
+- **Size & Split:**  5,957 in total --- train (4,957), dev (500), test (500).
 - **Data generation:** 
 - **An illustative example:**
 ```
@@ -210,13 +215,40 @@ Correct Choice: B
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
+*SWAG: A Large-Scale Adversarial Dataset for Grounded Commonsense Inference*. Rowan Zellers, Yonatan Bisk, Roy Schwartz, Yejin Choi. **EMNLP-18**
+
+<span class="fs-1">
+[Paper](https://arxiv.org/abs/1808.05326){: .btn .btn-blue .mr-1 target="_blank" }, [Official Link](https://rowanzellers.com/swag/){: target="_blank" .btn .btn-green .mr-1 }, [Huggingface Card](https://huggingface.co/datasets/swag){: target="_blank" .btn .btn-purple .mr-1 } </span>
+
+> - **Topics:** General. Mostly about grounded situations. Each question is a video caption from LSMDC or ActivityNet Captions, with four answer choices about what might happen next in the scene. 
+- **Size & Split:**  around 113k in total --- train (73k), dev (20k), test (20k).
+- **Data generation:** 
+- **An illustative example:**
+```
+Question:
+    On stage, a woman takes a seat at the piano. She
+Choices:
+    A) sits on a bench as her sister plays with the doll.
+    B) smiles with someone as the music plays.
+    C) is in the crowd, watching the dancers.
+    D) nervously sets her fingers on the keys.
+Correct Choice: D
+``` 
+
+{: .fs-4 .fw-600 .text-red-300}
+> **Editors' comments**
+
+<!-- Mention the highlights or known issues of the dataset. -->
+
+
+{: .fs-4 .fw-800 .text-blue-100}
 *HellaSwag: Can a Machine Really Finish Your Sentence?*. Rowan Zellers, Ari Holtzman, Yonatan Bisk, Ali Farhadi, Yejin Choi. **ACL-19**
 
 <span class="fs-1">
-[Paper](https://arxiv.org/abs/1905.07830){: .btn .btn-blue .mr-1 target="_blank" }, [Official Link](https://rowanzellers.com/hellaswag/){: target="_blank" .btn .btn-green .mr-1 } </span>
+[Paper](https://arxiv.org/abs/1905.07830){: .btn .btn-blue .mr-1 target="_blank" }, [Official Link](https://rowanzellers.com/hellaswag/){: target="_blank" .btn .btn-green .mr-1 }, [Huggingface Card](https://huggingface.co/datasets/hellaswag){: target="_blank" .btn .btn-purple .mr-1 } </span>
 
 > - **Topics:** General. Mostly about grounded commonsense situations.
-- **Size & Split:**  around 70k multiple choice questions in total --- train (unknown), dev (unknown), test (unknown).
+- **Size & Split:**  18,001 in total --- train (6,833), dev (3,641), test (7,527).
 - **Data generation:** 
 - **An illustative example:**
 ```
@@ -240,6 +272,33 @@ Correct Choice: C
 ### WSC 
 {: .no_toc }
 
+{: .fs-4 .fw-800 .text-blue-100}
+*The Winograd Schema Challenge*. Ernest Davis, Leora Morgenstern, and Charles Ortiz. **unknown**
+
+<span class="fs-1">
+[Paper](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.729.9814&rep=rep1&type=pdf){: .btn .btn-blue .mr-1 target="_blank" }, [Official Link](https://cs.nyu.edu/faculty/davise/papers/WinogradSchemas/WS.html){: target="_blank" .btn .btn-green .mr-1 }, [Huggingface Card](https://huggingface.co/datasets/winograd_wsc){: target="_blank" .btn .btn-purple .mr-1 } </span>
+
+> - **Topics:** General. 
+- **Size & Split:**  xxx in total --- train (xxx), dev (xxx), test (xxx).
+- **Data generation:** 
+- **An illustative example:**
+```
+label: 0,
+options: ['The city councilmen', 'The demonstrators']
+pronoun: they
+pronoun_loc: 63
+quote: they feared violence
+quote_loc: 63
+source: (Winograd 1972)
+text: The city councilmen refused the demonstrators a permit because they feared violence.
+``` 
+
+
+{: .fs-4 .fw-600 .text-red-300}
+> **Editors' comments**
+
+<!-- Mention the highlights or known issues of the dataset. -->
+
 
 
 ### WinoGrande
@@ -249,10 +308,10 @@ Correct Choice: C
 *WinoGrande: An Adversarial Winograd Schema Challenge at Scale*. Keisuke Sakaguchi, Ronan Le Bras, Chandra Bhagavatula, Yejin Choi. **unknown**
 
 <span class="fs-1">
-[Paper](https://arxiv.org/abs/1907.10641){: .btn .btn-blue .mr-1 target="_blank" }, [Official Link](https://winogrande.allenai.org/){: target="_blank" .btn .btn-green .mr-1 } </span>
+[Paper](https://arxiv.org/abs/1907.10641){: .btn .btn-blue .mr-1 target="_blank" }, [Official Link](https://winogrande.allenai.org/){: target="_blank" .btn .btn-green .mr-1 }, [Huggingface Card](https://huggingface.co/datasets/winogrande){: target="_blank" .btn .btn-purple .mr-1 } </span>
 
-> - **Topics:** General. (No complete yet)
-- **Size & Split:**  43,972 multiple choice questions in total --- train (40,938), dev (1,267), test (1,767).
+> - **Topics:** General. Mostly about commonsense inference in pronoun resolution problems.
+- **Size & Split:**  43,972 in total --- train (40,938), dev (1,267), test (1,767).
 - **Data generation:** 
 - **An illustative example:**
 ```
@@ -261,7 +320,6 @@ Option1: Katrina
 Option2: Monica
 Correct Option: Option1
 ``` 
-
 
 {: .fs-4 .fw-600 .text-red-300}
 > **Editors' comments**
@@ -273,6 +331,51 @@ Correct Option: Option1
 ### COPA and X-COPA 
 {: .no_toc }
 
+{: .fs-4 .fw-800 .text-blue-100}
+*Choice of Plausible Alternatives: An Evaluation of Commonsense Causal Reasoning*. Melissa Roemmele, Cosmin Adrian Bejan, and Andrew S. Gordon. **AAAI-11**
+
+<span class="fs-1">
+[Paper](https://www.researchgate.net/publication/221251392_Choice_of_Plausible_Alternatives_An_Evaluation_of_Commonsense_Causal_Reasoning){: .btn .btn-blue .mr-1 target="_blank" }, [Official Link](https://people.ict.usc.edu/~gordon/copa.html){: target="_blank" .btn .btn-green .mr-1 } </span>
+
+> - **Topics:** General. Open-domain commonsense causal reasoning of everyday activities.
+- **Size & Split:**  1000 in total --- dev (500), test (500).
+- **Data generation:** 
+- **An illustative example:**
+```
+Premise: The man broke his toe. What was the CAUSE of this?
+Alternative 1: He got a hole in his sock.
+Alternative 2: He dropped a hammer on his foot.
+Correct Choice: Alternative 2
+``` 
+
+{: .fs-4 .fw-600 .text-red-300}
+> **Editors' comments**
+
+<!-- Mention the highlights or known issues of the dataset. -->
+
+
+{: .fs-4 .fw-800 .text-blue-100}
+*XCOPA: A Multilingual Dataset for Causal Commonsense Reasoning*. Edoardo Maria Ponti, Goran Glavaš, Olga Majewska, Qianchu Liu, Ivan Vulić, Anna Korhonen. **unknown**
+
+<span class="fs-1">
+[Paper](https://arxiv.org/abs/2005.00333){: .btn .btn-blue .mr-1 target="_blank" }, [Official Link](https://github.com/cambridgeltl/xcopa){: target="_blank" .btn .btn-green .mr-1 }, [Huggingface Card](https://huggingface.co/datasets/xcopa){: target="_blank" .btn .btn-purple .mr-1 } </span>
+
+> - **Topics:** General. Same as COPA dataset but in 11 languages.
+- **Size & Split:**  1000 * 11(lang) in total --- dev (500 * 11), test (500 * 11).
+- **Data generation:** 
+- **An illustative example (in Italian):**
+```
+Premise: L'uomo aprì il rubinetto.
+Alternative 1: Il gabinetto si riempì d'acqua.
+Alternative 2: Dell'acqua fluì dal beccuccio.
+Correct Choice: Alternative 1
+``` 
+
+{: .fs-4 .fw-600 .text-red-300}
+> **Editors' comments**
+
+<!-- Mention the highlights or known issues of the dataset. -->
+
 
 
 ### CODAH 
@@ -282,16 +385,21 @@ Correct Option: Option1
 *CODAH: An Adversarially Authored Question-Answer Dataset for Common Sense*. Michael Chen, Mike D'Arcy, Alisa Liu, Jared Fernandez, Doug Downey. **RepEval-19**
 
 <span class="fs-1">
-[Paper](https://arxiv.org/abs/1904.04365){: .btn .btn-blue .mr-1 target="_blank" }, [Official Link](){: target="_blank" .btn .btn-green .mr-1 } </span>
+[Paper](https://arxiv.org/abs/1904.04365){: .btn .btn-blue .mr-1 target="_blank" }, [Official Link](https://github.com/Websail-NU/CODAH){: target="_blank" .btn .btn-green .mr-1 }, [Huggingface Card](https://huggingface.co/datasets/codah){: target="_blank" .btn .btn-purple .mr-1 } </span>
 
-> - **Topics:** General. 
-- **Size & Split:**  
+> - **Topics:** General. Mostly about grounded situations in everyday activities. 
+- **Size:**  2,801 in total.
 - **Data generation:** 
 - **An illustative example:**
 ```
-Question:
+Question: 
+    I am always very hungry before I go to bed. I am
 Choices:
-Correct Choice: 
+    A) concerned that this is an illness.
+    B) glad that I do not have a kitchen.
+    C) fearful that there are monsters under my bed.
+    D) tempted to snack when I feel this way.
+Correct Choice: D
 ``` 
 
 
@@ -309,10 +417,10 @@ Correct Choice:
 *"Going on a vacation" takes longer than "Going for a walk": A Study of Temporal Commonsense Understanding*. Ben Zhou, Daniel Khashabi, Qiang Ning, Dan Roth. **EMNLP-19**
 
 <span class="fs-1">
-[Paper](https://arxiv.org/abs/1909.03065){: .btn .btn-blue .mr-1 target="_blank" }, [Official Link](https://leaderboard.allenai.org/mctaco/submissions/get-started){: target="_blank" .btn .btn-green .mr-1 } </span>
+[Paper](https://arxiv.org/abs/1909.03065){: .btn .btn-blue .mr-1 target="_blank" }, [Official Link](https://leaderboard.allenai.org/mctaco/submissions/get-started){: target="_blank" .btn .btn-green .mr-1 }, [Huggingface Card](https://huggingface.co/datasets/mc_taco){: target="_blank" .btn .btn-purple .mr-1 } </span>
 
 > - **Topics:** Temporal Commonsense. Focusing on event ordering, duration, stationarity, frequency and time.
-- **Size:**  13k question-answer pairs in total.
+- **Size & Split:**  13k question-answer pairs in total --- dev (3,783), test (9,442) .
 - **Data generation:** 
 - **An illustative example:**
 ```
@@ -332,19 +440,17 @@ Correct Choice: C
 <!-- Mention the highlights or known issues of the dataset. -->
 
 
-
-
 ### aNLI
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*Adversarial NLI: A New Benchmark for Natural Language Understanding*. Yixin Nie, Adina Williams, Emily Dinan, Mohit Bansal, Jason Weston, Douwe Kiela. **ACL-20**
+*Abductive Commonsense Reasoning*. Chandra Bhagavatula, Ronan Le Bras, Chaitanya Malaviya, Keisuke Sakaguchi, Ari Holtzman, Hannah Rashkin, Doug Downey, Scott Wen-tau Yih, Yejin Choi. **ICLR-20**
 
 <span class="fs-1">
-[Paper](https://arxiv.org/abs/1910.14599){: .btn .btn-blue .mr-1 target="_blank" }, [Official Link](https://github.com/facebookresearch/anli){: target="_blank" .btn .btn-green .mr-1 } </span>
+[Paper](https://arxiv.org/abs/1908.05739){: .btn .btn-blue .mr-1 target="_blank" }, [Official Link](https://leaderboard.allenai.org/anli/submissions/get-started){: target="_blank" .btn .btn-green .mr-1 }, [Huggingface Card](https://huggingface.co/datasets/art){: target="_blank" .btn .btn-purple .mr-1 } </span>
 
-> - **Topics:** General. (not complete yet)
-- **Size & Split:**  169,265 multiple choice questions in total --- train (162,865), dev (3,200), test (3,200).
+> - **Topics:** General. Mostly about observations of objects or events in daily life.
+- **Size & Split:**  17,801 context pairs in total --- dev (1,532), test (3,059).
 - **Data generation:** 
 - **An illustative example:**
 ```
@@ -352,7 +458,7 @@ Obs1: It was a gorgeous day outside.
 Obs2: She asked her neighbor for a jump-start.
 Hyp1: Mary decided to drive to the beach, but her car would not start due to a dead battery.
 Hyp2: It made a weird sound upon starting.
-Correct Hypothesis: Hyp1
+Correct Choice: Hyp1
 ``` 
 
 
@@ -373,7 +479,7 @@ Correct Hypothesis: Hyp1
 [Paper](https://arxiv.org/abs/2101.00376){: .btn .btn-blue .mr-1 target="_blank" }, [Official Link](https://inklab.usc.edu/RiddleSense/){: target="_blank" .btn .btn-green .mr-1 } </span>
 
 > - **Topics:** General. Mostly about riddle-style commonsense question answering.
-- **Size & Split:**  5,733 multiple choice questions in total --- train (3,510), dev (1,021), test (1,202).
+- **Size & Split:**  5,733 in total --- train (3,510), dev (1,021), test (1,202).
 - **Data generation:** 
 - **An illustative example:**
 ```
