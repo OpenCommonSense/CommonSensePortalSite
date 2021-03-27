@@ -12,13 +12,27 @@ permalink: /docs/methods
 
 Editors: [Bill Yuchen Lin](https://yuchenlin.xyz/), 
 
-## Fine-tuning LMs
+{: .fs-5 .fw-300 }
+We present a collection of insightful research papers that focus on teaching machines to think with common sense like humans. We grouped them in different categories mainly based on the knowledge resources they used. 
 
-## Graph-Augmented Reasoning
+
+---
+
+## LM-only Methods
+
+### 
+
+--- 
+
+## KG-aware Methods
+
+--- 
 
 ## Weak Supervision
 
-## Symoblic Reasoning
+---
+
+## Rule-based Reasoning
 
 
 
