@@ -18,21 +18,21 @@ We present a comprehensive collection of datasets for testing commonsense reason
 
 | Name | Focus | Format |  SotA vs. Human  | \# Citations |
 | :------------:| :-----: | :------: | :----------: | :-------: | :-----------: | :------------: |
-| [CommonsenseQA](#commonsenseqa) | General | [MC](#Multiple-Choice-Tasks)  | 83.3 /  88.9 (**Acc. %**)  | 174 |
-| [SocialIQA](#socialiqa) | Social Interactions | [MC](#Multiple-Choice-Tasks)  | 83.15 /  88.1 (**Acc. %**)  | 90 |
-| [PhysicalIQA](#physicaliqa) | General | [MC](#Multiple-Choice-Tasks)  | 90.13 /  94.9 (**Acc. %**)  | 43 |
-| [ARC](#arc) | Science | [MC](#Multiple-Choice-Tasks)  | 81.4 /  unknown (**Acc. %**)  | 177 |
-| [OpenbookQA](#openbookqa) | General | [MC](#Multiple-Choice-Tasks)  | 87.2 /  91.7 (**Acc. %**)  | 125 |
-| [SWAG](#swag-and-hellaswag) | General | [MC](#Multiple-Choice-Tasks)  | 91.71 /  88 (**Acc. %**)  | 281 |
-| [HellaSWAG](#swag-and-hellaswag) | General | [MC](#Multiple-Choice-Tasks)  | 93.85 /  95.6 (**Acc. %**)  | 107 |
-| [WSC](#wsc) | General | [MC](#Multiple-Choice-Tasks)  |  |  |
-| [WinoGrande](#winogrande) | General | [MC](#Multiple-Choice-Tasks)  | 91.28 /  94 (**Acc. %**)  | 108 |
-| [COPA](#copa-and-x-copa) | General | [MC](#Multiple-Choice-Tasks)  |  | 17 |
-| [X-COPA](#copa-and-x-copa) | General | [MC](#Multiple-Choice-Tasks)  |  | 9 |
-| [CODAH](#codah) | General | [MC](#Multiple-Choice-Tasks)  |  | 5 |
-| [MC-TACO](#mc-taco) | Temporal Commonsense | [MC](#Multiple-Choice-Tasks)  | 80.87 /  75.8 (**Acc. %**)  | 25 |
-| [aNLI](#anli) | General | [MC](#Multiple-Choice-Tasks)  | 89.7 /  92.9 (**Acc. %**)  | 62 |
-| [RiddleSense](#riddlesense) | General | [MC](#Multiple-Choice-Tasks)  |  |  |
+| [CommonsenseQA](#commonsenseqa) | General | [MC](#multiple-choice-tasks)  | 83.3 /  88.9 (**Acc. %**)  | 174 |
+| [SocialIQA](#socialiqa) | Social Interactions | [MC](#multiple-choice-tasks)  | 83.15 /  88.1 (**Acc. %**)  | 90 |
+| [PhysicalIQA](#physicaliqa) | General | [MC](#multiple-choice-tasks)  | 90.13 /  94.9 (**Acc. %**)  | 43 |
+| [ARC](#arc) | Science | [MC](#multiple-choice-tasks)  | 81.4 /  unknown (**Acc. %**)  | 177 |
+| [OpenbookQA](#openbookqa) | General | [MC](#multiple-choice-tasks)  | 87.2 /  91.7 (**Acc. %**)  | 125 |
+| [SWAG](#swag-and-hellaswag) | General | [MC](#multiple-choice-tasks)  | 91.71 /  88 (**Acc. %**)  | 281 |
+| [HellaSWAG](#swag-and-hellaswag) | General | [MC](#multiple-choice-tasks)  | 93.85 /  95.6 (**Acc. %**)  | 107 |
+| [WSC](#wsc) | General | [MC](#multiple-choice-tasks)  | 96.6 /  100 (**Acc. %**) | 555 |
+| [WinoGrande](#winogrande) | General | [MC](#multiple-choice-tasks)  | 91.28 /  94 (**Acc. %**)  | 108 |
+| [COPA](#copa-and-x-copa) | General | [MC](#multiple-choice-tasks)  | 98.4 /  100 (**Acc. %**) | 17 |
+| [X-COPA](#copa-and-x-copa) | General | [MC](#multiple-choice-tasks)  | 76.05 /  97.6 (**Acc. %**) | 9 |
+| [CODAH](#codah) | General | [MC](#multiple-choice-tasks)  | 69.5 /  95.3 (**Acc. %**) | 5 |
+| [MC-TACO](#mc-taco) | Temporal Commonsense | [MC](#multiple-choice-tasks)  | 80.87 /  75.8 (**Acc. %**)  | 25 |
+| [aNLI](#anli) | General | [MC](#multiple-choice-tasks)  | 89.7 /  92.9 (**Acc. %**)  | 62 |
+| [RiddleSense](#riddlesense) | General | [MC](#multiple-choice-tasks)  | 71.5 /  91.33 (**Acc. %**) |  |
 
 
 <!-- Check https://leaderboard.allenai.org/ for more -->
@@ -155,7 +155,7 @@ Correct Choice: B
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*Think you have Solved Question Answering? Try ARC, the AI2 Reasoning Challenge*. Peter Clark, Isaac Cowhey, Oren Etzioni, Tushar Khot, Ashish Sabharwal, Carissa Schoenick, Oyvind Tafjord. **unknown**
+*Think you have Solved Question Answering? Try ARC, the AI2 Reasoning Challenge*. Peter Clark, Isaac Cowhey, Oren Etzioni, Tushar Khot, Ashish Sabharwal, Carissa Schoenick, Oyvind Tafjord. **arXiv**
 
 <span class="fs-1">
 [Paper](https://arxiv.org/abs/1803.05457){: .btn .btn-blue .mr-1 target="_blank" }, [Official Link](https://leaderboard.allenai.org/arc/submissions/get-started){: target="_blank" .btn .btn-green .mr-1 }, [Huggingface Card](https://huggingface.co/datasets/ai2_arc){: target="_blank" .btn .btn-purple .mr-1 } </span>
@@ -273,13 +273,13 @@ Correct Choice: C
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*The Winograd Schema Challenge*. Ernest Davis, Leora Morgenstern, and Charles Ortiz. **unknown**
+*The Winograd Schema Challenge*. Hector J. Levesque, Ernest Davis, Leora Morgenstern. **KR-12**
 
 <span class="fs-1">
-[Paper](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.729.9814&rep=rep1&type=pdf){: .btn .btn-blue .mr-1 target="_blank" }, [Official Link](https://cs.nyu.edu/faculty/davise/papers/WinogradSchemas/WS.html){: target="_blank" .btn .btn-green .mr-1 }, [Huggingface Card](https://huggingface.co/datasets/winograd_wsc){: target="_blank" .btn .btn-purple .mr-1 } </span>
+[Paper](https://cs.nyu.edu/faculty/davise/papers/WSKR2012.pdf){: .btn .btn-blue .mr-1 target="_blank" }, [Official Link](https://cs.nyu.edu/faculty/davise/papers/WinogradSchemas/WS.html){: target="_blank" .btn .btn-green .mr-1 }, [Huggingface Card](https://huggingface.co/datasets/winograd_wsc){: target="_blank" .btn .btn-purple .mr-1 } </span>
 
 > - **Topics:** General. 
-- **Size & Split:**  xxx in total --- train (xxx), dev (xxx), test (xxx).
+- **Size & Split:**  804 in total --- train (554), dev (104), test (146).
 - **Data generation:** 
 - **An illustative example:**
 ```
@@ -305,7 +305,7 @@ text: The city councilmen refused the demonstrators a permit because they feared
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*WinoGrande: An Adversarial Winograd Schema Challenge at Scale*. Keisuke Sakaguchi, Ronan Le Bras, Chandra Bhagavatula, Yejin Choi. **unknown**
+*WinoGrande: An Adversarial Winograd Schema Challenge at Scale*. Keisuke Sakaguchi, Ronan Le Bras, Chandra Bhagavatula, Yejin Choi. **AAAI-20**
 
 <span class="fs-1">
 [Paper](https://arxiv.org/abs/1907.10641){: .btn .btn-blue .mr-1 target="_blank" }, [Official Link](https://winogrande.allenai.org/){: target="_blank" .btn .btn-green .mr-1 }, [Huggingface Card](https://huggingface.co/datasets/winogrande){: target="_blank" .btn .btn-purple .mr-1 } </span>
@@ -338,7 +338,7 @@ Correct Option: Option1
 [Paper](https://www.researchgate.net/publication/221251392_Choice_of_Plausible_Alternatives_An_Evaluation_of_Commonsense_Causal_Reasoning){: .btn .btn-blue .mr-1 target="_blank" }, [Official Link](https://people.ict.usc.edu/~gordon/copa.html){: target="_blank" .btn .btn-green .mr-1 } </span>
 
 > - **Topics:** General. Open-domain commonsense causal reasoning of everyday activities.
-- **Size & Split:**  1000 in total --- dev (500), test (500).
+- **Size & Split:**  1000 in total --- train (400), dev (100), test (500).
 - **Data generation:** 
 - **An illustative example:**
 ```
@@ -355,13 +355,13 @@ Correct Choice: Alternative 2
 
 
 {: .fs-4 .fw-800 .text-blue-100}
-*XCOPA: A Multilingual Dataset for Causal Commonsense Reasoning*. Edoardo Maria Ponti, Goran Glavaš, Olga Majewska, Qianchu Liu, Ivan Vulić, Anna Korhonen. **unknown**
+*XCOPA: A Multilingual Dataset for Causal Commonsense Reasoning*. Edoardo Maria Ponti, Goran Glavaš, Olga Majewska, Qianchu Liu, Ivan Vulić, Anna Korhonen. **EMNLP-20**
 
 <span class="fs-1">
 [Paper](https://arxiv.org/abs/2005.00333){: .btn .btn-blue .mr-1 target="_blank" }, [Official Link](https://github.com/cambridgeltl/xcopa){: target="_blank" .btn .btn-green .mr-1 }, [Huggingface Card](https://huggingface.co/datasets/xcopa){: target="_blank" .btn .btn-purple .mr-1 } </span>
 
 > - **Topics:** General. Same as COPA dataset but in 11 languages.
-- **Size & Split:**  1000 * 11(lang) in total --- dev (500 * 11), test (500 * 11).
+- **Size & Split:**  1000 * 11(lang) in total --- train (400 * 11), dev (100 * 11), test (500 * 11).
 - **Data generation:** 
 - **An illustative example (in Italian):**
 ```
@@ -473,7 +473,7 @@ Correct Choice: Hyp1
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*RiddleSense: Answering Riddle Questions as Commonsense Reasoning*. Bill Yuchen Lin, Ziyi Wu, Yichi Yang, Dong-Ho Lee, Xiang Ren.
+*RiddleSense: Answering Riddle Questions as Commonsense Reasoning*. Bill Yuchen Lin, Ziyi Wu, Yichi Yang, Dong-Ho Lee, Xiang Ren. **arXiv**
 
 <span class="fs-1">
 [Paper](https://arxiv.org/abs/2101.00376){: .btn .btn-blue .mr-1 target="_blank" }, [Official Link](https://inklab.usc.edu/RiddleSense/){: target="_blank" .btn .btn-green .mr-1 } </span>
