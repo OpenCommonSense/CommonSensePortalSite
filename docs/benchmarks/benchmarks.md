@@ -18,34 +18,34 @@ We present a comprehensive collection of datasets for testing commonsense reason
 
 | Name | Focus | Format |  SotA vs. Human  | \# Citations |
 | :------------:| :-----: | :------: | :----------: | :-------: | :-----------: | :------------: |
-| [CommonsenseQA](#commonsenseqa) | General | [MCQA](#Multiple-Choice-QA)  | 83.3 /  88.9 (**Acc. %**)  | 174 |
-| [SocialIQA](#socialiqa) | Social Interactions | [MCQA](#Multiple-Choice-QA)  | 83.15 /  88.1 (**Acc. %**)  | 90 |
-| [PhysicalIQA](#physicaliqa) | General | [MCQA](#Multiple-Choice-QA)  | 90.13 /  94.9 (**Acc. %**)  | 43 |
-| [ARC](#arc) | Science | [MCQA](#Multiple-Choice-QA)  | 81.4 /  unknown (**Acc. %**)  | 177 |
-| [OpenbookQA](#openbookqa) | General | [MCQA](#Multiple-Choice-QA)  | 87.2 /  91.7 (**Acc. %**)  | 125 |
-| [SWAG](#swag-and-hellaswag) | General | [MCQA](#Multiple-Choice-QA)  | 91.71 /  88 (**Acc. %**)  | 281 |
-| [HellaSWAG](#swag-and-hellaswag) | General | [MCQA](#Multiple-Choice-QA)  | 93.85 /  95.6 (**Acc. %**)  | 107 |
-| [WSC](#wsc) | General | [MCQA](#Multiple-Choice-QA)  |  |  |
-| [WinoGrande](#winogrande) | General | [MCQA](#Multiple-Choice-QA)  | 91.28 /  94 (**Acc. %**)  | 108 |
-| [COPA](#copa-and-x-copa) | General | [MCQA](#Multiple-Choice-QA)  |  | 17 |
-| [X-COPA](#copa-and-x-copa) | General | [MCQA](#Multiple-Choice-QA)  |  | 9 |
-| [CODAH](#codah) | General | [MCQA](#Multiple-Choice-QA)  |  | 5 |
-| [MC-TACO](#mc-taco) | Temporal Commonsense | [MCQA](#Multiple-Choice-QA)  | 80.87 /  75.8 (**Acc. %**)  | 25 |
-| [aNLI](#anli) | General | [MCQA](#Multiple-Choice-QA)  | 89.7 /  92.9 (**Acc. %**)  | 62 |
-| [RiddleSense](#riddlesense) | General | [MCQA](#Multiple-Choice-QA)  |  |  |
+| [CommonsenseQA](#commonsenseqa) | General | [MC](#Multiple-Choice-Tasks)  | 83.3 /  88.9 (**Acc. %**)  | 174 |
+| [SocialIQA](#socialiqa) | Social Interactions | [MC](#Multiple-Choice-Tasks)  | 83.15 /  88.1 (**Acc. %**)  | 90 |
+| [PhysicalIQA](#physicaliqa) | General | [MC](#Multiple-Choice-Tasks)  | 90.13 /  94.9 (**Acc. %**)  | 43 |
+| [ARC](#arc) | Science | [MC](#Multiple-Choice-Tasks)  | 81.4 /  unknown (**Acc. %**)  | 177 |
+| [OpenbookQA](#openbookqa) | General | [MC](#Multiple-Choice-Tasks)  | 87.2 /  91.7 (**Acc. %**)  | 125 |
+| [SWAG](#swag-and-hellaswag) | General | [MC](#Multiple-Choice-Tasks)  | 91.71 /  88 (**Acc. %**)  | 281 |
+| [HellaSWAG](#swag-and-hellaswag) | General | [MC](#Multiple-Choice-Tasks)  | 93.85 /  95.6 (**Acc. %**)  | 107 |
+| [WSC](#wsc) | General | [MC](#Multiple-Choice-Tasks)  |  |  |
+| [WinoGrande](#winogrande) | General | [MC](#Multiple-Choice-Tasks)  | 91.28 /  94 (**Acc. %**)  | 108 |
+| [COPA](#copa-and-x-copa) | General | [MC](#Multiple-Choice-Tasks)  |  | 17 |
+| [X-COPA](#copa-and-x-copa) | General | [MC](#Multiple-Choice-Tasks)  |  | 9 |
+| [CODAH](#codah) | General | [MC](#Multiple-Choice-Tasks)  |  | 5 |
+| [MC-TACO](#mc-taco) | Temporal Commonsense | [MC](#Multiple-Choice-Tasks)  | 80.87 /  75.8 (**Acc. %**)  | 25 |
+| [aNLI](#anli) | General | [MC](#Multiple-Choice-Tasks)  | 89.7 /  92.9 (**Acc. %**)  | 62 |
+| [RiddleSense](#riddlesense) | General | [MC](#Multiple-Choice-Tasks)  |  |  |
 
 
 <!-- Check https://leaderboard.allenai.org/ for more -->
 
 ---
 
-## Multiple-Choice QA
+## Multiple-Choice Tasks
 
 <!-- You can use this google sheet: https://docs.google.com/spreadsheets/d/1vJUwjFA_HRvzRI3ULSWXS7rLbHriJj5bTYSUiG4Iixo/edit?usp=sharing 
  and then conver it to markdown by https://tabletomarkdown.com/convert-spreadsheet-to-markdown/ -->
  
 
-The task format for multiple-choice question answering (**MCQA**) is as follows.
+The task format for multiple-choice (**MC**) tasks for commonsense reasoning is as follows.
 - Input: a question, a few candidate answers (i.e., choices).
 - Output: the label of the correct choice. 
 - Metric: accuracy. 
@@ -53,7 +53,7 @@ The task format for multiple-choice question answering (**MCQA**) is as follows.
 Notes:
 - There is **one and only one correct choice** for each input, and the others are distractors.
 - We do not consider the cases with additional input context (e.g., [passages](#CosmosQA), [images](#visual-commonsense-reasoning)) here.
-- The inputs can be either __interrogative questions__ (as in CommonsenseQA, SocialIQA, etc.) or __incomplete statements__ (as in SWAG, COPA, WSC, etc.).
+- The inputs can be either __interrogative sentences__ (as in CommonsenseQA, SocialIQA, etc.) or __incomplete statements__ (as in SWAG, COPA, WSC, etc.).
 
  
 ### CommonsenseQA
