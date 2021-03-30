@@ -36,7 +36,7 @@ Here we present methods that only use language models to address the chellenge o
    [Semantic Scholar](https://www.semanticscholar.org/paper/A-Simple-Method-for-Commonsense-Reasoning-Trinh-Le/d7b6753a2d4a2b286c396854063bde3a91b75535){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
-Evaluation Tasks: [WSC](/docs/datasets/#wsc){: .mr-1 target="_blank"} 
+Evaluation Tasks: [WSC](/docs/datasets#wsc){: .mr-1 target="_blank"} 
 <details markdown="block">
   <summary>Abstract</summary>
   {: .fs-3 .text-delta .text-blue-100}
@@ -117,4 +117,4 @@ https://github.com/Mayer123/HyKAS-CSKG
 <!-- Pending -->
 
 
-
+## Others
