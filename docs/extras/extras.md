@@ -30,6 +30,6 @@ Editors: [Bill Yuchen Lin](https://yuchenlin.xyz/),
 
 ## Useful links
 
-
+- [https://commonsensereasoning.org/](https://commonsensereasoning.org/)
  
  
