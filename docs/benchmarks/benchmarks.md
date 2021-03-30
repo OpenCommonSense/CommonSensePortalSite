@@ -469,6 +469,7 @@ Correct Choice: Hyp1
 <!-- Mention the highlights or known issues of the dataset. -->
 
 ### ComVE (SemEval-2020 Task 4 SubTask A&B)
+{: .no_toc }
 <!-- https://arxiv.org/abs/2007.00236 -->
 
 
@@ -533,9 +534,11 @@ Correct Choice: B
 
 
 ### Cos-E 
+{: .no_toc }
+
 
 ### ComVE (SubTask C)
-
+{: .no_toc }
 
 ---
 
