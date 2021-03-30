@@ -19,20 +19,20 @@ We present a comprehensive collection of datasets for testing commonsense reason
 | Name | Focus | Format |  SotA vs. Human  | \# Citations |
 | :------------:| :-----: | :------: | :----------: | :-------: | :-----------: | :------------: |
 | [CommonsenseQA](#commonsenseqa) | General | [MC](#multiple-choice-tasks)  | 83.3 /  88.9 (**Acc. %**)  | 174 |
-| [SocialIQA](#socialiqa) | Social Interactions | [MC](#multiple-choice-tasks)  | 83.15 /  88.1 (**Acc. %**)  | 90 |
-| [PhysicalIQA](#physicaliqa) | General | [MC](#multiple-choice-tasks)  | 90.13 /  94.9 (**Acc. %**)  | 43 |
+| [SocialIQA](#socialiqa) | Social  | [MC](#multiple-choice-tasks)  | 83.2 /  88.1 (**Acc. %**)  | 90 |
+| [PhysicalIQA](#physicaliqa) | Physical  | [MC](#multiple-choice-tasks)  | 90.1 /  94.9 (**Acc. %**)  | 43 |
 | [ARC](#arc) | Science | [MC](#multiple-choice-tasks)  | 81.4 /  unknown (**Acc. %**)  | 177 |
-| [OpenbookQA](#openbookqa) | General | [MC](#multiple-choice-tasks)  | 87.2 /  91.7 (**Acc. %**)  | 125 |
-| [SWAG](#swag-and-hellaswag) | General | [MC](#multiple-choice-tasks)  | 91.71 /  88 (**Acc. %**)  | 281 |
-| [HellaSWAG](#swag-and-hellaswag) | General | [MC](#multiple-choice-tasks)  | 93.85 /  95.6 (**Acc. %**)  | 107 |
-| [WSC](#wsc) | General | [MC](#multiple-choice-tasks)  | 96.6 /  100 (**Acc. %**) | 555 |
-| [WinoGrande](#winogrande) | General | [MC](#multiple-choice-tasks)  | 91.28 /  94 (**Acc. %**)  | 108 |
-| [COPA](#copa-and-x-copa) | General | [MC](#multiple-choice-tasks)  | 98.4 /  100 (**Acc. %**) | 17 |
-| [X-COPA](#copa-and-x-copa) | General | [MC](#multiple-choice-tasks)  | 76.05 /  97.6 (**Acc. %**) | 9 |
-| [CODAH](#codah) | General | [MC](#multiple-choice-tasks)  | 69.5 /  95.3 (**Acc. %**) | 5 |
-| [MC-TACO](#mc-taco) | Temporal Commonsense | [MC](#multiple-choice-tasks)  | 80.87 /  75.8 (**Acc. %**)  | 25 |
-| [aNLI](#anli) | General | [MC](#multiple-choice-tasks)  | 89.7 /  92.9 (**Acc. %**)  | 62 |
-| [RiddleSense](#riddlesense) | General | [MC](#multiple-choice-tasks)  | 71.5 /  91.33 (**Acc. %**) |  |
+| [OpenbookQA](#openbookqa) | Elementary Science | [MC](#multiple-choice-tasks)  | 87.2 /  91.7 (**Acc. %**)  | 125 |
+| [SWAG](#swag-and-hellaswag) | Event | [MC](#multiple-choice-tasks)  | 91.7 /  88.0 (**Acc. %**)  | 281 |
+| [HellaSWAG](#swag-and-hellaswag) | Event | [MC](#multiple-choice-tasks)  | 93.85 /  95.6 (**Acc. %**)  | 107 |
+| [WSC](#wsc) | General, Coreference | [MC](#multiple-choice-tasks)  | 96.6 /  100 (**Acc. %**) | 555 |
+| [WinoGrande](#winogrande) | General, Coreference | [MC](#multiple-choice-tasks)  | 91.28 /  94 (**Acc. %**)  | 108 |
+| [COPA](#copa-and-x-copa) | Causality, Event | [MC](#multiple-choice-tasks)  | 98.4 /  100 (**Acc. %**) | 17 |
+| [X-COPA](#copa-and-x-copa) | Causality, Event | [MC](#multiple-choice-tasks)  | 76.1 /  97.6 (**Acc. %**) | 9 |
+| [CODAH](#codah) | General, Event | [MC](#multiple-choice-tasks)  | 69.5 /  95.3 (**Acc. %**) | 5 |
+| [MC-TACO](#mc-taco) | Temporal Commonsense, Events | [MC](#multiple-choice-tasks)  | 80.9 /  75.8 (**Acc. %**)  | 25 |
+| [aNLI](#anli) | Abductive Reasoning, Events | [MC](#multiple-choice-tasks)  | 89.7 /  92.9 (**Acc. %**)  | 62 |
+| [RiddleSense](#riddlesense) | General, Figurative, Counterfactual | [MC](#multiple-choice-tasks)  | 68.8 /  91.3 (**Acc. %**) | 0 |
 
 
 <!-- Check https://leaderboard.allenai.org/ for more -->
@@ -155,7 +155,7 @@ Correct Choice: B
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*Think you have Solved Question Answering? Try ARC, the AI2 Reasoning Challenge*. Peter Clark, Isaac Cowhey, Oren Etzioni, Tushar Khot, Ashish Sabharwal, Carissa Schoenick, Oyvind Tafjord. **arXiv**
+*Think you have Solved Question Answering? Try ARC, the AI2 Reasoning Challenge*. Peter Clark, Isaac Cowhey, Oren Etzioni, Tushar Khot, Ashish Sabharwal, Carissa Schoenick, Oyvind Tafjord. **arXiv, 2018**
 
 <span class="fs-1">
 [Paper](https://arxiv.org/abs/1803.05457){: .btn .btn-blue .mr-1 target="_blank" }, [Official Link](https://leaderboard.allenai.org/arc/submissions/get-started){: target="_blank" .btn .btn-green .mr-1 }, [Huggingface Card](https://huggingface.co/datasets/ai2_arc){: target="_blank" .btn .btn-purple .mr-1 } </span>
@@ -473,7 +473,7 @@ Correct Choice: Hyp1
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*RiddleSense: Answering Riddle Questions as Commonsense Reasoning*. Bill Yuchen Lin, Ziyi Wu, Yichi Yang, Dong-Ho Lee, Xiang Ren. **arXiv**
+*RiddleSense: Answering Riddle Questions as Commonsense Reasoning*. Bill Yuchen Lin, Ziyi Wu, Yichi Yang, Dong-Ho Lee, Xiang Ren. **arXiv, 2021**
 
 <span class="fs-1">
 [Paper](https://arxiv.org/abs/2101.00376){: .btn .btn-blue .mr-1 target="_blank" }, [Official Link](https://inklab.usc.edu/RiddleSense/){: target="_blank" .btn .btn-green .mr-1 } </span>
@@ -493,7 +493,7 @@ Correct Choice: B
 
 {: .fs-4 .fw-600 .text-red-300}
 > **Editors' comments**
-
+> - The dataset is not yet public. Contact the authors to know more.
 <!-- Mention the highlights or known issues of the dataset. -->
 
 
