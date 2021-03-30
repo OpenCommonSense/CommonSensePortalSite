@@ -21,10 +21,10 @@ We present a comprehensive collection of datasets for testing commonsense reason
 | [CommonsenseQA](#commonsenseqa) | General | [MC](#multiple-choice-tasks)  | 83.3 /  88.9 (**Acc. %**)  | 174 |
 | [SocialIQA](#socialiqa) | Social  | [MC](#multiple-choice-tasks)  | 83.2 /  88.1 (**Acc. %**)  | 90 |
 | [PhysicalIQA](#physicaliqa) | Physical  | [MC](#multiple-choice-tasks)  | 90.1 /  94.9 (**Acc. %**)  | 43 |
-| [ARC](#arc) | Science | [MC](#multiple-choice-tasks)  | 81.4 /  unknown (**Acc. %**)  | 177 |
+| [ARC](#arc) | Science | [MC](#multiple-choice-tasks)  | 81.4 /  N/A (**Acc. %**)  | 177 |
 | [OpenbookQA](#openbookqa) | Elementary Science | [MC](#multiple-choice-tasks)  | 87.2 /  91.7 (**Acc. %**)  | 125 |
 | [SWAG](#swag-and-hellaswag) | Event | [MC](#multiple-choice-tasks)  | 91.7 /  88.0 (**Acc. %**)  | 281 |
-| [HellaSWAG](#swag-and-hellaswag) | Event | [MC](#multiple-choice-tasks)  | 93.85 /  95.6 (**Acc. %**)  | 107 |
+| [HellaSWAG](#swag-and-hellaswag) | Event | [MC](#multiple-choice-tasks)  | 93.9 /  95.6 (**Acc. %**)  | 107 |
 | [WSC](#wsc) | General, Coreference | [MC](#multiple-choice-tasks)  | 96.6 /  100 (**Acc. %**) | 555 |
 | [WinoGrande](#winogrande) | General, Coreference | [MC](#multiple-choice-tasks)  | 91.28 /  94 (**Acc. %**)  | 108 |
 | [COPA](#copa-and-x-copa) | Causality, Event | [MC](#multiple-choice-tasks)  | 98.4 /  100 (**Acc. %**) | 17 |

@@ -20,7 +20,21 @@ We present a collection of insightful research papers that focus on teaching mac
 
 ## LM-only Methods
 
-### 
+Here we present methods that are based on language models only. 
+
+
+### Unsupervised Approach
+{: .no_toc }
+
+#### A Simple Method for Commonsense Reasoning
+{: .no_toc }
+
+
+
+
+ 
+### Supervised Approach
+{: .no_toc }
 
 --- 
 
