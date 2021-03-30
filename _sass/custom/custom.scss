@@ -1,7 +1,7 @@
 .main {
     @media (min-width: 50rem){
         position: relative;
-        max-width: calc(80%);
+        max-width: calc(70%);
     }
 
     @media (min-width: 66.5rem){
@@ -14,4 +14,8 @@
         width: auto;
         min-width: 264px;
     }
+}
+
+code {
+    white-space : pre-wrap !important;
 }
