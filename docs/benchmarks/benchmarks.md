@@ -67,7 +67,7 @@ Notes:
 
 > - **Topics:** General. Mostly about properties of common objects and motivation/causes/results of events.
 - **Size & Split:** 12,102 in total --- train (9,741), dev (1,221), test (1,140).
-- **Data generation:** The questions are crowdsourced from human annotators. The authors present a question concept, _q_, and some candidate concepts, which are linked to _q_, and ask annotators to write a natural-language question mentioning _q_ and answered by only one of the answer candidates.
+- **Dataset creation:** The questions are crowdsourced from human annotators. The authors present a question concept, _q_, and some candidate concepts, which are linked to _q_, and ask annotators to write a natural-language question mentioning _q_ and answered by only one of the answer candidates.
 - **An illustative example:**
 ```
 Question ID: b8c0a4703079cf661d7261a60a1bcbff
@@ -101,7 +101,7 @@ Correct Choice: B
 
 > - **Topics:** Social Interactions. It focuses on reasoning about people’s actions and their social implications.
 - **Size & Split:**  37,588 in total --- train (33,410), dev (1,954), test (2,224).
-- **Data generation:** 
+- **Dataset creation:** 
 - **An illustative example:**
 ```
 Question: 
@@ -132,7 +132,7 @@ Correct Choice: B
 
 > - **Topics:** General. It focuses on how people interact with everyday objects in everyday situations.
 - **Size & Split:**  around 20,000 QA pairs of multiple-choice in total --- train (over 16,000), dev (∼2K), test (∼3k).
-- **Data generation:** 
+- **Dataset creation:** 
 - **An illustative example:**
 ```
 Question:
@@ -162,7 +162,7 @@ Correct Choice: B
 
 > - **Topics:** Science. It focuses on natural, grade-school science questions.
 - **Size & Split:**  7,787 in total --- train (3,370), dev (869), test (3,548).
-- **Data generation:** 
+- **Dataset creation:** 
 - **An illustative example:**
 ```
 Question:
@@ -191,7 +191,7 @@ Correct Choice: A
 
 > - **Topics:** General. The dataset is modeled after open book exams for assessing human understanding of a subject.
 - **Size & Split:**  5,957 in total --- train (4,957), dev (500), test (500).
-- **Data generation:** 
+- **Dataset creation:** 
 - **An illustative example:**
 ```
 Question:
@@ -222,7 +222,7 @@ Correct Choice: B
 
 > - **Topics:** General. Mostly about grounded situations. Each question is a video caption from LSMDC or ActivityNet Captions, with four answer choices about what might happen next in the scene. 
 - **Size & Split:**  around 113k in total --- train (73k), dev (20k), test (20k).
-- **Data generation:** 
+- **Dataset creation:** 
 - **An illustative example:**
 ```
 Question:
@@ -249,7 +249,7 @@ Correct Choice: D
 
 > - **Topics:** General. Mostly about grounded commonsense situations.
 - **Size & Split:**  18,001 in total --- train (6,833), dev (3,641), test (7,527).
-- **Data generation:** 
+- **Dataset creation:** 
 - **An illustative example:**
 ```
 Question:
@@ -280,7 +280,7 @@ Correct Choice: C
 
 > - **Topics:** General. 
 - **Size & Split:**  804 in total --- train (554), dev (104), test (146).
-- **Data generation:** 
+- **Dataset creation:** 
 - **An illustative example:**
 ```
 label: 0,
@@ -312,7 +312,7 @@ text: The city councilmen refused the demonstrators a permit because they feared
 
 > - **Topics:** General. Mostly about commonsense inference in pronoun resolution problems.
 - **Size & Split:**  43,972 in total --- train (40,938), dev (1,267), test (1,767).
-- **Data generation:** 
+- **Dataset creation:** 
 - **An illustative example:**
 ```
 Sentence: Katrina had the financial means to afford a new car while Monica did not, since _ had a high paying job.
@@ -340,7 +340,7 @@ Melissa Roemmele, Cosmin Adrian Bejan, and Andrew S. Gordon. **AAAI-11**
 
 > - **Topics:** General. Open-domain commonsense causal reasoning of everyday activities.
 - **Size & Split:**  1000 in total --- train (400), dev (100), test (500).
-- **Data generation:** 
+- **Dataset creation:** 
 - **An illustative example:**
 ```
 Premise: The man broke his toe. What was the CAUSE of this?
@@ -363,7 +363,7 @@ Correct Choice: Alternative 2
 
 > - **Topics:** General. Same as COPA dataset but in 11 languages.
 - **Size & Split:**  1000 * 11 (# lang) in total --- train (400 * 11), dev (100 * 11), test (500 * 11).
-- **Data generation:** 
+- **Dataset creation:** 
 - **An illustative example (in Italian):**
 ```
 Premise: L'uomo aprì il rubinetto.
@@ -390,7 +390,7 @@ Correct Choice: Alternative 1
 
 > - **Topics:** General. Mostly about grounded situations in everyday activities. 
 - **Size:**  2,801 in total. No official splits.
-- **Data generation:** 
+- **Dataset creation:** 
 - **An illustative example:**
 ```
 Question: 
@@ -422,7 +422,7 @@ Correct Choice: D
 
 > - **Topics:** Temporal Commonsense. Focusing on event ordering, duration, stationarity, frequency and time.
 - **Size & Split:**  13k question-answer pairs in total --- train (N/A), dev (3,783), test (9,442) .
-- **Data generation:** 
+- **Dataset creation:** 
 - **An illustative example:**
 ```
 Paragraph: 
@@ -452,7 +452,7 @@ Correct Choice: C
 
 > - **Topics:** General. Mostly about observations of objects or events in daily life.
 - **Size & Split:**  17,801 context pairs in total --- dev (1,532), test (3,059).
-- **Data generation:** 
+- **Dataset creation:** 
 - **An illustative example:**
 ```
 Obs1: It was a gorgeous day outside.
@@ -485,7 +485,7 @@ Correct Choice: Hyp1
 
 > - **Topics:** General. Mostly about riddle-style commonsense question answering.
 - **Size & Split:**  5,733 in total --- train (3,510), dev (1,021), test (1,202).
-- **Data generation:** 
+- **Dataset creation:** 
 - **An illustative example:**
 ```
 Question:
