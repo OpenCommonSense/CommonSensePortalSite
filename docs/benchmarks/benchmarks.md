@@ -60,7 +60,7 @@ Notes:
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*CommonsenseQA: A Question Answering Challenge Targeting Commonsense Knowledge*. Alon Talmor, Jonathan Herzig, Nicholas Lourie, Jonathan Berant. **NAACL-19**
+*CommonsenseQA: A Question Answering Challenge Targeting Commonsense Knowledge*. <br> Alon Talmor, Jonathan Herzig, Nicholas Lourie, Jonathan Berant. **NAACL-19**
 
 <span class="fs-1">
 [Paper](https://arxiv.org/abs/1811.00937){: .btn .btn-blue .mr-1 target="_blank" }, [Official Link](https://www.tau-nlp.org/commonsenseqa){: target="_blank" .btn .btn-green .mr-1 }, [Huggingface Card](https://huggingface.co/datasets/commonsense_qa){: target="_blank" .btn .btn-purple .mr-1 } </span>
@@ -94,7 +94,7 @@ Correct Choice: B
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*SocialIQA: Commonsense Reasoning about Social Interactions*. Maarten Sap, Hannah Rashkin, Derek Chen, Ronan Le Bras, Yejin Choi. **EMNLP-19**
+*SocialIQA: Commonsense Reasoning about Social Interactions*.<br> Maarten Sap, Hannah Rashkin, Derek Chen, Ronan Le Bras, Yejin Choi. **EMNLP-19**
 
 <span class="fs-1">
 [Paper](https://arxiv.org/abs/1904.09728){: .btn .btn-blue .mr-1 target="_blank" }, [Official Link](https://leaderboard.allenai.org/socialiqa/submissions/get-started){: target="_blank" .btn .btn-green .mr-1 } </span>
@@ -125,7 +125,7 @@ Correct Choice: B
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*PIQA: Reasoning about Physical Commonsense in Natural Language*. Yonatan Bisk, Rowan Zellers, Ronan Le Bras, Jianfeng Gao, Yejin Choi. **AAAI-20**
+*PIQA: Reasoning about Physical Commonsense in Natural Language*.<br> Yonatan Bisk, Rowan Zellers, Ronan Le Bras, Jianfeng Gao, Yejin Choi. **AAAI-20**
 
 <span class="fs-1">
 [Paper](https://arxiv.org/abs/1911.11641){: .btn .btn-blue .mr-1 target="_blank" }, [Official Link](https://leaderboard.allenai.org/physicaliqa/submissions/get-started){: target="_blank" .btn .btn-green .mr-1 }, [Huggingface Card](https://huggingface.co/datasets/piqa){: target="_blank" .btn .btn-purple .mr-1 } </span>
@@ -155,7 +155,7 @@ Correct Choice: B
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*Think you have Solved Question Answering? Try ARC, the AI2 Reasoning Challenge*. Peter Clark, Isaac Cowhey, Oren Etzioni, Tushar Khot, Ashish Sabharwal, Carissa Schoenick, Oyvind Tafjord. **arXiv, 2018**
+*Think you have Solved Question Answering? Try ARC, the AI2 Reasoning Challenge*.<br> Peter Clark, Isaac Cowhey, Oren Etzioni, Tushar Khot, Ashish Sabharwal, Carissa Schoenick, Oyvind Tafjord. **arXiv, 2018**
 
 <span class="fs-1">
 [Paper](https://arxiv.org/abs/1803.05457){: .btn .btn-blue .mr-1 target="_blank" }, [Official Link](https://leaderboard.allenai.org/arc/submissions/get-started){: target="_blank" .btn .btn-green .mr-1 }, [Huggingface Card](https://huggingface.co/datasets/ai2_arc){: target="_blank" .btn .btn-purple .mr-1 } </span>
@@ -184,7 +184,7 @@ Correct Choice: A
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*Can a Suit of Armor Conduct Electricity? A New Dataset for Open Book Question Answering*. Todor Mihaylov, Peter Clark, Tushar Khot, Ashish Sabharwal. **EMNLP-18**
+*Can a Suit of Armor Conduct Electricity? A New Dataset for Open Book Question Answering*.<br> Todor Mihaylov, Peter Clark, Tushar Khot, Ashish Sabharwal. **EMNLP-18**
 
 <span class="fs-1">
 [Paper](https://arxiv.org/abs/1809.02789){: .btn .btn-blue .mr-1 target="_blank" }, [Official Link](https://leaderboard.allenai.org/open_book_qa/submissions/get-started){: target="_blank" .btn .btn-green .mr-1 }, [Huggingface Card](https://huggingface.co/datasets/openbookqa){: target="_blank" .btn .btn-purple .mr-1 } </span>
@@ -215,7 +215,7 @@ Correct Choice: B
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*SWAG: A Large-Scale Adversarial Dataset for Grounded Commonsense Inference*. Rowan Zellers, Yonatan Bisk, Roy Schwartz, Yejin Choi. **EMNLP-18**
+*SWAG: A Large-Scale Adversarial Dataset for Grounded Commonsense Inference*.<br> Rowan Zellers, Yonatan Bisk, Roy Schwartz, Yejin Choi. **EMNLP-18**
 
 <span class="fs-1">
 [Paper](https://arxiv.org/abs/1808.05326){: .btn .btn-blue .mr-1 target="_blank" }, [Official Page](https://leaderboard.allenai.org/swag/submissions/get-started){: target="_blank" .btn .btn-green .mr-1 }, [Intro Page](https://rowanzellers.com/swag/){: target="_blank" .btn .btn-green .mr-1 }, [Huggingface Card](https://huggingface.co/datasets/swag){: target="_blank" .btn .btn-purple .mr-1 } </span>
@@ -242,7 +242,7 @@ Correct Choice: D
 
 
 {: .fs-4 .fw-800 .text-blue-100}
-*HellaSwag: Can a Machine Really Finish Your Sentence?*. Rowan Zellers, Ari Holtzman, Yonatan Bisk, Ali Farhadi, Yejin Choi. **ACL-19**
+*HellaSwag: Can a Machine Really Finish Your Sentence?*.<br> Rowan Zellers, Ari Holtzman, Yonatan Bisk, Ali Farhadi, Yejin Choi. **ACL-19**
 
 <span class="fs-1">
 [Paper](https://arxiv.org/abs/1905.07830){: .btn .btn-blue .mr-1 target="_blank" }, [Official Page](https://leaderboard.allenai.org/hellaswag/submissions/get-started){: target="_blank" .btn .btn-green .mr-1 }, [Intro Page](https://rowanzellers.com/hellaswag/){: target="_blank" .btn .btn-green .mr-1 }, [Huggingface Card](https://huggingface.co/datasets/hellaswag){: target="_blank" .btn .btn-purple .mr-1 } </span>
@@ -273,7 +273,7 @@ Correct Choice: C
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*The Winograd Schema Challenge*. Hector J. Levesque, Ernest Davis, Leora Morgenstern. **KR-12**
+*The Winograd Schema Challenge*.<br> Hector J. Levesque, Ernest Davis, Leora Morgenstern. **KR-12**
 
 <span class="fs-1">
 [Paper](https://cs.nyu.edu/faculty/davise/papers/WSKR2012.pdf){: .btn .btn-blue .mr-1 target="_blank" }, [Official Link](https://cs.nyu.edu/faculty/davise/papers/WinogradSchemas/WS.html){: target="_blank" .btn .btn-green .mr-1 }, [Huggingface Card](https://huggingface.co/datasets/winograd_wsc){: target="_blank" .btn .btn-purple .mr-1 } </span>
@@ -305,7 +305,7 @@ text: The city councilmen refused the demonstrators a permit because they feared
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*WinoGrande: An Adversarial Winograd Schema Challenge at Scale*. Keisuke Sakaguchi, Ronan Le Bras, Chandra Bhagavatula, Yejin Choi. **AAAI-20**
+*WinoGrande: An Adversarial Winograd Schema Challenge at Scale*. <br> Keisuke Sakaguchi, Ronan Le Bras, Chandra Bhagavatula, Yejin Choi. **AAAI-20**
 
 <span class="fs-1">
 [Paper](https://arxiv.org/abs/1907.10641){: .btn .btn-blue .mr-1 target="_blank" }, [Official Link](https://winogrande.allenai.org/){: target="_blank" .btn .btn-green .mr-1 }, [Huggingface Card](https://huggingface.co/datasets/winogrande){: target="_blank" .btn .btn-purple .mr-1 } </span>
@@ -332,7 +332,8 @@ Correct Option: Option1
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*Choice of Plausible Alternatives: An Evaluation of Commonsense Causal Reasoning*. Melissa Roemmele, Cosmin Adrian Bejan, and Andrew S. Gordon. **AAAI-11**
+*Choice of Plausible Alternatives: An Evaluation of Commonsense Causal Reasoning*. <br> 
+Melissa Roemmele, Cosmin Adrian Bejan, and Andrew S. Gordon. **AAAI-11**
 
 <span class="fs-1">
 [Paper](https://www.researchgate.net/publication/221251392_Choice_of_Plausible_Alternatives_An_Evaluation_of_Commonsense_Causal_Reasoning){: .btn .btn-blue .mr-1 target="_blank" }, [Official Link](https://people.ict.usc.edu/~gordon/copa.html){: target="_blank" .btn .btn-green .mr-1 } </span>
@@ -355,13 +356,13 @@ Correct Choice: Alternative 2
 
 
 {: .fs-4 .fw-800 .text-blue-100}
-*XCOPA: A Multilingual Dataset for Causal Commonsense Reasoning*. Edoardo Maria Ponti, Goran Glavaš, Olga Majewska, Qianchu Liu, Ivan Vulić, Anna Korhonen. **EMNLP-20**
+*XCOPA: A Multilingual Dataset for Causal Commonsense Reasoning*. <br> Edoardo Maria Ponti, Goran Glavaš, Olga Majewska, Qianchu Liu, Ivan Vulić, Anna Korhonen. **EMNLP-20**
 
 <span class="fs-1">
 [Paper](https://arxiv.org/abs/2005.00333){: .btn .btn-blue .mr-1 target="_blank" }, [Official Link](https://github.com/cambridgeltl/xcopa){: target="_blank" .btn .btn-green .mr-1 }, [Huggingface Card](https://huggingface.co/datasets/xcopa){: target="_blank" .btn .btn-purple .mr-1 } </span>
 
 > - **Topics:** General. Same as COPA dataset but in 11 languages.
-- **Size & Split:**  1000 * 11(lang) in total --- train (400 * 11), dev (100 * 11), test (500 * 11).
+- **Size & Split:**  1000 * 11 (# lang) in total --- train (400 * 11), dev (100 * 11), test (500 * 11).
 - **Data generation:** 
 - **An illustative example (in Italian):**
 ```
@@ -382,13 +383,13 @@ Correct Choice: Alternative 1
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*CODAH: An Adversarially Authored Question-Answer Dataset for Common Sense*. Michael Chen, Mike D'Arcy, Alisa Liu, Jared Fernandez, Doug Downey. **RepEval-19**
+*CODAH: An Adversarially Authored Question-Answer Dataset for Common Sense*. <br> Michael Chen, Mike D'Arcy, Alisa Liu, Jared Fernandez, Doug Downey. **RepEval-19**
 
 <span class="fs-1">
 [Paper](https://arxiv.org/abs/1904.04365){: .btn .btn-blue .mr-1 target="_blank" }, [Official Link](https://github.com/Websail-NU/CODAH){: target="_blank" .btn .btn-green .mr-1 }, [Huggingface Card](https://huggingface.co/datasets/codah){: target="_blank" .btn .btn-purple .mr-1 } </span>
 
 > - **Topics:** General. Mostly about grounded situations in everyday activities. 
-- **Size:**  2,801 in total.
+- **Size:**  2,801 in total. No official splits.
 - **Data generation:** 
 - **An illustative example:**
 ```
@@ -414,13 +415,13 @@ Correct Choice: D
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*"Going on a vacation" takes longer than "Going for a walk": A Study of Temporal Commonsense Understanding*. Ben Zhou, Daniel Khashabi, Qiang Ning, Dan Roth. **EMNLP-19**
+*"Going on a vacation" takes longer than "Going for a walk": A Study of Temporal Commonsense Understanding*. <br> Ben Zhou, Daniel Khashabi, Qiang Ning, Dan Roth. **EMNLP-19**
 
 <span class="fs-1">
 [Paper](https://arxiv.org/abs/1909.03065){: .btn .btn-blue .mr-1 target="_blank" }, [Official Link](https://leaderboard.allenai.org/mctaco/submissions/get-started){: target="_blank" .btn .btn-green .mr-1 }, [Huggingface Card](https://huggingface.co/datasets/mc_taco){: target="_blank" .btn .btn-purple .mr-1 } </span>
 
 > - **Topics:** Temporal Commonsense. Focusing on event ordering, duration, stationarity, frequency and time.
-- **Size & Split:**  13k question-answer pairs in total --- dev (3,783), test (9,442) .
+- **Size & Split:**  13k question-answer pairs in total --- train (N/A), dev (3,783), test (9,442) .
 - **Data generation:** 
 - **An illustative example:**
 ```
@@ -444,7 +445,7 @@ Correct Choice: C
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*Abductive Commonsense Reasoning*. Chandra Bhagavatula, Ronan Le Bras, Chaitanya Malaviya, Keisuke Sakaguchi, Ari Holtzman, Hannah Rashkin, Doug Downey, Scott Wen-tau Yih, Yejin Choi. **ICLR-20**
+*Abductive Commonsense Reasoning*. <br> Chandra Bhagavatula, Ronan Le Bras, Chaitanya Malaviya, Keisuke Sakaguchi, Ari Holtzman, Hannah Rashkin, Doug Downey, Scott Wen-tau Yih, Yejin Choi. **ICLR-20**
 
 <span class="fs-1">
 [Paper](https://arxiv.org/abs/1908.05739){: .btn .btn-blue .mr-1 target="_blank" }, [Official Link](https://leaderboard.allenai.org/anli/submissions/get-started){: target="_blank" .btn .btn-green .mr-1 }, [Huggingface Card](https://huggingface.co/datasets/art){: target="_blank" .btn .btn-purple .mr-1 } </span>
@@ -476,7 +477,7 @@ Correct Choice: Hyp1
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*RiddleSense: Answering Riddle Questions as Commonsense Reasoning*. Bill Yuchen Lin, Ziyi Wu, Yichi Yang, Dong-Ho Lee, Xiang Ren. **arXiv, 2021**
+*RiddleSense: Answering Riddle Questions as Commonsense Reasoning*. <br> Bill Yuchen Lin, Ziyi Wu, Yichi Yang, Dong-Ho Lee, Xiang Ren. **arXiv, 2021**
 
 <span class="fs-1">
 [Paper](https://arxiv.org/abs/2101.00376){: .btn .btn-blue .mr-1 target="_blank" }, [Official Link](https://inklab.usc.edu/RiddleSense/){: target="_blank" .btn .btn-green .mr-1 } </span>
