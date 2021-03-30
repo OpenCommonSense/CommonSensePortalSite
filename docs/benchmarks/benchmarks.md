@@ -467,6 +467,9 @@ Correct Choice: Hyp1
 
 <!-- Mention the highlights or known issues of the dataset. -->
 
+### ComVE (SemEval-2020 Task 4 SubTask A&B)
+<!-- https://arxiv.org/abs/2007.00236 -->
+
 
 
 ### RiddleSense
@@ -526,6 +529,11 @@ Correct Choice: B
 
 ### CommonGen
 {: .no_toc }
+
+
+### Cos-E 
+
+### ComVE (SubTask C)
 
 
 ---
