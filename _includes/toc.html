@@ -79,7 +79,7 @@
     {% assign currLevel = 0 %}
     {% assign lastLevel = 0 %}
 
-    {% capture listModifier %}{% if orderedList %}ol{% else %}ul{% endif %}{% endcapture %}
+    {% capture listModifier %}{% if orderedList %}ol{% else %}ul style="list-style-type:none;"{% endif %}{% endcapture %}
 
     {% for node in nodes %}
         {% if node == "" %}
