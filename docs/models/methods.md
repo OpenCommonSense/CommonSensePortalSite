@@ -109,6 +109,34 @@ Evaluation Tasks: [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="
   {: .fs-3 .text-delta .text-red-100}
 </details> 
 {: .fs-3 .fw-600 .text-red-300}
+
+<br/>
+
+{: .fs-4 .fw-800 .text-blue-100}
+**📜 UnifiedQA: Crossing Format Boundaries With a Single QA System**. <br> ✍ Daniel Khashabi, Sewon Min, Tushar Khot, Ashish Sabharwal, Oyvind Tafjord, Peter Clark, Hannaneh Hajishirzi *(EMNLP 2020 Findings)*
+ 
+<span class="fs-2">
+   [Paper](https://arxiv.org/abs/2005.00700){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Code](https://github.com/allenai/unifiedqa){: target="_blank" .btn .btn-green .mr-1 } 
+   [Semantic Scholar](https://www.semanticscholar.org/paper/UnifiedQA%3A-Crossing-Format-Boundaries-With-a-Single-Khashabi-Min/d286f3fe4234b017a6c06a72db2599f56b188c43){: .btn .btn-purple .mr-1 target="_blank" }
+   [Demo](https://unifiedqa.apps.allenai.org/){: .btn .btn-yellow .mr-1 target="_blank" }
+</span> 
+
+Evaluation Tasks: [SQuAD 1.1](https://arxiv.org/abs/1606.05250){: .mr-1 target="_blank"}, [SQuAD 2.0](https://arxiv.org/abs/1806.03822?){: .mr-1 target="_blank"}, [NarrativeQA](https://arxiv.org/abs/1712.07040){: .mr-1 target="_blank"}, [RACE](https://arxiv.org/abs/1704.04683){: .mr-1 target="_blank"}, [ARC](/docs/datasets#arc){: .mr-1 target="_blank"}, [OpenbookQA](/docs/datasets#openbookqa){: .mr-1 target="_blank"}, [BoolQ](https://arxiv.org/abs/1905.10044){: .mr-1 target="_blank"}
+<details markdown="block">
+  <summary>Abstract</summary>
+  {: .fs-3 .text-delta .text-blue-100}
+  ```
+  Question answering (QA) tasks have been posed using a variety of formats, such as extractive span selection, multiple choice, etc. This has led to format-specialized models, and even to an implicit division in the QA community. We argue that such boundaries are artificial and perhaps unnecessary, given the reasoning abilities we seek to teach are not governed by the format. As evidence, we use the latest advances in language modeling to build a single pre-trained QA model, UnifiedQA, that performs surprisingly well across 17 QA datasets spanning 4 diverse formats. UnifiedQA performs on par with 9 different models that were trained on individual datasets themselves. Even when faced with 12 unseen datasets of observed formats, UnifiedQA performs surprisingly well, showing strong generalization from its out-of-format training data. Finally, simply fine-tuning this pre-trained QA model into specialized models results in a new state of the art on 6 datasets, establishing UnifiedQA as a strong starting point for building QA systems.
+  ``` 
+</details> 
+{: .fs-5 .fw-600 .text-blue-300}
+
+<details markdown="block">
+  <summary>Editors' comments</summary>
+  {: .fs-3 .text-delta .text-red-100}
+</details> 
+{: .fs-3 .fw-600 .text-red-300}
  
 
 <!-- 
