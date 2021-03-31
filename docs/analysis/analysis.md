@@ -15,10 +15,9 @@ Editors: [Bill Yuchen Lin](https://yuchenlin.xyz/), [Pei Zhou](https://sites.goo
 {: .fs-5 .fw-300 }
 We present a collection of papers analyzing commonsense-related models, knowledge bases, and datasets.
 
-<br> 
-
 
 ---
+
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 Language Models as Knowledge Bases?**. <br> ✍ Fabio Petroni, Tim Rocktaschel, Patrick Lewis, Anton Bakhtin, Yuxiang Wu, Alexander H. Miller, Sebastian Riedel *(EMNLP 2019)*
  
@@ -28,7 +27,7 @@ We present a collection of papers analyzing commonsense-related models, knowledg
    [Semantic Scholar](https://www.semanticscholar.org/paper/Language-Models-as-Knowledge-Bases-Petroni-Rockt%C3%A4schel/d0086b86103a620a86bc918746df0aa642e2a8a3){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
-Used datasets/knowledge sources: [Google-RE](https://code.google.com/archive/p/relation-extraction-corpus/){: .mr-1 target="_blank"} , [T-Rex](https://github.com/hadyelsahar/t-rex){: .mr-1 target="_blank"}, [ConceptNet](https://conceptnet.io/){: .mr-1 target="_blank"},[SQuAD](https://rajpurkar.github.io/SQuAD-explorer/){: .mr-1 target="_blank"}
+Used datasets/knowledge sources: [Google-RE](https://code.google.com/archive/p/relation-extraction-corpus/){: .mr-1 target="_blank"}, [T-Rex](https://github.com/hadyelsahar/t-rex){: .mr-1 target="_blank"}, [ConceptNet](https://conceptnet.io/){: .mr-1 target="_blank"}, [SQuAD](https://rajpurkar.github.io/SQuAD-explorer/){: .mr-1 target="_blank"}
 <details markdown="block">
   <summary>Abstract</summary>
   {: .fs-3 .text-delta .text-blue-100}
@@ -77,7 +76,7 @@ Used datasets/knowledge sources:
 <br> 
 
 {: .fs-4 .fw-800 .text-blue-100}
-**📜 RICA: Evaluating Robust Inference Capabilities Based on Commonsense Axioms**. <br> ✍ Pei Zhou, Rahul Khanna, Seyeon Lee, Bill Yuchen Lin, Daniel Ho, Jay Pujara, X. Ren *(arXiv 2020, accepted in EMNLP-Findings 2020)*
+**📜 RICA: Evaluating Robust Inference Capabilities Based on Commonsense Axioms**. <br> ✍ Pei Zhou, Rahul Khanna, Seyeon Lee, Bill Yuchen Lin, Daniel Ho, Jay Pujara, Xiang Ren *(arXiv 2020, accepted in EMNLP-Findings 2020)*
  
 <span class="fs-2">
    [Paper](https://arxiv.org/pdf/2005.00782.pdf){: .btn .btn-blue .mr-1 target="_blank" } 
@@ -282,7 +281,7 @@ Used datasets/knowledge sources: [WSC](/docs/datasets#wsc){: .mr-1 target="_blan
    [Semantic Scholar](https://www.semanticscholar.org/paper/Commonsense-Knowledge-Graph-Reasoning-by-Selection-Wang-Wu/6d8ee95a87f756e03327888bd4318ee108f4c715){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
-Used datasets/knowledge sources: [ConceptNet](https://conceptnet.io/){: .mr-1 target="_blank"},[ATOMIC](https://mosaickg.apps.allenai.org/kg_atomic){: .mr-1 target="_blank"}
+Used datasets/knowledge sources: [ConceptNet](https://conceptnet.io/){: .mr-1 target="_blank"}, [ATOMIC](https://mosaickg.apps.allenai.org/kg_atomic){: .mr-1 target="_blank"}
 <details markdown="block">
   <summary>Abstract</summary>
   {: .fs-3 .text-delta .text-blue-100}
