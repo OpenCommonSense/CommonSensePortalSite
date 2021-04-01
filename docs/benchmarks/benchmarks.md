@@ -510,7 +510,41 @@ Correct Choice: B
 
 ### Visual Commonsense Reasoning
 {: .no_toc }
- <!-- https://visualcommonsense.com/ -->
+
+{: .fs-4 .fw-800 .text-blue-100}
+*From Recognition to Cognition: Visual Commonsense Reasoning.<br> Rowan Zellers, Yonatan Bisk, Ali Farhadi, Yejin Choi. **CVPR-19**
+
+<span class="fs-1">
+[Paper](https://arxiv.org/abs/1811.10830){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://visualcommonsense.com){: target="_blank" .btn .btn-green .mr-1 } </span>
+
+> - **Topics:** Visual Common Sense. It focuses on challenging visual questions expressed in natural language, which require cognition-level visual understanding and commonsense reasoning. 
+- **Task format:** Given an image, a list of regions, and a question, a model must answer the question and provide a rationale explaining why its answer is right.
+- **Size & Split:**  264,720 in total --- train (212,923), dev (26,534), test (25,263).
+- **Dataset creation:** 
+- **An illustative example:**
+```
+(An image depicting three people sitting around a dining table and a waitress serving the table.)
+Question:
+    Why is [person4] pointing at [person1]?
+Choices:
+    A) He is telling [person3] that [person1] ordered the pancakes.
+    B) He just told a joke.
+    C) He is feeling accusatory towards [person1].  
+    D) He is giving [person1] directions.
+Correct Choice: A
+Rationales: I chose A) because...
+    A) [person1] has the pancakes in front of him.
+    B) [person4] is taking everyone's order and asked for clarification.
+    C) [person3] is looking at the pancakes both she and [person2] are smilling slightly.
+    D) [person3] is delivering food to the table, and she might not know whose order is whose.
+Correct Choice: D
+``` 
+
+
+{: .fs-4 .fw-600 .text-red-300}
+> **Editors' comments**
+
+<!-- Mention the highlights or known issues of the dataset. -->
 
 ---
 
