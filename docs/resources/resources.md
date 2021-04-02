@@ -47,12 +47,11 @@ These are sources that have been deliberately created to capture (either wide or
 </span> 
 
 {: .fs-4 .fw-800 .text-blue-100}
-**📜 glucose**. <br> ✍ Speer, R., Chin, J., & Havasi, C. *(AAAI 2017)*
+**📜 Glucose: Generalized and contextualized story explanations**. <br> ✍ Mostafazadeh, N., Kalyanpur, A., Moon, L., Buchanan, D., Berkowitz, L., Biran, O., & Chu-Carroll, J. *(EMNLP 2020)*
  
 <span class="fs-2">
    [Paper](https://ojs.aaai.org/index.php/AAAI/article/download/11164/11023){: .btn .btn-blue .mr-1 target="_blank" } 
-   [Data](https://github.com/commonsense/conceptnet5/wiki/Downloads){: target="_blank" .btn .btn-green .mr-1 } 
-   [Explore](http://conceptnet.io/){: target="_blank" .btn .btn-violet .mr-1 } 
+   [Data](https://github.com/ElementalCognition/glucose/){: target="_blank" .btn .btn-green .mr-1 } 
 </span> 
 
 {: .fs-4 .fw-800 .text-blue-100}
@@ -65,41 +64,40 @@ These are sources that have been deliberately created to capture (either wide or
 </span> 
 
 {: .fs-4 .fw-800 .text-blue-100}
-**📜 quasimodo**. <br> ✍ Speer, R., Chin, J., & Havasi, C. *(AAAI 2017)*
+**📜 Commonsense properties from query logs and question answering forums** *(Quasimodo KB)*. <br> ✍ Romero, J., Razniewski, S., Pal, K., Z. Pan, J., Sakhadeo, A., & Weikum, G. *(CIKM 2019)*
  
 <span class="fs-2">
-   [Paper](https://ojs.aaai.org/index.php/AAAI/article/download/11164/11023){: .btn .btn-blue .mr-1 target="_blank" } 
-   [Data](https://github.com/commonsense/conceptnet5/wiki/Downloads){: target="_blank" .btn .btn-green .mr-1 } 
-   [Explore](http://conceptnet.io/){: target="_blank" .btn .btn-violet .mr-1 } 
+   [Paper](https://dl.acm.org/doi/pdf/10.1145/3357384.3357955?casa_token=L_UZhy84WuMAAAAA:1XXN79etKVcDqAY3ab9VrMBzhNtl3kBBlVkEIOtp-SBZh0pj1RCwN_P8rGo8-wBGrUWCnwdoyVD8rw){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Data](https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/research/yago-naga/commonsense/quasimodo/){: target="_blank" .btn .btn-green .mr-1 } 
+   [Explore](https://quasimodo.r2.enst.fr/){: target="_blank" .btn .btn-violet .mr-1 } 
 </span> 
 
 
 {: .fs-4 .fw-800 .text-blue-100}
-**📜 ascent**. <br> ✍ Speer, R., Chin, J., & Havasi, C. *(AAAI 2017)*
+**📜 Advanced Semantics for Commonsense Knowledge Extraction** *(ASCENT)*. <br> ✍ Nguyen, T. P., Razniewski, S., & Weikum, G.  *(arXiv 2020)*
  
 <span class="fs-2">
-   [Paper](https://ojs.aaai.org/index.php/AAAI/article/download/11164/11023){: .btn .btn-blue .mr-1 target="_blank" } 
-   [Data](https://github.com/commonsense/conceptnet5/wiki/Downloads){: target="_blank" .btn .btn-green .mr-1 } 
-   [Explore](http://conceptnet.io/){: target="_blank" .btn .btn-violet .mr-1 } 
+   [Paper](https://arxiv.org/pdf/2011.00905.pdf){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Data](https://ascent.mpi-inf.mpg.de/download){: target="_blank" .btn .btn-green .mr-1 } 
+   [Explore](https://ascent.mpi-inf.mpg.de/browse){: target="_blank" .btn .btn-violet .mr-1 } 
 </span> 
 
 {: .fs-4 .fw-800 .text-blue-100}
-**📜 senticnet**. <br> ✍ Speer, R., Chin, J., & Havasi, C. *(AAAI 2017)*
+**📜 SenticNet 5: Discovering conceptual primitives for sentiment analysis by means of context embeddings**. <br> ✍ Cambria, E., Poria, S., Hazarika, D., & Kwok, K. *(AAAI 2018)*
  
 <span class="fs-2">
-   [Paper](https://ojs.aaai.org/index.php/AAAI/article/download/11164/11023){: .btn .btn-blue .mr-1 target="_blank" } 
-   [Data](https://github.com/commonsense/conceptnet5/wiki/Downloads){: target="_blank" .btn .btn-green .mr-1 } 
-   [Explore](http://conceptnet.io/){: target="_blank" .btn .btn-violet .mr-1 } 
+   [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/11559/11418){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Data](https://sentic.net/downloads/){: target="_blank" .btn .btn-green .mr-1 } 
+   [Explore](https://sentic.net/demos/){: target="_blank" .btn .btn-violet .mr-1 } 
 </span> 
 
 
 {: .fs-4 .fw-800 .text-blue-100}
-**📜 haspartkb**. <br> ✍ Speer, R., Chin, J., & Havasi, C. *(AAAI 2017)*
+**📜 Do dogs have whiskers? a new knowledge base of haspart relations**. <br> ✍ Bhakthavatsalam, S., Richardson, K., Tandon, N., & Clark, P. *(arXiv 2020)*
  
 <span class="fs-2">
    [Paper](https://ojs.aaai.org/index.php/AAAI/article/download/11164/11023){: .btn .btn-blue .mr-1 target="_blank" } 
-   [Data](https://github.com/commonsense/conceptnet5/wiki/Downloads){: target="_blank" .btn .btn-green .mr-1 } 
-   [Explore](http://conceptnet.io/){: target="_blank" .btn .btn-violet .mr-1 } 
+   [Data](https://drive.google.com/drive/folders/1NzjXX46NnpxtgxBrkBWFiUbsXAMdd-lB){: target="_blank" .btn .btn-green .mr-1 } 
 </span> 
 
 {: .fs-4 .fw-800 .text-blue-100}
@@ -122,3 +120,6 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
 ## Corpora
 
 ## Neural Knowledge Sources
+
+## Consolidated Resources
+
