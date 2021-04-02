@@ -115,6 +115,45 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
 
 ## Lexical Resources
 
+
+{: .fs-4 .fw-800 .text-blue-100}
+**📜 *[WordNet]* WordNet: a lexical database for English**. <br> ✍ Miller, G. *(ACM 1995)*
+ 
+<span class="fs-2">
+   [Paper](https://dl.acm.org/doi/pdf/10.1145/219717.219748?casa_token=LyuOSovkFX4AAAAA:B0BfseVMzRQ2zSVdnWLCaIh57cy8Y8RDLf9OwxwMcFSEbpxK7V-9mR-X6jkipUxsw8h1OVSfo8qTFQ){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Data](https://wordnet.princeton.edu/download){: target="_blank" .btn .btn-green .mr-1 } 
+   [Explore](http://wordnetweb.princeton.edu/perl/webwn){: target="_blank" .btn .btn-purple .mr-1 } 
+</span> 
+
+
+{: .fs-4 .fw-800 .text-blue-100}
+**📜 *[FrameNet]* The berkeley framenet project**. <br> ✍ Baker, C. F., Fillmore, C. J., & Lowe, J. B.  *(ACL 1998)*
+ 
+<span class="fs-2">
+   [Paper](https://www.aclweb.org/anthology/P98-1013.pdf){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Data](https://framenet.icsi.berkeley.edu/fndrupal/framenet_request_data){: target="_blank" .btn .btn-green .mr-1 } 
+   [Explore](https://framenet.icsi.berkeley.edu/fndrupal/frameIndex){: target="_blank" .btn .btn-purple .mr-1 } 
+</span> 
+
+
+{: .fs-4 .fw-800 .text-blue-100}
+**📜 *[MetaNet]* MetaNet: Deep semantic automatic metaphor analysis**. <br> ✍ Dodge, E. K., Hong, J., & Stickles, E. *(Metaphor in NLP workshop 2015)*
+ 
+<span class="fs-2">
+   [Paper](https://www.aclweb.org/anthology/W15-1405.pdf){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Explore](https://metaphor.icsi.berkeley.edu/pub/en/index.php/Category:Metaphor){: target="_blank" .btn .btn-purple .mr-1 } 
+</span> 
+
+
+{: .fs-4 .fw-800 .text-blue-100}
+**📜 *[VerbNet]* VerbNet: A broad-coverage, comprehensive verb lexicon**. <br> ✍ Schuler, K. K. *(Dissertation 2005)*
+ 
+<span class="fs-2">
+   [Paper](https://www.proquest.com/docview/305449413){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Data](https://verbs.colorado.edu/verbnet/){: target="_blank" .btn .btn-green .mr-1 } 
+   [Explore](https://verbs.colorado.edu/verb-index/vn3.3/){: target="_blank" .btn .btn-purple .mr-1 } 
+</span> 
+
 ## Visual Resources
 
 ## Corpora
