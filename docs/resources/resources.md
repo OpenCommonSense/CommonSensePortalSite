@@ -25,8 +25,27 @@ These are sources that have been deliberately created to capture (either wide or
  
 <span class="fs-2">
    [Paper](https://ojs.aaai.org/index.php/AAAI/article/download/11164/11023){: .btn .btn-blue .mr-1 target="_blank" } 
-   [Code](https://github.com/commonsense/conceptnet5){: target="_blank" .btn .btn-green .mr-1 } 
+   [Data](https://github.com/commonsense/conceptnet5/wiki/Downloads){: target="_blank" .btn .btn-green .mr-1 } 
 </span> 
+
+{: .fs-4 .fw-800 .text-blue-100}
+**📜 Atomic: An atlas of machine commonsense for if-then reasoning**. <br> ✍ Sap, M., Le Bras, R., Allaway, E., Bhagavatula, C., Lourie, N., Rashkin, H., Roof, B., Smith, N.A. and Choi, Y. *(AAAI 2019)*
+ 
+<span class="fs-2">
+   [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/4160/4038){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Data](https://homes.cs.washington.edu/~msap/atomic/){: target="_blank" .btn .btn-green .mr-1 } 
+</span> 
+
+{: .fs-4 .fw-800 .text-blue-100}
+**📜 CYC: A large-scale investment in knowledge infrastructure**. <br> ✍ Lenat, D. *(Communications of the ACM 1995)*
+ 
+<span class="fs-2">
+   [Paper](https://dl.acm.org/doi/pdf/10.1145/219717.219745?casa_token=VVv0CwYIZYcAAAAA:uSuKzsL4JiQSqG11QmgUv7yKDffjkDAohFp05tD2gkVr9LBvJJo33VNWIQJbPSrgRTAUjqyzKsOoTQ){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Data](https://github.com/asanchez75/opencyc){: target="_blank" .btn .btn-green .mr-1 } 
+</span> 
+
+Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cyc is not publicly available. 
+
 
 ## Common Knowledge Resources
 
