@@ -113,6 +113,51 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
 
 ## Common Knowledge Resources
 
+{: .fs-4 .fw-800 .text-blue-100}
+**📜 *[Wikidata]* Wikidata: a free collaborative knowledgebase**. <br> ✍ Vrandečić, D., & Krötzsch, M. *(ACM 2014)*
+ 
+<span class="fs-2">
+   [Paper](https://dl.acm.org/doi/fullHtml/10.1145/2629489){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Data](https://www.wikidata.org/wiki/Wikidata:Database_download){: target="_blank" .btn .btn-green .mr-1 } 
+   [Explore](https://www.wikidata.org/wiki/Wikidata:Main_Page){: target="_blank" .btn .btn-purple .mr-1 } 
+</span> 
+
+{: .fs-4 .fw-800 .text-blue-100}
+**📜 *[Wikidata-CS]* Commonsense knowledge in Wikidata.**. <br> ✍ Ilievski, F., Szekely, P., & Schwabe, D. *(ISWC Wikidata workshop 2020)*
+ 
+<span class="fs-2">
+   [Paper](https://arxiv.org/pdf/2008.08114){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Data](https://zenodo.org/record/3983030#.YGdfk0hKimk){: target="_blank" .btn .btn-green .mr-1 } 
+</span> 
+
+{: .fs-4 .fw-800 .text-blue-100}
+**📜 *[YAGO]* Yago 4: A reason-able knowledge base.**. <br> ✍ Tanon, T. P., Weikum, G., & Suchanek, F. *(ESWC 2020)*
+ 
+<span class="fs-2">
+   [Paper](https://link.springer.com/chapter/10.1007/978-3-030-49461-2_34){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Data](https://yago-knowledge.org/downloads/yago-4){: target="_blank" .btn .btn-green .mr-1 } 
+   [Explore](https://yago-knowledge.org/graph/Elvis_Presley){: target="_blank" .btn .btn-purple .mr-1 } 
+</span> 
+
+
+{: .fs-4 .fw-800 .text-blue-100}
+**📜 *[SUMO]* Towards a standard upper ontology.**. <br> ✍ Niles, I., & Pease, A. *(ICFOIS 2001)*
+ 
+<span class="fs-2">
+   [Paper](https://dl.acm.org/doi/pdf/10.1145/505168.505170?casa_token=EAVIrkqcN6MAAAAA:hE2ywSjdknydIm-guusn-FJHHuLKTk0wvKvj773PzQzfMLFAHJ83L2MbfRJMGgN_D1huaPCzP6of_A){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Data](https://github.com/ontologyportal/sumo){: target="_blank" .btn .btn-green .mr-1 } 
+   [Explore](https://sigma.ontologyportal.org:8443/sigma/Browse.jsp?kb=SUMO){: target="_blank" .btn .btn-purple .mr-1 } 
+</span> 
+
+
+{: .fs-4 .fw-800 .text-blue-100}
+**📜 *[DOLCE]* Sweetening ontologies with DOLCE.**. <br> ✍ Gangemi, A., Guarino, N., Masolo, C., Oltramari, A., & Schneider, L. *(ICKEKM 2002)*
+ 
+<span class="fs-2">
+   [Paper](https://pub.uni-bielefeld.de/download/2497408/2524762/SWIntO.pdf){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Data](http://www.loa.istc.cnr.it/dolce/overview.html){: target="_blank" .btn .btn-green .mr-1 } 
+</span> 
+
 ## Lexical Resources
 
 
@@ -156,9 +201,41 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
 
 ## Visual Resources
 
-## Corpora
+{: .fs-4 .fw-800 .text-blue-100}
+**📜 *[Visual Genome]* Visual genome: Connecting language and vision using crowdsourced dense image annotations**. <br> ✍ Krishna, R., Zhu, Y., Groth, O., Johnson, J., Hata, K., Kravitz, J., Chen, S., Kalantidis, Y., Li, L.J., Shamma, D.A., Bernstein, M.S. *(IJCV 2017)*
+ 
+<span class="fs-2">
+   [Paper](https://link.springer.com/content/pdf/10.1007/s11263-016-0981-7.pdf){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Data](http://visualgenome.org/api/v0/api_home.html){: target="_blank" .btn .btn-green .mr-1 } 
+   [Explore](http://visualgenome.org/VGViz/explore){: target="_blank" .btn .btn-purple .mr-1 } 
+</span> 
 
-## Neural Knowledge Sources
+{: .fs-4 .fw-800 .text-blue-100}
+**📜 *[Flickr30k]* Flickr30k entities: Collecting region-to-phrase correspondences for richer image-to-sentence models**. <br> ✍ Flickr30k entities: Collecting region-to-phrase correspondences for richer image-to-sentence models *(ICCV 2015)*
+ 
+<span class="fs-2">
+   [Paper](https://openaccess.thecvf.com/content_iccv_2015/papers/Plummer_Flickr30k_Entities_Collecting_ICCV_2015_paper.pdf){: .btn .btn-blue .mr-1 target="_blank" }
+   [Data](http://bryanplummer.com/Flickr30kEntities/){: target="_blank" .btn .btn-green .mr-1 } 
+</span> 
 
-## Consolidated Resources
+## Corpora & Neural Knowledge Sources
 
+{: .fs-4 .fw-800 .text-blue-100}
+**📜 *[GenericsKB]* Genericskb: A knowledge base of generic statements**. <br> ✍ Bhakthavatsalam, S., Anastasiades, C., & Clark, P. *(arXiv 2020)*
+ 
+<span class="fs-2">
+   [Paper](https://arxiv.org/pdf/2005.00660.pdf){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Data](https://drive.google.com/drive/folders/1vqfVXhJXJWuiiXbUa4rZjOgQoJvwZUoT){: target="_blank" .btn .btn-green .mr-1 } 
+</span> 
+
+
+{: .fs-4 .fw-800 .text-blue-100}
+**📜 *[COMET]* Comet: Commonsense transformers for automatic knowledge graph construction**. <br> ✍ Bosselut, A., Rashkin, H., Sap, M., Malaviya, C., Celikyilmaz, A., & Choi, Y.  *(ACL 2019)*
+ 
+<span class="fs-2">
+   [Paper](https://www.aclweb.org/anthology/P19-1470.pdf){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Code](https://github.com/atcbosselut/comet-commonsense){: target="_blank" .btn .btn-green .mr-1 }
+   [Explore](https://mosaickg.apps.allenai.org/comet_atomic){: target="_blank" .btn .btn-purple .mr-1 } 
+</span> 
+
+## Consolidation and Surveys
