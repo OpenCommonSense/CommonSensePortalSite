@@ -151,7 +151,7 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
 
 
 {: .fs-4 .fw-800 .text-blue-100}
-**📜 *[DOLCE]* Sweetening ontologies with DOLCE.**. <br> ✍ Gangemi, A., Guarino, N., Masolo, C., Oltramari, A., & Schneider, L. *(ICKEKM 2002)*
+**📜 *[DOLCE]* Sweetening ontologies with DOLCE**. <br> ✍ Gangemi, A., Guarino, N., Masolo, C., Oltramari, A., & Schneider, L. *(ICKEKM 2002)*
  
 <span class="fs-2">
    [Paper](https://pub.uni-bielefeld.de/download/2497408/2524762/SWIntO.pdf){: .btn .btn-blue .mr-1 target="_blank" } 
