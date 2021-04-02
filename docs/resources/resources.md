@@ -21,7 +21,7 @@ Many resources for commonsense reasoning have been developed, spanning various a
 These are sources that have been deliberately created to capture (either wide or narrow domain) commonsense knowledge. 
 
 {: .fs-4 .fw-800 .text-blue-100}
-**📜 Conceptnet 5.5: An open multilingual graph of general knowledge**. <br> ✍ Speer, R., Chin, J., & Havasi, C. *(AAAI 2017)*
+**📜 *[ConceptNet]* Conceptnet 5.5: An open multilingual graph of general knowledge**. <br> ✍ Speer, R., Chin, J., & Havasi, C. *(AAAI 2017)*
  
 <span class="fs-2">
    [Paper](https://ojs.aaai.org/index.php/AAAI/article/download/11164/11023){: .btn .btn-blue .mr-1 target="_blank" } 
@@ -30,7 +30,7 @@ These are sources that have been deliberately created to capture (either wide or
 </span> 
 
 {: .fs-4 .fw-800 .text-blue-100}
-**📜 Atomic: An atlas of machine commonsense for if-then reasoning**. <br> ✍ Sap, M., Le Bras, R., Allaway, E., Bhagavatula, C., Lourie, N., Rashkin, H., Roof, B., Smith, N.A. and Choi, Y. *(AAAI 2019)*
+**📜 *[ATOMIC]* Atomic: An atlas of machine commonsense for if-then reasoning**. <br> ✍ Sap, M., Le Bras, R., Allaway, E., Bhagavatula, C., Lourie, N., Rashkin, H., Roof, B., Smith, N.A. and Choi, Y. *(AAAI 2019)*
  
 <span class="fs-2">
    [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/4160/4038){: .btn .btn-blue .mr-1 target="_blank" } 
@@ -39,7 +39,7 @@ These are sources that have been deliberately created to capture (either wide or
 </span> 
 
 {: .fs-4 .fw-800 .text-blue-100}
-**📜 Comet-atomic 2020: On symbolic and neural commonsense knowledge graphs**. <br> ✍ Hwang, J. D., Bhagavatula, C., Bras, R. L., Da, J., Sakaguchi, K., Bosselut, A., & Choi, Y. *(arXiv 2020)*
+**📜 *[ATOMIC2020]* Comet-atomic 2020: On symbolic and neural commonsense knowledge graphs**. <br> ✍ Hwang, J. D., Bhagavatula, C., Bras, R. L., Da, J., Sakaguchi, K., Bosselut, A., & Choi, Y. *(arXiv 2020)*
  
 <span class="fs-2">
    [Paper](https://arxiv.org/pdf/2010.05953){: .btn .btn-blue .mr-1 target="_blank" } 
@@ -47,7 +47,7 @@ These are sources that have been deliberately created to capture (either wide or
 </span> 
 
 {: .fs-4 .fw-800 .text-blue-100}
-**📜 Glucose: Generalized and contextualized story explanations**. <br> ✍ Mostafazadeh, N., Kalyanpur, A., Moon, L., Buchanan, D., Berkowitz, L., Biran, O., & Chu-Carroll, J. *(EMNLP 2020)*
+**📜 *[GLUCOSE]* Glucose: Generalized and contextualized story explanations**. <br> ✍ Mostafazadeh, N., Kalyanpur, A., Moon, L., Buchanan, D., Berkowitz, L., Biran, O., & Chu-Carroll, J. *(EMNLP 2020)*
  
 <span class="fs-2">
    [Paper](https://ojs.aaai.org/index.php/AAAI/article/download/11164/11023){: .btn .btn-blue .mr-1 target="_blank" } 
@@ -55,7 +55,7 @@ These are sources that have been deliberately created to capture (either wide or
 </span> 
 
 {: .fs-4 .fw-800 .text-blue-100}
-**📜 Webchild 2.0: Fine-grained commonsense knowledge distillation**. <br> ✍ Tandon, N., De Melo, G., & Weikum, G. *(ACL 2017)*
+**📜 *[WebChild]* Webchild 2.0: Fine-grained commonsense knowledge distillation**. <br> ✍ Tandon, N., De Melo, G., & Weikum, G. *(ACL 2017)*
  
 <span class="fs-2">
    [Paper](https://www.aclweb.org/anthology/P17-4020.pdf){: .btn .btn-blue .mr-1 target="_blank" } 
@@ -64,7 +64,7 @@ These are sources that have been deliberately created to capture (either wide or
 </span> 
 
 {: .fs-4 .fw-800 .text-blue-100}
-**📜 Commonsense properties from query logs and question answering forums** *(Quasimodo KB)*. <br> ✍ Romero, J., Razniewski, S., Pal, K., Z. Pan, J., Sakhadeo, A., & Weikum, G. *(CIKM 2019)*
+**📜 *[QuasimodoKB]* Commonsense properties from query logs and question answering forums**. <br> ✍ Romero, J., Razniewski, S., Pal, K., Z. Pan, J., Sakhadeo, A., & Weikum, G. *(CIKM 2019)*
  
 <span class="fs-2">
    [Paper](https://dl.acm.org/doi/pdf/10.1145/3357384.3357955?casa_token=L_UZhy84WuMAAAAA:1XXN79etKVcDqAY3ab9VrMBzhNtl3kBBlVkEIOtp-SBZh0pj1RCwN_P8rGo8-wBGrUWCnwdoyVD8rw){: .btn .btn-blue .mr-1 target="_blank" } 
@@ -74,7 +74,7 @@ These are sources that have been deliberately created to capture (either wide or
 
 
 {: .fs-4 .fw-800 .text-blue-100}
-**📜 Advanced Semantics for Commonsense Knowledge Extraction** *(ASCENT)*. <br> ✍ Nguyen, T. P., Razniewski, S., & Weikum, G.  *(arXiv 2020)*
+**📜 *[ASCENT]* Advanced Semantics for Commonsense Knowledge Extraction**. <br> ✍ Nguyen, T. P., Razniewski, S., & Weikum, G.  *(arXiv 2020)*
  
 <span class="fs-2">
    [Paper](https://arxiv.org/pdf/2011.00905.pdf){: .btn .btn-blue .mr-1 target="_blank" } 
@@ -83,7 +83,7 @@ These are sources that have been deliberately created to capture (either wide or
 </span> 
 
 {: .fs-4 .fw-800 .text-blue-100}
-**📜 SenticNet 5: Discovering conceptual primitives for sentiment analysis by means of context embeddings**. <br> ✍ Cambria, E., Poria, S., Hazarika, D., & Kwok, K. *(AAAI 2018)*
+**📜 *[SenticNet]* SenticNet 5: Discovering conceptual primitives for sentiment analysis by means of context embeddings**. <br> ✍ Cambria, E., Poria, S., Hazarika, D., & Kwok, K. *(AAAI 2018)*
  
 <span class="fs-2">
    [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/11559/11418){: .btn .btn-blue .mr-1 target="_blank" } 
@@ -93,7 +93,7 @@ These are sources that have been deliberately created to capture (either wide or
 
 
 {: .fs-4 .fw-800 .text-blue-100}
-**📜 Do dogs have whiskers? a new knowledge base of haspart relations**. <br> ✍ Bhakthavatsalam, S., Richardson, K., Tandon, N., & Clark, P. *(arXiv 2020)*
+**📜 *[HasPartKB]* Do dogs have whiskers? a new knowledge base of haspart relations**. <br> ✍ Bhakthavatsalam, S., Richardson, K., Tandon, N., & Clark, P. *(arXiv 2020)*
  
 <span class="fs-2">
    [Paper](https://ojs.aaai.org/index.php/AAAI/article/download/11164/11023){: .btn .btn-blue .mr-1 target="_blank" } 
@@ -101,7 +101,7 @@ These are sources that have been deliberately created to capture (either wide or
 </span> 
 
 {: .fs-4 .fw-800 .text-blue-100}
-**📜 CYC: A large-scale investment in knowledge infrastructure**. <br> ✍ Lenat, D. *(Communications of the ACM 1995)*
+**📜 *[CYC]* CYC: A large-scale investment in knowledge infrastructure**. <br> ✍ Lenat, D. *(Communications of the ACM 1995)*
  
 <span class="fs-2">
    [Paper](https://dl.acm.org/doi/pdf/10.1145/219717.219745?casa_token=VVv0CwYIZYcAAAAA:uSuKzsL4JiQSqG11QmgUv7yKDffjkDAohFp05tD2gkVr9LBvJJo33VNWIQJbPSrgRTAUjqyzKsOoTQ){: .btn .btn-blue .mr-1 target="_blank" } 
