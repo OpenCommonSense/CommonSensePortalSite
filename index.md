@@ -40,4 +40,4 @@ To make it as easy as possible to write documentation in plain Markdown, most UI
 This site needs your help to grow! 
 Join us on Github to improve this portal site as editors. We also have a Slack workspace to collect suggestions for this site and to connect people working on commonsense reasoning. Feel free to just drop in and say hi! :)
 
-[Github](https://github.com/OpenCommonSense/CommonSensePortalSite){: .btn .btn-green .mr-2 target="_blank" .fs-3 }  [Slack](https://github.com/OpenCommonSense/CommonSensePortalSite){: .btn .btn-blue.mr-2 target="_blank" .fs-3 } 
+[Github](https://github.com/OpenCommonSense/CommonSensePortalSite){: .btn .btn-green .mr-2 target="_blank" .fs-3 }  [Slack](https://join.slack.com/t/opencommonsense/shared_invite/zt-odc5euyf-HXyMjROwwsH2wbc0poCAFg){: .btn .btn-blue.mr-2 target="_blank" .fs-3 } 
