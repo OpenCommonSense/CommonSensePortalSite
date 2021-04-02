@@ -33,7 +33,7 @@ We present a comprehensive collection of datasets for testing commonsense reason
 | [MC-TACO](#mc-taco) | Temporal Commonsense, Events | [MC](#multiple-choice-tasks)  | 80.9 /  75.8 (**Acc. %**)  | 25 |
 | [aNLI](#anli) | Abductive Reasoning, Events | [MC](#multiple-choice-tasks)  | 89.7 /  92.9 (**Acc. %**)  | 62 |
 | [RiddleSense](#riddlesense) | General, Figurative, Counterfactual | [MC](#multiple-choice-tasks)  | 68.8 /  91.3 (**Acc. %**) | 0 |
-
+| [VCR](#visual-commonsense-reasoning) | Visual Understanding, Complex Situation | [VQA](#visually-grounded-qa) | 70.8 / 85.0 (**Acc. %**) | 180 |
 
 <!-- Check https://leaderboard.allenai.org/ for more -->
 
@@ -512,7 +512,7 @@ Correct Choice: B
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*From Recognition to Cognition: Visual Commonsense Reasoning.<br> Rowan Zellers, Yonatan Bisk, Ali Farhadi, Yejin Choi. **CVPR-19**
+*From Recognition to Cognition: Visual Commonsense Reasoning*.<br> Rowan Zellers, Yonatan Bisk, Ali Farhadi, Yejin Choi. **CVPR-19**
 
 <span class="fs-1">
 [Paper](https://arxiv.org/abs/1811.10830){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://visualcommonsense.com){: target="_blank" .btn .btn-green .mr-1 } </span>
