@@ -123,7 +123,7 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
 </span> 
 
 {: .fs-4 .fw-800 .text-blue-100}
-**📜 *[Wikidata-CS]* Commonsense knowledge in Wikidata.**. <br> ✍ Ilievski, F., Szekely, P., & Schwabe, D. *(ISWC Wikidata workshop 2020)*
+**📜 *[Wikidata-CS]* Commonsense knowledge in Wikidata**. <br> ✍ Ilievski, F., Szekely, P., & Schwabe, D. *(ISWC Wikidata workshop 2020)*
  
 <span class="fs-2">
    [Paper](https://arxiv.org/pdf/2008.08114){: .btn .btn-blue .mr-1 target="_blank" } 
@@ -131,7 +131,7 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
 </span> 
 
 {: .fs-4 .fw-800 .text-blue-100}
-**📜 *[YAGO]* Yago 4: A reason-able knowledge base.**. <br> ✍ Tanon, T. P., Weikum, G., & Suchanek, F. *(ESWC 2020)*
+**📜 *[YAGO]* Yago 4: A reason-able knowledge base**. <br> ✍ Tanon, T. P., Weikum, G., & Suchanek, F. *(ESWC 2020)*
  
 <span class="fs-2">
    [Paper](https://link.springer.com/chapter/10.1007/978-3-030-49461-2_34){: .btn .btn-blue .mr-1 target="_blank" } 
@@ -239,3 +239,27 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
 </span> 
 
 ## Consolidation and Surveys
+
+{: .fs-4 .fw-800 .text-blue-100}
+**📜 *[CSKG]* CSKG: The CommonSense Knowledge Graph**. <br> ✍ Ilievski, F., Szekely, P., Zhang, B. *(ESWC 2021)*
+ 
+<span class="fs-2">
+   [Paper](https://arxiv.org/pdf/2012.11490.pdf){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Data](https://zenodo.org/record/4331372#.YGdj2EhKimk){: target="_blank" .btn .btn-green .mr-1 } 
+</span> 
+
+{: .fs-4 .fw-800 .text-blue-100}
+**📜 Dimensions of commonsense knowledge**. <br> ✍ Ilievski, F., Oltramari, A., Ma, K., Zhang, B., McGuinness, D. L., Szekely, P. *(arXiv 2021)*
+ 
+<span class="fs-2">
+   [Paper](https://arxiv.org/pdf/2101.04640){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Data](https://drive.google.com/drive/u/1/folders/16347KHSloJJZIbgC9V5gH7_pRx0CzjPQ){: target="_blank" .btn .btn-green .mr-1 } 
+</span> 
+
+{: .fs-4 .fw-800 .text-blue-100}
+**📜 *[NextKB]* Analogy and relational representations in the companion cognitive architecture**. <br> ✍ Forbus, K. D., & Hinrich, T. *(AI Magazine 2017)*
+ 
+<span class="fs-2">
+   [Paper](https://ojs.aaai.org/index.php/aimagazine/article/view/2743/2672){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Data](https://www.qrg.northwestern.edu/nextkb/index.html){: target="_blank" .btn .btn-green .mr-1 } 
+</span> 
