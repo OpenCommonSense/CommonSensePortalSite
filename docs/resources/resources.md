@@ -26,7 +26,7 @@ These are sources that have been deliberately created to capture (either wide or
 <span class="fs-2">
    [Paper](https://ojs.aaai.org/index.php/AAAI/article/download/11164/11023){: .btn .btn-blue .mr-1 target="_blank" } 
    [Data](https://github.com/commonsense/conceptnet5/wiki/Downloads){: target="_blank" .btn .btn-green .mr-1 } 
-   [Explore](http://conceptnet.io/){: target="_blank" .btn .btn-violet .mr-1 } 
+   [Explore](http://conceptnet.io/){: target="_blank" .btn .btn-pink .mr-1 } 
 </span> 
 
 {: .fs-4 .fw-800 .text-blue-100}
@@ -35,7 +35,7 @@ These are sources that have been deliberately created to capture (either wide or
 <span class="fs-2">
    [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/4160/4038){: .btn .btn-blue .mr-1 target="_blank" } 
    [Data](https://homes.cs.washington.edu/~msap/atomic/){: target="_blank" .btn .btn-green .mr-1 } 
-   [Explore](https://mosaickg.apps.allenai.org/kg_atomic){: target="_blank" .btn .btn-violet .mr-1 } 
+   [Explore](https://mosaickg.apps.allenai.org/kg_atomic){: target="_blank" .btn .btn-pink .mr-1 } 
 </span> 
 
 {: .fs-4 .fw-800 .text-blue-100}
@@ -60,7 +60,7 @@ These are sources that have been deliberately created to capture (either wide or
 <span class="fs-2">
    [Paper](https://www.aclweb.org/anthology/P17-4020.pdf){: .btn .btn-blue .mr-1 target="_blank" } 
    [Data](https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/research/yago-naga/commonsense/webchild){: target="_blank" .btn .btn-green .mr-1 } 
-   [Explore](https://gate.d5.mpi-inf.mpg.de/webchild/){: target="_blank" .btn .btn-violet .mr-1 } 
+   [Explore](https://gate.d5.mpi-inf.mpg.de/webchild/){: target="_blank" .btn .btn-pink .mr-1 } 
 </span> 
 
 {: .fs-4 .fw-800 .text-blue-100}
@@ -69,7 +69,7 @@ These are sources that have been deliberately created to capture (either wide or
 <span class="fs-2">
    [Paper](https://dl.acm.org/doi/pdf/10.1145/3357384.3357955?casa_token=L_UZhy84WuMAAAAA:1XXN79etKVcDqAY3ab9VrMBzhNtl3kBBlVkEIOtp-SBZh0pj1RCwN_P8rGo8-wBGrUWCnwdoyVD8rw){: .btn .btn-blue .mr-1 target="_blank" } 
    [Data](https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/research/yago-naga/commonsense/quasimodo/){: target="_blank" .btn .btn-green .mr-1 } 
-   [Explore](https://quasimodo.r2.enst.fr/){: target="_blank" .btn .btn-violet .mr-1 } 
+   [Explore](https://quasimodo.r2.enst.fr/){: target="_blank" .btn .btn-pink .mr-1 } 
 </span> 
 
 
@@ -79,7 +79,7 @@ These are sources that have been deliberately created to capture (either wide or
 <span class="fs-2">
    [Paper](https://arxiv.org/pdf/2011.00905.pdf){: .btn .btn-blue .mr-1 target="_blank" } 
    [Data](https://ascent.mpi-inf.mpg.de/download){: target="_blank" .btn .btn-green .mr-1 } 
-   [Explore](https://ascent.mpi-inf.mpg.de/browse){: target="_blank" .btn .btn-violet .mr-1 } 
+   [Explore](https://ascent.mpi-inf.mpg.de/browse){: target="_blank" .btn .btn-pink .mr-1 } 
 </span> 
 
 {: .fs-4 .fw-800 .text-blue-100}
@@ -88,7 +88,7 @@ These are sources that have been deliberately created to capture (either wide or
 <span class="fs-2">
    [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/11559/11418){: .btn .btn-blue .mr-1 target="_blank" } 
    [Data](https://sentic.net/downloads/){: target="_blank" .btn .btn-green .mr-1 } 
-   [Explore](https://sentic.net/demos/){: target="_blank" .btn .btn-violet .mr-1 } 
+   [Explore](https://sentic.net/demos/){: target="_blank" .btn .btn-pink .mr-1 } 
 </span> 
 
 
