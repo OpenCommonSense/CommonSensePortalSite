@@ -141,7 +141,7 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
 
 
 {: .fs-4 .fw-800 .text-blue-100}
-**📜 *[SUMO]* Towards a standard upper ontology.**. <br> ✍ Niles, I., & Pease, A. *(ICFOIS 2001)*
+**📜 *[SUMO]* Towards a standard upper ontology**. <br> ✍ Niles, I., & Pease, A. *(ICFOIS 2001)*
  
 <span class="fs-2">
    [Paper](https://dl.acm.org/doi/pdf/10.1145/505168.505170?casa_token=EAVIrkqcN6MAAAAA:hE2ywSjdknydIm-guusn-FJHHuLKTk0wvKvj773PzQzfMLFAHJ83L2MbfRJMGgN_D1huaPCzP6of_A){: .btn .btn-blue .mr-1 target="_blank" } 
@@ -211,7 +211,7 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
 </span> 
 
 {: .fs-4 .fw-800 .text-blue-100}
-**📜 *[Flickr30k]* Flickr30k entities: Collecting region-to-phrase correspondences for richer image-to-sentence models**. <br> ✍ Flickr30k entities: Collecting region-to-phrase correspondences for richer image-to-sentence models *(ICCV 2015)*
+**📜 *[Flickr30k]* Flickr30k entities: Collecting region-to-phrase correspondences for richer image-to-sentence models**. <br> ✍ Plummer, B. A., Wang, L., Cervantes, C. M., Caicedo, J. C., Hockenmaier, J., & Lazebnik, S. *(ICCV 2015)*
  
 <span class="fs-2">
    [Paper](https://openaccess.thecvf.com/content_iccv_2015/papers/Plummer_Flickr30k_Entities_Collecting_ICCV_2015_paper.pdf){: .btn .btn-blue .mr-1 target="_blank" }
