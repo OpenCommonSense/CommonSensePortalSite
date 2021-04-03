@@ -34,6 +34,7 @@ We present a comprehensive collection of datasets for testing commonsense reason
 | [aNLI](#anli) | Abductive Reasoning, Events | [MC](#multiple-choice-tasks)  | 89.7 /  92.9 (**Acc. %**)  | 62 |
 | [RiddleSense](#riddlesense) | General, Figurative, Counterfactual | [MC](#multiple-choice-tasks)  | 68.8 /  91.3 (**Acc. %**) | 0 |
 | [VCR](#visual-commonsense-reasoning) | Visual Understanding, Complex Situation | [VQA](#visually-grounded-qa) | 70.8 / 85.0 (**Acc. %**) | 180 |
+| [ProtoQA](#protoqa) | Prototypical Situation | [OE](#open-ended-qa) | 56.0 / 78.4 (**WN. Sim.**) | 3 |
 | [ReCoRD](#ReCoRD) | News Articles | [RC](#reading-comprehension) | 91.21 / 91.69 (**F1**) | 69 |
 | [CosmosQA](#cosmos-QA) | Everyday Narratives | [RC](#reading-comprehension) | 91.79 / 94.00  (**Acc. %**) | 68 |
 
@@ -556,6 +557,24 @@ Correct Choice: D
 
 ### ProtoQA
 {: .no_toc }
+
+{: .fs-4 .fw-800 .text-blue-100}
+*ProtoQA: A Question Answering Dataset for Prototypical Common-Sense Reasoning*. <br> Michael Boratko, Xiang Lorraine Li, Tim O’Gorman, Rajarshi Das, Dan Le, Andrew McCallum. **EMNLP-20**
+
+<span class="fs-1">
+[Paper](https://arxiv.org/abs/2005.00771){: .btn .btn-blue .mr-1 target="_blank" } [Github Page](https://github.com/iesl/protoqa-data){: target="_blank" .btn .btn-grey .mr-1 } [Huggingface Card](https://huggingface.co/datasets/proto_qa){: target="_blank" .btn .btn-purple .mr-1 } </span>
+
+> - **Topics:** Prototypical situation.
+- **Task format:** Give a question, a model is has to output a ranked list of answers covering multiple categories.
+- **Size & Split:**  5,733 in total --- train (8,781), dev (1,030), test (102).
+- **Dataset creation:** 
+- **An illustative example:**
+```
+Question:
+    Name a piece of equipment that you are likely to find at your office and not at home?
+Categories: 
+    printer/copier (37), office furniture (15), computer equipment (17), stapler (11), files (10), office appliances (5), security systems (1)
+``` 
 
 ### OpenCSR
 {: .no_toc }
