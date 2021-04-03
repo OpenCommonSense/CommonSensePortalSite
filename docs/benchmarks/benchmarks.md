@@ -34,6 +34,8 @@ We present a comprehensive collection of datasets for testing commonsense reason
 | [aNLI](#anli) | Abductive Reasoning, Events | [MC](#multiple-choice-tasks)  | 89.7 /  92.9 (**Acc. %**)  | 62 |
 | [RiddleSense](#riddlesense) | General, Figurative, Counterfactual | [MC](#multiple-choice-tasks)  | 68.8 /  91.3 (**Acc. %**) | 0 |
 | [VCR](#visual-commonsense-reasoning) | Visual Understanding, Complex Situation | [VQA](#visually-grounded-qa) | 70.8 / 85.0 (**Acc. %**) | 180 |
+| [ReCoRD](#ReCoRD) | News Articles | [RC](#reading-comprehension) | 91.21 / 91.69 (**F1**) | 69 |
+| [CosmosQA](#cosmos-QA) | Everyday Narratives | [RC](#reading-comprehension) | 91.79 / 94.00  (**Acc. %**) | 68 |
 
 <!-- Check https://leaderboard.allenai.org/ for more -->
 
@@ -592,8 +594,56 @@ Correct Choice: D
 ### ReCoRD
 {: .no_toc }
 
+{: .fs-4 .fw-800 .text-blue-100}
+*ReCoRD: Bridging the Gap between Human and Machine Commonsense Reading Comprehension*.<br> Sheng Zhang, Xiaodong Liu, Jingjing Liu, Jianfeng Gao, Kevin Duh, Benjamin Van Durme. **arXiv, 2018**
+
+<span class="fs-1">
+[Paper](https://arxiv.org/abs/1810.12885){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://sheng-z.github.io/ReCoRD-explorer){: target="_blank" .btn .btn-green .mr-1 } </span>
+
+> - **Topics:** Commonsense-based reading comprehension with a focus on news articles. 
+- **Task format:** Given a passage, a set of text spans marked in the passage, and a cloze-style query with a missing text span, a model must select a text span that best fits the query.
+- **Size & Split:** Queries/Passages 120,730/80,121 in total --- train (100,730/65,709), dev (10,000/7,133), test (10,000/(7,279).
+- **Dataset creation:** 
+- **An illustative example:**
+```
+Passage: 
+    (**CNN**) -- A lawsuit has been filed claiming that the iconic **Led Zeppelin** song "**Stairway to Heaven**" was far from original. The suit, filed on May 31 in the **United States District Court Eastern District of Pennsylvania**, was brought by the estate of the late musician **Randy California** against the surviving members of **Led Zeppelin** and their record label. The copyright infringement case alleges that the **Zeppelin** song was taken from the single "**Taurus**" by the 1960s band **Spirit**, for whom **California** served as lead guitarist. "Late in 1968, a then new band named **Led Zeppelin** began touring in the **United States**, opening for **Spirit**," the suit states. "It was during this time that **Jimmy Page**, **Led Zeppelin**'s guitarist, grew familiar with '**Taurus**' and the rest of **Spirit**'s catalog. **Page** stated in interviews that he found **Spirit** to be 'very good' and that the band's performances struck him 'on an emotional level.' "
+• Suit claims similarities between two songs
+• **Randy California** was guitarist for the group **Spirit**
+• **Jimmy Page** has called the accusation "ridiculous"
+(Cloze-style) Query:
+    According to claims in the suit, "Parts of 'Stairway to Heaven,' instantly recognizable to the music fans across the world, sound almost identical to significant portions of ‘___.’”
+Reference Answers:
+    Taurus
+``` 
+
 ### Cosmos QA
 {: .no_toc }
+
+{: .fs-4 .fw-800 .text-blue-100}
+*Cosmos QA : Machine Reading Comprehension with Contextual Commonsense Reasoning*.<br> Lifu Huang, Ronan Le Bras, Chandra Bhagavatula, Yejin Choi. **EMNLP-19**
+
+<span class="fs-1">
+[Paper](https://arxiv.org/abs/1909.00277){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://wilburone.github.io/cosmos){: target="_blank" .btn .btn-green .mr-1 } [Huggingface Card](https://huggingface.co/datasets/cosmos_qa){: target="_blank" .btn .btn-purple .mr-1 } </span>
+
+> - **Topics:** Commonsense-based reading comprehension with a focus on people's everyday narratives, asking questions concerning on the likely causes or effects of events that require reasoning beyond the exact text spans in the context. 
+- **Task format:** Given a paragraph and a question, a model must select the correct answer from a set of choices.
+- **Size & Split:** Questions/Paragraphs 35,588/21,866 in total --- train (25,588/13,715), dev (26,534/2,460), test (25,263/(5,711).
+- **Dataset creation:** 
+- **An illustative example:**
+```
+Paragraph: 
+    It's a very humbling experience when you need someone to dress you every morning, tie your shoes, and put your hair up. Every menial task takes an unprecedented amount of effort. It made me appreciate Dan even more. But anyway I shan't dwell on this (I'm not dying after all) and not let it detact from my lovely 5 days with my friends visiting from Jersey.
+Question:
+    What's a possible reason the writer needed someone to dress him every morning?
+Choices:
+    A) The writer doesn't like putting effort into these tasks.
+    B) The writer has a physical disability.
+    C) The writer is bad at doing his own hair.
+    D) None of the above choices.
+Correct Choice: B
+``` 
+
 
 
 ---
