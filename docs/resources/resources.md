@@ -3,13 +3,13 @@ layout: default
 title: Knowledge Resources
 nav_order: 2
 toc_list: true
-last_modified_date: March 26 2021
+last_modified_date: April 4 2021
 permalink: /docs/resources
 ---
 
 # Knowledge Resources for Common Sense  
 {: .no_toc }
-Editors: [Filip Ilievski](https://usc-isi-i2.github.io/ilievski/){: target="_blank"} 
+Editors: [Filip Ilievski](https://usc-isi-i2.github.io/ilievski/){: target="_blank"}, [Yang Qiao](https://www.linkedin.com/in/xiaoyang-qiao/){: target="_blank"}
 
 
 {: .fs-6 .fw-300 }
@@ -24,19 +24,47 @@ These are sources that have been deliberately created to capture (either wide or
 **📜 *[ConceptNet]* Conceptnet 5.5: An open multilingual graph of general knowledge**. <br> ✍ Speer, R., Chin, J., & Havasi, C. *(AAAI 2017)*
  
 <span class="fs-2">
-   [Paper](https://ojs.aaai.org/index.php/AAAI/article/download/11164/11023){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Paper](https://arxiv.org/abs/1612.03975){: .btn .btn-blue .mr-1 target="_blank" } 
    [Data](https://github.com/commonsense/conceptnet5/wiki/Downloads){: target="_blank" .btn .btn-green .mr-1 } 
    [Explore](http://conceptnet.io/){: target="_blank" .btn .btn-purple .mr-1 } 
 </span> 
+<details markdown="block">
+  <summary>Illustative Example</summary>
+  {: .fs-3 .text-delta .text-red-100}
+  <img src="../../images/resources/conceptnet.png" width="60%" height="auto" />
+</details> 
+
+<br/>
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 *[ATOMIC]* Atomic: An atlas of machine commonsense for if-then reasoning**. <br> ✍ Sap, M., Le Bras, R., Allaway, E., Bhagavatula, C., Lourie, N., Rashkin, H., Roof, B., Smith, N.A. and Choi, Y. *(AAAI 2019)*
  
 <span class="fs-2">
-   [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/4160/4038){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Paper](https://arxiv.org/abs/1811.00146){: .btn .btn-blue .mr-1 target="_blank" } 
    [Data](https://homes.cs.washington.edu/~msap/atomic/){: target="_blank" .btn .btn-green .mr-1 } 
    [Explore](https://mosaickg.apps.allenai.org/kg_atomic){: target="_blank" .btn .btn-purple .mr-1 } 
 </span> 
+<details markdown="block">
+  <summary>Illustative Example</summary>
+  {: .fs-3 .text-delta .text-red-100}
+  ```
+   Event: "PersonX uses PersonX's ___ to obtain"
+      oEffect: []
+      oReact: ['annoyed', 'angry', 'worried']
+      oWant: []
+      prefix: ['uses', 'obtain']
+      split: 'trn'
+      xAttr: []
+      xEffect: []
+      xIntent: ['to have an advantage', 'to fulfill a desire', 'to get out of trouble']
+      xNeed: []
+      xReact: ['pleased', 'smug', 'excited']
+      xWant: []
+  ``` 
+  <img src="../../images/resources/atomic.png" width="60%" height="auto" />
+</details> 
+
+<br/>
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 *[ATOMIC2020]* Comet-atomic 2020: On symbolic and neural commonsense knowledge graphs**. <br> ✍ Hwang, J. D., Bhagavatula, C., Bras, R. L., Da, J., Sakaguchi, K., Bosselut, A., & Choi, Y. *(arXiv 2020)*
@@ -45,14 +73,31 @@ These are sources that have been deliberately created to capture (either wide or
    [Paper](https://arxiv.org/pdf/2010.05953){: .btn .btn-blue .mr-1 target="_blank" } 
    [Data](https://allenai.org/data/atomic-2020){: target="_blank" .btn .btn-green .mr-1 } 
 </span> 
+<details markdown="block">
+  <summary>Illustative Example</summary>
+  {: .fs-3 .text-delta .text-red-100}
+   <img src="../../images/resources/atomic2020.png" width="60%" height="auto" />
+</details> 
+
+<br/>
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 *[GLUCOSE]* Glucose: Generalized and contextualized story explanations**. <br> ✍ Mostafazadeh, N., Kalyanpur, A., Moon, L., Buchanan, D., Berkowitz, L., Biran, O., & Chu-Carroll, J. *(EMNLP 2020)*
  
 <span class="fs-2">
-   [Paper](https://ojs.aaai.org/index.php/AAAI/article/download/11164/11023){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Paper](https://arxiv.org/abs/2009.07758){: .btn .btn-blue .mr-1 target="_blank" } 
    [Data](https://github.com/ElementalCognition/glucose/){: target="_blank" .btn .btn-green .mr-1 } 
 </span> 
+<details markdown="block">
+  <summary>Illustative Example</summary>
+  {: .fs-3 .text-delta .text-red-100}
+   <img src="../../images/resources/glucose.png" width="80%" height="auto" />
+   
+   Entries in the GLUCOSE dataset that explain the Gage story around the sentence <em>X= Gage turned his
+bike sharply</em>.
+</details> 
+
+<br/>
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 *[WebChild]* Webchild 2.0: Fine-grained commonsense knowledge distillation**. <br> ✍ Tandon, N., De Melo, G., & Weikum, G. *(ACL 2017)*
@@ -62,16 +107,39 @@ These are sources that have been deliberately created to capture (either wide or
    [Data](https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/research/yago-naga/commonsense/webchild){: target="_blank" .btn .btn-green .mr-1 } 
    [Explore](https://gate.d5.mpi-inf.mpg.de/webchild/){: target="_blank" .btn .btn-purple .mr-1 } 
 </span> 
+<details markdown="block">
+  <summary>Illustative Example</summary>
+  {: .fs-3 .text-delta .text-red-100}
+   ```
+   #word: animal
+   sense-number: 1
+   WordNet-synsetid: 100015388
+   Definition (WordNet gloss): a living organism characterized by voluntary movement
+   ```
+   <img src="../../images/resources/WebChild.png" width="90%" height="auto" />
+   
+   WebChild 2.0 browser results for <em>animal</em>.
+</details> 
+
+<br/>
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 *[QuasimodoKB]* Commonsense properties from query logs and question answering forums**. <br> ✍ Romero, J., Razniewski, S., Pal, K., Z. Pan, J., Sakhadeo, A., & Weikum, G. *(CIKM 2019)*
  
 <span class="fs-2">
-   [Paper](https://dl.acm.org/doi/pdf/10.1145/3357384.3357955?casa_token=L_UZhy84WuMAAAAA:1XXN79etKVcDqAY3ab9VrMBzhNtl3kBBlVkEIOtp-SBZh0pj1RCwN_P8rGo8-wBGrUWCnwdoyVD8rw){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Paper](https://arxiv.org/abs/1905.10989){: .btn .btn-blue .mr-1 target="_blank" } 
    [Data](https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/research/yago-naga/commonsense/quasimodo/){: target="_blank" .btn .btn-green .mr-1 } 
    [Explore](https://quasimodo.r2.enst.fr/){: target="_blank" .btn .btn-purple .mr-1 } 
 </span> 
+<details markdown="block">
+  <summary>Illustative Example</summary>
+  {: .fs-3 .text-delta .text-red-100}
+   <img src="../../images/resources/QuasimodoKB.png" width="90%" height="auto" />
+   
+   Quasimodo browser results for <em>eggplant</em>.
+</details> 
 
+<br/>
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 *[ASCENT]* Advanced Semantics for Commonsense Knowledge Extraction**. <br> ✍ Nguyen, T. P., Razniewski, S., & Weikum, G.  *(arXiv 2020)*
@@ -81,6 +149,15 @@ These are sources that have been deliberately created to capture (either wide or
    [Data](https://ascent.mpi-inf.mpg.de/download){: target="_blank" .btn .btn-green .mr-1 } 
    [Explore](https://ascent.mpi-inf.mpg.de/browse){: target="_blank" .btn .btn-purple .mr-1 } 
 </span> 
+<details markdown="block">
+  <summary>Illustative Example</summary>
+  {: .fs-3 .text-delta .text-red-100}
+   <img src="../../images/resources/ascent.png" width="80%" height="auto" />
+
+   Example of Ascent’s knowledge for the concept <em>elephant</em>.
+</details> 
+
+<br/>
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 *[SenticNet]* SenticNet 5: Discovering conceptual primitives for sentiment analysis by means of context embeddings**. <br> ✍ Cambria, E., Poria, S., Hazarika, D., & Kwok, K. *(AAAI 2018)*
@@ -90,15 +167,41 @@ These are sources that have been deliberately created to capture (either wide or
    [Data](https://sentic.net/downloads/){: target="_blank" .btn .btn-green .mr-1 } 
    [Explore](https://sentic.net/demos/){: target="_blank" .btn .btn-purple .mr-1 } 
 </span> 
+<details markdown="block">
+  <summary>Illustative Example</summary>
+  {: .fs-3 .text-delta .text-red-100}
+   ```
+   concept_name: intact
+   introspection_value: 0.716,  temper_value: -0.62,  attitude_value: 0,  sensitivity_value: 0.896
+   primary_mood: joy,  secondary_mood: eagerness,  polarity_label: positive,  polarity_value: 0.328
+   semantics1: constitutional,  semantics2: intrinsic,  semantics3: intimate,  semantics4: inner,  semantics5: inbuilt
+   ```
+   <img src="../../images/resources/SenticNet.png" width="60%" height="auto" />
 
+   A sketch of SenticNet 5’s graph showing part of the semantic network for the primitive <em>INTACT</em>.
+</details> 
+
+<br/>
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 *[HasPartKB]* Do dogs have whiskers? a new knowledge base of haspart relations**. <br> ✍ Bhakthavatsalam, S., Richardson, K., Tandon, N., & Clark, P. *(arXiv 2020)*
  
 <span class="fs-2">
-   [Paper](https://ojs.aaai.org/index.php/AAAI/article/download/11164/11023){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Paper](https://arxiv.org/abs/2006.07510){: .btn .btn-blue .mr-1 target="_blank" } 
    [Data](https://drive.google.com/drive/folders/1NzjXX46NnpxtgxBrkBWFiUbsXAMdd-lB){: target="_blank" .btn .btn-green .mr-1 } 
 </span> 
+<details markdown="block">
+  <summary>Illustative Example</summary>
+  {: .fs-3 .text-delta .text-red-100}
+   ```
+   arg1: snowdrop,  metadata: wikipedia_primary_page -- Galanthus
+   arg2: carpel,  metadata: synset -- wn.carpel.n.01
+   average_score: 0.9990746974945068
+   matches: some carpels are part of snowdrops.
+   ```
+</details> 
+
+<br/>
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 *[CYC]* CYC: A large-scale investment in knowledge infrastructure**. <br> ✍ Lenat, D. *(Communications of the ACM 1995)*
@@ -109,6 +212,11 @@ These are sources that have been deliberately created to capture (either wide or
 </span> 
 
 Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cyc is not publicly available. 
+<details markdown="block">
+  <summary>Illustative Example</summary>
+  {: .fs-3 .text-delta .text-red-100}
+
+</details> 
 
 
 ## Common Knowledge Resources
@@ -121,6 +229,15 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
    [Data](https://www.wikidata.org/wiki/Wikidata:Database_download){: target="_blank" .btn .btn-green .mr-1 } 
    [Explore](https://www.wikidata.org/wiki/Wikidata:Main_Page){: target="_blank" .btn .btn-purple .mr-1 } 
 </span> 
+<details markdown="block">
+  <summary>Illustative Example</summary>
+  {: .fs-3 .text-delta .text-red-100}
+   <img src="../../images/resources/wikidata.png" width="90%" height="auto" />
+   
+   Wikidata browser results for <em>animal</em>.
+</details> 
+
+<br/>
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 *[Wikidata-CS]* Commonsense knowledge in Wikidata**. <br> ✍ Ilievski, F., Szekely, P., & Schwabe, D. *(ISWC Wikidata workshop 2020)*
@@ -129,6 +246,18 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
    [Paper](https://arxiv.org/pdf/2008.08114){: .btn .btn-blue .mr-1 target="_blank" } 
    [Data](https://zenodo.org/record/3983030#.YGdfk0hKimk){: target="_blank" .btn .btn-green .mr-1 } 
 </span> 
+<details markdown="block">
+  <summary>Illustative Example</summary>
+  {: .fs-3 .text-delta .text-red-100}
+   ```
+   node1: Q1203797,  label: bicycle
+   relation: /r/IsA
+   node2: Q2207288,  label: messenger
+   label relation: instance of
+   ```
+</details> 
+
+<br/>
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 *[YAGO]* Yago 4: A reason-able knowledge base**. <br> ✍ Tanon, T. P., Weikum, G., & Suchanek, F. *(ESWC 2020)*
@@ -138,7 +267,15 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
    [Data](https://yago-knowledge.org/downloads/yago-4){: target="_blank" .btn .btn-green .mr-1 } 
    [Explore](https://yago-knowledge.org/graph/Elvis_Presley){: target="_blank" .btn .btn-purple .mr-1 } 
 </span> 
+<details markdown="block">
+  <summary>Illustative Example</summary>
+  {: .fs-3 .text-delta .text-red-100}
+   <img src="../../images/resources/YAGO.png" width="75%" height="auto" />
+   
+   YAGO browser results for <em>animal</em>.
+</details> 
 
+<br/>
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 *[SUMO]* Towards a standard upper ontology**. <br> ✍ Niles, I., & Pease, A. *(ICFOIS 2001)*
@@ -148,7 +285,15 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
    [Data](https://github.com/ontologyportal/sumo){: target="_blank" .btn .btn-green .mr-1 } 
    [Explore](https://sigma.ontologyportal.org:8443/sigma/Browse.jsp?kb=SUMO){: target="_blank" .btn .btn-purple .mr-1 } 
 </span> 
+<details markdown="block">
+  <summary>Illustative Example</summary>
+  {: .fs-3 .text-delta .text-red-100}
+   <img src="../../images/resources/SUMO.png" width="80%" height="auto" />
+   
+   SUMO browser results for <em>animal</em>.
+</details> 
 
+<br/>
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 *[DOLCE]* Sweetening ontologies with DOLCE**. <br> ✍ Gangemi, A., Guarino, N., Masolo, C., Oltramari, A., & Schneider, L. *(ICKEKM 2002)*
@@ -157,6 +302,12 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
    [Paper](https://pub.uni-bielefeld.de/download/2497408/2524762/SWIntO.pdf){: .btn .btn-blue .mr-1 target="_blank" } 
    [Data](http://www.loa.istc.cnr.it/dolce/overview.html){: target="_blank" .btn .btn-green .mr-1 } 
 </span> 
+<details markdown="block">
+  <summary>Illustative Example</summary>
+  {: .fs-3 .text-delta .text-red-100}
+
+</details> 
+
 
 ## Lexical Resources
 
@@ -169,7 +320,15 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
    [Data](https://wordnet.princeton.edu/download){: target="_blank" .btn .btn-green .mr-1 } 
    [Explore](http://wordnetweb.princeton.edu/perl/webwn){: target="_blank" .btn .btn-purple .mr-1 } 
 </span> 
+<details markdown="block">
+  <summary>Illustative Example</summary>
+  {: .fs-3 .text-delta .text-red-100}
+   <img src="../../images/resources/wordnet.png" width="70%" height="auto" />
 
+   WordNet browser results for <em>bicycle</em>.
+</details> 
+
+<br/>
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 *[FrameNet]* The berkeley framenet project**. <br> ✍ Baker, C. F., Fillmore, C. J., & Lowe, J. B.  *(ACL 1998)*
@@ -179,7 +338,15 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
    [Data](https://framenet.icsi.berkeley.edu/fndrupal/framenet_request_data){: target="_blank" .btn .btn-green .mr-1 } 
    [Explore](https://framenet.icsi.berkeley.edu/fndrupal/frameIndex){: target="_blank" .btn .btn-purple .mr-1 } 
 </span> 
+<details markdown="block">
+  <summary>Illustative Example</summary>
+  {: .fs-3 .text-delta .text-red-100}
+   <img src="../../images/resources/framenet.png" width="60%" height="auto" />
+   
+   FrameNet browser results for <em>abandonment</em>.
+</details> 
 
+<br/>
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 *[MetaNet]* MetaNet: Deep semantic automatic metaphor analysis**. <br> ✍ Dodge, E. K., Hong, J., & Stickles, E. *(Metaphor in NLP workshop 2015)*
@@ -188,7 +355,15 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
    [Paper](https://www.aclweb.org/anthology/W15-1405.pdf){: .btn .btn-blue .mr-1 target="_blank" } 
    [Explore](https://metaphor.icsi.berkeley.edu/pub/en/index.php/Category:Metaphor){: target="_blank" .btn .btn-purple .mr-1 } 
 </span> 
+<details markdown="block">
+  <summary>Illustative Example</summary>
+  {: .fs-3 .text-delta .text-red-100}
+   <img src="../../images/resources/MetaNet.png" width="80%" height="auto" />
+   
+   MetaNet browser results for <em>EMOTIONS AND OBJECTS</em>.
+</details> 
 
+<br/>
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 *[VerbNet]* VerbNet: A broad-coverage, comprehensive verb lexicon**. <br> ✍ Schuler, K. K. *(Dissertation 2005)*
@@ -198,6 +373,14 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
    [Data](https://verbs.colorado.edu/verbnet/){: target="_blank" .btn .btn-green .mr-1 } 
    [Explore](https://verbs.colorado.edu/verb-index/vn3.3/){: target="_blank" .btn .btn-purple .mr-1 } 
 </span> 
+<details markdown="block">
+  <summary>Illustative Example</summary>
+  {: .fs-3 .text-delta .text-red-100}
+   <img src="../../images/resources/verbnet.png" width="40%" height="auto" />
+
+   VerbNet browser results for <em>see</em>.
+</details> 
+
 
 ## Visual Resources
 
@@ -209,6 +392,15 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
    [Data](http://visualgenome.org/api/v0/api_home.html){: target="_blank" .btn .btn-green .mr-1 } 
    [Explore](http://visualgenome.org/VGViz/explore){: target="_blank" .btn .btn-purple .mr-1 } 
 </span> 
+<details markdown="block">
+  <summary>Illustative Example</summary>
+  {: .fs-3 .text-delta .text-red-100}
+  <img src="../../images/resources/Visual_Genome.png" width="100%" height="auto" />
+  
+  An example image of <em>throwing frisbee</em> from the Visual Genome dataset.
+</details> 
+
+<br/>
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 *[Flickr30k]* Flickr30k entities: Collecting region-to-phrase correspondences for richer image-to-sentence models**. <br> ✍ Plummer, B. A., Wang, L., Cervantes, C. M., Caicedo, J. C., Hockenmaier, J., & Lazebnik, S. *(ICCV 2015)*
@@ -217,6 +409,15 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
    [Paper](https://openaccess.thecvf.com/content_iccv_2015/papers/Plummer_Flickr30k_Entities_Collecting_ICCV_2015_paper.pdf){: .btn .btn-blue .mr-1 target="_blank" }
    [Data](http://bryanplummer.com/Flickr30kEntities/){: target="_blank" .btn .btn-green .mr-1 } 
 </span> 
+<details markdown="block">
+  <summary>Illustative Example</summary>
+  {: .fs-3 .text-delta .text-red-100}
+
+   <img src="../../images/resources/Flickr30k.jpeg" width="100%" height="auto" />
+  
+   Example images from the Flickr30k Entities dataset.
+</details> 
+
 
 ## Corpora & Neural Knowledge Sources
 
@@ -227,7 +428,32 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
    [Paper](https://arxiv.org/pdf/2005.00660.pdf){: .btn .btn-blue .mr-1 target="_blank" } 
    [Data](https://drive.google.com/drive/folders/1vqfVXhJXJWuiiXbUa4rZjOgQoJvwZUoT){: target="_blank" .btn .btn-green .mr-1 } 
 </span> 
+<details markdown="block">
+  <summary>Illustative Example</summary>
+  {: .fs-3 .text-delta .text-red-100}
+   Example generics about <em>tree</em> in GENERICSKB:
+   ```
+   1. Trees are perennial plants that have long woody trunks.
+   2. Trees are woody plants which continue growing until they die.
+   3. Most trees add one new ring for each year of growth.
+   4. Trees produce oxygen by absorbing carbon dioxide from the air.
+   5. Trees are large, generally single-stemmed, woody plants.
+   6. Trees live in cavities or hollows.
+   7. Trees grow using photosynthesis, absorbing carbon dioxide and releasing oxygen.
+   ```
 
+   An example entry, including metadata
+   ```
+   Term: tree
+   Sent: Most trees add one new ring for each year of growth.
+   Quantifier: Most
+   Score: 0.35
+   Before: ...Notice how the extractor holds the core as it is removed from inside the hollow center of the bit. Tree cores are extracted with an increment borer.
+   After: The width of each annual ring may be a reflection of forest stand dynamics. Dendrochronology, the study of annual growth rings, has become prominent in ecology...
+   ```
+</details> 
+
+<br/>
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 *[COMET]* Comet: Commonsense transformers for automatic knowledge graph construction**. <br> ✍ Bosselut, A., Rashkin, H., Sap, M., Malaviya, C., Celikyilmaz, A., & Choi, Y.  *(ACL 2019)*
@@ -237,6 +463,14 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
    [Code](https://github.com/atcbosselut/comet-commonsense){: target="_blank" .btn .btn-green .mr-1 }
    [Explore](https://mosaickg.apps.allenai.org/comet_atomic){: target="_blank" .btn .btn-purple .mr-1 } 
 </span> 
+<details markdown="block">
+  <summary>Illustative Example</summary>
+  {: .fs-3 .text-delta .text-red-100}
+   <img src="../../images/resources/Comet.png" width="70%" height="auto" />
+   
+   An example image of <em>PersonX acts quickly</em> from the COMET dataset.
+</details> 
+
 
 ## Consolidation and Surveys
 
@@ -247,6 +481,20 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
    [Paper](https://arxiv.org/pdf/2012.11490.pdf){: .btn .btn-blue .mr-1 target="_blank" } 
    [Data](https://zenodo.org/record/4331372#.YGdj2EhKimk){: target="_blank" .btn .btn-green .mr-1 } 
 </span> 
+<details markdown="block">
+  <summary>Illustative Example</summary>
+  {: .fs-3 .text-delta .text-red-100}
+   ```
+   node1: person
+   node2: architect
+   label relation: /r/IsA
+   sentence: architect is a person
+   ```
+   An example graph from the CSKG dataset:
+   <img src="../../images/resources/CSKG.png" width="70%" height="auto" />
+</details> 
+
+<br/>
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 Dimensions of commonsense knowledge**. <br> ✍ Ilievski, F., Oltramari, A., Ma, K., Zhang, B., McGuinness, D. L., Szekely, P. *(arXiv 2021)*
@@ -255,6 +503,14 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
    [Paper](https://arxiv.org/pdf/2101.04640){: .btn .btn-blue .mr-1 target="_blank" } 
    [Data](https://drive.google.com/drive/u/1/folders/16347KHSloJJZIbgC9V5gH7_pRx0CzjPQ){: target="_blank" .btn .btn-green .mr-1 } 
 </span> 
+<details markdown="block">
+  <summary>Illustative Example</summary>
+  {: .fs-3 .text-delta .text-red-100}
+   Examples for <em>food</em> for each of the 13 dimensions:
+   <img src="../../images/resources/dimensions.png" width="70%" height="auto" />
+</details> 
+
+<br/>
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 *[NextKB]* Analogy and relational representations in the companion cognitive architecture**. <br> ✍ Forbus, K. D., & Hinrich, T. *(AI Magazine 2017)*
@@ -263,3 +519,8 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
    [Paper](https://ojs.aaai.org/index.php/aimagazine/article/view/2743/2672){: .btn .btn-blue .mr-1 target="_blank" } 
    [Data](https://www.qrg.northwestern.edu/nextkb/index.html){: target="_blank" .btn .btn-green .mr-1 } 
 </span> 
+<details markdown="block">
+  <summary>Illustative Example</summary>
+  {: .fs-3 .text-delta .text-red-100}
+
+</details> 
