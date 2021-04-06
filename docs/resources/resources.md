@@ -215,7 +215,14 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
 <details markdown="block">
   <summary>Illustative Example</summary>
   {: .fs-3 .text-delta .text-red-100}
-
+   Sample assertions of everyday life and objects spanned by the domain of <strong>CYC</strong>:
+   ```
+   • You have to be awake to eat.
+   • You can usually see people’s noses, but not their hearts.
+   • Given two professions, either one is a specialization of the other or else they are likely to be independent of one another.
+   • You cannot remember events that have not happened yet.
+   • If you cut a lump of peanut butter in half, each half is also a lump of peanut butter; but if you cut a table in half, neither half is a table.
+   ```
 </details> 
 
 
@@ -305,7 +312,13 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
 <details markdown="block">
   <summary>Illustative Example</summary>
   {: .fs-3 .text-delta .text-red-100}
+   
+   <p>Taxonomy of <strong>DOLCE</strong> basic categories:</p>
+   <img src="../../images/resources/DOLCE1.png" width="80%" height="auto" />
 
+
+   <p>Examples of <em>leaf</em> basic categories:</p>
+   <img src="../../images/resources/DOLCE2.png" width="60%" height="auto" />
 </details> 
 
 
@@ -519,8 +532,3 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
    [Paper](https://ojs.aaai.org/index.php/aimagazine/article/view/2743/2672){: .btn .btn-blue .mr-1 target="_blank" } 
    [Data](https://www.qrg.northwestern.edu/nextkb/index.html){: target="_blank" .btn .btn-green .mr-1 } 
 </span> 
-<details markdown="block">
-  <summary>Illustative Example</summary>
-  {: .fs-3 .text-delta .text-red-100}
-
-</details> 
