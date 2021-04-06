@@ -29,7 +29,7 @@ These are sources that have been deliberately created to capture (either wide or
    [Explore](http://conceptnet.io/){: target="_blank" .btn .btn-purple .mr-1 } 
 </span> 
 <details markdown="block">
-  <summary>Illustative Example</summary>
+  <summary>Illustrative Example</summary>
   {: .fs-3 .text-delta .text-red-100}
   <img src="../../images/resources/conceptnet.png" width="60%" height="auto" />
 </details> 
@@ -45,7 +45,7 @@ These are sources that have been deliberately created to capture (either wide or
    [Explore](https://mosaickg.apps.allenai.org/kg_atomic){: target="_blank" .btn .btn-purple .mr-1 } 
 </span> 
 <details markdown="block">
-  <summary>Illustative Example</summary>
+  <summary>Illustrative Example</summary>
   {: .fs-3 .text-delta .text-red-100}
   ```
    Event: "PersonX uses PersonX's ___ to obtain"
@@ -74,7 +74,7 @@ These are sources that have been deliberately created to capture (either wide or
    [Data](https://allenai.org/data/atomic-2020){: target="_blank" .btn .btn-green .mr-1 } 
 </span> 
 <details markdown="block">
-  <summary>Illustative Example</summary>
+  <summary>Illustrative Example</summary>
   {: .fs-3 .text-delta .text-red-100}
    <img src="../../images/resources/atomic2020.png" width="60%" height="auto" />
 </details> 
@@ -89,7 +89,7 @@ These are sources that have been deliberately created to capture (either wide or
    [Data](https://github.com/ElementalCognition/glucose/){: target="_blank" .btn .btn-green .mr-1 } 
 </span> 
 <details markdown="block">
-  <summary>Illustative Example</summary>
+  <summary>Illustrative Example</summary>
   {: .fs-3 .text-delta .text-red-100}
    <img src="../../images/resources/glucose.png" width="80%" height="auto" />
    
@@ -108,7 +108,7 @@ bike sharply</em>.
    [Explore](https://gate.d5.mpi-inf.mpg.de/webchild/){: target="_blank" .btn .btn-purple .mr-1 } 
 </span> 
 <details markdown="block">
-  <summary>Illustative Example</summary>
+  <summary>Illustrative Example</summary>
   {: .fs-3 .text-delta .text-red-100}
    ```
    #word: animal
@@ -132,7 +132,7 @@ bike sharply</em>.
    [Explore](https://quasimodo.r2.enst.fr/){: target="_blank" .btn .btn-purple .mr-1 } 
 </span> 
 <details markdown="block">
-  <summary>Illustative Example</summary>
+  <summary>Illustrative Example</summary>
   {: .fs-3 .text-delta .text-red-100}
    <img src="../../images/resources/QuasimodoKB.png" width="90%" height="auto" />
    
@@ -150,7 +150,7 @@ bike sharply</em>.
    [Explore](https://ascent.mpi-inf.mpg.de/browse){: target="_blank" .btn .btn-purple .mr-1 } 
 </span> 
 <details markdown="block">
-  <summary>Illustative Example</summary>
+  <summary>Illustrative Example</summary>
   {: .fs-3 .text-delta .text-red-100}
    <img src="../../images/resources/ascent.png" width="80%" height="auto" />
 
@@ -168,7 +168,7 @@ bike sharply</em>.
    [Explore](https://sentic.net/demos/){: target="_blank" .btn .btn-purple .mr-1 } 
 </span> 
 <details markdown="block">
-  <summary>Illustative Example</summary>
+  <summary>Illustrative Example</summary>
   {: .fs-3 .text-delta .text-red-100}
    ```
    concept_name: intact
@@ -191,7 +191,7 @@ bike sharply</em>.
    [Data](https://drive.google.com/drive/folders/1NzjXX46NnpxtgxBrkBWFiUbsXAMdd-lB){: target="_blank" .btn .btn-green .mr-1 } 
 </span> 
 <details markdown="block">
-  <summary>Illustative Example</summary>
+  <summary>Illustrative Example</summary>
   {: .fs-3 .text-delta .text-red-100}
    ```
    arg1: snowdrop,  metadata: wikipedia_primary_page -- Galanthus
@@ -213,7 +213,7 @@ bike sharply</em>.
 
 Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cyc is not publicly available. 
 <details markdown="block">
-  <summary>Illustative Example</summary>
+  <summary>Illustrative Example</summary>
   {: .fs-3 .text-delta .text-red-100}
    Sample assertions of everyday life and objects spanned by the domain of <strong>CYC</strong>:
    ```
@@ -237,7 +237,7 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
    [Explore](https://www.wikidata.org/wiki/Wikidata:Main_Page){: target="_blank" .btn .btn-purple .mr-1 } 
 </span> 
 <details markdown="block">
-  <summary>Illustative Example</summary>
+  <summary>Illustrative Example</summary>
   {: .fs-3 .text-delta .text-red-100}
    <img src="../../images/resources/wikidata.png" width="90%" height="auto" />
    
@@ -254,7 +254,7 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
    [Data](https://zenodo.org/record/3983030#.YGdfk0hKimk){: target="_blank" .btn .btn-green .mr-1 } 
 </span> 
 <details markdown="block">
-  <summary>Illustative Example</summary>
+  <summary>Illustrative Example</summary>
   {: .fs-3 .text-delta .text-red-100}
    ```
    node1: Q1203797,  label: bicycle
@@ -275,7 +275,7 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
    [Explore](https://yago-knowledge.org/graph/Elvis_Presley){: target="_blank" .btn .btn-purple .mr-1 } 
 </span> 
 <details markdown="block">
-  <summary>Illustative Example</summary>
+  <summary>Illustrative Example</summary>
   {: .fs-3 .text-delta .text-red-100}
    <img src="../../images/resources/YAGO.png" width="75%" height="auto" />
    
@@ -293,7 +293,7 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
    [Explore](https://sigma.ontologyportal.org:8443/sigma/Browse.jsp?kb=SUMO){: target="_blank" .btn .btn-purple .mr-1 } 
 </span> 
 <details markdown="block">
-  <summary>Illustative Example</summary>
+  <summary>Illustrative Example</summary>
   {: .fs-3 .text-delta .text-red-100}
    <img src="../../images/resources/SUMO.png" width="80%" height="auto" />
    
@@ -310,7 +310,7 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
    [Data](http://www.loa.istc.cnr.it/dolce/overview.html){: target="_blank" .btn .btn-green .mr-1 } 
 </span> 
 <details markdown="block">
-  <summary>Illustative Example</summary>
+  <summary>Illustrative Example</summary>
   {: .fs-3 .text-delta .text-red-100}
    
    <p>Taxonomy of <strong>DOLCE</strong> basic categories:</p>
@@ -334,7 +334,7 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
    [Explore](http://wordnetweb.princeton.edu/perl/webwn){: target="_blank" .btn .btn-purple .mr-1 } 
 </span> 
 <details markdown="block">
-  <summary>Illustative Example</summary>
+  <summary>Illustrative Example</summary>
   {: .fs-3 .text-delta .text-red-100}
    <img src="../../images/resources/wordnet.png" width="70%" height="auto" />
 
@@ -352,7 +352,7 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
    [Explore](https://framenet.icsi.berkeley.edu/fndrupal/frameIndex){: target="_blank" .btn .btn-purple .mr-1 } 
 </span> 
 <details markdown="block">
-  <summary>Illustative Example</summary>
+  <summary>Illustrative Example</summary>
   {: .fs-3 .text-delta .text-red-100}
    <img src="../../images/resources/framenet.png" width="60%" height="auto" />
    
@@ -369,7 +369,7 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
    [Explore](https://metaphor.icsi.berkeley.edu/pub/en/index.php/Category:Metaphor){: target="_blank" .btn .btn-purple .mr-1 } 
 </span> 
 <details markdown="block">
-  <summary>Illustative Example</summary>
+  <summary>Illustrative Example</summary>
   {: .fs-3 .text-delta .text-red-100}
    <img src="../../images/resources/MetaNet.png" width="80%" height="auto" />
    
@@ -387,7 +387,7 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
    [Explore](https://verbs.colorado.edu/verb-index/vn3.3/){: target="_blank" .btn .btn-purple .mr-1 } 
 </span> 
 <details markdown="block">
-  <summary>Illustative Example</summary>
+  <summary>Illustrative Example</summary>
   {: .fs-3 .text-delta .text-red-100}
    <img src="../../images/resources/verbnet.png" width="40%" height="auto" />
 
@@ -406,7 +406,7 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
    [Explore](http://visualgenome.org/VGViz/explore){: target="_blank" .btn .btn-purple .mr-1 } 
 </span> 
 <details markdown="block">
-  <summary>Illustative Example</summary>
+  <summary>Illustrative Example</summary>
   {: .fs-3 .text-delta .text-red-100}
   <img src="../../images/resources/Visual_Genome.png" width="100%" height="auto" />
   
@@ -423,7 +423,7 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
    [Data](http://bryanplummer.com/Flickr30kEntities/){: target="_blank" .btn .btn-green .mr-1 } 
 </span> 
 <details markdown="block">
-  <summary>Illustative Example</summary>
+  <summary>Illustrative Example</summary>
   {: .fs-3 .text-delta .text-red-100}
 
    <img src="../../images/resources/Flickr30k.jpeg" width="100%" height="auto" />
@@ -442,7 +442,7 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
    [Data](https://drive.google.com/drive/folders/1vqfVXhJXJWuiiXbUa4rZjOgQoJvwZUoT){: target="_blank" .btn .btn-green .mr-1 } 
 </span> 
 <details markdown="block">
-  <summary>Illustative Example</summary>
+  <summary>Illustrative Example</summary>
   {: .fs-3 .text-delta .text-red-100}
    Example generics about <em>tree</em> in GENERICSKB:
    ```
@@ -477,7 +477,7 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
    [Explore](https://mosaickg.apps.allenai.org/comet_atomic){: target="_blank" .btn .btn-purple .mr-1 } 
 </span> 
 <details markdown="block">
-  <summary>Illustative Example</summary>
+  <summary>Illustrative Example</summary>
   {: .fs-3 .text-delta .text-red-100}
    <img src="../../images/resources/Comet.png" width="70%" height="auto" />
    
@@ -495,7 +495,7 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
    [Data](https://zenodo.org/record/4331372#.YGdj2EhKimk){: target="_blank" .btn .btn-green .mr-1 } 
 </span> 
 <details markdown="block">
-  <summary>Illustative Example</summary>
+  <summary>Illustrative Example</summary>
   {: .fs-3 .text-delta .text-red-100}
    ```
    node1: person
@@ -517,7 +517,7 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
    [Data](https://drive.google.com/drive/u/1/folders/16347KHSloJJZIbgC9V5gH7_pRx0CzjPQ){: target="_blank" .btn .btn-green .mr-1 } 
 </span> 
 <details markdown="block">
-  <summary>Illustative Example</summary>
+  <summary>Illustrative Example</summary>
   {: .fs-3 .text-delta .text-red-100}
    Examples for <em>food</em> for each of the 13 dimensions:
    <img src="../../images/resources/dimensions.png" width="70%" height="auto" />
