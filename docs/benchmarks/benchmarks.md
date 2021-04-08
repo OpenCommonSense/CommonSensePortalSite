@@ -35,8 +35,18 @@ We present a comprehensive collection of datasets for testing commonsense reason
 | [RiddleSense](#riddlesense) | General, Figurative, Counterfactual | [MC](#multiple-choice-tasks)  | 68.8 /  91.3 (**Acc. %**) | 0 |
 | [VCR](#visual-commonsense-reasoning) | Visual Understanding, Complex Situation | [VQA](#visually-grounded-qa) | 70.8 / 85.0 (**Acc. %**) | 180 |
 | [ProtoQA](#protoqa) | Prototypical Situation | [OE](#open-ended-qa) | 56.0 / 78.4 (**WN. Sim.**) | 3 |
+| [OpenCSR](#opencsr) | Science | [OE](#open-ended-qa) | 40.8 /  N/A (**Acc. %**) | 2 |
+| [CommonGen](#commongen) | General, Everyday Scenario | [CNLG](#constrained-nlg) | 33.3 / 52.4  (**SPICE %**) | 11 |
+| [Cos-E](#cos-e) | General, Everyday Events | [CNLG](#constrained-nlg) | 58.2 / 95.3  (**Acc. %**) | 96 |
+| [ComVE (SubTask C)](#comve-subtask-c) | Nonsensical Statement | [CNLG](#constrained-nlg) | 22.4 / 2.58  (**BLEU**) | 32 |
+| [LAMA Probes](#lama-probes) | General | [LMP](#lm-probing-tasks) | N/A | 256 |
+| [NumerSense](#numersense) | Numerical | [LMP](#lm-probing-tasks) | 70.4 /  96.3 (**Acc. %**) | 5 |
 | [ReCoRD](#ReCoRD) | News Articles | [RC](#reading-comprehension) | 91.21 / 91.69 (**F1**) | 69 |
 | [CosmosQA](#cosmos-QA) | Everyday Narratives | [RC](#reading-comprehension) | 91.79 / 94.00  (**Acc. %**) | 68 |
+| [TWC](#twc) | Objects | [TG](#text-game) | N/A | 0 |
+| [LOCATEDNEAR](#locatednear-relation-extraction) | Objects | [Others](#other-related-datasets) | 65.3 / 68.0 (**Acc. %**) | 17 |
+| [GLUE](#glue-and-superglue-benchmark) | General | [Others](#other-related-datasets) | 97.8 / 97.8 (**Acc. %**) | 1378 |
+| [SuperGLUE](#glue-and-superglue-benchmark) | General | [Others](#other-related-datasets) | 98.4 / 100 (**Acc. %**) | 309 |
 
 <!-- Check https://leaderboard.allenai.org/ for more -->
 
@@ -565,7 +575,7 @@ Correct Choice: D
 [Paper](https://arxiv.org/abs/2005.00771){: .btn .btn-blue .mr-1 target="_blank" } [Github Page](https://github.com/iesl/protoqa-data){: target="_blank" .btn .btn-grey .mr-1 } [Huggingface Card](https://huggingface.co/datasets/proto_qa){: target="_blank" .btn .btn-purple .mr-1 } </span>
 
 > - **Topics:** Prototypical situation.
-- **Task format:** Give a question, a model is has to output a ranked list of answers covering multiple categories.
+- **Task format:** Given a question, a model is has to output a ranked list of answers covering multiple categories.
 - **Size & Split:**  5,733 in total --- train (8,781), dev (1,030), test (102).
 - **Dataset creation:** 
 - **An illustative example:**
@@ -576,9 +586,35 @@ Categories:
     printer/copier (37), office furniture (15), computer equipment (17), stapler (11), files (10), office appliances (5), security systems (1)
 ``` 
 
+{: .fs-4 .fw-600 .text-red-300}
+> **Editors' comments**
+
+
 ### OpenCSR
 {: .no_toc }
 
+{: .fs-4 .fw-800 .text-blue-100}
+*Differentiable Open-Ended Commonsense Reasoning*. <br> Bill Yuchen Lin, Haitian Sun, Bhuwan Dhingra, Manzil Zaheer, Xiang Ren, William W. Cohen. **NAACL-21**
+
+<span class="fs-1">
+[Paper](https://arxiv.org/abs/2010.14439){: .btn .btn-blue .mr-1 target="_blank" }</span>
+
+> - **Topics:** Science. Most of the questions in the dataset are naturally occurring generic statements.
+- **Task format:** Given an open-ended question, the model will output a weighted set of concepts.
+- **Size & Split:**  19,520 in total --- train (15,800), dev (1,756), test (1,965).
+- **Dataset creation:** 
+- **An illustative example:**
+```
+Question: What can help alleviate global warming?
+Supporting Facts: 
+    f1: Carbon dioxide is the major greenhouse gas contributing to global warming.
+    f2: Trees remove carbon dioxide from the atmosphere through photosynthesis.
+    f3: The atmosphere contains oxygen, carbon dioxide, and water.
+Weighted Answers: Renewable energy (w1), tree (w2), solar battery (w3)
+``` 
+
+{: .fs-4 .fw-600 .text-red-300}
+> **Editors' comments**
 
 ---
 
@@ -587,13 +623,81 @@ Categories:
 ### CommonGen
 {: .no_toc }
 
+{: .fs-4 .fw-800 .text-blue-100}
+*CommonGen: A Constrained Text Generation Challenge for Generative Commonsense Reasoning*. <br> Bill Yuchen Lin, Wangchunshu Zhou, Ming Shen, Pei Zhou, Chandra Bhagavatula, Yejin Choi, Xiang Ren. **EMNLP-20 Findings**
+
+<span class="fs-1">
+[Paper](https://arxiv.org/abs/1911.03705){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://inklab.usc.edu/CommonGen/){: target="_blank" .btn .btn-green .mr-1 } [Huggingface Card](https://huggingface.co/datasets/common_gen){: target="_blank" .btn .btn-purple .mr-1 } </span>
+
+> - **Topics:** General. A wide range of concepts from everyday scenario. 
+- **Task format:** Given a set of common concepts, the task is to generate a coherent sentence describing an everyday scenario using these concepts.
+- **Size & Split:** 35,141 concept-sets in total --- train (32,651), dev (993), test (1,497). 
+- **Dataset creation:** 
+- **An illustative example:**
+```
+Common Concepts: {dog, frisbee, catch, throw}
+Output:
+GPT2 -- A dog throws a frisbee at a football player.
+UniLM -- Two dogs are throwing frisbees at each other.
+BART -- A dog throws a frisbee and a dog catches it.
+T5 -- dog catches a frisbee and throws it to a dog.
+``` 
+
+{: .fs-4 .fw-600 .text-red-300}
+> **Editors' comments**
 
 ### Cos-E 
 {: .no_toc }
 
+{: .fs-4 .fw-800 .text-blue-100}
+*Explain Yourself! Leveraging Language Models for Commonsense Reasoning*. <br> Nazneen Fatema Rajani, Bryan McCann, Caiming Xiong, Richard Socher. **ACL-19**
+
+<span class="fs-1">
+[Paper](https://arxiv.org/abs/1906.02361){: .btn .btn-blue .mr-1 target="_blank" } [Github Page](https://github.com/salesforce/cos-e){: target="_blank" .btn .btn-grey .mr-1 } [Huggingface Card](https://huggingface.co/datasets/cos_e){: target="_blank" .btn .btn-purple .mr-1 } </span>
+
+> - **Topics:** General. Most questions in the dataset is based on everyday scenario and events. 
+- **Task format:** Given a question, a model will return an explanation with the correct answer to the question.
+- **Size & Split:** 10,952 in total --- train (9,741), dev (1,211).
+- **Dataset creation:** 
+- **An illustative example:**
+```
+Question: While eating a hamburger with friends, what are people trying to do?
+Choices: have fun, tasty, or indigestion
+CoS-E: Usually a hamburger with friends indicates a good time.
+Correct Choice: have fun
+``` 
+
+{: .fs-4 .fw-600 .text-red-300}
+> **Editors' comments**
+
 
 ### ComVE (SubTask C)
 {: .no_toc }
+
+{: .fs-4 .fw-800 .text-blue-100}
+*SemEval-2020 Task 4: Commonsense Validation and Explanation*. <br> Cunxiang Wang, Shuailong Liang, Yili Jin, Yilong Wang, Xiaodan Zhu, Yue Zhang. **SemEval-20**
+
+<span class="fs-1">
+[Paper](https://arxiv.org/abs/2007.00236){: .btn .btn-blue .mr-1 target="_blank" } [Github Page](https://github.com/wangcunxiang/SemEval2020-Task4-Commonsense-Validation-and-Explanation){: target="_blank" .btn .btn-grey .mr-1 } </span>
+
+> - **Topics:** Commonsense explanation to nonsensical statement. 
+- **Task format:** Given a nonsensical statement, the task is to generate the reason why this statement does not make sense.
+- **Size & Split:** 11,997 8-sentence tuples in total --- train (10,000), dev (997), test (1,000). 
+- **Dataset creation:** 
+- **An illustative example:**
+```
+Task C: Commonsense Explanation (Generation)
+Generate the reason why this statement is against common sense and we will use BELU to evaluate it.
+    Statement: He put an elephant into the fridge.
+    Referential Reasons:
+        i. An elephant is much bigger than a fridge.
+        ii. A fridge is much smaller than an elephant.
+        iii. Most of the fridges aren’t large enough to contain an elephant.
+```
+
+{: .fs-4 .fw-600 .text-red-300}
+> **Editors' comments**
+
 
 ---
 
@@ -603,8 +707,72 @@ Categories:
 ### LAMA Probes 
 {: .no_toc }
 
+{: .fs-4 .fw-800 .text-blue-100}
+*Language Models as Knowledge Bases?*. <br> Fabio Petroni, Tim Rocktäschel, Patrick Lewis, Anton Bakhtin, Yuxiang Wu, Alexander H. Miller, Sebastian Riedel. **EMNLP-19**
+
+<span class="fs-1">
+[Paper](https://arxiv.org/abs/1909.01066){: .btn .btn-blue .mr-1 target="_blank" } [Github Page](https://github.com/facebookresearch/LAMA){: target="_blank" .btn .btn-grey .mr-1 } [Huggingface Card](https://huggingface.co/datasets/lama){: target="_blank" .btn .btn-purple .mr-1 } </span>
+
+> - **Topics:** General. LAMA is a probe for analyzing the factual and commonsense knowledge contained in pretrained language models.
+- **Task format:** Given a pretrained language model knows a fact (subject, relation, object) such as (Dante,
+born-in, Florence), the task should predict masked objects in cloze sentences such as “Dante was born in ___” expressing that fact.
+- **Size & Split:** N/A
+- **Dataset creation:** 
+- **An illustative example:**
+The trex config has the following fields:
+```
+description: the item (an institution, law, public office ...) or statement belongs to or has power over or applies to the value (a territorial jurisdiction: a country, state, municipality, ...)
+label: applies to jurisdiction
+masked_sentence: It is known as a principality as it is a monarchy headed by two Co-Princes – the Spanish/Roman Catholic Bishop of Urgell and the President of [MASK].
+obj_label: France
+obj_surface: France
+obj_uri: Q142
+predicate_id: P1001
+sub_label: president of the French Republic
+sub_surface: President
+sub_uri: Q191954
+template: [X] is a legal term in [Y] .
+template_negated: [X] is not a legal term in [Y] .
+type: N-M
+uuid: 3fe3d4da-9df9-45ba-8109-784ce5fba38a
+``` 
+The conceptnet config has the following fields:
+```
+masked_sentence: One of the things you do when you are alive is [MASK].
+negated: N/A
+obj: think
+obj_label: think
+pred: HasSubevent, 
+sub: alive
+uuid: d4f11631dde8a43beda613ec845ff7d1
+```
+
+{: .fs-4 .fw-600 .text-red-300}
+> **Editors' comments**
+
+
 ### NumerSense
 {: .no_toc }
+
+{: .fs-4 .fw-800 .text-blue-100}
+*Birds have four legs?! NumerSense: Probing Numerical Commonsense Knowledge of Pre-trained Language Models*. <br> Bill Yuchen Lin, Seyeon Lee, Rahul Khanna, Xiang Ren. **EMNLP-20**
+
+<span class="fs-1">
+[Paper](https://arxiv.org/abs/2005.00683){: .btn .btn-blue .mr-1 target="_blank" } [Github Page](https://github.com/INK-USC/NumerSense){: target="_blank" .btn .btn-grey .mr-1 } [Huggingface Card](https://huggingface.co/datasets/numer_sense){: target="_blank" .btn .btn-purple .mr-1 } </span>
+
+> - **Topics:** Numerical commonsense. The dataset contains probes from a wide range of categories, including objects, biology, geometry, unit, math, physics, geography, etc. 
+- **Task format:** Given a masked sentence, the task is to choose the correct numerical answer from all provided choices. 
+- **Size & Split:** 13.6k masked-word-prediction probes in total --- fine-tune (10.5k), test (3.1k). 
+- **Dataset creation:** 
+- **An illustative example:**
+```
+Question: A car usually has [MASK] wheels.
+Choices: 
+A) One  B) Two  C) Three  D) Four  E) Five
+``` 
+
+{: .fs-4 .fw-600 .text-red-300}
+> **Editors' comments**
 
 ---
 
@@ -673,6 +841,22 @@ Correct Choice: B
 ### TWC
 {: .no_toc }
 
+{: .fs-4 .fw-800 .text-blue-100}
+*Text-based RL Agents with Commonsense Knowledge: New Challenges, Environments and Baselines*. <br> Keerthiram Murugesan, Mattia Atzeni, Pavan Kapanipathi, Pushkar Shukla, Sadhana Kumaravel, Gerald Tesauro, Kartik Talamadupula, Mrinmaya Sachan, Murray Campbell. **AAAI-21**
+
+<span class="fs-1">
+[Paper](https://arxiv.org/abs/2010.03790){: .btn .btn-blue .mr-1 target="_blank" } [Github Page](https://github.com/IBM/commonsense-rl){: target="_blank" .btn .btn-grey .mr-1 } </span>
+
+> - **Topics:** Objects. A specific kind of commonsense knowledge about objects, their attributes, and affordances.  
+- **Task format:**  A new text-based gaming environment for training and evaluating RL agents. 
+- **Size & Split:** In TWC doamin, there are 928 total entities, 872 total objects, 190 unique objects, 56 supporters/containers, and 8 rooms. 30 unique games in total.
+- **Dataset creation:** 
+- **An illustative example:** Example of a game walkthrough belonging to the <em>easy</em> difficulty level.
+<img src="../../images/benchmarks/twc.png" width="100%" height="auto" />
+
+{: .fs-4 .fw-600 .text-red-300}
+> **Editors' comments**
+
 ### AFLWorld
 {: .no_toc }
 
@@ -686,7 +870,107 @@ Correct Choice: B
 ### LocatedNear Relation Extraction
 {: .no_toc }
 
+{: .fs-4 .fw-800 .text-blue-100}
+*Automatic Extraction of Commonsense LocatedNear Knowledge*. <br> Frank F. Xu, Bill Yuchen Lin, Kenny Q. Zhu. **ACL-18**
+
+<span class="fs-1">
+[Paper](https://arxiv.org/abs/1711.04204){: .btn .btn-blue .mr-1 target="_blank" } [Github Page](https://github.com/adapt-sjtu/commonsense-locatednear){: target="_blank" .btn .btn-grey .mr-1 } </span>
+
+> - **Topics:** Objects. Mostly about physical objects that are typically found near each other in real life.
+- **Task format:** Task 1 -- judge if a sentence describes two objects (mentioned in the sentence) being physically close by; Task 2 -- produce a ranked list of LOCATEDNEAR facts with the given classified results of large number of sentences.
+- **Size & Split:** 5,000 sentences describe a scene of two physical objects and with a label indicating if the two objects are co-located in the scene --- train(4,000), test(1,000).
+- **Dataset creation:** 
+- **An illustative example:**
+```
+ID: 9888840
+Sentence: In a few minutes more the mission ship was forsaken by her strange Sabbath congregation, and left with all the fleet around her floating quietly on the tranquil sea.	
+Object 1: ship
+Object 2: sea
+Confidence: 1
+``` 
+
+{: .fs-4 .fw-600 .text-red-300}
+> **Editors' comments**
+
+
 ### GLUE and SuperGLUE Benchmark 
 {: .no_toc }
 
+{: .fs-4 .fw-800 .text-blue-100}
+*GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding*. <br> Alex Wang, Amanpreet Singh, Julian Michael, Felix Hill, Omer Levy, Samuel R. Bowman. **ICLR-19**
+
+<span class="fs-1">
+[Paper](https://arxiv.org/abs/1804.07461){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://gluebenchmark.com/){: target="_blank" .btn .btn-green .mr-1 } [Huggingface Card](https://huggingface.co/datasets/glue){: target="_blank" .btn .btn-purple .mr-1 }</span>
+
+> - **Topics:** General. A collection of NLU tasks including question answering, sentiment analysis, and textual entailment, and an associated online platform for model evaluation, comparison, and analysis
+- **Task format:** Including single-sentence tasks, similarity and paraphrase tasks, and inference tasks.
+- **Size & Split:** 
+CoLA --- train(8,551), validation(1,043), test(1,063); 
+MultiNLI --- train(392,702), validation matched(9,815), validation mismatched(9,832), test matched(9,796), test mismatched(9,847); 
+SST-2 --- train(67k), test(1.8k); 
+MRPC --- train(3.7k), test(1.7k); 
+STS-B --- train(7k), test(1.4k); 
+QQP --- train(364k), test(391k); 
+QNLI --- train(105k), test(5.4k); 
+RTE --- train(2.5k), test(3k); 
+WNLI --- train(634), test(146).
+- **Dataset creation:** 
+- **An illustative example:**
+Examples from the diagnostic set. <em>Fwd</em> (resp. <em>Bwd</em>) denotes the label when sentence 1
+(resp. sentence 2) is the premise. Labels are <em>entailment</em> (E), <em>neutral</em> (N), or <em>contradiction</em> (C).
+```
+Example 1
+    Tags: Lexical Entailment (Lexical Semantics), Downward Monotone (Logic)
+    Sentence 1: The timing of the meeting has not been set, according to a Starbucks spokesperson.
+    Sentence 2: The timing of the meeting has not been considered, according to a Starbucks spokesperson.
+    Fwd: N
+    Bwd: E
+Example 2 
+    Tags: Universal Quantifiers (Logic)
+    Sentence 1: Our deepest sympathies are with all those affected by this accident.
+    Sentence 2: Our deepest sympathies are with a victim who was affected by this accident.
+    Fwd: E
+    Bwd: N
+``` 
+
+{: .fs-4 .fw-600 .text-red-300}
+> **Editors' comments**
+
+
+{: .fs-4 .fw-800 .text-blue-100}
+*SuperGLUE: A Stickier Benchmark for General-Purpose Language Understanding Systems*. <br> Alex Wang, Yada Pruksachatkun, Nikita Nangia, Amanpreet Singh, Julian Michael, Felix Hill, Omer Levy, Samuel R. Bowman. **NeurIPS-19**
+
+<span class="fs-1">
+[Paper](https://arxiv.org/abs/1905.00537){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://super.gluebenchmark.com/){: target="_blank" .btn .btn-green .mr-1 } [Huggingface Card](https://huggingface.co/datasets/super_glue){: target="_blank" .btn .btn-purple .mr-1 }</span>
+
+> - **Topics:** General. A new benchmark designed to pose a more rigorous test of language understanding.
+- **Task format:** Besides the task formats in GLUE, SuperGLUE also includes coreference resolution and question answering. 
+- **Size & Split:** 
+BoolQ --- train(9,427), dev(3,270), test(3,245); 
+CB --- train(250), dev(57), test(250);
+COPA --- train(400), dev(100), test(500); 
+MultiRC --- train(5,100), dev(953), test(1,800); 
+ReCoRD --- train(101k), dev(10k), test(10k); 
+RTE --- train(2,500), dev(278), test(300); 
+WiC --- train(6,000), dev(638), test(1,400); 
+WSC --- train(554), dev(104), test(146).
+- **Dataset creation:** 
+- **An illustative example:**
+Example from BoolQ
+```
+Passage: Barq’s – Barq’s is an American soft drink. Its brand of root beer is notable for having caffeine. Barq’s, created by Edward Barq and bottled since the turn of the 20th century, is owned by the Barq family but bottled by the Coca-Cola Company. It was known as Barq’s Famous Olde Tyme Root Beer until 2012.
+Question: Is barq’s root beer a pepsi product?
+Answer: No
+``` 
+Example from COPA
+```
+Premise: My body cast a shadow over the grass. 
+Question: What’s the CAUSE for this?
+Alternative 1: The sun was rising. 
+Alternative 2: The grass was cut.
+Correct Alternative: 1
+```
 <!-- https://super.gluebenchmark.com/tasks -->
+
+{: .fs-4 .fw-600 .text-red-300}
+> **Editors' comments**
