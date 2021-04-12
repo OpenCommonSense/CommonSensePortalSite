@@ -16,37 +16,37 @@ Editors: [Bill Yuchen Lin](https://yuchenlin.xyz/), [Yang Qiao](https://www.link
 
 We present a comprehensive collection of datasets for testing commonsense reasoning ability. They are gourped by different fomulations, and covered a wide range of aspects: properties of common objects, real-life situations, elementry science, social skills, etc. 
 
-| Name | Focus | Format |  SotA vs. Human  | \# Citations |
-| :------------:| :-----: | :------: | :----------: | :-------: | :-----------: | :------------: |
-| [CommonsenseQA](#commonsenseqa) | General | [MC](#multiple-choice-tasks)  | 83.3 /  88.9 (**Acc. %**)  | 174 |
-| [SocialIQA](#socialiqa) | Social  | [MC](#multiple-choice-tasks)  | 83.2 /  88.1 (**Acc. %**)  | 90 |
-| [PhysicalIQA](#physicaliqa) | Physical  | [MC](#multiple-choice-tasks)  | 90.1 /  94.9 (**Acc. %**)  | 43 |
-| [ARC](#arc) | Science | [MC](#multiple-choice-tasks)  | 81.4 /  N/A (**Acc. %**)  | 177 |
-| [OpenbookQA](#openbookqa) | Elementary Science | [MC](#multiple-choice-tasks)  | 87.2 /  91.7 (**Acc. %**)  | 125 |
-| [SWAG](#swag-and-hellaswag) | Event | [MC](#multiple-choice-tasks)  | 91.7 /  88.0 (**Acc. %**)  | 281 |
-| [HellaSWAG](#swag-and-hellaswag) | Event | [MC](#multiple-choice-tasks)  | 93.9 /  95.6 (**Acc. %**)  | 107 |
-| [WSC](#wsc) | General, Coreference | [MC](#multiple-choice-tasks)  | 96.6 /  100 (**Acc. %**) | 555 |
-| [WinoGrande](#winogrande) | General, Coreference | [MC](#multiple-choice-tasks)  | 91.28 /  94 (**Acc. %**)  | 108 |
-| [COPA](#copa-and-x-copa) | Causality, Event | [MC](#multiple-choice-tasks)  | 98.4 /  100 (**Acc. %**) | 17 |
-| [X-COPA](#copa-and-x-copa) | Causality, Event | [MC](#multiple-choice-tasks)  | 76.1 /  97.6 (**Acc. %**) | 9 |
-| [CODAH](#codah) | General, Event | [MC](#multiple-choice-tasks)  | 69.5 /  95.3 (**Acc. %**) | 5 |
-| [MC-TACO](#mc-taco) | Temporal Commonsense, Events | [MC](#multiple-choice-tasks)  | 80.9 /  75.8 (**Acc. %**)  | 25 |
-| [aNLI](#anli) | Abductive Reasoning, Events | [MC](#multiple-choice-tasks)  | 89.7 /  92.9 (**Acc. %**)  | 62 |
-| [RiddleSense](#riddlesense) | General, Figurative, Counterfactual | [MC](#multiple-choice-tasks)  | 68.8 /  91.3 (**Acc. %**) | 0 |
-| [VCR](#visual-commonsense-reasoning) | Visual Understanding, Complex Situation | [VQA](#visually-grounded-qa) | 70.8 / 85.0 (**Acc. %**) | 180 |
-| [ProtoQA](#protoqa) | Prototypical Situation | [OE](#open-ended-qa) | 56.0 / 78.4 (**WN. Sim.**) | 3 |
-| [OpenCSR](#opencsr) | Science | [OE](#open-ended-qa) | 40.8 /  N/A (**Acc. %**) | 2 |
-| [CommonGen](#commongen) | General, Everyday Scenario | [CNLG](#constrained-nlg) | 33.3 / 52.4  (**SPICE %**) | 11 |
-| [Cos-E](#cos-e) | General, Everyday Events | [CNLG](#constrained-nlg) | 58.2 / 95.3  (**Acc. %**) | 96 |
-| [ComVE (SubTask C)](#comve-subtask-c) | Nonsensical Statement | [CNLG](#constrained-nlg) | 22.4 / 2.58  (**BLEU**) | 32 |
-| [LAMA Probes](#lama-probes) | General | [LMP](#lm-probing-tasks) | N/A | 256 |
-| [NumerSense](#numersense) | Numerical | [LMP](#lm-probing-tasks) | 70.4 /  96.3 (**Acc. %**) | 5 |
-| [ReCoRD](#ReCoRD) | News Articles | [RC](#reading-comprehension) | 91.21 / 91.69 (**F1**) | 69 |
-| [CosmosQA](#cosmos-QA) | Everyday Narratives | [RC](#reading-comprehension) | 91.79 / 94.00  (**Acc. %**) | 68 |
-| [TWC](#twc) | Objects | [TG](#text-game) | N/A | 0 |
-| [LOCATEDNEAR](#locatednear-relation-extraction) | Objects | [Others](#other-related-datasets) | 65.3 / 68.0 (**Acc. %**) | 17 |
-| [GLUE](#glue-and-superglue-benchmark) | General | [Others](#other-related-datasets) | 97.8 / 97.8 (**Acc. %**) | 1378 |
-| [SuperGLUE](#glue-and-superglue-benchmark) | General | [Others](#other-related-datasets) | 98.4 / 100 (**Acc. %**) | 309 |
+| Name | Focus | Format |  SotA vs. Human 
+| :------------:| :-----: | :------: | :----------: | :-------: | :-----------: |
+| [CommonsenseQA](#commonsenseqa) | General | [MC](#multiple-choice-tasks)  | 83.3 /  88.9 (**Acc. %**) 
+| [SocialIQA](#socialiqa) | Social  | [MC](#multiple-choice-tasks)  | 83.2 /  88.1 (**Acc. %**) 
+| [PhysicalIQA](#physicaliqa) | Physical  | [MC](#multiple-choice-tasks)  | 90.1 /  94.9 (**Acc. %**) 
+| [ARC](#arc) | Science | [MC](#multiple-choice-tasks)  | 81.4 /  N/A (**Acc. %**) 
+| [OpenbookQA](#openbookqa) | Elementary Science | [MC](#multiple-choice-tasks)  | 87.2 /  91.7 (**Acc. %**) 
+| [SWAG](#swag-and-hellaswag) | Event | [MC](#multiple-choice-tasks)  | 91.7 /  88.0 (**Acc. %**) 
+| [HellaSWAG](#swag-and-hellaswag) | Event | [MC](#multiple-choice-tasks)  | 93.9 /  95.6 (**Acc. %**) 
+| [WSC](#wsc) | General, Coreference | [MC](#multiple-choice-tasks)  | 96.6 /  100 (**Acc. %**)
+| [WinoGrande](#winogrande) | General, Coreference | [MC](#multiple-choice-tasks)  | 91.28 /  94 (**Acc. %**) 
+| [COPA](#copa-and-x-copa) | Causality, Event | [MC](#multiple-choice-tasks)  | 98.4 /  100 (**Acc. %**)
+| [X-COPA](#copa-and-x-copa) | Causality, Event | [MC](#multiple-choice-tasks)  | 76.1 /  97.6 (**Acc. %**)
+| [CODAH](#codah) | General, Event | [MC](#multiple-choice-tasks)  | 69.5 /  95.3 (**Acc. %**)
+| [MC-TACO](#mc-taco) | Temporal Commonsense, Events | [MC](#multiple-choice-tasks)  | 80.9 /  75.8 (**Acc. %**) 
+| [aNLI](#anli) | Abductive Reasoning, Events | [MC](#multiple-choice-tasks)  | 89.7 /  92.9 (**Acc. %**) 
+| [RiddleSense](#riddlesense) | General, Figurative, Counterfactual | [MC](#multiple-choice-tasks)  | 68.8 /  91.3 (**Acc. %**) 
+| [VCR](#visual-commonsense-reasoning) | Visual Understanding, Complex Situation | [VQA](#visually-grounded-qa) | 70.8 / 85.0 (**Acc. %**) 
+| [ProtoQA](#protoqa) | Prototypical Situation | [OE](#open-ended-qa) | 56.0 / 78.4 (**WN. Sim.**)
+| [OpenCSR](#opencsr) | Science | [OE](#open-ended-qa) | 40.8 /  N/A (**Acc. %**) 
+| [CommonGen](#commongen) | General, Everyday Scenario | [CNLG](#constrained-nlg) | 33.3 / 52.4  (**SPICE %**) 
+| [Cos-E](#cos-e) | General, Everyday Events | [CNLG](#constrained-nlg) | 58.2 / 95.3  (**Acc. %**) 
+| [ComVE (SubTask C)](#comve-subtask-c) | Nonsensical Statement | [CNLG](#constrained-nlg) | 22.4 / 2.58  (**BLEU**)
+| [LAMA Probes](#lama-probes) | General | [LMP](#lm-probing-tasks) | N/A 
+| [NumerSense](#numersense) | Numerical | [LMP](#lm-probing-tasks) | 70.4 /  96.3 (**Acc. %**) 
+| [ReCoRD](#ReCoRD) | News Articles | [RC](#reading-comprehension) | 91.21 / 91.69 (**F1**) 
+| [CosmosQA](#cosmos-QA) | Everyday Narratives | [RC](#reading-comprehension) | 91.79 / 94.00  (**Acc. %**) 
+| [TWC](#twc) | Objects | [TG](#text-game) | N/A |
+| [LOCATEDNEAR](#locatednear-relation-extraction) | Objects | [Others](#other-related-datasets) | 65.3 / 68.0 (**Acc. %**) 
+| [GLUE](#glue-and-superglue-benchmark) | General | [Others](#other-related-datasets) | 97.8 / 97.8 (**Acc. %**) 
+| [SuperGLUE](#glue-and-superglue-benchmark) | General | [Others](#other-related-datasets) | 98.4 / 100 (**Acc. %**) 
 
 <!-- Check https://leaderboard.allenai.org/ for more -->
 
