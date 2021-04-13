@@ -17,7 +17,7 @@ Main contributors: [Bill Yuchen Lin](https://yuchenlin.xyz){: target="_blank"}, 
 ---
 
 ## What is this site for?
-This portal site is here to provide easy access to a comprensive colleciton of publications, benchmarks, resources that are related to *commonsense reasoning*. 
+This portal site is here to provide easy access to a comprehensive collection of publications, benchmarks, resources that are related to *commonsense reasoning*. 
 
 ![Machine Common Sense](https://www.darpa.mil/DDM_Gallery/teaching-machines-619-316.jpg)
 <!-- {: .fs-6 .fw-300 } -->

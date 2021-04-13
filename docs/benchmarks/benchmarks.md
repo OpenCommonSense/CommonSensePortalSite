@@ -55,7 +55,7 @@ We present a comprehensive collection of datasets for testing commonsense reason
 ## Multiple-Choice Tasks
 
 <!-- You can use this google sheet: https://docs.google.com/spreadsheets/d/1vJUwjFA_HRvzRI3ULSWXS7rLbHriJj5bTYSUiG4Iixo/edit?usp=sharing 
- and then conver it to markdown by https://tabletomarkdown.com/convert-spreadsheet-to-markdown/ -->
+ and then convert it to markdown by https://tabletomarkdown.com/convert-spreadsheet-to-markdown/ -->
  
 
 The task format for multiple-choice (**MC**) tasks for commonsense reasoning is as follows.
@@ -375,7 +375,7 @@ Correct Choice: Alternative 2
 [Paper](https://arxiv.org/abs/2005.00333){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://github.com/cambridgeltl/xcopa){: target="_blank" .btn .btn-green .mr-1 } [Huggingface Card](https://huggingface.co/datasets/xcopa){: target="_blank" .btn .btn-purple .mr-1 } </span>
 
 > - **Topics:** General. Same as COPA dataset but in 11 languages.
-- **Size & Split:**  1000 * 11 (# lang) in total --- train (400 * 11), dev (100 * 11), test (500 * 11).
+- **Size & Split:**  1000 * 11 (# langs) in total --- train (400 * 11), dev (100 * 11), test (500 * 11).
 - **Dataset creation:** 
 - **An illustative example (in Italian):**
 ```
@@ -511,7 +511,7 @@ Correct Choice: B
 
 {: .fs-4 .fw-600 .text-red-300}
 > **Editors' comments**
-> - The dataset is not yet public. Contact the authors to know more.
+> - The dataset is not yet public. Contact the authors to get more information.
 <!-- Mention the highlights or known issues of the dataset. -->
 
 
@@ -545,6 +545,7 @@ Choices:
     C) He is feeling accusatory towards [person1].  
     D) He is giving [person1] directions.
 Correct Choice: A
+
 Rationales: I chose A) because...
     A) [person1] has the pancakes in front of him.
     B) [person4] is taking everyone's order and asked for clarification.
