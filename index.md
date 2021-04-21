@@ -12,7 +12,7 @@ last_modified_date: March 25 2021
 
 An online compendium of commonsense knowledge & reasoning, initiated by [Bill Yuchen Lin](https://yuchenlin.xyz).
 
-Main contributors: [Bill Yuchen Lin](https://yuchenlin.xyz){: target="_blank"}, [Xiang Ren](http://ink-ron.usc.edu/xiangren/){: target="_blank"}, [Yang Qiao](https://www.linkedin.com/in/xiaoyang-qiao/){: target="_blank"}, ..., and [you](#Contribute)!
+Main contributors: [Bill Yuchen Lin](https://yuchenlin.xyz){: target="_blank"}, [Yang Qiao](https://www.linkedin.com/in/xiaoyang-qiao/){: target="_blank"}, [Filip Ilievski](https://usc-isi-i2.github.io/ilievski/){: target="_blank"}, [Pei Zhou](https://sites.google.com/g.ucla.edu/peizhou/home){: target="_blank"}, [Peifeng Wang](https://scholar.google.com/citations?user=3jfQnM4AAAAJ&hl=en){: target="_blank"}, [Xiang Ren](http://ink-ron.usc.edu/xiangren/){: target="_blank"},  ..., and [you](#Contribute)!
 
 ---
 

@@ -10,7 +10,7 @@ permalink: /docs/analysis
 # Analysis about Commonsense Reasoning
 {: .no_toc }
 
-Editors: [Bill Yuchen Lin](https://yuchenlin.xyz/), [Pei Zhou](https://sites.google.com/g.ucla.edu/peizhou/home)
+Editors: [Bill Yuchen Lin](https://yuchenlin.xyz/){: target="_blank"}, [Pei Zhou](https://sites.google.com/g.ucla.edu/peizhou/home){: target="_blank"}
 
 {: .fs-5 .fw-300 }
 We present a collection of papers analyzing commonsense-related models, knowledge bases, and datasets.

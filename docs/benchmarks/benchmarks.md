@@ -10,7 +10,7 @@ permalink: /docs/datasets
 # Benchmark Datasets for Commonsense Reasoning
 {: .no_toc }
 
-Editors: [Bill Yuchen Lin](https://yuchenlin.xyz/), [Yang Qiao](https://www.linkedin.com/in/xiaoyang-qiao/)
+Editors: [Bill Yuchen Lin](https://yuchenlin.xyz/), [Yang Qiao](https://www.linkedin.com/in/xiaoyang-qiao/), [Peifeng Wang](https://scholar.google.com/citations?user=3jfQnM4AAAAJ&hl=en){: target="_blank"}
 
 {: .fs-5 .fw-300 }
 
