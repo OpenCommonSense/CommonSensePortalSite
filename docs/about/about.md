@@ -16,7 +16,9 @@ Editors: [Bill Yuchen Lin](https://yuchenlin.xyz/), ...
 
 ## What is commonsense reasoning?
 
-Before we 
+Before we define commonsense reasoning, let's look at some quotes about _commonsense knowledge_ and _commonsense reasoning_.
+
+1. 
 
 
 ## 

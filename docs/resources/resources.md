@@ -27,9 +27,10 @@ Many resources for commonsense reasoning have been developed, spanning various a
 --- 
 
 ## Commonsense Knowledge
+These are sources that have been deliberately created to capture (either wide or narrow domain) commonsense knowledge. 
 <br>
 
-These are sources that have been deliberately created to capture (either wide or narrow domain) commonsense knowledge. 
+
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 *[ConceptNet]* Conceptnet 5.5: An open multilingual graph of general knowledge**. <br> ✍ Speer, R., Chin, J., & Havasi, C. *(AAAI 2017)*

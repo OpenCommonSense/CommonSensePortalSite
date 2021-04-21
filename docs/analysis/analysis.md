@@ -16,14 +16,19 @@ Editors: [Bill Yuchen Lin](https://yuchenlin.xyz/){: target="_blank"}, [Pei Zhou
 We present a collection of papers analyzing commonsense-related models, knowledge bases, and datasets.
 
 
- 
+
+---
+
 ## Table of contents
 {: .no_toc .text-delta }
 
 - TOC
 {:toc}
 
---- 
+
+---
+
+## Knowledge Probing of LMs
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 Language Models as Knowledge Bases?**. <br> ✍ Fabio Petroni, Tim Rocktaschel, Patrick Lewis, Anton Bakhtin, Yuxiang Wu, Alexander H. Miller, Sebastian Riedel *(EMNLP 2019)*
@@ -54,6 +59,7 @@ Used datasets/knowledge sources: [Google-RE](https://code.google.com/archive/p/r
 <br> 
 
 
+
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 oLMpics-On What Language Model Pre-training Captures**. <br> ✍ Alon Talmor, Yanai Elazar, Y. Goldberg, Jonathan Berant *(TACL 2020)*
  
@@ -69,35 +75,6 @@ Used datasets/knowledge sources:
   {: .fs-3 .text-delta .text-blue-100}
   ```
   Recent success of pre-trained language models (LMs) has spurred widespread interest in the language capabilities that they possess. However, efforts to understand whether LM representations are useful for symbolic reasoning tasks have been limited and scattered. In this work, we propose eight reasoning tasks, which conceptually require operations such as comparison, conjunction, and composition. A fundamental challenge is to understand whether the performance of a LM on a task should be attributed to the pre-trained representations or to the process of fine-tuning on the task data. To address this, we propose an evaluation protocol that includes both zero-shot evaluation (no fine-tuning), as well as comparing the learning curve of a fine-tuned LM to the learning curve of multiple controls, which paints a rich picture of the LM capabilities. Our main findings are that: (a) different LMs exhibit qualitatively different reasoning abilities, e.g., RoBERTa succeeds in reasoning tasks where BERT fails completely; (b) LMs do not reason in an abstract manner and are context-dependent, e.g., while RoBERTa can compare ages, it can do so only when the ages are in the typical range of human ages; (c) On half of our reasoning tasks all models fail completely. Our findings and infrastructure can help future work on designing new datasets, models, and objective functions for pre-training.
-  ``` 
-  <!-- ![Machine Common Sense](/images/asimplemethod.png){: width="700" text-align="center"} -->
-</details> 
-{: .fs-5 .fw-600 .text-blue-300}
-
-<details markdown="block">
-  <summary>Editors' comments</summary>
-  {: .fs-3 .text-delta .text-red-100}
-</details> 
-{: .fs-3 .fw-600 .text-red-300}
- 
-<br> 
-
-{: .fs-4 .fw-800 .text-blue-100}
-**📜 RICA: Evaluating Robust Inference Capabilities Based on Commonsense Axioms**. <br> ✍ Pei Zhou, Rahul Khanna, Seyeon Lee, Bill Yuchen Lin, Daniel Ho, Jay Pujara, Xiang Ren *(arXiv 2020, accepted in EMNLP-Findings 2020)*
- 
-<span class="fs-2">
-   [Paper](https://arxiv.org/pdf/2005.00782.pdf){: .btn .btn-blue .mr-1 target="_blank" } 
-   [Project Page](https://sites.google.com/usc.edu/rica){: target="_blank" .btn .btn-green .mr-1 } 
-   [Leaderboard](https://eval.ai/web/challenges/challenge-page/832/overview){: target="_blank" .btn .btn-green .mr-1 } 
-   [Semantic Scholar](https://www.semanticscholar.org/paper/RICA%3A-Evaluating-Robust-Inference-Capabilities-on-Zhou-Khanna/4f1312c6c2fbc831652c099ea4ddbd1e1ad67c59){: .btn .btn-purple .mr-1 target="_blank" }
-</span> 
-
-Used datasets/knowledge sources: [ConceptNet](https://conceptnet.io/){: .mr-1 target="_blank"},[ATOMIC](https://mosaickg.apps.allenai.org/kg_atomic){: .mr-1 target="_blank"}, [COMeT](https://mosaickg.apps.allenai.org/comet_atomic){: .mr-1 target="_blank"}
-<details markdown="block">
-  <summary>Abstract</summary>
-  {: .fs-3 .text-delta .text-blue-100}
-  ```
-  Pre-trained language models (PTLM) have impressive performance on commonsense inference benchmarks, but their ability to practically employ commonsense to communicate with humans is fiercely debated. Prior evaluations of PTLMs have focused on factual world knowledge or the ability to reason when the necessary knowledge is provided explicitly. However, effective communication with humans requires inferences based on implicit commonsense relationships, and robustness despite paraphrasing. In the pursuit of advancing fluid human-AI communication, we propose a new challenge, RICA, that evaluates the capabilities of making commonsense inferences and the robustness of these inferences to language variations. In our work, we develop a systematic procedure to probe PTLMs across three different evaluation settings. Extensive experiments on our generated probe sets show that PTLMs perform no better than random guessing (even with fine-tuning), are heavily impacted by statistical biases, and are not robust to perturbation attacks. Our framework and probe sets can help future work improve PTLMs' inference abilities and robustness to linguistic variations--bringing us closer to more fluid communication. 
   ``` 
   <!-- ![Machine Common Sense](/images/asimplemethod.png){: width="700" text-align="center"} -->
 </details> 
@@ -138,6 +115,46 @@ Used datasets/knowledge sources: [Sense Making](https://github.com/wangcunxiang/
 {: .fs-3 .fw-600 .text-red-300}
  
 <br> 
+
+---
+
+## LM Logic Probing
+
+
+{: .fs-4 .fw-800 .text-blue-100}
+**📜 RICA: Evaluating Robust Inference Capabilities Based on Commonsense Axioms**. <br> ✍ Pei Zhou, Rahul Khanna, Seyeon Lee, Bill Yuchen Lin, Daniel Ho, Jay Pujara, Xiang Ren *(arXiv 2020, accepted in EMNLP-Findings 2020)*
+ 
+<span class="fs-2">
+   [Paper](https://arxiv.org/pdf/2005.00782.pdf){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Project Page](https://sites.google.com/usc.edu/rica){: target="_blank" .btn .btn-green .mr-1 } 
+   [Leaderboard](https://eval.ai/web/challenges/challenge-page/832/overview){: target="_blank" .btn .btn-green .mr-1 } 
+   [Semantic Scholar](https://www.semanticscholar.org/paper/RICA%3A-Evaluating-Robust-Inference-Capabilities-on-Zhou-Khanna/4f1312c6c2fbc831652c099ea4ddbd1e1ad67c59){: .btn .btn-purple .mr-1 target="_blank" }
+</span> 
+
+Used datasets/knowledge sources: [ConceptNet](https://conceptnet.io/){: .mr-1 target="_blank"},[ATOMIC](https://mosaickg.apps.allenai.org/kg_atomic){: .mr-1 target="_blank"}, [COMeT](https://mosaickg.apps.allenai.org/comet_atomic){: .mr-1 target="_blank"}
+<details markdown="block">
+  <summary>Abstract</summary>
+  {: .fs-3 .text-delta .text-blue-100}
+  ```
+  Pre-trained language models (PTLM) have impressive performance on commonsense inference benchmarks, but their ability to practically employ commonsense to communicate with humans is fiercely debated. Prior evaluations of PTLMs have focused on factual world knowledge or the ability to reason when the necessary knowledge is provided explicitly. However, effective communication with humans requires inferences based on implicit commonsense relationships, and robustness despite paraphrasing. In the pursuit of advancing fluid human-AI communication, we propose a new challenge, RICA, that evaluates the capabilities of making commonsense inferences and the robustness of these inferences to language variations. In our work, we develop a systematic procedure to probe PTLMs across three different evaluation settings. Extensive experiments on our generated probe sets show that PTLMs perform no better than random guessing (even with fine-tuning), are heavily impacted by statistical biases, and are not robust to perturbation attacks. Our framework and probe sets can help future work improve PTLMs' inference abilities and robustness to linguistic variations--bringing us closer to more fluid communication. 
+  ``` 
+  <!-- ![Machine Common Sense](/images/asimplemethod.png){: width="700" text-align="center"} -->
+</details> 
+{: .fs-5 .fw-600 .text-blue-300}
+
+<details markdown="block">
+  <summary>Editors' comments</summary>
+  {: .fs-3 .text-delta .text-red-100}
+</details> 
+{: .fs-3 .fw-600 .text-red-300}
+ 
+<br> 
+
+
+
+---
+
+## Analysis for Reasoning
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 Does BERT Solve Commonsense Task via Commonsense Knowledge?**. <br> ✍ Leyang Cui, Sijie Cheng, Yu Wu, Yue Zhang *(AAAI 2020)*
@@ -194,6 +211,11 @@ Used datasets/knowledge sources: [CommonsenseQA](/docs/datasets#commonsenseqa){:
  
 <br> 
 
+
+---
+
+## Analysis on Data
+
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 Lawyers are Dishonest? Quantifying Representational Harms in Commonsense Knowledge Resources**. <br> ✍ 
 Ninareh Mehrabi\*, Pei Zhou\*, Fred Morstatter, Jay Pujara, Xiang Ren, Aram Galstyan *(arXiv 2021)*
@@ -224,33 +246,6 @@ Used datasets/knowledge sources: [ConceptNet](https://conceptnet.io/){: .mr-1 ta
 <br> 
 
 
-{: .fs-4 .fw-800 .text-blue-100}
-**📜 The Box is in the Pen: Evaluating Commonsense Reasoning in Neural Machine Translation**. <br> ✍ Jie He, Tao Wang, Deyi Xiong, Qun Liu *(EMNLP-Findings 2020)*
- 
-<span class="fs-2">
-   [Paper](https://arxiv.org/pdf/2103.11320.pdf){: .btn .btn-blue .mr-1 target="_blank" } 
-   [Code](https://github.com/Ninarehm/Commonsense_bias){: target="_blank" .btn .btn-green .mr-1 } 
-   [Semantic Scholar](https://www.semanticscholar.org/paper/Lawyers-are-Dishonest-Quantifying-Representational-Mehrabi-Zhou/f54497893ee8e7dc888d062bc5498dcb2791f525){: .btn .btn-purple .mr-1 target="_blank" }
-</span> 
-
-Used datasets/knowledge sources: 
-<details markdown="block">
-  <summary>Abstract</summary>
-  {: .fs-3 .text-delta .text-blue-100}
-  ```
-  Does neural machine translation yield translations that are congenial with common sense? In this paper, we present a test suite to evaluate the commonsense reasoning capability of neural machine translation. The test suite consists of three test sets, covering lexical and contextless/contextual syntactic ambiguity that requires commonsense knowledge to resolve. We manually create 1,200 triples, each of which contain a source sentence and two contrastive translations, involving 7 different common sense types. Language models pretrained on large-scale corpora, such as BERT, GPT-2, achieve a commonsense reasoning accuracy of lower than 72% on target translations of this test suite. We conduct extensive experiments on the test suite to evaluate commonsense reasoning in neural machine translation and investigate factors that have impact on this capability. Our experiments and analyses demonstrate that neural machine translation performs poorly on commonsense reasoning of the three ambiguity types in terms of both reasoning accuracy ( 6 60.1%) and reasoning consistency (6 31%). We will release our test suite as a machine translation commonsense reasoning testbed to promote future work in this direction
-  ``` 
-  <!-- ![Machine Common Sense](/images/asimplemethod.png){: width="700" text-align="center"} -->
-</details> 
-{: .fs-5 .fw-600 .text-blue-300}
-
-<details markdown="block">
-  <summary>Editors' comments</summary>
-  {: .fs-3 .text-delta .text-red-100}
-</details> 
-{: .fs-3 .fw-600 .text-red-300}
- 
-<br> 
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 WinoWhy: A Deep Diagnosis of Essential Commonsense Knowledge for Answering Winograd Schema Challenge**. <br> ✍ Hongming Zhang\*, Xinran Zhao\*, Yangqiu Song *(ACL 2020)*
@@ -334,7 +329,39 @@ Used datasets/knowledge sources: [WSC](/docs/datasets#wsc){: .mr-1 target="_blan
 {: .fs-3 .fw-600 .text-red-300}
  
 <br> 
+
 ---
+
+## Others
+
+{: .fs-4 .fw-800 .text-blue-100}
+**📜 The Box is in the Pen: Evaluating Commonsense Reasoning in Neural Machine Translation**. <br> ✍ Jie He, Tao Wang, Deyi Xiong, Qun Liu *(EMNLP-Findings 2020)*
+ 
+<span class="fs-2">
+   [Paper](https://arxiv.org/pdf/2103.11320.pdf){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Code](https://github.com/Ninarehm/Commonsense_bias){: target="_blank" .btn .btn-green .mr-1 } 
+   [Semantic Scholar](https://www.semanticscholar.org/paper/Lawyers-are-Dishonest-Quantifying-Representational-Mehrabi-Zhou/f54497893ee8e7dc888d062bc5498dcb2791f525){: .btn .btn-purple .mr-1 target="_blank" }
+</span> 
+
+Used datasets/knowledge sources: 
+<details markdown="block">
+  <summary>Abstract</summary>
+  {: .fs-3 .text-delta .text-blue-100}
+  ```
+  Does neural machine translation yield translations that are congenial with common sense? In this paper, we present a test suite to evaluate the commonsense reasoning capability of neural machine translation. The test suite consists of three test sets, covering lexical and contextless/contextual syntactic ambiguity that requires commonsense knowledge to resolve. We manually create 1,200 triples, each of which contain a source sentence and two contrastive translations, involving 7 different common sense types. Language models pretrained on large-scale corpora, such as BERT, GPT-2, achieve a commonsense reasoning accuracy of lower than 72% on target translations of this test suite. We conduct extensive experiments on the test suite to evaluate commonsense reasoning in neural machine translation and investigate factors that have impact on this capability. Our experiments and analyses demonstrate that neural machine translation performs poorly on commonsense reasoning of the three ambiguity types in terms of both reasoning accuracy ( 6 60.1%) and reasoning consistency (6 31%). We will release our test suite as a machine translation commonsense reasoning testbed to promote future work in this direction
+  ``` 
+  <!-- ![Machine Common Sense](/images/asimplemethod.png){: width="700" text-align="center"} -->
+</details> 
+{: .fs-5 .fw-600 .text-blue-300}
+
+<details markdown="block">
+  <summary>Editors' comments</summary>
+  {: .fs-3 .text-delta .text-red-100}
+</details> 
+{: .fs-3 .fw-600 .text-red-300}
+ 
+<br> 
+
 
 <!-- 1. RICA's related works. + LAMA probes + olymics + Yue Zhang's papers (two)  -->
 <!-- (1 Yue) Evaluating commonsense in pre-trained language models from Yue Zhang -->

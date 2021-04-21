@@ -26,6 +26,10 @@ Editors: [Bill Yuchen Lin](https://yuchenlin.xyz/),
 - [**Common Sense Comes Closer to Computers**](https://www.quantamagazine.org/common-sense-comes-to-computers-20200430/){: target="_blank"} by [John Pavlus](https://www.quantamagazine.org/authors/john-pavlus/){: target="_blank"} from [QuantaMagazine](https://www.quantamagazine.org/){: target="_blank"}  on 2020-04-30
 
 
+## Related Workshops 
+
+1. 
+
 ## Books 
 
 ## Useful links
