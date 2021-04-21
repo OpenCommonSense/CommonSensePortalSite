@@ -16,12 +16,22 @@ Editors: [Bill Yuchen Lin](https://yuchenlin.xyz/), [Yang Qiao](https://www.link
 We present a collection of insightful research papers that focus on teaching machines to think with common sense like humans. We grouped them in different categories mainly based on the knowledge resources they used. 
 
 
+
+ 
+## Table of contents
+{: .no_toc .text-delta }
+
+- TOC
+{:toc}
+
 ---
+
+
 
 ## LM-only Methods
 
 
-Here we present methods that only use language models to address the chellenge of commonsense reasoning. 
+Here we present methods that only use language models to address the challenges of commonsense reasoning. 
  
  
 <br> 
@@ -122,7 +132,7 @@ Evaluation Tasks: [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="
    [Demo](https://unifiedqa.apps.allenai.org/){: .btn .btn-yellow .mr-1 target="_blank" }
 </span> 
 
-Evaluation Tasks: [SQuAD 1.1](https://arxiv.org/abs/1606.05250){: .mr-1 target="_blank"}, [SQuAD 2.0](https://arxiv.org/abs/1806.03822?){: .mr-1 target="_blank"}, [NarrativeQA](https://arxiv.org/abs/1712.07040){: .mr-1 target="_blank"}, [RACE](https://arxiv.org/abs/1704.04683){: .mr-1 target="_blank"}, [ARC](/docs/datasets#arc){: .mr-1 target="_blank"}, [OpenbookQA](/docs/datasets#openbookqa){: .mr-1 target="_blank"}, [BoolQ](https://arxiv.org/abs/1905.10044){: .mr-1 target="_blank"}
+Evaluation Tasks: [ARC](/docs/datasets#arc){: .mr-1 target="_blank"}, [OpenbookQA](/docs/datasets#openbookqa){: .mr-1 target="_blank"}, [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"}, etc.
 <details markdown="block">
   <summary>Abstract</summary>
   {: .fs-3 .text-delta .text-blue-100}

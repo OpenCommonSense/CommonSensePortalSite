@@ -9,14 +9,25 @@ permalink: /docs/resources
 
 # Knowledge Resources for Common Sense  
 {: .no_toc }
-Editors: [Filip Ilievski](https://usc-isi-i2.github.io/ilievski/){: target="_blank"}, [Yang Qiao](https://www.linkedin.com/in/xiaoyang-qiao/){: target="_blank"}
+Editors: [Filip Ilievski](https://usc-isi-i2.github.io/ilievski/){: target="_blank"}, [Yang Qiao](https://www.linkedin.com/in/xiaoyang-qiao/){: target="_blank"}, [Bill Yuchen Lin](https://yuchenlin.xyz/)
 
 
 {: .fs-6 .fw-300 }
 
 Many resources for commonsense reasoning have been developed, spanning various acquisition methods, representations, and intended applications. Here we group key resources based on the type of knowledge they capture.
 
-## Commonsense Knowledge Resources
+---
+
+## Table of contents
+{: .no_toc .text-delta }
+
+- TOC
+{:toc}
+
+--- 
+
+## Commonsense Knowledge
+<br>
 
 These are sources that have been deliberately created to capture (either wide or narrow domain) commonsense knowledge. 
 
@@ -34,7 +45,7 @@ These are sources that have been deliberately created to capture (either wide or
   <img src="../../images/resources/conceptnet.png" width="60%" height="auto" />
 </details> 
 
-<br/>
+
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 *[ATOMIC]* Atomic: An atlas of machine commonsense for if-then reasoning**. <br> ✍ Sap, M., Le Bras, R., Allaway, E., Bhagavatula, C., Lourie, N., Rashkin, H., Roof, B., Smith, N.A. and Choi, Y. *(AAAI 2019)*
@@ -64,7 +75,7 @@ These are sources that have been deliberately created to capture (either wide or
   <img src="../../images/resources/atomic.png" width="60%" height="auto" />
 </details> 
 
-<br/>
+
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 *[ATOMIC2020]* Comet-atomic 2020: On symbolic and neural commonsense knowledge graphs**. <br> ✍ Hwang, J. D., Bhagavatula, C., Bras, R. L., Da, J., Sakaguchi, K., Bosselut, A., & Choi, Y. *(arXiv 2020)*
@@ -79,7 +90,7 @@ These are sources that have been deliberately created to capture (either wide or
    <img src="../../images/resources/atomic2020.png" width="60%" height="auto" />
 </details> 
 
-<br/>
+
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 *[GLUCOSE]* Glucose: Generalized and contextualized story explanations**. <br> ✍ Mostafazadeh, N., Kalyanpur, A., Moon, L., Buchanan, D., Berkowitz, L., Biran, O., & Chu-Carroll, J. *(EMNLP 2020)*
@@ -97,7 +108,7 @@ These are sources that have been deliberately created to capture (either wide or
 bike sharply</em>.
 </details> 
 
-<br/>
+
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 *[WebChild]* Webchild 2.0: Fine-grained commonsense knowledge distillation**. <br> ✍ Tandon, N., De Melo, G., & Weikum, G. *(ACL 2017)*
@@ -121,7 +132,7 @@ bike sharply</em>.
    WebChild 2.0 browser results for <em>animal</em>.
 </details> 
 
-<br/>
+
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 *[QuasimodoKB]* Commonsense properties from query logs and question answering forums**. <br> ✍ Romero, J., Razniewski, S., Pal, K., Z. Pan, J., Sakhadeo, A., & Weikum, G. *(CIKM 2019)*
@@ -139,7 +150,7 @@ bike sharply</em>.
    Quasimodo browser results for <em>eggplant</em>.
 </details> 
 
-<br/>
+
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 *[ASCENT]* Advanced Semantics for Commonsense Knowledge Extraction**. <br> ✍ Nguyen, T. P., Razniewski, S., & Weikum, G.  *(arXiv 2020)*
@@ -157,7 +168,7 @@ bike sharply</em>.
    Example of Ascent’s knowledge for the concept <em>elephant</em>.
 </details> 
 
-<br/>
+
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 *[SenticNet]* SenticNet 5: Discovering conceptual primitives for sentiment analysis by means of context embeddings**. <br> ✍ Cambria, E., Poria, S., Hazarika, D., & Kwok, K. *(AAAI 2018)*
@@ -181,7 +192,7 @@ bike sharply</em>.
    A sketch of SenticNet 5’s graph showing part of the semantic network for the primitive <em>INTACT</em>.
 </details> 
 
-<br/>
+
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 *[HasPartKB]* Do dogs have whiskers? a new knowledge base of haspart relations**. <br> ✍ Bhakthavatsalam, S., Richardson, K., Tandon, N., & Clark, P. *(arXiv 2020)*
@@ -201,7 +212,7 @@ bike sharply</em>.
    ```
 </details> 
 
-<br/>
+
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 *[CYC]* CYC: A large-scale investment in knowledge infrastructure**. <br> ✍ Lenat, D. *(Communications of the ACM 1995)*
@@ -225,8 +236,10 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
    ```
 </details> 
 
+---
 
-## Common Knowledge Resources
+## Common Knowledge
+<br>
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 *[Wikidata]* Wikidata: a free collaborative knowledgebase**. <br> ✍ Vrandečić, D., & Krötzsch, M. *(ACM 2014)*
@@ -244,7 +257,7 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
    Wikidata browser results for <em>animal</em>.
 </details> 
 
-<br/>
+
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 *[Wikidata-CS]* Commonsense knowledge in Wikidata**. <br> ✍ Ilievski, F., Szekely, P., & Schwabe, D. *(ISWC Wikidata workshop 2020)*
@@ -264,7 +277,7 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
    ```
 </details> 
 
-<br/>
+
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 *[YAGO]* Yago 4: A reason-able knowledge base**. <br> ✍ Tanon, T. P., Weikum, G., & Suchanek, F. *(ESWC 2020)*
@@ -282,7 +295,7 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
    YAGO browser results for <em>animal</em>.
 </details> 
 
-<br/>
+
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 *[SUMO]* Towards a standard upper ontology**. <br> ✍ Niles, I., & Pease, A. *(ICFOIS 2001)*
@@ -300,7 +313,7 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
    SUMO browser results for <em>animal</em>.
 </details> 
 
-<br/>
+
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 *[DOLCE]* Sweetening ontologies with DOLCE**. <br> ✍ Gangemi, A., Guarino, N., Masolo, C., Oltramari, A., & Schneider, L. *(ICKEKM 2002)*
@@ -321,8 +334,10 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
    <img src="../../images/resources/DOLCE2.png" width="60%" height="auto" />
 </details> 
 
+---
 
-## Lexical Resources
+## Lexical Knowledge
+<br>
 
 
 {: .fs-4 .fw-800 .text-blue-100}
@@ -341,7 +356,7 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
    WordNet browser results for <em>bicycle</em>.
 </details> 
 
-<br/>
+
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 *[FrameNet]* The berkeley framenet project**. <br> ✍ Baker, C. F., Fillmore, C. J., & Lowe, J. B.  *(ACL 1998)*
@@ -359,7 +374,7 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
    FrameNet browser results for <em>abandonment</em>.
 </details> 
 
-<br/>
+
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 *[MetaNet]* MetaNet: Deep semantic automatic metaphor analysis**. <br> ✍ Dodge, E. K., Hong, J., & Stickles, E. *(Metaphor in NLP workshop 2015)*
@@ -376,7 +391,7 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
    MetaNet browser results for <em>EMOTIONS AND OBJECTS</em>.
 </details> 
 
-<br/>
+
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 *[VerbNet]* VerbNet: A broad-coverage, comprehensive verb lexicon**. <br> ✍ Schuler, K. K. *(Dissertation 2005)*
@@ -394,8 +409,10 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
    VerbNet browser results for <em>see</em>.
 </details> 
 
+---
 
-## Visual Resources
+## Visual Knowledge
+<br>
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 *[Visual Genome]* Visual genome: Connecting language and vision using crowdsourced dense image annotations**. <br> ✍ Krishna, R., Zhu, Y., Groth, O., Johnson, J., Hata, K., Kravitz, J., Chen, S., Kalantidis, Y., Li, L.J., Shamma, D.A., Bernstein, M.S. *(IJCV 2017)*
@@ -413,7 +430,7 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
   An example image of <em>throwing frisbee</em> from the Visual Genome dataset.
 </details> 
 
-<br/>
+
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 *[Flickr30k]* Flickr30k entities: Collecting region-to-phrase correspondences for richer image-to-sentence models**. <br> ✍ Plummer, B. A., Wang, L., Cervantes, C. M., Caicedo, J. C., Hockenmaier, J., & Lazebnik, S. *(ICCV 2015)*
@@ -431,8 +448,10 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
    Example images from the Flickr30k Entities dataset.
 </details> 
 
+---
 
-## Corpora & Neural Knowledge Sources
+## Semi/Un-Structured KB
+<br>
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 *[GenericsKB]* Genericskb: A knowledge base of generic statements**. <br> ✍ Bhakthavatsalam, S., Anastasiades, C., & Clark, P. *(arXiv 2020)*
@@ -466,7 +485,12 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
    ```
 </details> 
 
-<br/>
+
+---
+
+
+## Neural KGs
+<br>
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 *[COMET]* Comet: Commonsense transformers for automatic knowledge graph construction**. <br> ✍ Bosselut, A., Rashkin, H., Sap, M., Malaviya, C., Celikyilmaz, A., & Choi, Y.  *(ACL 2019)*
@@ -484,8 +508,10 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
    An example image of <em>PersonX acts quickly</em> from the COMET dataset.
 </details> 
 
+---
 
-## Consolidation and Surveys
+## Consolidation & Surveys
+<br>
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 *[CSKG]* CSKG: The CommonSense Knowledge Graph**. <br> ✍ Ilievski, F., Szekely, P., Zhang, B. *(ESWC 2021)*
@@ -507,7 +533,7 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
    <img src="../../images/resources/CSKG.png" width="70%" height="auto" />
 </details> 
 
-<br/>
+
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 Dimensions of commonsense knowledge**. <br> ✍ Ilievski, F., Oltramari, A., Ma, K., Zhang, B., McGuinness, D. L., Szekely, P. *(arXiv 2021)*
@@ -523,7 +549,7 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
    <img src="../../images/resources/dimensions.png" width="70%" height="auto" />
 </details> 
 
-<br/>
+
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 *[NextKB]* Analogy and relational representations in the companion cognitive architecture**. <br> ✍ Forbus, K. D., & Hinrich, T. *(AI Magazine 2017)*

@@ -16,7 +16,14 @@ Editors: [Bill Yuchen Lin](https://yuchenlin.xyz/), [Pei Zhou](https://sites.goo
 We present a collection of papers analyzing commonsense-related models, knowledge bases, and datasets.
 
 
----
+ 
+## Table of contents
+{: .no_toc .text-delta }
+
+- TOC
+{:toc}
+
+--- 
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 Language Models as Knowledge Bases?**. <br> ✍ Fabio Petroni, Tim Rocktaschel, Patrick Lewis, Anton Bakhtin, Yuxiang Wu, Alexander H. Miller, Sebastian Riedel *(EMNLP 2019)*

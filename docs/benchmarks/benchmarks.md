@@ -14,7 +14,16 @@ Editors: [Bill Yuchen Lin](https://yuchenlin.xyz/), [Yang Qiao](https://www.link
 
 {: .fs-5 .fw-300 }
 
-We present a comprehensive collection of datasets for testing commonsense reasoning ability. They are gourped by different fomulations, and covered a wide range of aspects: properties of common objects, real-life situations, elementry science, social skills, etc. 
+We present a comprehensive collection of datasets for testing commonsense reasoning ability. They are grouped by different formulations, and covered a wide range of aspects: properties of common objects, real-life situations, elementary science, social skills, etc. 
+
+ 
+## Table of contents
+{: .no_toc .text-delta }
+
+- TOC
+{:toc}
+
+---
 
 | Name | Focus | Format |  SotA vs. Human 
 | :------------:| :-----: | :------: | :----------: | :-------: | :-----------: |
@@ -534,7 +543,7 @@ Correct Choice: B
 - **Task format:** Given an image, a list of regions, and a question, a model must answer the question and provide a rationale explaining why its answer is right.
 - **Size & Split:**  264,720 in total --- train (212,923), dev (26,534), test (25,263).
 - **Dataset creation:** 
-- **An illustative example:**
+- **An illustative example:**:
 ```
 (An image depicting three people sitting around a dining table and a waitress serving the table.)
 Question:
@@ -545,7 +554,7 @@ Choices:
     C) He is feeling accusatory towards [person1].  
     D) He is giving [person1] directions.
 Correct Choice: A
-
+----
 Rationales: I chose A) because...
     A) [person1] has the pancakes in front of him.
     B) [person4] is taking everyone's order and asked for clarification.
@@ -553,6 +562,7 @@ Rationales: I chose A) because...
     D) [person3] is delivering food to the table, and she might not know whose order is whose.
 Correct Choice: D
 ``` 
+
 
 
 {: .fs-4 .fw-600 .text-red-300}
@@ -720,24 +730,7 @@ born-in, Florence), the task should predict masked objects in cloze sentences su
 - **Size & Split:** N/A
 - **Dataset creation:** 
 - **An illustative example:**
-The trex config has the following fields:
-```
-description: the item (an institution, law, public office ...) or statement belongs to or has power over or applies to the value (a territorial jurisdiction: a country, state, municipality, ...)
-label: applies to jurisdiction
-masked_sentence: It is known as a principality as it is a monarchy headed by two Co-Princes – the Spanish/Roman Catholic Bishop of Urgell and the President of [MASK].
-obj_label: France
-obj_surface: France
-obj_uri: Q142
-predicate_id: P1001
-sub_label: president of the French Republic
-sub_surface: President
-sub_uri: Q191954
-template: [X] is a legal term in [Y] .
-template_negated: [X] is not a legal term in [Y] .
-type: N-M
-uuid: 3fe3d4da-9df9-45ba-8109-784ce5fba38a
-``` 
-The conceptnet config has the following fields:
+The ConceptNet config has the following fields:
 ```
 masked_sentence: One of the things you do when you are alive is [MASK].
 negated: N/A
