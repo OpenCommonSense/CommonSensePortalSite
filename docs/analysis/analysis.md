@@ -29,13 +29,7 @@ Here we present a collection of papers focusing on the analysis about commonsens
 
 ## Analyzing Language Models
 
-<table>
-<td>
-<span class="fs-4">
-This line of research focuses on understanding whether the pre-trained language models (e.g., BERT) have captured commonsense knowledge, and to what extent they can be used for different types of commonsense reasoning. They usually use the pre-trained LMs as they are (i.e., no fine-tuning) and analyze them by designing probing methods for recalling knowledge or completing a reasoning task.
-</span>
-</td>
-</table>
+|<span class="fs-4">This line of research focuses on understanding whether the pre-trained language models (e.g., BERT) have captured commonsense knowledge, and to what extent they can be used for different types of commonsense reasoning. They usually use the pre-trained LMs as they are (i.e., no fine-tuning) and analyze them by designing probing methods for recalling knowledge or completing a reasoning task.</span>|
 
  
 {: .fs-4 .fw-800 .text-blue-100}
@@ -157,13 +151,8 @@ This line of research focuses on understanding whether the pre-trained language 
 ---
 
 ## Analyzing Reasoning Methods
-<table>
-<td>
-<span class="fs-4">
-The following papers focus on how the existing methods perform their reasoning for commonsense tasks. 
-</span>
-</td>
-</table>
+
+|<span class="fs-4">The following papers focus on how the existing methods perform their reasoning for commonsense tasks. </span>|
 
 
 {: .fs-4 .fw-800 .text-blue-100}
@@ -224,13 +213,8 @@ The following papers focus on how the existing methods perform their reasoning f
 ---
 
 ## Analysis on Data
-<table>
-<td>
-<span class="fs-4">
-These papers work on analyzing the datasets and resources we used for studying commonsense reasoning. Are they biased? Do they contain error or noise? Why are the real challenges?
-</span>
-</td>
-</table>
+
+| <span class="fs-4">These papers work on analyzing the datasets and resources we used for studying commonsense reasoning. Are they biased? Do they contain error or noise? Why are the real challenges? </span>|
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 Lawyers are Dishonest? Quantifying Representational Harms in Commonsense Knowledge Resources**. <br> ✍ 
