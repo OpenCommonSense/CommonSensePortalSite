@@ -99,7 +99,7 @@ Notes:
 > - **Topics:** General. Mostly about properties of common objects and motivation/causes/results of events.
 - **Size & Split:** 12,102 in total --- train (9,741), dev (1,221), test (1,140).
 - **Dataset creation:** The questions are crowdsourced from human annotators. The authors present a question concept, _q_, and some candidate concepts, which are linked to _q_, and ask annotators to write a natural-language question mentioning _q_ and answered by only one of the answer candidates.
-- **An illustative example:**
+- **An illustrative example:**
 ```
 Question ID: b8c0a4703079cf661d7261a60a1bcbff
 Question concept: "magazines"
@@ -133,7 +133,7 @@ Correct Choice: B
 > - **Topics:** Social Interactions. It focuses on reasoning about people’s actions and their social implications.
 - **Size & Split:**  37,588 in total --- train (33,410), dev (1,954), test (2,224).
 - **Dataset creation:** 
-- **An illustative example:**
+- **An illustrative example:**
 ```
 Question: 
     In the school play, Robin played a hero in the struggle to the death with the angry villain. How would others feel as a result?
@@ -164,7 +164,7 @@ Correct Choice: B
 > - **Topics:** General. It focuses on how people interact with everyday objects in everyday situations.
 - **Size & Split:**  around 20,000 QA pairs of multiple-choice in total --- train (over 16,000), dev (∼2K), test (∼3k).
 - **Dataset creation:** 
-- **An illustative example:**
+- **An illustrative example:**
 ```
 Question:
     To separate egg whites from the yolk using a water bottle, you should
@@ -194,7 +194,7 @@ Correct Choice: B
 > - **Topics:** Science. It focuses on natural, grade-school science questions.
 - **Size & Split:**  7,787 in total --- train (3,370), dev (869), test (3,548).
 - **Dataset creation:** 
-- **An illustative example:**
+- **An illustrative example:**
 ```
 Question:
     Which property of a mineral can be determined just by looking at it?
@@ -223,7 +223,7 @@ Correct Choice: A
 > - **Topics:** General. The dataset is modeled after open book exams for assessing human understanding of a subject.
 - **Size & Split:**  5,957 in total --- train (4,957), dev (500), test (500).
 - **Dataset creation:** 
-- **An illustative example:**
+- **An illustrative example:**
 ```
 Question:
     Which of these would let the most heat travel through?
@@ -254,7 +254,7 @@ Correct Choice: B
 > - **Topics:** General. Mostly about grounded situations. Each question is a video caption from LSMDC or ActivityNet Captions, with four answer choices about what might happen next in the scene. 
 - **Size & Split:**  around 113k in total --- train (73k), dev (20k), test (20k).
 - **Dataset creation:** 
-- **An illustative example:**
+- **An illustrative example:**
 ```
 Question:
     On stage, a woman takes a seat at the piano. She
@@ -281,7 +281,7 @@ Correct Choice: D
 > - **Topics:** General. Mostly about grounded commonsense situations.
 - **Size & Split:**  18,001 in total --- train (6,833), dev (3,641), test (7,527).
 - **Dataset creation:** 
-- **An illustative example:**
+- **An illustrative example:**
 ```
 Question:
     A woman is outside with a bucket and a dog. The dog is running around trying to avoid a bath. She
@@ -312,7 +312,7 @@ Correct Choice: C
 > - **Topics:** General. 
 - **Size & Split:**  804 in total --- train (554), dev (104), test (146).
 - **Dataset creation:** 
-- **An illustative example:**
+- **An illustrative example:**
 ```
 label: 0,
 options: ['The city councilmen', 'The demonstrators']
@@ -344,7 +344,7 @@ text: The city councilmen refused the demonstrators a permit because they feared
 > - **Topics:** General. Mostly about commonsense inference in pronoun resolution problems.
 - **Size & Split:**  43,972 in total --- train (40,938), dev (1,267), test (1,767).
 - **Dataset creation:** 
-- **An illustative example:**
+- **An illustrative example:**
 ```
 Sentence: Katrina had the financial means to afford a new car while Monica did not, since _ had a high paying job.
 Option1: Katrina
@@ -372,7 +372,7 @@ Melissa Roemmele, Cosmin Adrian Bejan, and Andrew S. Gordon. **AAAI-11**
 > - **Topics:** General. Open-domain commonsense causal reasoning of everyday activities.
 - **Size & Split:**  1000 in total --- train (400), dev (100), test (500).
 - **Dataset creation:** 
-- **An illustative example:**
+- **An illustrative example:**
 ```
 Premise: The man broke his toe. What was the CAUSE of this?
 Alternative 1: He got a hole in his sock.
@@ -395,7 +395,7 @@ Correct Choice: Alternative 2
 > - **Topics:** General. Same as COPA dataset but in 11 languages.
 - **Size & Split:**  1000 * 11 (# langs) in total --- train (400 * 11), dev (100 * 11), test (500 * 11).
 - **Dataset creation:** 
-- **An illustative example (in Italian):**
+- **An illustrative example (in Italian):**
 ```
 Premise: L'uomo aprì il rubinetto.
 Alternative 1: Il gabinetto si riempì d'acqua.
@@ -422,7 +422,7 @@ Correct Choice: Alternative 1
 > - **Topics:** General. Mostly about grounded situations in everyday activities. 
 - **Size:**  2,801 in total. No official splits.
 - **Dataset creation:** 
-- **An illustative example:**
+- **An illustrative example:**
 ```
 Question: 
     I am always very hungry before I go to bed. I am
@@ -454,7 +454,7 @@ Correct Choice: D
 > - **Topics:** Temporal Commonsense. Focusing on event ordering, duration, stationarity, frequency and time.
 - **Size & Split:**  13k question-answer pairs in total --- train (N/A), dev (3,783), test (9,442) .
 - **Dataset creation:** 
-- **An illustative example:**
+- **An illustrative example:**
 ```
 Paragraph: 
     Growing up on a farm near St. Paul, L. Mark Bailey didn't dream of becoming a judge.
@@ -484,7 +484,7 @@ Correct Choice: C
 > - **Topics:** General. Mostly about observations of objects or events in daily life.
 - **Size & Split:**  17,801 context pairs in total --- dev (1,532), test (3,059).
 - **Dataset creation:** 
-- **An illustative example:**
+- **An illustrative example:**
 ```
 Obs1: It was a gorgeous day outside.
 Obs2: She asked her neighbor for a jump-start.
@@ -517,7 +517,7 @@ Correct Choice: Hyp1
 > - **Topics:** General. Mostly about riddle-style commonsense question answering.
 - **Size & Split:**  5,733 in total --- train (3,510), dev (1,021), test (1,202).
 - **Dataset creation:** 
-- **An illustative example:**
+- **An illustrative example:**
 ```
 Question:
     My life can be measured in hours. I serve by being devoured. Thin, I am quick; Fat, I am slow. Wind is my foe. What am I?
@@ -555,7 +555,7 @@ Correct Choice: B
 - **Task format:** Given an image, a list of regions, and a question, a model must answer the question and provide a rationale explaining why its answer is right.
 - **Size & Split:**  264,720 in total --- train (212,923), dev (26,534), test (25,263).
 - **Dataset creation:** 
-- **An illustative example:**:
+- **An illustrative example:**:
 ```
 (An image depicting three people sitting around a dining table and a waitress serving the table.)
 Question:
@@ -601,7 +601,7 @@ Correct Choice: D
 - **Task format:** Given a question, a model is has to output a ranked list of answers covering multiple categories.
 - **Size & Split:**  5,733 in total --- train (8,781), dev (1,030), test (102).
 - **Dataset creation:** 
-- **An illustative example:**
+- **An illustrative example:**
 ```
 Question:
     Name a piece of equipment that you are likely to find at your office and not at home?
@@ -626,7 +626,7 @@ Categories:
 - **Task format:** Given an open-ended question, the model will output a weighted set of concepts.
 - **Size & Split:**  19,520 in total --- train (15,800), dev (1,756), test (1,965).
 - **Dataset creation:** 
-- **An illustative example:**
+- **An illustrative example:**
 ```
 Question: What can help alleviate global warming?
 Supporting Facts: 
@@ -656,7 +656,7 @@ Weighted Answers: Renewable energy (w1), tree (w2), solar battery (w3)
 - **Task format:** Given a set of common concepts, the task is to generate a coherent sentence describing an everyday scenario using these concepts.
 - **Size & Split:** 35,141 concept-sets in total --- train (32,651), dev (993), test (1,497). 
 - **Dataset creation:** 
-- **An illustative example:**
+- **An illustrative example:**
 ```
 Common Concepts: {dog, frisbee, catch, throw}
 Output:
@@ -682,7 +682,7 @@ T5 -- dog catches a frisbee and throws it to a dog.
 - **Task format:** Given a question, a model will return an explanation with the correct answer to the question.
 - **Size & Split:** 10,952 in total --- train (9,741), dev (1,211).
 - **Dataset creation:** 
-- **An illustative example:**
+- **An illustrative example:**
 ```
 Question: While eating a hamburger with friends, what are people trying to do?
 Choices: have fun, tasty, or indigestion
@@ -707,7 +707,7 @@ Correct Choice: have fun
 - **Task format:** Given a nonsensical statement, the task is to generate the reason why this statement does not make sense.
 - **Size & Split:** 11,997 8-sentence tuples in total --- train (10,000), dev (997), test (1,000). 
 - **Dataset creation:** 
-- **An illustative example:**
+- **An illustrative example:**
 ```
 Task C: Commonsense Explanation (Generation)
 Generate the reason why this statement is against common sense and we will use BELU to evaluate it.
@@ -741,7 +741,7 @@ Generate the reason why this statement is against common sense and we will use B
 born-in, Florence), the task should predict masked objects in cloze sentences such as “Dante was born in ___” expressing that fact.
 - **Size & Split:** N/A
 - **Dataset creation:** 
-- **An illustative example:**
+- **An illustrative example:**
 The ConceptNet config has the following fields:
 ```
 masked_sentence: One of the things you do when you are alive is [MASK].
@@ -770,7 +770,7 @@ uuid: d4f11631dde8a43beda613ec845ff7d1
 - **Task format:** Given a masked sentence, the task is to choose the correct numerical answer from all provided choices. 
 - **Size & Split:** 13.6k masked-word-prediction probes in total --- fine-tune (10.5k), test (3.1k). 
 - **Dataset creation:** 
-- **An illustative example:**
+- **An illustrative example:**
 ```
 Question: A car usually has [MASK] wheels.
 Choices: 
@@ -798,7 +798,7 @@ A) One  B) Two  C) Three  D) Four  E) Five
 - **Task format:** Given a passage, a set of text spans marked in the passage, and a cloze-style query with a missing text span, a model must select a text span that best fits the query.
 - **Size & Split:** Queries/Passages 120,730/80,121 in total --- train (100,730/65,709), dev (10,000/7,133), test (10,000/(7,279).
 - **Dataset creation:** 
-- **An illustative example:**
+- **An illustrative example:**
 ```
 Passage: 
     (**CNN**) -- A lawsuit has been filed claiming that the iconic **Led Zeppelin** song "**Stairway to Heaven**" was far from original. The suit, filed on May 31 in the **United States District Court Eastern District of Pennsylvania**, was brought by the estate of the late musician **Randy California** against the surviving members of **Led Zeppelin** and their record label. The copyright infringement case alleges that the **Zeppelin** song was taken from the single "**Taurus**" by the 1960s band **Spirit**, for whom **California** served as lead guitarist. "Late in 1968, a then new band named **Led Zeppelin** began touring in the **United States**, opening for **Spirit**," the suit states. "It was during this time that **Jimmy Page**, **Led Zeppelin**'s guitarist, grew familiar with '**Taurus**' and the rest of **Spirit**'s catalog. **Page** stated in interviews that he found **Spirit** to be 'very good' and that the band's performances struck him 'on an emotional level.' "
@@ -824,7 +824,7 @@ Reference Answers:
 - **Task format:** Given a paragraph and a question, a model must select the correct answer from a set of choices.
 - **Size & Split:** Questions/Paragraphs 35,588/21,866 in total --- train (25,588/13,715), dev (26,534/2,460), test (25,263/(5,711).
 - **Dataset creation:** 
-- **An illustative example:**
+- **An illustrative example:**
 ```
 Paragraph: 
     It's a very humbling experience when you need someone to dress you every morning, tie your shoes, and put your hair up. Every menial task takes an unprecedented amount of effort. It made me appreciate Dan even more. But anyway I shan't dwell on this (I'm not dying after all) and not let it detact from my lovely 5 days with my friends visiting from Jersey.
@@ -861,7 +861,7 @@ Correct Choice: B
 - **Task format:**  A new text-based gaming environment for training and evaluating RL agents. 
 - **Size & Split:** In TWC doamin, there are 928 total entities, 872 total objects, 190 unique objects, 56 supporters/containers, and 8 rooms. 30 unique games in total.
 - **Dataset creation:** 
-- **An illustative example:** Example of a game walkthrough belonging to the <em>easy</em> difficulty level.
+- **An illustrative example:** Example of a game walkthrough belonging to the <em>easy</em> difficulty level.
 <img src="../../images/benchmarks/twc.png" width="100%" height="auto" />
 
 {: .fs-4 .fw-600 .text-red-300}
@@ -890,7 +890,7 @@ Correct Choice: B
 - **Task format:** Task 1 -- judge if a sentence describes two objects (mentioned in the sentence) being physically close by; Task 2 -- produce a ranked list of LOCATEDNEAR facts with the given classified results of large number of sentences.
 - **Size & Split:** 5,000 sentences describe a scene of two physical objects and with a label indicating if the two objects are co-located in the scene --- train(4,000), test(1,000).
 - **Dataset creation:** 
-- **An illustative example:**
+- **An illustrative example:**
 ```
 ID: 9888840
 Sentence: In a few minutes more the mission ship was forsaken by her strange Sabbath congregation, and left with all the fleet around her floating quietly on the tranquil sea.	
@@ -925,7 +925,7 @@ QNLI --- train(105k), test(5.4k);
 RTE --- train(2.5k), test(3k); 
 WNLI --- train(634), test(146).
 - **Dataset creation:** 
-- **An illustative example:**
+- **An illustrative example:**
 Examples from the diagnostic set. <em>Fwd</em> (resp. <em>Bwd</em>) denotes the label when sentence 1
 (resp. sentence 2) is the premise. Labels are <em>entailment</em> (E), <em>neutral</em> (N), or <em>contradiction</em> (C).
 ```
@@ -965,7 +965,7 @@ RTE --- train(2,500), dev(278), test(300);
 WiC --- train(6,000), dev(638), test(1,400); 
 WSC --- train(554), dev(104), test(146).
 - **Dataset creation:** 
-- **An illustative example:**
+- **An illustrative example:**
 Example from BoolQ
 ```
 Passage: Barq’s – Barq’s is an American soft drink. Its brand of root beer is notable for having caffeine. Barq’s, created by Edward Barq and bottled since the turn of the 20th century, is owned by the Barq family but bottled by the Coca-Cola Company. It was known as Barq’s Famous Olde Tyme Root Beer until 2012.
