@@ -65,7 +65,16 @@ We present a comprehensive collection of datasets for testing commonsense reason
 
 <!-- You can use this google sheet: https://docs.google.com/spreadsheets/d/1vJUwjFA_HRvzRI3ULSWXS7rLbHriJj5bTYSUiG4Iixo/edit?usp=sharing 
  and then convert it to markdown by https://tabletomarkdown.com/convert-spreadsheet-to-markdown/ -->
+
  
+| :------------:| 
+| |
+
+<table>
+<td>
+
+</td>
+</table>
 
 The task format for multiple-choice (**MC**) tasks for commonsense reasoning is as follows.
 - Input: a question, a few candidate answers (i.e., choices).
