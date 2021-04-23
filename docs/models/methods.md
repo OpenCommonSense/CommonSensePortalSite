@@ -58,7 +58,7 @@ Evaluation Tasks: [WSC](/docs/datasets#wsc){: .mr-1 target="_blank"}
 {: .fs-5 .fw-600 .text-blue-300}
 
 <details markdown="block">
-  <summary>Editors' comments</summary>
+  <summary>Comments</summary>
   {: .fs-3 .text-delta .text-red-100}
   - There is another version on OpenReview.net named [*Do Language Models Have Common Sense?*](https://openreview.net/forum?id=rkgfWh0qKX){: target="_blank"}
 </details> 
@@ -87,7 +87,7 @@ Evaluation Tasks: [WSC](/docs/datasets#wsc){: .mr-1 target="_blank"}
 {: .fs-5 .fw-600 .text-blue-300}
 
 <details markdown="block">
-  <summary>Editors' comments</summary>
+  <summary>Comments</summary>
   {: .fs-3 .text-delta .text-red-100}
 </details> 
 {: .fs-3 .fw-600 .text-red-300}
@@ -115,7 +115,7 @@ Evaluation Tasks: [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="
 {: .fs-5 .fw-600 .text-blue-300}
 
 <details markdown="block">
-  <summary>Editors' comments</summary>
+  <summary>Comments</summary>
   {: .fs-3 .text-delta .text-red-100}
 </details> 
 {: .fs-3 .fw-600 .text-red-300}
@@ -143,7 +143,7 @@ Evaluation Tasks: [ARC](/docs/datasets#arc){: .mr-1 target="_blank"}, [OpenbookQ
 {: .fs-5 .fw-600 .text-blue-300}
 
 <details markdown="block">
-  <summary>Editors' comments</summary>
+  <summary>Comments</summary>
   {: .fs-3 .text-delta .text-red-100}
 </details> 
 {: .fs-3 .fw-600 .text-red-300}
@@ -185,7 +185,7 @@ Evaluation Tasks: [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="
 {: .fs-5 .fw-600 .text-blue-300}
 
 <details markdown="block">
-  <summary>Editors' comments</summary>
+  <summary>Comments</summary>
   {: .fs-3 .text-delta .text-red-100}
 </details> 
 {: .fs-3 .fw-600 .text-red-300}
@@ -213,7 +213,7 @@ Evaluation Tasks: [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="
 {: .fs-5 .fw-600 .text-blue-300}
 
 <details markdown="block">
-  <summary>Editors' comments</summary>
+  <summary>Comments</summary>
   {: .fs-3 .text-delta .text-red-100}
 </details> 
 {: .fs-3 .fw-600 .text-red-300}
@@ -240,7 +240,7 @@ Evaluation Tasks: [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="
 {: .fs-5 .fw-600 .text-blue-300}
 
 <details markdown="block">
-  <summary>Editors' comments</summary>
+  <summary>Comments</summary>
   {: .fs-3 .text-delta .text-red-100}
 </details> 
 {: .fs-3 .fw-600 .text-red-300}
@@ -268,7 +268,7 @@ Evaluation Tasks: [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="
 {: .fs-5 .fw-600 .text-blue-300}
 
 <details markdown="block">
-  <summary>Editors' comments</summary>
+  <summary>Comments</summary>
   {: .fs-3 .text-delta .text-red-100}
 </details> 
 {: .fs-3 .fw-600 .text-red-300}
@@ -295,7 +295,7 @@ Evaluation Tasks: [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="
 {: .fs-5 .fw-600 .text-blue-300}
 
 <details markdown="block">
-  <summary>Editors' comments</summary>
+  <summary>Comments</summary>
   {: .fs-3 .text-delta .text-red-100}
 </details> 
 {: .fs-3 .fw-600 .text-red-300}
@@ -322,7 +322,7 @@ Evaluation Tasks: [CommonGEN](/docs/datasets#commongen){: .mr-1 target="_blank"}
 {: .fs-5 .fw-600 .text-blue-300}
 
 <details markdown="block">
-  <summary>Editors' comments</summary>
+  <summary>Comments</summary>
   {: .fs-3 .text-delta .text-red-100}
 </details> 
 {: .fs-3 .fw-600 .text-red-300}
@@ -377,7 +377,7 @@ Evaluation Tasks: [WSC](/docs/datasets#wsc){: .mr-1 target="_blank"}, [Commonsen
 {: .fs-5 .fw-600 .text-blue-300}
 
 <details markdown="block">
-  <summary>Editors' comments</summary>
+  <summary>Comments</summary>
   {: .fs-3 .text-delta .text-red-100}
 </details> 
 {: .fs-3 .fw-600 .text-red-300}
@@ -404,7 +404,7 @@ Evaluation Tasks: [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="
 {: .fs-5 .fw-600 .text-blue-300}
 
 <details markdown="block">
-  <summary>Editors' comments</summary>
+  <summary>Comments</summary>
   {: .fs-3 .text-delta .text-red-100}
 </details> 
 {: .fs-3 .fw-600 .text-red-300}
@@ -433,7 +433,7 @@ Evaluation Tasks: [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="
 {: .fs-5 .fw-600 .text-blue-300}
 
 <details markdown="block">
-  <summary>Editors' comments</summary>
+  <summary>Comments</summary>
   {: .fs-3 .text-delta .text-red-100}
 </details> 
 {: .fs-3 .fw-600 .text-red-300}

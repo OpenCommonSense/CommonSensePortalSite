@@ -61,7 +61,7 @@ Used Resources: [ConceptNet](https://conceptnet.io/){: .mr-1 target="_blank"}
 {: .fs-5 .fw-600 .text-blue-300}
 
 <details markdown="block">
-  <summary>Editors' comments</summary>
+  <summary>Comments</summary>
   {: .fs-3 .text-delta .text-red-100}
 </details> 
 {: .fs-3 .fw-600 .text-red-300}
@@ -88,7 +88,7 @@ Used Resources:
 {: .fs-5 .fw-600 .text-blue-300}
 
 <details markdown="block">
-  <summary>Editors' comments</summary>
+  <summary>Comments</summary>
   {: .fs-3 .text-delta .text-red-100}
 </details> 
 {: .fs-3 .fw-600 .text-red-300}
@@ -116,7 +116,7 @@ Used Resources: [Sense Making](https://github.com/wangcunxiang/Sen-Making-and-Ex
 {: .fs-5 .fw-600 .text-blue-300}
 
 <details markdown="block">
-  <summary>Editors' comments</summary>
+  <summary>Comments</summary>
   {: .fs-3 .text-delta .text-red-100}
 </details> 
 {: .fs-3 .fw-600 .text-red-300}
@@ -146,7 +146,7 @@ Used Resources: [ConceptNet](https://conceptnet.io/){: .mr-1 target="_blank"},[A
 {: .fs-5 .fw-600 .text-blue-300}
 
 <details markdown="block">
-  <summary>Editors' comments</summary>
+  <summary>Comments</summary>
   {: .fs-3 .text-delta .text-red-100}
 </details> 
 {: .fs-3 .fw-600 .text-red-300}
@@ -186,7 +186,7 @@ Used Resources: [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_b
 {: .fs-5 .fw-600 .text-blue-300}
 
 <details markdown="block">
-  <summary>Editors' comments</summary>
+  <summary>Comments</summary>
   {: .fs-3 .text-delta .text-red-100}
 </details> 
 {: .fs-3 .fw-600 .text-red-300}
@@ -214,7 +214,7 @@ Used Resources: [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_b
 {: .fs-5 .fw-600 .text-blue-300}
 
 <details markdown="block">
-  <summary>Editors' comments</summary>
+  <summary>Comments</summary>
   {: .fs-3 .text-delta .text-red-100}
 </details> 
 {: .fs-3 .fw-600 .text-red-300}
@@ -254,7 +254,7 @@ Used Resources: [ConceptNet](https://conceptnet.io/){: .mr-1 target="_blank"}, [
 {: .fs-5 .fw-600 .text-blue-300}
 
 <details markdown="block">
-  <summary>Editors' comments</summary>
+  <summary>Comments</summary>
   {: .fs-3 .text-delta .text-red-100}
 </details> 
 {: .fs-3 .fw-600 .text-red-300}
@@ -284,7 +284,7 @@ Used Resources: [WSC](/docs/datasets#wsc){: .mr-1 target="_blank"}
 {: .fs-5 .fw-600 .text-blue-300}
 
 <details markdown="block">
-  <summary>Editors' comments</summary>
+  <summary>Comments</summary>
   {: .fs-3 .text-delta .text-red-100}
 </details> 
 {: .fs-3 .fw-600 .text-red-300}
@@ -311,7 +311,7 @@ Used Resources: [ConceptNet](https://conceptnet.io/){: .mr-1 target="_blank"}, [
 {: .fs-5 .fw-600 .text-blue-300}
 
 <details markdown="block">
-  <summary>Editors' comments</summary>
+  <summary>Comments</summary>
   {: .fs-3 .text-delta .text-red-100}
 </details> 
 {: .fs-3 .fw-600 .text-red-300}
@@ -339,7 +339,7 @@ Used Resources: [WSC](/docs/datasets#wsc){: .mr-1 target="_blank"}
 {: .fs-5 .fw-600 .text-blue-300}
 
 <details markdown="block">
-  <summary>Editors' comments</summary>
+  <summary>Comments</summary>
   {: .fs-3 .text-delta .text-red-100}
 </details> 
 {: .fs-3 .fw-600 .text-red-300}
@@ -370,7 +370,7 @@ Used Resources:
 {: .fs-5 .fw-600 .text-blue-300}
 
 <details markdown="block">
-  <summary>Editors' comments</summary>
+  <summary>Comments</summary>
   {: .fs-3 .text-delta .text-red-100}
 </details> 
 {: .fs-3 .fw-600 .text-red-300}

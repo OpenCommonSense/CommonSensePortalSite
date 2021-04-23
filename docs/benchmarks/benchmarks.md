@@ -111,7 +111,7 @@ Correct Choice: B
 
 
 {: .fs-4 .fw-600 .text-red-300}
-> **Editors' comments**
+> **Comments**
 
 <!-- Mention the highlights or known issues of the dataset. -->
 
@@ -146,7 +146,7 @@ Correct Choice: B
 
 
 {: .fs-4 .fw-600 .text-red-300}
-> **Editors' comments**
+> **Comments**
 
 <!-- Mention the highlights or known issues of the dataset. -->
 
@@ -176,7 +176,7 @@ Correct Choice: B
 
 
 {: .fs-4 .fw-600 .text-red-300}
-> **Editors' comments**
+> **Comments**
 
 <!-- Mention the highlights or known issues of the dataset. -->
 
@@ -205,7 +205,7 @@ Correct Choice: A
 
 
 {: .fs-4 .fw-600 .text-red-300}
-> **Editors' comments**
+> **Comments**
 
 <!-- Mention the highlights or known issues of the dataset. -->
 
@@ -237,7 +237,7 @@ Correct Choice: B
 
 
 {: .fs-4 .fw-600 .text-red-300}
-> **Editors' comments**
+> **Comments**
 
 <!-- Mention the highlights or known issues of the dataset. -->
 
@@ -267,7 +267,7 @@ Correct Choice: D
 ``` 
 
 {: .fs-4 .fw-600 .text-red-300}
-> **Editors' comments**
+> **Comments**
 
 <!-- Mention the highlights or known issues of the dataset. -->
 
@@ -295,7 +295,7 @@ Correct Choice: C
 
 
 {: .fs-4 .fw-600 .text-red-300}
-> **Editors' comments**
+> **Comments**
 
 <!-- Mention the highlights or known issues of the dataset. -->
 
@@ -326,7 +326,7 @@ text: The city councilmen refused the demonstrators a permit because they feared
 
 
 {: .fs-4 .fw-600 .text-red-300}
-> **Editors' comments**
+> **Comments**
 
 <!-- Mention the highlights or known issues of the dataset. -->
 
@@ -353,7 +353,7 @@ Correct Option: Option1
 ``` 
 
 {: .fs-4 .fw-600 .text-red-300}
-> **Editors' comments**
+> **Comments**
 
 <!-- Mention the highlights or known issues of the dataset. -->
 
@@ -381,7 +381,7 @@ Correct Choice: Alternative 2
 ``` 
 
 {: .fs-4 .fw-600 .text-red-300}
-> **Editors' comments**
+> **Comments**
 
 <!-- Mention the highlights or known issues of the dataset. -->
 
@@ -404,7 +404,7 @@ Correct Choice: Alternative 1
 ``` 
 
 {: .fs-4 .fw-600 .text-red-300}
-> **Editors' comments**
+> **Comments**
 
 <!-- Mention the highlights or known issues of the dataset. -->
 
@@ -436,7 +436,7 @@ Correct Choice: D
 
 
 {: .fs-4 .fw-600 .text-red-300}
-> **Editors' comments**
+> **Comments**
 
 <!-- Mention the highlights or known issues of the dataset. -->
 
@@ -467,7 +467,7 @@ Correct Choice: C
 
 
 {: .fs-4 .fw-600 .text-red-300}
-> **Editors' comments**
+> **Comments**
 
 <!-- Mention the highlights or known issues of the dataset. -->
 
@@ -495,7 +495,7 @@ Correct Choice: Hyp1
 
 
 {: .fs-4 .fw-600 .text-red-300}
-> **Editors' comments**
+> **Comments**
 
 <!-- Mention the highlights or known issues of the dataset. -->
 
@@ -528,7 +528,7 @@ Correct Choice: B
 
 
 {: .fs-4 .fw-600 .text-red-300}
-> **Editors' comments**
+> **Comments**
 > - The dataset is not yet public. Contact the authors to get more information.
 <!-- Mention the highlights or known issues of the dataset. -->
 
@@ -578,7 +578,7 @@ Correct Choice: D
 
 
 {: .fs-4 .fw-600 .text-red-300}
-> **Editors' comments**
+> **Comments**
 
 <!-- Mention the highlights or known issues of the dataset. -->
 
@@ -610,7 +610,7 @@ Categories:
 ``` 
 
 {: .fs-4 .fw-600 .text-red-300}
-> **Editors' comments**
+> **Comments**
 
 
 ### OpenCSR
@@ -637,7 +637,7 @@ Weighted Answers: Renewable energy (w1), tree (w2), solar battery (w3)
 ``` 
 
 {: .fs-4 .fw-600 .text-red-300}
-> **Editors' comments**
+> **Comments**
 
 ---
 
@@ -667,7 +667,7 @@ T5 -- dog catches a frisbee and throws it to a dog.
 ``` 
 
 {: .fs-4 .fw-600 .text-red-300}
-> **Editors' comments**
+> **Comments**
 
 ### Cos-E 
 {: .no_toc }
@@ -691,7 +691,7 @@ Correct Choice: have fun
 ``` 
 
 {: .fs-4 .fw-600 .text-red-300}
-> **Editors' comments**
+> **Comments**
 
 
 ### ComVE (SubTask C)
@@ -719,7 +719,7 @@ Generate the reason why this statement is against common sense and we will use B
 ```
 
 {: .fs-4 .fw-600 .text-red-300}
-> **Editors' comments**
+> **Comments**
 
 
 ---
@@ -754,7 +754,7 @@ uuid: d4f11631dde8a43beda613ec845ff7d1
 ```
 
 {: .fs-4 .fw-600 .text-red-300}
-> **Editors' comments**
+> **Comments**
 
 
 ### NumerSense
@@ -778,7 +778,7 @@ A) One  B) Two  C) Three  D) Four  E) Five
 ``` 
 
 {: .fs-4 .fw-600 .text-red-300}
-> **Editors' comments**
+> **Comments**
 
 
 ---
@@ -865,7 +865,7 @@ Correct Choice: B
 <img src="../../images/benchmarks/twc.png" width="100%" height="auto" />
 
 {: .fs-4 .fw-600 .text-red-300}
-> **Editors' comments**
+> **Comments**
 
 ### AFLWorld
 {: .no_toc }
@@ -900,7 +900,7 @@ Confidence: 1
 ``` 
 
 {: .fs-4 .fw-600 .text-red-300}
-> **Editors' comments**
+> **Comments**
 
 
 ### GLUE and SuperGLUE Benchmark 
@@ -944,7 +944,7 @@ Example 2
 ``` 
 
 {: .fs-4 .fw-600 .text-red-300}
-> **Editors' comments**
+> **Comments**
 
 
 {: .fs-4 .fw-800 .text-blue-100}
@@ -983,4 +983,4 @@ Correct Alternative: 1
 <!-- https://super.gluebenchmark.com/tasks -->
 
 {: .fs-4 .fw-600 .text-red-300}
-> **Editors' comments**
+> **Comments**
