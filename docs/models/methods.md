@@ -16,14 +16,6 @@ Editors: [Bill Yuchen Lin](https://yuchenlin.xyz/), [Yang Qiao](https://www.link
 We present a collection of insightful research papers that focus on teaching machines to think with common sense like humans. We grouped them in different categories mainly based on the knowledge resources they used. 
 
 
-<style>
-  .method-label{
-    color: blue;
-    font-size: 0.9em;
-    font-weight: 800
-  }
-</style>
-
  
 ## Table of contents
 {: .no_toc .text-delta }
