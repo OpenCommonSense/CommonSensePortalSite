@@ -100,9 +100,17 @@ img {
 }
 
 hr {
-  height: 1px;
+  height: 2.5px;
   padding: 0;
   margin: $sp-6 0;
+  background-color: $border-color;
+  border: 0;
+}
+
+.thin {
+  height: 0.5px;
+  padding: 0;
+  margin: $sp-4 0;
   background-color: $border-color;
   border: 0;
 }

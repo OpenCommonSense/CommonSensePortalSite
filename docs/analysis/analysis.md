@@ -13,8 +13,7 @@ permalink: /docs/analysis
 Editors: [Bill Yuchen Lin](https://yuchenlin.xyz/){: target="_blank"}, [Pei Zhou](https://sites.google.com/g.ucla.edu/peizhou/home){: target="_blank"}
 
 {: .fs-5 .fw-300 }
-We present a collection of papers analyzing commonsense-related models, knowledge bases, and datasets.
-
+Here we present a collection of papers focusing on the analysis about commonsense knowledge and commonsense reasoning. 
 
 
 ---
@@ -28,8 +27,17 @@ We present a collection of papers analyzing commonsense-related models, knowledg
 
 ---
 
-## Knowledge Probing of LMs
+## Analyzing Language Models
 
+<table>
+<td>
+<span class="fs-4">
+This line of research focuses on understanding whether the pre-trained language models (e.g., BERT) have captured commonsense knowledge, and to what extent they can be used for different types of commonsense reasoning. They usually use the pre-trained LMs as they are (i.e., no fine-tuning) and analyze them by designing probing methods for recalling knowledge or completing a reasoning task.
+</span>
+</td>
+</table>
+
+ 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 Language Models as Knowledge Bases?**. <br> ✍ Fabio Petroni, Tim Rocktaschel, Patrick Lewis, Anton Bakhtin, Yuxiang Wu, Alexander H. Miller, Sebastian Riedel *(EMNLP 2019)*
  
@@ -39,9 +47,11 @@ We present a collection of papers analyzing commonsense-related models, knowledg
    [Semantic Scholar](https://www.semanticscholar.org/paper/Language-Models-as-Knowledge-Bases-Petroni-Rockt%C3%A4schel/d0086b86103a620a86bc918746df0aa642e2a8a3){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
-Used datasets/knowledge sources: [Google-RE](https://code.google.com/archive/p/relation-extraction-corpus/){: .mr-1 target="_blank"}, [T-Rex](https://github.com/hadyelsahar/t-rex){: .mr-1 target="_blank"}, [ConceptNet](https://conceptnet.io/){: .mr-1 target="_blank"}, [SQuAD](https://rajpurkar.github.io/SQuAD-explorer/){: .mr-1 target="_blank"}
+Used Resources: [ConceptNet](https://conceptnet.io/){: .mr-1 target="_blank"}
+
+ 
 <details markdown="block">
-  <summary>Abstract</summary>
+  <summary><span></span>Abstract</summary>
   {: .fs-3 .text-delta .text-blue-100}
   ```
   Recent progress in pretraining language models on large textual corpora led to a surge of improvements for downstream NLP tasks. Whilst learning linguistic knowledge, these models may also be storing relational knowledge present in the training data, and may be able to answer queries structured as "fill-in-the-blank" cloze statements. Language models have many advantages over structured knowledge bases: they require no schema engineering, allow practitioners to query about an open class of relations, are easy to extend to more data, and require no human supervision to train. We present an in-depth analysis of the relational knowledge already present (without fine-tuning) in a wide range of state-of-the-art pretrained language models. We find that (i) without fine-tuning, BERT contains relational knowledge competitive with traditional NLP methods that have some access to oracle knowledge, (ii) BERT also does remarkably well on open-domain question answering against a supervised baseline, and (iii) certain types of factual knowledge are learned much more readily than others by standard language model pretraining approaches. The surprisingly strong ability of these models to recall factual knowledge without any fine-tuning demonstrates their potential as unsupervised open-domain QA systems. The code to reproduce our analysis is available at https://github.com/facebookresearch/LAMA
@@ -55,11 +65,8 @@ Used datasets/knowledge sources: [Google-RE](https://code.google.com/archive/p/r
   {: .fs-3 .text-delta .text-red-100}
 </details> 
 {: .fs-3 .fw-600 .text-red-300}
- 
-<br> 
 
-
-
+<hr class="thin" width="50%"/>
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 oLMpics-On What Language Model Pre-training Captures**. <br> ✍ Alon Talmor, Yanai Elazar, Y. Goldberg, Jonathan Berant *(TACL 2020)*
  
@@ -69,7 +76,7 @@ Used datasets/knowledge sources: [Google-RE](https://code.google.com/archive/p/r
    [Semantic Scholar](https://www.semanticscholar.org/paper/oLMpics-On-What-Language-Model-Pre-training-Talmor-Elazar/75c85b07d31144af5426829ff79b2b061de32124){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
-Used datasets/knowledge sources: 
+Used Resources: 
 <details markdown="block">
   <summary>Abstract</summary>
   {: .fs-3 .text-delta .text-blue-100}
@@ -85,9 +92,9 @@ Used datasets/knowledge sources:
   {: .fs-3 .text-delta .text-red-100}
 </details> 
 {: .fs-3 .fw-600 .text-red-300}
- 
-<br> 
 
+
+<hr class="thin" width="50%"/>
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 Evaluating Commonsense in Pre-trained Language Models**. <br> ✍ Xuhui Zhou, Y. Zhang, Leyang Cui, Dandan Huang *(AAAI 2020)*
  
@@ -97,7 +104,7 @@ Used datasets/knowledge sources:
    [Semantic Scholar](https://www.semanticscholar.org/paper/Evaluating-Commonsense-in-Pre-trained-Language-Zhou-Zhang/9399b0f7a7dfb7b3497fbd91d0bf6542513b0904){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
-Used datasets/knowledge sources: [Sense Making](https://github.com/wangcunxiang/Sen-Making-and-Explanation){: .mr-1 target="_blank"}, [WSC](/docs/datasets#wsc){: .mr-1 target="_blank"}, [SWAG](/docs/datasets#swag-and-hellaswag){: .mr-1 target="_blank"}, [HellaSwag](/docs/datasets#swag-and-hellaswag){: .mr-1 target="_blank"},[Argument Reasoning Comprehension](https://github.com/UKPLab/argument-reasoning-comprehension-task){: .mr-1 target="_blank"}
+Used Resources: [Sense Making](https://github.com/wangcunxiang/Sen-Making-and-Explanation){: .mr-1 target="_blank"}, [WSC](/docs/datasets#wsc){: .mr-1 target="_blank"}, [SWAG](/docs/datasets#swag-and-hellaswag){: .mr-1 target="_blank"}, [HellaSwag](/docs/datasets#swag-and-hellaswag){: .mr-1 target="_blank"},[Argument Reasoning Comprehension](https://github.com/UKPLab/argument-reasoning-comprehension-task){: .mr-1 target="_blank"}
 <details markdown="block">
   <summary>Abstract</summary>
   {: .fs-3 .text-delta .text-blue-100}
@@ -113,14 +120,10 @@ Used datasets/knowledge sources: [Sense Making](https://github.com/wangcunxiang/
   {: .fs-3 .text-delta .text-red-100}
 </details> 
 {: .fs-3 .fw-600 .text-red-300}
+
  
-<br> 
 
----
-
-## LM Logic Probing
-
-
+<hr class="thin" width="50%"/>
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 RICA: Evaluating Robust Inference Capabilities Based on Commonsense Axioms**. <br> ✍ Pei Zhou, Rahul Khanna, Seyeon Lee, Bill Yuchen Lin, Daniel Ho, Jay Pujara, Xiang Ren *(arXiv 2020, accepted in EMNLP-Findings 2020)*
  
@@ -131,7 +134,7 @@ Used datasets/knowledge sources: [Sense Making](https://github.com/wangcunxiang/
    [Semantic Scholar](https://www.semanticscholar.org/paper/RICA%3A-Evaluating-Robust-Inference-Capabilities-on-Zhou-Khanna/4f1312c6c2fbc831652c099ea4ddbd1e1ad67c59){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
-Used datasets/knowledge sources: [ConceptNet](https://conceptnet.io/){: .mr-1 target="_blank"},[ATOMIC](https://mosaickg.apps.allenai.org/kg_atomic){: .mr-1 target="_blank"}, [COMeT](https://mosaickg.apps.allenai.org/comet_atomic){: .mr-1 target="_blank"}
+Used Resources: [ConceptNet](https://conceptnet.io/){: .mr-1 target="_blank"},[ATOMIC](https://mosaickg.apps.allenai.org/kg_atomic){: .mr-1 target="_blank"}, [COMeT](https://mosaickg.apps.allenai.org/comet_atomic){: .mr-1 target="_blank"}
 <details markdown="block">
   <summary>Abstract</summary>
   {: .fs-3 .text-delta .text-blue-100}
@@ -147,15 +150,15 @@ Used datasets/knowledge sources: [ConceptNet](https://conceptnet.io/){: .mr-1 ta
   {: .fs-3 .text-delta .text-red-100}
 </details> 
 {: .fs-3 .fw-600 .text-red-300}
- 
-<br> 
+
 
 
 
 ---
 
-## Analysis for Reasoning
+## Analyzing Reasoning Methods
 
+<hr class="thin" width="50%"/>
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 Does BERT Solve Commonsense Task via Commonsense Knowledge?**. <br> ✍ Leyang Cui, Sijie Cheng, Yu Wu, Yue Zhang *(AAAI 2020)*
  
@@ -164,7 +167,7 @@ Used datasets/knowledge sources: [ConceptNet](https://conceptnet.io/){: .mr-1 ta
    [Semantic Scholar](https://www.semanticscholar.org/paper/Does-BERT-Solve-Commonsense-Task-via-Commonsense-Cui-Cheng/d8ea988072efb115ee8c85e159c1fa4a816360b5){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
-Used datasets/knowledge sources: [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"}, [ConceptNet](https://conceptnet.io/){: .mr-1 target="_blank"}
+Used Resources: [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"}, [ConceptNet](https://conceptnet.io/){: .mr-1 target="_blank"}
 <details markdown="block">
   <summary>Abstract</summary>
   {: .fs-3 .text-delta .text-blue-100}
@@ -180,9 +183,9 @@ Used datasets/knowledge sources: [CommonsenseQA](/docs/datasets#commonsenseqa){:
   {: .fs-3 .text-delta .text-red-100}
 </details> 
 {: .fs-3 .fw-600 .text-red-300}
- 
-<br> 
 
+
+<hr class="thin" width="50%"/>
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 Learning to Deceive Knowledge Graph Augmented Models via Targeted Perturbation**. <br> ✍ Mrigank Raman, Siddhant Agarwal, Peifeng Wang, Aaron Chan, H. Wang, Sungchul Kim, Ryan A. Rossi, Handong Zhao, Nedim Lipka, Xiang Ren *(ICLR 2021)*
  
@@ -192,7 +195,7 @@ Used datasets/knowledge sources: [CommonsenseQA](/docs/datasets#commonsenseqa){:
    [Semantic Scholar](https://www.semanticscholar.org/paper/Learning-to-Deceive-Knowledge-Graph-Augmented-via-Raman-Agarwal/a5654d5244b908a08936fcb7c13c03124dd5648e){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
-Used datasets/knowledge sources: [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"}, [ConceptNet](https://conceptnet.io/){: .mr-1 target="_blank"}
+Used Resources: [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"}, [ConceptNet](https://conceptnet.io/){: .mr-1 target="_blank"}
 <details markdown="block">
   <summary>Abstract</summary>
   {: .fs-3 .text-delta .text-blue-100}
@@ -208,14 +211,14 @@ Used datasets/knowledge sources: [CommonsenseQA](/docs/datasets#commonsenseqa){:
   {: .fs-3 .text-delta .text-red-100}
 </details> 
 {: .fs-3 .fw-600 .text-red-300}
- 
-<br> 
+
 
 
 ---
 
 ## Analysis on Data
 
+<hr class="thin" width="50%"/>
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 Lawyers are Dishonest? Quantifying Representational Harms in Commonsense Knowledge Resources**. <br> ✍ 
 Ninareh Mehrabi\*, Pei Zhou\*, Fred Morstatter, Jay Pujara, Xiang Ren, Aram Galstyan *(arXiv 2021)*
@@ -226,7 +229,7 @@ Ninareh Mehrabi\*, Pei Zhou\*, Fred Morstatter, Jay Pujara, Xiang Ren, Aram Gals
    [Semantic Scholar](https://www.semanticscholar.org/paper/Lawyers-are-Dishonest-Quantifying-Representational-Mehrabi-Zhou/f54497893ee8e7dc888d062bc5498dcb2791f525){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
-Used datasets/knowledge sources: [ConceptNet](https://conceptnet.io/){: .mr-1 target="_blank"}, [COMeT](https://mosaickg.apps.allenai.org/comet_atomic){: .mr-1 target="_blank"}
+Used Resources: [ConceptNet](https://conceptnet.io/){: .mr-1 target="_blank"}, [COMeT](https://mosaickg.apps.allenai.org/comet_atomic){: .mr-1 target="_blank"}
 <details markdown="block">
   <summary>Abstract</summary>
   {: .fs-3 .text-delta .text-blue-100}
@@ -242,11 +245,11 @@ Used datasets/knowledge sources: [ConceptNet](https://conceptnet.io/){: .mr-1 ta
   {: .fs-3 .text-delta .text-red-100}
 </details> 
 {: .fs-3 .fw-600 .text-red-300}
- 
-<br> 
 
 
 
+
+<hr class="thin" width="50%"/>
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 WinoWhy: A Deep Diagnosis of Essential Commonsense Knowledge for Answering Winograd Schema Challenge**. <br> ✍ Hongming Zhang\*, Xinran Zhao\*, Yangqiu Song *(ACL 2020)*
  
@@ -256,7 +259,7 @@ Used datasets/knowledge sources: [ConceptNet](https://conceptnet.io/){: .mr-1 ta
    [Semantic Scholar](https://www.semanticscholar.org/paper/WinoWhy%3A-A-Deep-Diagnosis-of-Essential-Commonsense-Zhang-Zhao/827ac6fd6bd5a0a7607085c10e27641a60b5e4fe){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
-Used datasets/knowledge sources: [WSC](/docs/datasets#wsc){: .mr-1 target="_blank"}
+Used Resources: [WSC](/docs/datasets#wsc){: .mr-1 target="_blank"}
 <details markdown="block">
   <summary>Abstract</summary>
   {: .fs-3 .text-delta .text-blue-100}
@@ -272,9 +275,9 @@ Used datasets/knowledge sources: [WSC](/docs/datasets#wsc){: .mr-1 target="_blan
   {: .fs-3 .text-delta .text-red-100}
 </details> 
 {: .fs-3 .fw-600 .text-red-300}
- 
-<br> 
 
+
+<hr class="thin" width="50%"/>
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 Commonsense Knowledge Graph Reasoning by Selection or Generation? Why?**. <br> ✍ Cunxiang Wang, Jinhang Wu, Luxin Liu, Yue Zhang *(arXiv 2020)*
  
@@ -283,7 +286,7 @@ Used datasets/knowledge sources: [WSC](/docs/datasets#wsc){: .mr-1 target="_blan
    [Semantic Scholar](https://www.semanticscholar.org/paper/Commonsense-Knowledge-Graph-Reasoning-by-Selection-Wang-Wu/6d8ee95a87f756e03327888bd4318ee108f4c715){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
-Used datasets/knowledge sources: [ConceptNet](https://conceptnet.io/){: .mr-1 target="_blank"}, [ATOMIC](https://mosaickg.apps.allenai.org/kg_atomic){: .mr-1 target="_blank"}
+Used Resources: [ConceptNet](https://conceptnet.io/){: .mr-1 target="_blank"}, [ATOMIC](https://mosaickg.apps.allenai.org/kg_atomic){: .mr-1 target="_blank"}
 <details markdown="block">
   <summary>Abstract</summary>
   {: .fs-3 .text-delta .text-blue-100}
@@ -299,9 +302,9 @@ Used datasets/knowledge sources: [ConceptNet](https://conceptnet.io/){: .mr-1 ta
   {: .fs-3 .text-delta .text-red-100}
 </details> 
 {: .fs-3 .fw-600 .text-red-300}
- 
-<br> 
 
+
+<hr class="thin" width="50%"/>
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 An Analysis of Dataset Overlap on Winograd-Style Tasks**. <br> ✍ Ali Emami, Adam Trischler, Kaheer Suleman, Jackie Chi Kit Cheung *(COLING 2020)*
  
@@ -311,7 +314,7 @@ Used datasets/knowledge sources: [ConceptNet](https://conceptnet.io/){: .mr-1 ta
    [Semantic Scholar](https://www.semanticscholar.org/paper/An-Analysis-of-Dataset-Overlap-on-Winograd-Style-Emami-Trischler/16992445d3114d27fb64d2d00cd35b421bef7930){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
-Used datasets/knowledge sources: [WSC](/docs/datasets#wsc){: .mr-1 target="_blank"}
+Used Resources: [WSC](/docs/datasets#wsc){: .mr-1 target="_blank"}
 <details markdown="block">
   <summary>Abstract</summary>
   {: .fs-3 .text-delta .text-blue-100}
@@ -327,13 +330,13 @@ Used datasets/knowledge sources: [WSC](/docs/datasets#wsc){: .mr-1 target="_blan
   {: .fs-3 .text-delta .text-red-100}
 </details> 
 {: .fs-3 .fw-600 .text-red-300}
- 
-<br> 
+
 
 ---
 
 ## Others
 
+<hr class="thin" width="50%"/>
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 The Box is in the Pen: Evaluating Commonsense Reasoning in Neural Machine Translation**. <br> ✍ Jie He, Tao Wang, Deyi Xiong, Qun Liu *(EMNLP-Findings 2020)*
  
@@ -343,7 +346,7 @@ Used datasets/knowledge sources: [WSC](/docs/datasets#wsc){: .mr-1 target="_blan
    [Semantic Scholar](https://www.semanticscholar.org/paper/Lawyers-are-Dishonest-Quantifying-Representational-Mehrabi-Zhou/f54497893ee8e7dc888d062bc5498dcb2791f525){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
-Used datasets/knowledge sources: 
+Used Resources: 
 <details markdown="block">
   <summary>Abstract</summary>
   {: .fs-3 .text-delta .text-blue-100}
@@ -359,8 +362,7 @@ Used datasets/knowledge sources:
   {: .fs-3 .text-delta .text-red-100}
 </details> 
 {: .fs-3 .fw-600 .text-red-300}
- 
-<br> 
+
 
 
 <!-- 1. RICA's related works. + LAMA probes + olymics + Yue Zhang's papers (two)  -->
