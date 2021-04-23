@@ -16,6 +16,13 @@ Editors: [Bill Yuchen Lin](https://yuchenlin.xyz/), [Yang Qiao](https://www.link
 We present a collection of insightful research papers that focus on teaching machines to think with common sense like humans. We grouped them in different categories mainly based on the knowledge resources they used. 
 
 
+<style>
+  .method-label{
+    color: blue;
+    font-size: 0.9em;
+    font-weight: 800
+  }
+</style>
 
  
 ## Table of contents
@@ -50,7 +57,7 @@ This line of research focuses on how we can use a language model to solve common
 
 **Evaluation Tasks:** [WSC](/docs/datasets#wsc){: .mr-1 target="_blank"} 
 
-**Features:** `unsupervised`, `coreference`
+**Features:** `unsupervised`{: .method-label}, `coreference`{: .method-label}
 
 <details markdown="block">
   <summary>Abstract</summary>
@@ -82,7 +89,7 @@ This line of research focuses on how we can use a language model to solve common
 
 **Evaluation Tasks:** [WSC](/docs/datasets#wsc){: .mr-1 target="_blank"} 
 
-**Features:** `unsupervised`, `coreference`
+**Features:** `unsupervised`{: .method-label}, `coreference`{: .method-label}
 
 <details markdown="block">
   <summary>Abstract</summary>
@@ -112,7 +119,7 @@ This line of research focuses on how we can use a language model to solve common
 
 **Evaluation Tasks:** [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"}, [OpenbookQA](/docs/datasets#openbookqa){: .mr-1 target="_blank"}, [PIQA](/docs/datasets#physicaliqa){: .mr-1 target="_blank"}, [aNLI](/docs/datasets#anli){: .mr-1 target="_blank"}, [CommonGEN](/docs/datasets#commongen){: .mr-1 target="_blank"}
 
-**Features**: `pre-training`, `supervised`, `text-to-text`, `all-tasks`
+**Features**: `pre-training`{: .method-label}, `supervised`{: .method-label}, `text-to-text`{: .method-label}, `all-tasks`{: .method-label}
 
 <details markdown="block">
   <summary>Abstract</summary>
@@ -143,7 +150,7 @@ This line of research focuses on how we can use a language model to solve common
 
 **Evaluation Tasks:** [ARC](/docs/datasets#arc){: .mr-1 target="_blank"}, [OpenbookQA](/docs/datasets#openbookqa){: .mr-1 target="_blank"}, [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"}, etc.
 
-**Features**: `pre-training`, `supervised`, `text-to-text`, `all-tasks`
+**Features**: `pre-training`{: .method-label}, `supervised`{: .method-label}, `text-to-text`{: .method-label}, `all-tasks`{: .method-label}
 
 <details markdown="block">
   <summary>Abstract</summary>
@@ -188,7 +195,7 @@ ICLR 2021
 
 **Evaluation Tasks:** [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"} 
 
-**Features**: `supervised`, `lm+gnn`, `kg-aware`, `multiple-choice`, `interpretable`
+**Features**: `supervised`{: .method-label}, `lm+gnn`{: .method-label}, `kg-aware`{: .method-label}, `multiple-choice`{: .method-label}, `interpretable`{: .method-label}
 
 <details markdown="block">
   <summary>Abstract</summary>
@@ -218,7 +225,7 @@ ICLR 2021
 
 **Evaluation Tasks:** [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"}, [OpenbookQA](/docs/datasets#openbookqa){: .mr-1 target="_blank"} 
 
-**Features**: `supervised`, `lm+gnn`, `kg-aware`, `multiple-choice`, `interpretable`
+**Features**: `supervised`{: .method-label}, `lm+gnn`{: .method-label}, `kg-aware`{: .method-label}, `multiple-choice`{: .method-label}, `interpretable`{: .method-label}
 
 <details markdown="block">
   <summary>Abstract</summary>
@@ -247,7 +254,7 @@ ICLR 2021
 
 **Evaluation Tasks:** [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"}, [OpenbookQA](/docs/datasets#openbookqa){: .mr-1 target="_blank"} 
 
-**Features**: `supervised`, `kg-aware`, `multiple-choice`, `interpretable`
+**Features**: `supervised`{: .method-label}, `kg-aware`{: .method-label}, `multiple-choice`{: .method-label}, `interpretable`{: .method-label}
 
 <details markdown="block">
   <summary>Abstract</summary>
@@ -277,7 +284,7 @@ ICLR 2021
 
 **Evaluation Tasks:** [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"} 
 
-**Features**: `supervised`, `lm+gnn`, `kg-aware`, `multiple-choice`, `interpretable`
+**Features**: `supervised`{: .method-label}, `lm+gnn`{: .method-label}, `kg-aware`{: .method-label}, `multiple-choice`{: .method-label}, `interpretable`{: .method-label}
 
 <details markdown="block">
   <summary>Abstract</summary>
@@ -307,7 +314,7 @@ ICLR 2021
 
 **Evaluation Tasks:** [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"}, [DREAM](https://arxiv.org/abs/1902.00164){: .mr-1 target="_blank"}
 
-**Features**: `supervised`, `lm+gnn`, `kg-aware`, `multiple-choice`, `interpretable`
+**Features**: `supervised`{: .method-label}, `lm+gnn`{: .method-label}, `kg-aware`{: .method-label}, `multiple-choice`{: .method-label}, `interpretable`{: .method-label}
 
 <details markdown="block">
   <summary>Abstract</summary>
@@ -337,7 +344,7 @@ ICLR 2021
 **Evaluation Tasks:** [CommonGEN](/docs/datasets#commongen){: .mr-1 target="_blank"} 
 
 
-**Features**: `supervised`, `lm+gnn`, `kg-aware`, `text-generation`, `interpretable`
+**Features**: `supervised`{: .method-label}, `lm+gnn`{: .method-label}, `kg-aware`{: .method-label}, `text-generation`{: .method-label}, `interpretable`{: .method-label}
 
 <details markdown="block">
   <summary>Abstract</summary>
@@ -395,7 +402,7 @@ code: https://github.com/Mayer123/HyKAS
 
 **Evaluation Tasks:** [WSC](/docs/datasets#wsc){: .mr-1 target="_blank"}, [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"}
 
-**Features:** `data-augmentation`, `kg-aware`, `multiple-choice`
+**Features:** `data-augmentation`{: .method-label}, `kg-aware`{: .method-label}, `multiple-choice`{: .method-label}
 
 <details markdown="block">
   <summary>Abstract</summary>
@@ -424,7 +431,7 @@ code: https://github.com/Mayer123/HyKAS
 
 **Evaluation Tasks:** [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"}, [WinoGrande](/docs/datasets#winogrande){: .mr-1 target="_blank"}, [CODAH](/docs/datasets#codah){: .mr-1 target="_blank"}, [HellaSwag](/docs/datasets#swag-and-hellaswag){: .mr-1 target="_blank"}
 
-**Features:** `data-augmentation,` `kg-aware,` `multiple-choice `
+**Features:** `data-augmentation`{: .method-label}, `kg-aware`{: .method-label}, `multiple-choice`{: .method-label}
 
 <details markdown="block">
   <summary>Abstract</summary>
@@ -456,7 +463,7 @@ code: https://github.com/Mayer123/HyKAS
 
 **Evaluation Tasks:** [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"}, [aNLI](/docs/datasets#anli){: .mr-1 target="_blank"}, [PhysicalIQA](/docs/datasets#physicaliqa){: .mr-1 target="_blank"}, [SocialIQA](/docs/datasets#socialiqa){: .mr-1 target="_blank"}, [WinoGrande](/docs/datasets#winogrande){: .mr-1 target="_blank"}
 
-**Features:** `data-augmentation`, `kg-aware`, `multiple-choice`
+**Features:** `data-augmentation`{: .method-label}, `kg-aware`{: .method-label}, `multiple-choice`{: .method-label}
 
 <details markdown="block">
   <summary>Abstract</summary>
