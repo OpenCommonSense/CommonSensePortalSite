@@ -157,8 +157,15 @@ Used Resources: [ConceptNet](https://conceptnet.io/){: .mr-1 target="_blank"},[A
 ---
 
 ## Analyzing Reasoning Methods
+<table>
+<td>
+<span class="fs-4">
+The following papers focus on how the existing methods perform their reasoning for commonsense tasks. 
+</span>
+</td>
+</table>
 
-<hr class="thin" width="50%"/>
+
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 Does BERT Solve Commonsense Task via Commonsense Knowledge?**. <br> ✍ Leyang Cui, Sijie Cheng, Yu Wu, Yue Zhang *(AAAI 2020)*
  
@@ -217,8 +224,14 @@ Used Resources: [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_b
 ---
 
 ## Analysis on Data
+<table>
+<td>
+<span class="fs-4">
+These papers work on analyzing the datasets and resources we used for studying commonsense reasoning. Are they biased? Do they contain error or noise? Why are the real challenges?
+</span>
+</td>
+</table>
 
-<hr class="thin" width="50%"/>
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 Lawyers are Dishonest? Quantifying Representational Harms in Commonsense Knowledge Resources**. <br> ✍ 
 Ninareh Mehrabi\*, Pei Zhou\*, Fred Morstatter, Jay Pujara, Xiang Ren, Aram Galstyan *(arXiv 2021)*
@@ -335,8 +348,7 @@ Used Resources: [WSC](/docs/datasets#wsc){: .mr-1 target="_blank"}
 ---
 
 ## Others
-
-<hr class="thin" width="50%"/>
+ 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 The Box is in the Pen: Evaluating Commonsense Reasoning in Neural Machine Translation**. <br> ✍ Jie He, Tao Wang, Deyi Xiong, Qun Liu *(EMNLP-Findings 2020)*
  
