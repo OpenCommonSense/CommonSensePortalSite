@@ -23,9 +23,19 @@ We present a collection of insightful research papers that focus on teaching mac
 - TOC
 {:toc}
 
+
+**Feature Notation**
+
+- `supervised`{: .method-label}, `unsupervised`{: .method-label}: whether the method needs to use the training data (annotated by humans) of the target task.
+- `data-augmentation`{: .method-label}: this method introduces a way to automatically generate more supervision for learning commonsense reasoning models.
+- `coreference`{: .method-label}, `multiple-choice`{: .method-label}, `generation`{: .method-label}: the format of the target task. 
+- `multi-task`{: .method-label}: the method aims to solve multiple commonsense tasks with a single model.
+- `text-to-text`{: .method-label}: the method is based on a text-to-text Transformer (e.g., BART, T5), which is thus usually suitable for all task formats.
+- `pre-training`{: .method-label}: the method introduces new pre-training tasks.
+- `lm+gnn`{: .method-label}: this method has two components --- a language model (e.g., BERT) and a graph-based reasoning module.
+- `kg-aware`{: .method-label}: the method has the access to external commonsense knowledge graphs (e.g., ConceptNet).
+
 ---
-
-
 
 ## LM-only Methods
 
@@ -111,7 +121,7 @@ This line of research focuses on how we can use a language model to solve common
 
 **Evaluation Tasks:** [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"}, [OpenbookQA](/docs/datasets#openbookqa){: .mr-1 target="_blank"}, [PIQA](/docs/datasets#physicaliqa){: .mr-1 target="_blank"}, [aNLI](/docs/datasets#anli){: .mr-1 target="_blank"}, [CommonGEN](/docs/datasets#commongen){: .mr-1 target="_blank"}
 
-**Features**: `pre-training`{: .method-label}, `supervised`{: .method-label}, `text-to-text`{: .method-label}, `all-tasks`{: .method-label}
+**Features**: `pre-training`{: .method-label}, `supervised`{: .method-label}, `text-to-text`{: .method-label}, `multi-task`{: .method-label}
 
 <details markdown="block">
   <summary>Abstract</summary>
@@ -142,7 +152,7 @@ This line of research focuses on how we can use a language model to solve common
 
 **Evaluation Tasks:** [ARC](/docs/datasets#arc){: .mr-1 target="_blank"}, [OpenbookQA](/docs/datasets#openbookqa){: .mr-1 target="_blank"}, [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"}, etc.
 
-**Features**: `pre-training`{: .method-label}, `supervised`{: .method-label}, `text-to-text`{: .method-label}, `all-tasks`{: .method-label}
+**Features**: `pre-training`{: .method-label}, `supervised`{: .method-label}, `text-to-text`{: .method-label}, `multi-task`{: .method-label}
 
 <details markdown="block">
   <summary>Abstract</summary>
@@ -478,3 +488,5 @@ https://github.com/Mayer123/HyKAS-CSKG
 
 
 ## Others
+
+
