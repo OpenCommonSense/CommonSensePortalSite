@@ -33,7 +33,7 @@ We present a collection of insightful research papers that focus on teaching mac
 <table>
 <td>
 <span class="fs-4">
-This line of research focuses on understanding whether the pre-trained language models (e.g., BERT) have captured commonsense knowledge, and to what extent they can be used for different types of commonsense reasoning. They usually use the pre-trained LMs as they are (i.e., no fine-tuning) and analyze them by designing probing methods for recalling knowledge or completing a reasoning task.
+This line of research focuses on how we can use a language model to solve commonsense reasoning tasks without the access to external knowledge resources. 
 </span>
 </td>
 </table>
@@ -48,7 +48,8 @@ This line of research focuses on understanding whether the pre-trained language 
    [Semantic Scholar](https://www.semanticscholar.org/paper/A-Simple-Method-for-Commonsense-Reasoning-Trinh-Le/d7b6753a2d4a2b286c396854063bde3a91b75535){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
-Evaluation Tasks: [WSC](/docs/datasets#wsc){: .mr-1 target="_blank"} 
+**Evaluation Tasks:** [WSC](/docs/datasets#wsc){: .mr-1 target="_blank"} 
+**Features:** unsupervised, correference-resolution
 <details markdown="block">
   <summary>Abstract</summary>
   {: .fs-3 .text-delta .text-blue-100}
@@ -77,7 +78,8 @@ Evaluation Tasks: [WSC](/docs/datasets#wsc){: .mr-1 target="_blank"}
    [Semantic Scholar](https://www.semanticscholar.org/paper/Attention-Is-(not)-All-You-Need-for-Commonsense-Klein-Nabi/8e82dd83df5023df86868c59a03fd7872fb5931e){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
-Evaluation Tasks: [WSC](/docs/datasets#wsc){: .mr-1 target="_blank"} 
+**Evaluation Tasks:** [WSC](/docs/datasets#wsc){: .mr-1 target="_blank"} 
+**Features:** unsupervised, correference-resolution
 <details markdown="block">
   <summary>Abstract</summary>
   {: .fs-3 .text-delta .text-blue-100}
@@ -104,7 +106,10 @@ Evaluation Tasks: [WSC](/docs/datasets#wsc){: .mr-1 target="_blank"}
    [Semantic Scholar](https://www.semanticscholar.org/paper/Pre-training-Text-to-Text-Transformers-for-Common-Zhou-Lee/fffe61fbd225b59d084148611c49585860e24728){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
-Evaluation Tasks: [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"}, [OpenbookQA](/docs/datasets#openbookqa){: .mr-1 target="_blank"}, [PIQA](/docs/datasets#physicaliqa){: .mr-1 target="_blank"}, [aNLI](/docs/datasets#anli){: .mr-1 target="_blank"}, [CommonGEN](/docs/datasets#commongen){: .mr-1 target="_blank"}
+**Evaluation Tasks:** [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"}, [OpenbookQA](/docs/datasets#openbookqa){: .mr-1 target="_blank"}, [PIQA](/docs/datasets#physicaliqa){: .mr-1 target="_blank"}, [aNLI](/docs/datasets#anli){: .mr-1 target="_blank"}, [CommonGEN](/docs/datasets#commongen){: .mr-1 target="_blank"}
+
+**Features**: pre-training, supervised, text-to-text, all-tasks
+
 <details markdown="block">
   <summary>Abstract</summary>
   {: .fs-3 .text-delta .text-blue-100}
@@ -132,7 +137,10 @@ Evaluation Tasks: [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="
    [Demo](https://unifiedqa.apps.allenai.org/){: .btn .btn-yellow .mr-1 target="_blank" }
 </span> 
 
-Evaluation Tasks: [ARC](/docs/datasets#arc){: .mr-1 target="_blank"}, [OpenbookQA](/docs/datasets#openbookqa){: .mr-1 target="_blank"}, [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"}, etc.
+**Evaluation Tasks:** [ARC](/docs/datasets#arc){: .mr-1 target="_blank"}, [OpenbookQA](/docs/datasets#openbookqa){: .mr-1 target="_blank"}, [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"}, etc.
+
+**Features**: pre-training, supervised, text-to-text, all-tasks
+
 <details markdown="block">
   <summary>Abstract</summary>
   {: .fs-3 .text-delta .text-blue-100}
@@ -174,7 +182,10 @@ ICLR 2021
    [Semantic Scholar](https://www.semanticscholar.org/paper/KagNet%3A-Knowledge-Aware-Graph-Networks-for-Lin-Chen/710d183174844da5b7f392667f3cc25d2b098dde){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
-Evaluation Tasks: [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"} 
+**Evaluation Tasks:** [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"} 
+
+**Features**: supervised, lm+gnn, kg-aware, multiple-choice, interpretable
+
 <details markdown="block">
   <summary>Abstract</summary>
   {: .fs-3 .text-delta .text-blue-100}
@@ -201,7 +212,10 @@ Evaluation Tasks: [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="
    [Semantic Scholar](https://www.semanticscholar.org/paper/Scalable-Multi-Hop-Relational-Reasoning-for-Feng-Chen/9e979667aa81c294062c02ab3a48e87e47c54987){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
-Evaluation Tasks: [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"}, [OpenbookQA](/docs/datasets#openbookqa){: .mr-1 target="_blank"} 
+**Evaluation Tasks:** [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"}, [OpenbookQA](/docs/datasets#openbookqa){: .mr-1 target="_blank"} 
+
+**Features**: supervised, lm+gnn, kg-aware, multiple-choice, interpretable
+
 <details markdown="block">
   <summary>Abstract</summary>
   {: .fs-3 .text-delta .text-blue-100}
@@ -227,7 +241,10 @@ Evaluation Tasks: [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="
    [Semantic Scholar](https://www.semanticscholar.org/paper/Connecting-the-Dots%3A-A-Knowledgeable-Path-Generator-Wang-Peng/ab7ab14f07321f6338c6f2364d3d3a46bf2045e2){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
-Evaluation Tasks: [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"}, [OpenbookQA](/docs/datasets#openbookqa){: .mr-1 target="_blank"} 
+**Evaluation Tasks:** [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"}, [OpenbookQA](/docs/datasets#openbookqa){: .mr-1 target="_blank"} 
+
+**Features**: supervised, kg-aware, multiple-choice, interpretable
+
 <details markdown="block">
   <summary>Abstract</summary>
   {: .fs-3 .text-delta .text-blue-100}
@@ -254,7 +271,10 @@ Evaluation Tasks: [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="
    [Semantic Scholar](https://www.semanticscholar.org/paper/Graph-Based-Reasoning-over-Heterogeneous-External-Lv-Guo/2e840854bcd7ff47f77acd9f88b61aba40560105){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
-Evaluation Tasks: [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"} 
+**Evaluation Tasks:** [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"} 
+
+**Features**: supervised, lm+gnn, kg-aware, multiple-choice, interpretable
+
 <details markdown="block">
   <summary>Abstract</summary>
   {: .fs-3 .text-delta .text-blue-100}
@@ -274,13 +294,17 @@ Evaluation Tasks: [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 Towards Generalizable Neuro-Symbolic Systems for Commonsense Question Answering**. <br> ✍ Kaixin Ma, Jonathan Francis, Quanyang Lu, Eric Nyberg, Alessandro Oltramari *(EMNLP-COIN 2019)*
  
+
 <span class="fs-2">
    [Paper](https://arxiv.org/abs/1910.14087){: .btn .btn-blue .mr-1 target="_blank" } 
    [Code](https://github.com/Mayer123/HyKAS){: target="_blank" .btn .btn-green .mr-1 }
    [Semantic Scholar](https://www.semanticscholar.org/paper/Towards-Generalizable-Neuro-Symbolic-Systems-for-Ma-Francis/a078d53c1eff50123e2b065276663de539a40aa1){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
-Evaluation Tasks: [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"}, [DREAM](https://arxiv.org/abs/1902.00164){: .mr-1 target="_blank"}
+**Evaluation Tasks:** [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"}, [DREAM](https://arxiv.org/abs/1902.00164){: .mr-1 target="_blank"}
+
+**Features**: supervised, lm+gnn, kg-aware, multiple-choice, interpretable
+
 <details markdown="block">
   <summary>Abstract</summary>
   {: .fs-3 .text-delta .text-blue-100}
@@ -306,7 +330,11 @@ Evaluation Tasks: [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="
    [Semantic Scholar](https://www.semanticscholar.org/paper/KG-BART%3A-Knowledge-Graph-Augmented-BART-for-Liu-Wan/997887cff41577752dc832e9475d5bb22c265093){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
-Evaluation Tasks: [CommonGEN](/docs/datasets#commongen){: .mr-1 target="_blank"} 
+**Evaluation Tasks:** [CommonGEN](/docs/datasets#commongen){: .mr-1 target="_blank"} 
+
+
+**Features**: supervised, lm+gnn, kg-aware, text-generation, interpretable
+
 <details markdown="block">
   <summary>Abstract</summary>
   {: .fs-3 .text-delta .text-blue-100}
@@ -361,7 +389,10 @@ code: https://github.com/Mayer123/HyKAS
    [Semantic Scholar](https://www.semanticscholar.org/paper/Align%2C-Mask-and-Select%3A-A-Simple-Method-for-into-Ye-Chen/0ff7f557203d1489110b9d2f89a76245def7b530){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
-Evaluation Tasks: [WSC](/docs/datasets#wsc){: .mr-1 target="_blank"}, [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"}
+**Evaluation Tasks:** [WSC](/docs/datasets#wsc){: .mr-1 target="_blank"}, [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"}
+
+**Features:** data-augmentation, kg-aware, multiple-choice
+
 <details markdown="block">
   <summary>Abstract</summary>
   {: .fs-3 .text-delta .text-blue-100}
@@ -387,7 +418,10 @@ Evaluation Tasks: [WSC](/docs/datasets#wsc){: .mr-1 target="_blank"}, [Commonsen
    [Semantic Scholar](https://www.semanticscholar.org/paper/Generative-Data-Augmentation-for-Commonsense-Yang-Malaviya/dd6f3b6d92ae9448a2000d9690b921f545f00256){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
-Evaluation Tasks: [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"}, [WinoGrande](/docs/datasets#winogrande){: .mr-1 target="_blank"}, [CODAH](/docs/datasets#codah){: .mr-1 target="_blank"}, [HellaSwag](/docs/datasets#swag-and-hellaswag){: .mr-1 target="_blank"}
+**Evaluation Tasks:** [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"}, [WinoGrande](/docs/datasets#winogrande){: .mr-1 target="_blank"}, [CODAH](/docs/datasets#codah){: .mr-1 target="_blank"}, [HellaSwag](/docs/datasets#swag-and-hellaswag){: .mr-1 target="_blank"}
+
+**Features:** data-augmentation, kg-aware, multiple-choice 
+
 <details markdown="block">
   <summary>Abstract</summary>
   {: .fs-3 .text-delta .text-blue-100}
@@ -416,7 +450,10 @@ Evaluation Tasks: [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="
    [Semantic Scholar](https://www.semanticscholar.org/paper/Knowledge-driven-Data-Construction-for-Zero-shot-in-Ma-Ilievski/c3b7714572bee365eef4f4dfa1839fa5a6ec2dea){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
-Evaluation Tasks: [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"}, [aNLI](/docs/datasets#anli){: .mr-1 target="_blank"}, [PhysicalIQA](/docs/datasets#physicaliqa){: .mr-1 target="_blank"}, [SocialIQA](/docs/datasets#socialiqa){: .mr-1 target="_blank"}, [WinoGrande](/docs/datasets#winogrande){: .mr-1 target="_blank"}
+**Evaluation Tasks:** [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"}, [aNLI](/docs/datasets#anli){: .mr-1 target="_blank"}, [PhysicalIQA](/docs/datasets#physicaliqa){: .mr-1 target="_blank"}, [SocialIQA](/docs/datasets#socialiqa){: .mr-1 target="_blank"}, [WinoGrande](/docs/datasets#winogrande){: .mr-1 target="_blank"}
+
+**Features:** data-augmentation, kg-aware, multiple-choice
+
 <details markdown="block">
   <summary>Abstract</summary>
   {: .fs-3 .text-delta .text-blue-100}
