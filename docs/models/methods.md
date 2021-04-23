@@ -174,7 +174,13 @@ ICLR 2021
 
 ## KG-aware Methods
 
-<br/>
+<table>
+<td>
+<span class="fs-4">
+These methods uses external commonsense knowledge as during the training and inference time. They usually fist retrieve relevant commonsense knowledge from external KGs (e.g., ConceptNet), which are usually in graph structures, and then employ a graph-based neural reasoner.
+</span>
+</td>
+</table>
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 KagNet: Knowledge-Aware Graph Networks for Commonsense Reasoning**. <br> ✍ Bill Yuchen Lin, Xinyue Chen, Jamin Chen, Xiang Ren *(EMNLP 2019)*
@@ -353,36 +359,18 @@ ICLR 2021
 </details> 
 {: .fs-3 .fw-600 .text-red-300}
  
-
-<!-- 
-1. KagNet: Knowledge-Aware Graph Networks for Commonsense Reasoning 
-https://arxiv.org/abs/1909.02151 EMNLP 2019
-https://github.com/INK-USC/KagNet 
-
-2. Scalable Multi-Hop Relational Reasoning for Knowledge-Aware Question Answering (EMNLP 2020)
-https://github.com/INK-USC/MHGRN
-https://arxiv.org/abs/2005.00646 
-
-3. Connecting the Dots: A Knowledgeable Path Generator for Commonsense Question Answering (EMNLP 2020 Findings)
-
-4. Graph-Based Reasoning over Heterogeneous External Knowledge for Commonsense Question Answering. AAAI, 2020 
-
-code: https://github.com/DecstionBack/AAAI_2020_CommonsenseQA
-
-5. Towards Generalizable Neuro-Symbolic Systems for Commonsense Question Answering (EMNLP 2019 - COIN)
-
-code: https://github.com/Mayer123/HyKAS
-
-6. KG-BART: Knowledge Graph-Augmented BART for Generative Commonsense Reasoning (AAAI 2021)
-
-
- -->
-
+ 
 --- 
 
 ## Weak Supervision
 
-<br/>
+<table>
+<td>
+<span class="fs-4">
+The following papers aim to use existing resources to create more supervision (typically in the form of synthetic datasets) for learning commonsense reasoning models with little human annotation effort. The created datasets can be used by the above mentioned methods.
+</span>
+</td>
+</table>
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 Align, Mask and Select: A Simple Method for Incorporating Commonsense Knowledge into Language Representation Models**. <br> ✍ Zhi-Xiu Ye, Qian Chen, Wen Wang, Zhen-Hua Ling *(arXiv 2019)*
