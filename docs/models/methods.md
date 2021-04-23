@@ -34,6 +34,7 @@ We present a collection of insightful research papers that focus on teaching mac
 - `pre-training`{: .method-label}: the method introduces new pre-training tasks.
 - `lm+gnn`{: .method-label}: this method has two components --- a language model (e.g., BERT) and a graph-based reasoning module.
 - `kg-aware`{: .method-label}: the method has the access to external commonsense knowledge graphs (e.g., ConceptNet).
+- `interpretable`{: .method-label}: the method produces explanations for interpreting its predictions.
 
 ---
 

@@ -13,15 +13,33 @@ last_modified_date: March 23 2021
 
 Editors: [Bill Yuchen Lin](https://yuchenlin.xyz/), ...
 
+<style>
+/* td{} */
+td.content{ 
+}
+td.source{ 
+    text-align:right; 
+}
+</style>
 
 ## What is commonsense reasoning?
 
-Before we define commonsense reasoning, let's look at some quotes about _commonsense knowledge_ and _commonsense reasoning_.
-
-1. 
+Commonsense reasoning is hard to define. There are a list of quotes about the definition of commonsense knowledge and reasoning. 
 
 
-## 
 
-## 
+<table>
+<tr><td class="content">
+asd
+</td></tr>
+<tr><td class="source">
+asd
+</td></tr>
+</table>
+
+
+
+## asd
+
+## asd
 
