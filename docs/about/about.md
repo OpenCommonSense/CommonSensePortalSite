@@ -29,17 +29,13 @@ Commonsense reasoning is hard to define. There are a list of quotes about the de
 
 
 <table>
-<tr><td class="content">
-asd
+<tr><td class="content" markdown="block">
+Commonsense is the basic level of **practical knowledge** and reasoning concerning everyday situations and events that are commonly shared among most people. 
 </td></tr>
-<tr><td class="source">
-asd
+<tr><td class="source" markdown="block">
+The [blog post](http://veredshwartz.blogspot.com/2021/01/commonsense-reasoning-for-natural.html){: target="_blank"} by [Vered Shwartz](){: target="_blank"} about the ACL 2020 Tutorial.
 </td></tr>
 </table>
 
 
-
-## asd
-
-## asd
-
+ 
