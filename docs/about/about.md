@@ -13,16 +13,12 @@ last_modified_date: March 23 2021
 
 Editors: [Bill Yuchen Lin](https://yuchenlin.xyz/), ...
 
-<!-- 
+
 <style>
-/* td{} */
-td.content{ 
+td{
+    font-size: 15pt;
 }
-td.source{ 
-    padding: 0 0 0 0;
-    text-align:right; 
-}
-</style> -->
+</style>
 
 ## What is commonsense reasoning?
 
