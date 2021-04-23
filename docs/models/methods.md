@@ -30,11 +30,13 @@ We present a collection of insightful research papers that focus on teaching mac
 
 ## LM-only Methods
 
-
-Here we present methods that only use language models to address the challenges of commonsense reasoning. 
- 
- 
-<br> 
+<table>
+<td>
+<span class="fs-4">
+This line of research focuses on understanding whether the pre-trained language models (e.g., BERT) have captured commonsense knowledge, and to what extent they can be used for different types of commonsense reasoning. They usually use the pre-trained LMs as they are (i.e., no fine-tuning) and analyze them by designing probing methods for recalling knowledge or completing a reasoning task.
+</span>
+</td>
+</table>
 
 
 {: .fs-4 .fw-800 .text-blue-100}
@@ -63,8 +65,7 @@ Evaluation Tasks: [WSC](/docs/datasets#wsc){: .mr-1 target="_blank"}
   - There is another version on OpenReview.net named [*Do Language Models Have Common Sense?*](https://openreview.net/forum?id=rkgfWh0qKX){: target="_blank"}
 </details> 
 {: .fs-3 .fw-600 .text-red-300}
- 
-<br> 
+<hr class="thin" /> 
 
 
 {: .fs-4 .fw-800 .text-blue-100}
@@ -91,8 +92,7 @@ Evaluation Tasks: [WSC](/docs/datasets#wsc){: .mr-1 target="_blank"}
   {: .fs-3 .text-delta .text-red-100}
 </details> 
 {: .fs-3 .fw-600 .text-red-300}
- 
-<br> 
+<hr class="thin" /> 
 
 
 {: .fs-4 .fw-800 .text-blue-100}
@@ -189,8 +189,7 @@ Evaluation Tasks: [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="
   {: .fs-3 .text-delta .text-red-100}
 </details> 
 {: .fs-3 .fw-600 .text-red-300}
- 
-<br> 
+<hr class="thin" /> 
 
 
 {: .fs-4 .fw-800 .text-blue-100}
@@ -217,8 +216,7 @@ Evaluation Tasks: [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="
   {: .fs-3 .text-delta .text-red-100}
 </details> 
 {: .fs-3 .fw-600 .text-red-300}
- 
-<br> 
+<hr class="thin" /> 
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 Connecting the Dots: A Knowledgeable Path Generator for Commonsense Question Answering**. <br> ✍ Peifeng Wang, Nanyun Peng, Filip Ilievski, Pedro Szekely, Xiang Ren *(EMNLP 2020 Findings)*
@@ -244,8 +242,7 @@ Evaluation Tasks: [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="
   {: .fs-3 .text-delta .text-red-100}
 </details> 
 {: .fs-3 .fw-600 .text-red-300}
- 
-<br> 
+<hr class="thin" /> 
 
 
 {: .fs-4 .fw-800 .text-blue-100}
@@ -272,8 +269,7 @@ Evaluation Tasks: [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="
   {: .fs-3 .text-delta .text-red-100}
 </details> 
 {: .fs-3 .fw-600 .text-red-300}
- 
-<br> 
+<hr class="thin" /> 
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 Towards Generalizable Neuro-Symbolic Systems for Commonsense Question Answering**. <br> ✍ Kaixin Ma, Jonathan Francis, Quanyang Lu, Eric Nyberg, Alessandro Oltramari *(EMNLP-COIN 2019)*
@@ -299,8 +295,7 @@ Evaluation Tasks: [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="
   {: .fs-3 .text-delta .text-red-100}
 </details> 
 {: .fs-3 .fw-600 .text-red-300}
- 
-<br> 
+<hr class="thin" /> 
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 KG-BART: Knowledge Graph-Augmented BART for Generative Commonsense Reasoning**. <br> ✍ Ye Liu, Yao Wan, Lifang He, Hao Peng, Philip S. Yu *(AAAI 2021)*
@@ -381,8 +376,7 @@ Evaluation Tasks: [WSC](/docs/datasets#wsc){: .mr-1 target="_blank"}, [Commonsen
   {: .fs-3 .text-delta .text-red-100}
 </details> 
 {: .fs-3 .fw-600 .text-red-300}
- 
-<br> 
+<hr class="thin" /> 
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 Generative Data Augmentation for Commonsense Reasoning**. <br> ✍ Yiben Yang, Chaitanya Malaviya, Jared Fernandez, Swabha Swayamdipta, Ronan Le Bras, Ji-Ping Wang, Chandra Bhagavatula, Yejin Choi, Doug Downey *(EMNLP 2020 Findings)*

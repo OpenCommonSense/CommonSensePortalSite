@@ -66,7 +66,7 @@ Used Resources: [ConceptNet](https://conceptnet.io/){: .mr-1 target="_blank"}
 </details> 
 {: .fs-3 .fw-600 .text-red-300}
 
-<hr class="thin" width="50%"/>
+<hr class="thin" />
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 oLMpics-On What Language Model Pre-training Captures**. <br> ✍ Alon Talmor, Yanai Elazar, Y. Goldberg, Jonathan Berant *(TACL 2020)*
  
@@ -94,7 +94,7 @@ Used Resources:
 {: .fs-3 .fw-600 .text-red-300}
 
 
-<hr class="thin" width="50%"/>
+<hr class="thin" />
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 Evaluating Commonsense in Pre-trained Language Models**. <br> ✍ Xuhui Zhou, Y. Zhang, Leyang Cui, Dandan Huang *(AAAI 2020)*
  
@@ -123,7 +123,7 @@ Used Resources: [Sense Making](https://github.com/wangcunxiang/Sen-Making-and-Ex
 
  
 
-<hr class="thin" width="50%"/>
+<hr class="thin" />
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 RICA: Evaluating Robust Inference Capabilities Based on Commonsense Axioms**. <br> ✍ Pei Zhou, Rahul Khanna, Seyeon Lee, Bill Yuchen Lin, Daniel Ho, Jay Pujara, Xiang Ren *(arXiv 2020, accepted in EMNLP-Findings 2020)*
  
@@ -192,7 +192,7 @@ Used Resources: [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_b
 {: .fs-3 .fw-600 .text-red-300}
 
 
-<hr class="thin" width="50%"/>
+<hr class="thin" />
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 Learning to Deceive Knowledge Graph Augmented Models via Targeted Perturbation**. <br> ✍ Mrigank Raman, Siddhant Agarwal, Peifeng Wang, Aaron Chan, H. Wang, Sungchul Kim, Ryan A. Rossi, Handong Zhao, Nedim Lipka, Xiang Ren *(ICLR 2021)*
  
@@ -262,7 +262,7 @@ Used Resources: [ConceptNet](https://conceptnet.io/){: .mr-1 target="_blank"}, [
 
 
 
-<hr class="thin" width="50%"/>
+<hr class="thin" />
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 WinoWhy: A Deep Diagnosis of Essential Commonsense Knowledge for Answering Winograd Schema Challenge**. <br> ✍ Hongming Zhang\*, Xinran Zhao\*, Yangqiu Song *(ACL 2020)*
  
@@ -290,7 +290,7 @@ Used Resources: [WSC](/docs/datasets#wsc){: .mr-1 target="_blank"}
 {: .fs-3 .fw-600 .text-red-300}
 
 
-<hr class="thin" width="50%"/>
+<hr class="thin" />
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 Commonsense Knowledge Graph Reasoning by Selection or Generation? Why?**. <br> ✍ Cunxiang Wang, Jinhang Wu, Luxin Liu, Yue Zhang *(arXiv 2020)*
  
@@ -317,7 +317,7 @@ Used Resources: [ConceptNet](https://conceptnet.io/){: .mr-1 target="_blank"}, [
 {: .fs-3 .fw-600 .text-red-300}
 
 
-<hr class="thin" width="50%"/>
+<hr class="thin" />
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 An Analysis of Dataset Overlap on Winograd-Style Tasks**. <br> ✍ Ali Emami, Adam Trischler, Kaheer Suleman, Jackie Chi Kit Cheung *(COLING 2020)*
  
