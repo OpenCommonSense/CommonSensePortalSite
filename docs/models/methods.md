@@ -49,7 +49,9 @@ This line of research focuses on how we can use a language model to solve common
 </span> 
 
 **Evaluation Tasks:** [WSC](/docs/datasets#wsc){: .mr-1 target="_blank"} 
-**Features:** unsupervised, correference-resolution
+
+**Features:** `unsupervised`, `coreference`
+
 <details markdown="block">
   <summary>Abstract</summary>
   {: .fs-3 .text-delta .text-blue-100}
@@ -79,7 +81,9 @@ This line of research focuses on how we can use a language model to solve common
 </span> 
 
 **Evaluation Tasks:** [WSC](/docs/datasets#wsc){: .mr-1 target="_blank"} 
-**Features:** unsupervised, correference-resolution
+
+**Features:** `unsupervised`, `coreference`
+
 <details markdown="block">
   <summary>Abstract</summary>
   {: .fs-3 .text-delta .text-blue-100}
@@ -108,7 +112,7 @@ This line of research focuses on how we can use a language model to solve common
 
 **Evaluation Tasks:** [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"}, [OpenbookQA](/docs/datasets#openbookqa){: .mr-1 target="_blank"}, [PIQA](/docs/datasets#physicaliqa){: .mr-1 target="_blank"}, [aNLI](/docs/datasets#anli){: .mr-1 target="_blank"}, [CommonGEN](/docs/datasets#commongen){: .mr-1 target="_blank"}
 
-**Features**: pre-training, supervised, text-to-text, all-tasks
+**Features**: `pre-training`, `supervised`, `text-to-text`, `all-tasks`
 
 <details markdown="block">
   <summary>Abstract</summary>
@@ -139,7 +143,7 @@ This line of research focuses on how we can use a language model to solve common
 
 **Evaluation Tasks:** [ARC](/docs/datasets#arc){: .mr-1 target="_blank"}, [OpenbookQA](/docs/datasets#openbookqa){: .mr-1 target="_blank"}, [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"}, etc.
 
-**Features**: pre-training, supervised, text-to-text, all-tasks
+**Features**: `pre-training`, `supervised`, `text-to-text`, `all-tasks`
 
 <details markdown="block">
   <summary>Abstract</summary>
@@ -184,7 +188,7 @@ ICLR 2021
 
 **Evaluation Tasks:** [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"} 
 
-**Features**: supervised, lm+gnn, kg-aware, multiple-choice, interpretable
+**Features**: `supervised`, `lm+gnn`, `kg-aware`, `multiple-choice`, `interpretable`
 
 <details markdown="block">
   <summary>Abstract</summary>
@@ -214,7 +218,7 @@ ICLR 2021
 
 **Evaluation Tasks:** [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"}, [OpenbookQA](/docs/datasets#openbookqa){: .mr-1 target="_blank"} 
 
-**Features**: supervised, lm+gnn, kg-aware, multiple-choice, interpretable
+**Features**: `supervised`, `lm+gnn`, `kg-aware`, `multiple-choice`, `interpretable`
 
 <details markdown="block">
   <summary>Abstract</summary>
@@ -243,7 +247,7 @@ ICLR 2021
 
 **Evaluation Tasks:** [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"}, [OpenbookQA](/docs/datasets#openbookqa){: .mr-1 target="_blank"} 
 
-**Features**: supervised, kg-aware, multiple-choice, interpretable
+**Features**: `supervised`, `kg-aware`, `multiple-choice`, `interpretable`
 
 <details markdown="block">
   <summary>Abstract</summary>
@@ -273,7 +277,7 @@ ICLR 2021
 
 **Evaluation Tasks:** [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"} 
 
-**Features**: supervised, lm+gnn, kg-aware, multiple-choice, interpretable
+**Features**: `supervised`, `lm+gnn`, `kg-aware`, `multiple-choice`, `interpretable`
 
 <details markdown="block">
   <summary>Abstract</summary>
@@ -303,7 +307,7 @@ ICLR 2021
 
 **Evaluation Tasks:** [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"}, [DREAM](https://arxiv.org/abs/1902.00164){: .mr-1 target="_blank"}
 
-**Features**: supervised, lm+gnn, kg-aware, multiple-choice, interpretable
+**Features**: `supervised`, `lm+gnn`, `kg-aware`, `multiple-choice`, `interpretable`
 
 <details markdown="block">
   <summary>Abstract</summary>
@@ -333,7 +337,7 @@ ICLR 2021
 **Evaluation Tasks:** [CommonGEN](/docs/datasets#commongen){: .mr-1 target="_blank"} 
 
 
-**Features**: supervised, lm+gnn, kg-aware, text-generation, interpretable
+**Features**: `supervised`, `lm+gnn`, `kg-aware`, `text-generation`, `interpretable`
 
 <details markdown="block">
   <summary>Abstract</summary>
@@ -391,7 +395,7 @@ code: https://github.com/Mayer123/HyKAS
 
 **Evaluation Tasks:** [WSC](/docs/datasets#wsc){: .mr-1 target="_blank"}, [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"}
 
-**Features:** data-augmentation, kg-aware, multiple-choice
+**Features:** `data-augmentation`, `kg-aware`, `multiple-choice`
 
 <details markdown="block">
   <summary>Abstract</summary>
@@ -420,7 +424,7 @@ code: https://github.com/Mayer123/HyKAS
 
 **Evaluation Tasks:** [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"}, [WinoGrande](/docs/datasets#winogrande){: .mr-1 target="_blank"}, [CODAH](/docs/datasets#codah){: .mr-1 target="_blank"}, [HellaSwag](/docs/datasets#swag-and-hellaswag){: .mr-1 target="_blank"}
 
-**Features:** data-augmentation, kg-aware, multiple-choice 
+**Features:** `data-augmentation,` `kg-aware,` `multiple-choice `
 
 <details markdown="block">
   <summary>Abstract</summary>
@@ -452,7 +456,7 @@ code: https://github.com/Mayer123/HyKAS
 
 **Evaluation Tasks:** [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"}, [aNLI](/docs/datasets#anli){: .mr-1 target="_blank"}, [PhysicalIQA](/docs/datasets#physicaliqa){: .mr-1 target="_blank"}, [SocialIQA](/docs/datasets#socialiqa){: .mr-1 target="_blank"}, [WinoGrande](/docs/datasets#winogrande){: .mr-1 target="_blank"}
 
-**Features:** data-augmentation, kg-aware, multiple-choice
+**Features:** `data-augmentation`, `kg-aware`, `multiple-choice`
 
 <details markdown="block">
   <summary>Abstract</summary>
