@@ -95,7 +95,7 @@ Thus, it is one of the fundamental areas of Artificial Intelligence (AI) researc
 
 Commonsense knowledge are facts that most people can acquire in their life by observing and interacting with the physical world and other humans.
 Thus, there are two major topics in commonsense knowledge: physical and social common sense. 
-Within each topic, the knowledge can be further characterized by their basic units (e.g., objects vs events) and focused dimensions (e.g., taxonomic, utility, etc.). We also discuss some other dimensions 
+Within each topic, the knowledge can be further characterized by their basic units (e.g., objects vs events) and focused dimensions (e.g., taxonomic, utility, temporal, etc.). We also discuss a few other aspects for describing commonsense knowledge. 
 
 
 - **Physical** Commonsense Knowledge

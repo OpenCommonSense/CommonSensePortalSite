@@ -30,8 +30,8 @@ This portal site is here to provide easy access to a comprehensive collection of
 
 
 
-<!-- ### Table of contents
-{: .no_toc .text-delta .fs-4 style="font-weight:800"} -->
+### Table of contents
+{: .no_toc .text-delta .fs-4 style="font-weight:800"}
 
 #### [Introduction to Commonsense Reasoning](/intro/)
 {: .no_toc .text-delta .fs-3 style="font-weight:600"}
@@ -58,8 +58,6 @@ This portal site is here to provide easy access to a comprehensive collection of
 #### [Additional materials](/misc/)
 {: .no_toc .text-delta .fs-3 style="font-weight:600"}
 <ul id="markdown-toc"> <li><a href="/misc/#surveys--position-papers" id="markdown-toc-surveys--position-papers">Surveys &amp; Position Papers</a></li> <li><a href="/misc/#tutorials-and-talks" id="markdown-toc-tutorials-and-talks">Tutorials and Talks</a></li> <li><a href="/misc/#articles" id="markdown-toc-articles">Articles</a></li> <li><a href="/misc/#workshops" id="markdown-toc-workshops">Workshops</a></li> <li><a href="/misc/#books" id="markdown-toc-books">Books</a></li> <li><a href="/misc/#useful-links" id="markdown-toc-useful-links">Useful links</a></li> </ul>
-
-
 
 ---
 
