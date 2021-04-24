@@ -48,7 +48,7 @@ h5,
 h6 {
   margin-top: 0;
   margin-bottom: 1em;
-  font-weight: 800;
+  font-weight: 700;
   line-height: $body-heading-line-height;
   color: $body-heading-color;
 }
@@ -107,10 +107,10 @@ hr {
   border: 0;
 }
 
-.thin {
+hr.thin {
   height: 0.5px;
   padding: 0;
-  width: 50%;
+  width: 60%;
   margin: $sp-4 0;
   background-color: $border-color;
   border: 0;

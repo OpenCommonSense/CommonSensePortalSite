@@ -11,6 +11,14 @@ permalink: /extras/
 
 Editors: [Bill Yuchen Lin](https://yuchenlin.xyz/), 
 
+## Surveys and Position Papers
+
+- Commonsense Reasoning and Commonsense Knowledge in Artificial 
+Intelligence
+
+- 
+
+
 
 ## Tutorials and Talks 
 
@@ -21,7 +29,7 @@ Editors: [Bill Yuchen Lin](https://yuchenlin.xyz/),
 ## Blog posts and News Articles
 
 
-- [**Commonsense Reasoning for Natural Language Processing**](http://veredshwartz.blogspot.com/2021/01/commonsense-reasoning-for-natural.html){: target="_blank"} by [Vered Shwartz](){: target="_blank"} on 2021-01-12
+- [**Commonsense Reasoning for Natural Language Processing**](http://veredshwartz.blogspot.com/2021/01/commonsense-reasoning-for-natural.html){: target="_blank"} by [Vered Shwartz](https://vered1986.github.io/){: target="_blank"} on 2021-01-12
 
 - [**Common Sense Comes Closer to Computers**](https://www.quantamagazine.org/common-sense-comes-to-computers-20200430/){: target="_blank"} by [John Pavlus](https://www.quantamagazine.org/authors/john-pavlus/){: target="_blank"} from [QuantaMagazine](https://www.quantamagazine.org/){: target="_blank"}  on 2020-04-30
 
