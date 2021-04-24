@@ -29,7 +29,7 @@ We present a comprehensive collection of datasets for testing commonsense reason
   <summary>Summary Table</summary>
 {: .fs-3 .text-delta .text-blue-200}
   
-| Name | Quick Link | Focus | Format |  SotA vs. Human 
+| Name | Link | Focus | Format |  SotA vs. Human 
 | :------------:| :-----: | :-----: | :------: | :---------: | :-------: | :-----------: |
 | [CommonsenseQA](#commonsenseqa) | [Project Website](https://www.tau-nlp.org/commonsenseqa) | General | [MC](#multiple-choice-tasks)  | 83.3 /  88.9 (**Acc. %**) 
 | [SocialIQA](#socialiqa) | [Leaderboard](https://leaderboard.allenai.org/socialiqa/submissions/get-started) | Social  | [MC](#multiple-choice-tasks)  | 83.2 /  88.1 (**Acc. %**) 

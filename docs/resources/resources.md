@@ -26,6 +26,30 @@ Many resources for commonsense reasoning have been developed, spanning various a
 
 --- 
 
+<details markdown="block">
+  <summary>Summary Table</summary>
+{: .fs-3 .text-delta .text-blue-200}
+  
+| Name | Link | Features | Name | Link | Features |
+| :-------:| :-----: | :-----: |:-------:| :-----: | :-----: |
+| [ConceptNet](#commonsense-knowledge)   | [Explore](http://conceptnet.io/)             |       |  [Wikidata](#common-knowledge)     | [Explore](https://www.wikidata.org/wiki/Wikidata:Main\_Page)  |       |
+| [ATOMIC](#commonsense-knowledge)    | [Explore](https://mosaickg.apps.allenai.org/kg\_atomic)   |      | [Wikidata-CS](#common-knowledge)  | [Data](https://zenodo.org/record/3983030#.YGdfk0hKimk)        |      |
+| [ATOMIC2020](#commonsense-knowledge)   | [Data](https://allenai.org/data/atomic-2020)           |      | [YAGO](#common-knowledge) | [Explore](https://yago-knowledge.org/graph/Elvis\_Presley)            |      |
+| [GLUCOSE](#commonsense-knowledge)      | [Data](https://github.com/ElementalCognition/glucose/) |      |[SUMO](#common-knowledge) | [Explore](https://sigma.ontologyportal.org:8443/sigma/Browse.jsp?kb=SUMO)|       |
+| [WebChild](#commonsense-knowledge)     | [Explore](https://gate.d5.mpi-inf.mpg.de/webchild/)  |      | [DOLCE](#common-knowledge) | [Data](ttp://www.loa.istc.cnr.it/dolce/overview.html)              |      |
+| [QuasimodoKB](#commonsense-knowledge)  | [Explore](https://quasimodo.r2.enst.fr/)             |      | [WordNet](#lexical-knowledge)  | [Explore](http://wordnetweb.princeton.edu/perl/webwn)          |      |
+| [ASCENT](#commonsense-knowledge) | [Explore](https://ascent.mpi-inf.mpg.de/browse)            |      | [FrameNet](#lexical-knowledge)     | [Explore](https://framenet.icsi.berkeley.edu/fndrupal/frameIndex) |       |
+| [SenticNet](#commonsense-knowledge)    | [Explore](https://sentic.net/demos/)                 |      | [MetaNet](#lexical-knowledge) | [Explore](https://metaphor.icsi.berkeley.edu/pub/en/index.php/Category:Metaphor) |       |
+| [HasPartKB](#commonsense-knowledge)    | [Data](https://drive.google.com/drive/folders/1NzjXX46NnpxtgxBrkBWFiUbsXAMdd-lB) |       |  [VerbNet](#lexical-knowledge) | [Explore](https://verbs.colorado.edu/verb-index/vn3.3/)    |       |
+| [CYC](#commonsense-knowledge)        | [Data](https://github.com/asanchez75/opencyc)          |       | [Visual Genome](#visual-knowledge)| [Explore](http://visualgenome.org/VGViz/explore)            |       |
+| [COMET](#commonsense-knowledge)        | [Explore](https://mosaickg.apps.allenai.org/comet\_atomic) |       | [Flickr30k](#visual-knowledge)    | [Data](http://bryanplummer.com/Flickr30kEntities/)  |       |
+| [GenericsKB](#commonsense-knowledge)   | [Data](https://drive.google.com/drive/folders/1vqfVXhJXJWuiiXbUa4rZjOgQoJvwZUoT) |       | [CSKG](#consolidation--surveys) | [Data](https://zenodo.org/record/4331372#.YGdj2EhKimk)       |       |
+| | | | [Dimensions of CSK](#consolidation--surveys) | [Data](https://drive.google.com/drive/u/1/folders/16347KHSloJJZIbgC9V5gH7\_pRx0CzjPQ) |       |
+| | | | [NextKB](#consolidation--surveys)       | [Data](https://www.qrg.northwestern.edu/nextkb/index.html) |       |
+
+</details>
+---
+
 ## Commonsense Knowledge
 These are sources that have been deliberately created to capture (either wide or narrow domain) commonsense knowledge. 
 <br>
