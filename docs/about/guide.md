@@ -77,7 +77,7 @@ This requires knowing the **typical duration**, **times, order, frequency, etc. 
 
 
 ### Our working definition
-
+{: .no_toc}
 <table>
 <td markdown="block" class="fs-4">
 
@@ -87,19 +87,20 @@ Thus, it is one of the fundamental areas of Artificial Intelligence (AI) researc
 
 Commonsense knowledge are facts that most people can acquire in their life by observing and interacting with the physical world and other humans.
 Thus, there are two major topics in commonsense knowledge: physical and social common sense. 
-Within each topic, the knowledge can be further characterized by their basic units and focused dimensions.
+Within each topic, the knowledge can be further characterized by their basic units (e.g., objects vs events) and focused dimensions (e.g., taxonomic, utility, etc.). We also discuss some other dimensions 
 
 
 - **Physical** Commonsense Knowledge
     - `objects`{: .csk-label} (including both physical objects and abstract concepts)
         - `taxonomic`{: .csk-label} (e.g., *cat is an instance of animal*)
         - `properties`{: .csk-label} (e.g., *ice is cold*)
+            - `comparative`{: .csk-label} (e.g., *a book is smaller than a suitcase*)
         - `part-whole`{: .csk-label} (e.g., *birds have two legs*)
         - `utility`{: .csk-label} (e.g., *oven is used for heating something up*)
         - `spatial`{: .csk-label} (e.g., *tables and chairs located near each other*)
-        - `affordance`{: .csk-label} (e.g., *open a door; put an apple in a basket*)
+        - `affordance`{: .csk-label} (e.g., *open a door; put a book in a suitcase*)
         - etc.
-    - `events`
+    - `events`{: .csk-label}
         - `causality`{: .csk-label} (e.g., *using fossil fuel causes global warming*)
         - `spatial`{: .csk-label} (e.g., *cooking a meal happens in a kitchen*)
         - `duration`{: .csk-label} (e.g., *human's sleeping is about eight hours*)
@@ -110,8 +111,8 @@ Within each topic, the knowledge can be further characterized by their basic uni
         - etc.
 - **Social** Commonsense Knowledge
     - `objects`{: .csk-label} (usually abstract concepts and human activities)
-        - concepts (e.g., *friends help each other*)
-        - activities (e.g., *marriage needs happiness*)
+        - `concepts`{: .csk-label} (e.g., *friends help each other*)
+        - `activities`{: .csk-label} (e.g., *marriage needs happiness*)
         - etc.
     - `events`{: .csk-label} (situations in everyday life)
         - `acceptability`{: .csk-label} (e.g., *commenting the weight/face/age of a co-worker is not accepted*)
@@ -123,12 +124,12 @@ Within each topic, the knowledge can be further characterized by their basic uni
 <!-- - prerequisite - next-event (e.g., *having a cup of coffee usually happens after waking up*) -->
 
 There are also other dimensions to describe a commonsense fact as follows: 
-- `concreteness`{: .csk-label} (e.g., *birds have legs* < *birds have two legs*)
-- `plausibility/typicality`{: .csk-label} (e.g., **most** birds have two legs > **some** apples are green)
+- `concreteness`{: .csk-label} (e.g., *birds have legs* < *birds have **two** legs*)
+- `plausibility/typicality`{: .csk-label} (e.g., (**most**) birds have legs > (**some**) apples are green)
 - `saliency`{: .csk-label} (e.g., *birds have **wings*** > *birds have **legs*** )
-- `cultural`{: .csk-label} (e.g., *high schools are four years in the **USA***, while *three years in **China***.)
+- `culture-sensitiveness`{: .csk-label} (e.g., *high schools are **four** years in the **USA***, while _**three** years in **China**_.)
+<!-- - `subjectiveness`{: .csk-label} (e.g., *cat is cute*)  -->
 
-<!-- Commonsense knowledge are rarely stated, and we usually take them for granted. -->
 
 {: style="text-align:right; margin-bottom:0.1em" }
 --- **[Bill Yuchen Lin]().**
@@ -138,6 +139,7 @@ There are also other dimensions to describe a commonsense fact as follows:
 
 
 ## Why do we study commonsense reasoning?
+
 
 
 <!-- Commonsense is essential for humans to navigate everyday situations seamlessly and interact with each other in a reasonable and safe way, and for AI to understand human needs and actions better. Yet, endowing machines with such human-like commonsense reasoning capabilities has remained an elusive goal of AI research for decades. Past attempts, in the 1960s and 1970s, resulted in an AI winter, i.e. reduced interest and funding for AI research due to failed over-hyped research directions. In recent years, new interest in machine commonsense has emerged, with the availability of stronger computing power and huge amounts of data. With that said, the path to machine commonsense is unlikely to be brute force training larger neural networks with deeper layers.    -->
