@@ -3,7 +3,7 @@ layout: default
 title: Miscellaneous
 nav_order: 7
 toc_list: true
-last_modified_date: March 26 2021
+last_modified_date: April 24 2021
 permalink: /misc/
 ---
 # Additional materials
@@ -41,7 +41,7 @@ Editors: [Bill Yuchen Lin](https://yuchenlin.xyz/),
 
 | Title | Links | Presenters |  Location  | 
 | :------------:| :-----: | :------: | :----------: |
-| **Commonsense Reasoning for Natural Language Processing** (ACL-20 Tutorial) | [Project Page](https://homes.cs.washington.edu/~msap/acl2020-commonsense/){: target="_blank"}, [Blog Post](http://veredshwartz.blogspot.com/2021/01/commonsense-reasoning-for-natural.html){: target="_blank"} | Maarten Sap, Vered Shwartz, Antoine Bosselut, Yejin Choi, Dan Roth |  ACL 2020 |
+| **Commonsense Reasoning for Natural Language Processing** <br> (ACL-20 Tutorial) | [Project Page](https://homes.cs.washington.edu/~msap/acl2020-commonsense/){: target="_blank"}, [Blog Post](http://veredshwartz.blogspot.com/2021/01/commonsense-reasoning-for-natural.html){: target="_blank"} | Maarten Sap, Vered Shwartz, Antoine Bosselut, Yejin Choi, Dan Roth |  ACL 2020 |
 
 ## Articles
 

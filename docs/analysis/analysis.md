@@ -3,7 +3,7 @@ layout: default
 title: Analysis
 nav_order: 5
 toc_list: true
-last_modified_date: March 26 2021
+last_modified_date: April 24 2021
 permalink: /docs/analysis
 ---
 

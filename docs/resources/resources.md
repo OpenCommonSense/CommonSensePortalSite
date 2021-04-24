@@ -3,7 +3,7 @@ layout: default
 title: Knowledge Resources
 nav_order: 2
 toc_list: true
-last_modified_date: April 4 2021
+last_modified_date: April 24 2021
 permalink: /docs/resources
 ---
 
