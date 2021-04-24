@@ -46,6 +46,7 @@ We present a comprehensive collection of datasets for testing commonsense reason
 | [MC-TACO](#mc-taco) | [Leaderboard](https://leaderboard.allenai.org/mctaco/submissions/get-started) | Temporal Commonsense, Events | [MC](#multiple-choice-tasks)  | 80.9 /  75.8 (**Acc. %**) 
 | [aNLI](#anli) | [Leaderboard](https://leaderboard.allenai.org/anli/submissions/get-started) | Abductive Reasoning, Events | [MC](#multiple-choice-tasks)  | 89.7 /  92.9 (**Acc. %**) 
 | [RiddleSense](#riddlesense) | [Project Website](https://inklab.usc.edu/RiddleSense/) | General, Figurative, Counterfactual | [MC](#multiple-choice-tasks)  | 68.8 /  91.3 (**Acc. %**) 
+| [ROCStories](#rocstories) | [Project Website](https://www.cs.rochester.edu/nlp/rocstories/) | General, Story | [MC](#multiple-choice-tasks)  | 58.5 / 100  (**Acc. %**)
 | [VCR](#visual-commonsense-reasoning) | [Project Website](https://visualcommonsense.com/) | Visual Understanding, Complex Situation | [VQA](#visually-grounded-qa) | 70.8 / 85.0 (**Acc. %**) 
 | [ProtoQA](#protoqa) | [Github](https://github.com/iesl/protoqa-data) | Prototypical Situation | [OE](#open-ended-qa) | 56.0 / 78.4 (**WN. Sim.**)
 | [OpenCSR](#opencsr) | [Paper](https://arxiv.org/abs/2010.14439) | Science | [OE](#open-ended-qa) | 40.8 /  N/A (**Acc. %**) 
@@ -566,7 +567,28 @@ Correct Choice: B
 
 ### ROCStories
 {: .no_toc }
-<!-- todo -->
+
+{: .fs-4 .fw-800 .text-blue-100}
+*A Corpus and Evaluation Framework for Deeper Understanding of Commonsense Stories*. <br> Nasrin Mostafazadeh, Nathanael Chambers, Xiaodong He, Devi Parikh, Dhruv Batra, Lucy Vanderwende, Pushmeet Kohli, James Allen. **NAACL HLT, 2016**
+
+<span class="fs-1">
+[Paper](https://arxiv.org/abs/1604.01696){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://www.cs.rochester.edu/nlp/rocstories/){: target="_blank" .btn .btn-green .mr-1 }
+
+> - **Topics:** General. Mostly about casual and correlational relationships between events.
+- **Size & Split:** 50k five-sentence commonsense stories, and 3,744 Story Cloze Test cases
+- **Dataset creation:** 
+><details markdown="block">
+>  <summary>Illustrative Example</summary>
+>  {: .fs-3 .text-delta .text-red-100}
+```
+Context: 
+    Karen was assigned a roommate her first year of college. Her roommate asked her to go to a nearby city for a concert. Karen agreed happily. The show was absolutely exhilarating.
+Right Ending: 
+    Karen became good friends with her roommate.
+Wrong Ending:
+    Karen hated her roommate.
+``` 
+></details> 
 
 ---
 
