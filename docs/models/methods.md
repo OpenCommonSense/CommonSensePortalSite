@@ -139,7 +139,7 @@ This line of research focuses on how we can use a language model to solve common
 </details> 
 {: .fs-3 .fw-600 .text-red-300}
 
-<br/>
+<hr class="thin" /> 
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 UnifiedQA: Crossing Format Boundaries With a Single QA System**. <br> ✍ Daniel Khashabi, Sewon Min, Tushar Khot, Ashish Sabharwal, Oyvind Tafjord, Peter Clark, Hannaneh Hajishirzi *(EMNLP 2020 Findings)*
