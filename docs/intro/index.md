@@ -11,7 +11,7 @@ last_modified_date: April 24 2021
 
 
 
-# A Gentle Introduction to Commonsense Reasoning
+# Introduction to Commonsense Reasoning
 {: .no_toc }
 
 Editors: [Bill Yuchen Lin](https://yuchenlin.xyz/), ...

@@ -4,7 +4,7 @@ title: Benchmark Datasets
 nav_order: 3
 toc_list: true
 last_modified_date: March 26 2021
-permalink: /docs/datasets
+permalink: /datasets
 ---
 
 # Benchmark Datasets for Commonsense Reasoning

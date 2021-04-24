@@ -7,7 +7,7 @@ last_modified_date: April 24 2021
 permalink: /docs/methods
 ---
 
-# Reasoning Methods
+# Methods to Commonsense Reasoning
 {: .no_toc }
 
 Editors: [Bill Yuchen Lin](https://yuchenlin.xyz/), [Yang Qiao](https://www.linkedin.com/in/xiaoyang-qiao/){: target="_blank"}
