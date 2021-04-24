@@ -23,22 +23,14 @@ An online compendium of commonsense reasoning, initiated by [Bill Yuchen Lin](ht
 ---
 
 ## What is this site for?
-This portal site is here to provide easy access to a comprehensive collection of publications, benchmarks, resources that are related to *commonsense reasoning*. 
+This portal site is here to provide easy access to a comprehensive collection of resources, datasets, publications that are related to *commonsense reasoning*. 
 
 ![Machine Common Sense](https://www.darpa.mil/DDM_Gallery/teaching-machines-619-316.jpg)
-<!-- {: .fs-6 .fw-300 } -->
 
-<!-- Our Contributors:  -->
+## Table of contents
+{: .no_toc .text-delta .fs-4 style="font-weight:800"}
 
-<!-- [Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View it on GitHub](https://github.com/Commonsense-Run/commonsense-run.github.io){: .btn .fs-5 .mb-4 .mb-md-0 } -->
 
-<!-- --- -->
-<!-- 
-## Introduction -->
-<!-- # Commonsense Reasoning
-
-To make it as easy as possible to write documentation in plain Markdown, most UI components are styled using default Markdown elements with few additional CSS classes needed.
-{: .fs-6 .fw-300 } -->
 
 ---
 

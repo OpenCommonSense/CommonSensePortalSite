@@ -23,6 +23,14 @@ td{
 }
 </style>
 
+## Table of contents
+{: .no_toc .text-delta .fs-4 style="font-weight:800"}
+
+- TOC
+{:toc}
+
+---
+
 ## What is commonsense reasoning?
 
 In general, commonsense reasoning is the ability to make decisions in *real-world situations* with the knowledge shared by most people. 
@@ -112,10 +120,10 @@ Within each topic, the knowledge can be further characterized by their basic uni
 - **Social** Commonsense Knowledge
     - `objects`{: .csk-label} (usually abstract concepts and human activities)
         - `concepts`{: .csk-label} (e.g., *friends help each other*)
-        - `activities`{: .csk-label} (e.g., *marriage needs happiness*)
+        - `activities`{: .csk-label} (e.g., *marriage needs weddings*)
         - etc.
     - `events`{: .csk-label} (situations in everyday life)
-        - `acceptability`{: .csk-label} (e.g., *commenting the weight/face/age of a co-worker is not accepted*)
+        - `social-norm`{: .csk-label}: (e.g., *commenting the weight/face/age of a co-worker is not accepted*)
         - `motivation`{: .csk-label} (e.g., *X buys Y a gift because X wanted to make Y happy, ...*)
         - `attributes`{: .csk-label} (e.g., *X buys Y a gift; X is seen as generous, polite, ...*)
         - `effect`{: .csk-label} (e.g., *X buys Y a gift; Y is surprised*)

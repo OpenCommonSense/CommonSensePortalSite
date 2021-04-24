@@ -11,6 +11,14 @@ permalink: /misc/
 
 Editors: [Bill Yuchen Lin](https://yuchenlin.xyz/), 
 
+## Table of contents
+{: .no_toc .text-delta .fs-4 style="font-weight:800"}
+
+- TOC
+{:toc}
+
+---
+
 ## Surveys & Position Papers
 
 - [***Programs with Common Sense***](http://jmc.stanford.edu/articles/mcc59.html){: target="_blank"}
