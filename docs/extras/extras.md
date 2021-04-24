@@ -53,18 +53,43 @@ Editors: [Bill Yuchen Lin](https://yuchenlin.xyz/),
 
 ## Related Workshops 
 
-1. 
+- COIN: COmmonsense INference in Natural Language Processing (EMNLP-IJCNLP 2019)
+    -  [https://coinnlp.github.io/](https://coinnlp.github.io/){: target="_blank"}
+    - Organizers: 
+        - Peter Clark, Allen Institute for AI
+        - Simon Ostermann, Saarland University
+        - Michael Roth, Saarland University / University of Stuttgart
+        - Sheng Zhang, Johns Hopkins University
+
+- CSKGs: Workshop on Common Sense Knowledge Graphs (AAAI 2021 and ISWC 2020)
+    - AAAI 2021: [https://usc-isi-i2.github.io/AAAI21workshop/](https://usc-isi-i2.github.io/AAAI21workshop/){: target="_blank"}
+        - Organizers: 
+            - Filip Ilievski (USC/ISI) 
+            - Alessandro Oltramari (Bosch Research and Technology Center)
+            - Deborah McGuinness (Rensselaer Polytechnic Institute)
+            - Pedro Szekely (USC/ISI)
+    - ISWC 2020: [https://usc-isi-i2.github.io/ISWC20/](https://usc-isi-i2.github.io/ISWC20/){: target="_blank"}
+        - Organizers: 
+            - Filip Ilievski (USC/ISI) 
+            - Pedro Szekely (USC/ISI)
+            - Mayank Kejriwal (USC/ISI)
+
 
 
 
 ## Books 
 
 - [Formalizing common sense: Papers by John McCarthy](https://www.sciencedirect.com/science/article/pii/0004370295900187){: target="_blank"}
-    - Year: 1990
+    - [John McCarthy](http://jmc.stanford.edu/){: target="_blank"}, 1990
     - Publisher: Ablex
+
+- [Common Sense, the Turing Test, and the Quest for Real AI](https://mitpress.mit.edu/books/common-sense-turing-test-and-quest-real-ai){: target="_blank"}
+    - [Hector J. Levesque](https://www.cs.toronto.edu/~hector/){: target="_blank"}, 2017
+    - Publisher: the MIT Press.
+
 
 ## Useful links
 
 - [https://commonsensereasoning.org/](https://commonsensereasoning.org/){: target="_blank"}
  
-- [https://www.machinecommonsense.com/](https://www.machinecommonsense.com/){: target="_blank"}
+- [https://www.machinecommonsense.com/](https://www.machinecommonsense.com/){: target="_blank"} 
