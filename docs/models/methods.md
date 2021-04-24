@@ -24,7 +24,7 @@ We present a collection of insightful research papers that focus on teaching mac
 {:toc}
 
 
-**Feature Notation**
+**Tags:**
 
 - `supervised`{: .method-label}, `unsupervised`{: .method-label}: whether the method needs to use the training data (annotated by humans) of the target task.
 - `data-augmentation`{: .method-label}: this method introduces a way to automatically generate more supervision for learning commonsense reasoning models.
@@ -60,13 +60,13 @@ This line of research focuses on how we can use a language model to solve common
 
 **Evaluation Tasks:** [WSC](/docs/datasets#wsc){: .mr-1 target="_blank"} 
 
-**Features:** `unsupervised`{: .method-label}, `coreference`{: .method-label}
+**Tags:** `unsupervised`{: .method-label}, `coreference`{: .method-label}
 
 <details markdown="block">
   <summary>Abstract</summary>
   {: .fs-3 .text-delta .text-blue-100}
   ```
-  Commonsense reasoning is a long-standing challenge for deep learning. For example, it is difficult to use neural networks to tackle the Winograd Schema dataset (Levesque et al., 2011). In this paper, we present a simple method for commonsense reasoning with neural networks, using unsupervised learning. Key to our method is the use of language models, trained on a massive amount of unlabled data, to score multiple choice questions posed by commonsense reasoning tests. On both Pronoun Disambiguation and Winograd Schema challenges, our models outperform previous state-of-the-art methods by a large margin, without using expensive annotated knowledge bases or hand-engineered features. We train an array of large RNN language models that operate at word or character level on LM-1-Billion, CommonCrawl, SQuAD, Gutenberg Books, and a customized corpus for this task and show that diversity of training data plays an important role in test performance. Further analysis also shows that our system successfully discovers important features of the context that decide the correct answer, indicating a good grasp of commonsense knowledge.
+  Commonsense reasoning is a long-standing challenge for deep learning. For example, it is difficult to use neural networks to tackle the Winograd Schema dataset (Levesque et al., 2011). In this paper, we present a simple method for commonsense reasoning with neural networks, using unsupervised learning. Key to our method is the use of language models, trained on a massive amount of unlabled data, to score multiple choice questions posed by commonsense reasoning tests. On both Pronoun Disambiguation and Winograd Schema challenges, our models outperform previous state-of-the-art methods by a large margin, without using expensive annotated knowledge bases or hand-engineered Tags. We train an array of large RNN language models that operate at word or character level on LM-1-Billion, CommonCrawl, SQuAD, Gutenberg Books, and a customized corpus for this task and show that diversity of training data plays an important role in test performance. Further analysis also shows that our system successfully discovers important Tags of the context that decide the correct answer, indicating a good grasp of commonsense knowledge.
   ``` 
   <!-- ![Machine Common Sense](/images/asimplemethod.png){: width="700" text-align="center"} -->
 </details> 
@@ -92,7 +92,7 @@ This line of research focuses on how we can use a language model to solve common
 
 **Evaluation Tasks:** [WSC](/docs/datasets#wsc){: .mr-1 target="_blank"} 
 
-**Features:** `unsupervised`{: .method-label}, `coreference`{: .method-label}
+**Tags:** `unsupervised`{: .method-label}, `coreference`{: .method-label}
 
 <details markdown="block">
   <summary>Abstract</summary>
@@ -122,7 +122,7 @@ This line of research focuses on how we can use a language model to solve common
 
 **Evaluation Tasks:** [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"}, [OpenbookQA](/docs/datasets#openbookqa){: .mr-1 target="_blank"}, [PIQA](/docs/datasets#physicaliqa){: .mr-1 target="_blank"}, [aNLI](/docs/datasets#anli){: .mr-1 target="_blank"}, [CommonGEN](/docs/datasets#commongen){: .mr-1 target="_blank"}
 
-**Features**: `pre-training`{: .method-label}, `supervised`{: .method-label}, `text-to-text`{: .method-label}, `multi-task`{: .method-label}
+**Tags**: `pre-training`{: .method-label}, `supervised`{: .method-label}, `text-to-text`{: .method-label}, `multi-task`{: .method-label}
 
 <details markdown="block">
   <summary>Abstract</summary>
@@ -153,7 +153,7 @@ This line of research focuses on how we can use a language model to solve common
 
 **Evaluation Tasks:** [ARC](/docs/datasets#arc){: .mr-1 target="_blank"}, [OpenbookQA](/docs/datasets#openbookqa){: .mr-1 target="_blank"}, [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"}, etc.
 
-**Features**: `pre-training`{: .method-label}, `supervised`{: .method-label}, `text-to-text`{: .method-label}, `multi-task`{: .method-label}
+**Tags**: `pre-training`{: .method-label}, `supervised`{: .method-label}, `text-to-text`{: .method-label}, `multi-task`{: .method-label}
 
 <details markdown="block">
   <summary>Abstract</summary>
@@ -204,7 +204,7 @@ These methods uses external commonsense knowledge as during the training and inf
 
 **Evaluation Tasks:** [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"} 
 
-**Features**: `supervised`{: .method-label}, `lm+gnn`{: .method-label}, `kg-aware`{: .method-label}, `multiple-choice`{: .method-label}, `interpretable`{: .method-label}
+**Tags**: `supervised`{: .method-label}, `lm+gnn`{: .method-label}, `kg-aware`{: .method-label}, `multiple-choice`{: .method-label}, `interpretable`{: .method-label}
 
 <details markdown="block">
   <summary>Abstract</summary>
@@ -234,7 +234,7 @@ These methods uses external commonsense knowledge as during the training and inf
 
 **Evaluation Tasks:** [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"}, [OpenbookQA](/docs/datasets#openbookqa){: .mr-1 target="_blank"} 
 
-**Features**: `supervised`{: .method-label}, `lm+gnn`{: .method-label}, `kg-aware`{: .method-label}, `multiple-choice`{: .method-label}, `interpretable`{: .method-label}
+**Tags**: `supervised`{: .method-label}, `lm+gnn`{: .method-label}, `kg-aware`{: .method-label}, `multiple-choice`{: .method-label}, `interpretable`{: .method-label}
 
 <details markdown="block">
   <summary>Abstract</summary>
@@ -263,7 +263,7 @@ These methods uses external commonsense knowledge as during the training and inf
 
 **Evaluation Tasks:** [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"}, [OpenbookQA](/docs/datasets#openbookqa){: .mr-1 target="_blank"} 
 
-**Features**: `supervised`{: .method-label}, `kg-aware`{: .method-label}, `multiple-choice`{: .method-label}, `interpretable`{: .method-label}
+**Tags**: `supervised`{: .method-label}, `kg-aware`{: .method-label}, `multiple-choice`{: .method-label}, `interpretable`{: .method-label}
 
 <details markdown="block">
   <summary>Abstract</summary>
@@ -293,7 +293,7 @@ These methods uses external commonsense knowledge as during the training and inf
 
 **Evaluation Tasks:** [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"} 
 
-**Features**: `supervised`{: .method-label}, `lm+gnn`{: .method-label}, `kg-aware`{: .method-label}, `multiple-choice`{: .method-label}, `interpretable`{: .method-label}
+**Tags**: `supervised`{: .method-label}, `lm+gnn`{: .method-label}, `kg-aware`{: .method-label}, `multiple-choice`{: .method-label}, `interpretable`{: .method-label}
 
 <details markdown="block">
   <summary>Abstract</summary>
@@ -323,7 +323,7 @@ These methods uses external commonsense knowledge as during the training and inf
 
 **Evaluation Tasks:** [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"}, [DREAM](https://arxiv.org/abs/1902.00164){: .mr-1 target="_blank"}
 
-**Features**: `supervised`{: .method-label}, `lm+gnn`{: .method-label}, `kg-aware`{: .method-label}, `multiple-choice`{: .method-label}, `interpretable`{: .method-label}
+**Tags**: `supervised`{: .method-label}, `lm+gnn`{: .method-label}, `kg-aware`{: .method-label}, `multiple-choice`{: .method-label}, `interpretable`{: .method-label}
 
 <details markdown="block">
   <summary>Abstract</summary>
@@ -353,7 +353,7 @@ These methods uses external commonsense knowledge as during the training and inf
 **Evaluation Tasks:** [CommonGEN](/docs/datasets#commongen){: .mr-1 target="_blank"} 
 
 
-**Features**: `supervised`{: .method-label}, `lm+gnn`{: .method-label}, `kg-aware`{: .method-label}, `text-generation`{: .method-label}, `interpretable`{: .method-label}
+**Tags**: `supervised`{: .method-label}, `lm+gnn`{: .method-label}, `kg-aware`{: .method-label}, `text-generation`{: .method-label}, `interpretable`{: .method-label}
 
 <details markdown="block">
   <summary>Abstract</summary>
@@ -393,7 +393,7 @@ The following papers aim to use existing resources to create more supervision (t
 
 **Evaluation Tasks:** [WSC](/docs/datasets#wsc){: .mr-1 target="_blank"}, [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"}
 
-**Features:** `data-augmentation`{: .method-label}, `kg-aware`{: .method-label}, `multiple-choice`{: .method-label}
+**Tags:** `data-augmentation`{: .method-label}, `kg-aware`{: .method-label}, `multiple-choice`{: .method-label}
 
 <details markdown="block">
   <summary>Abstract</summary>
@@ -422,7 +422,7 @@ The following papers aim to use existing resources to create more supervision (t
 
 **Evaluation Tasks:** [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"}, [WinoGrande](/docs/datasets#winogrande){: .mr-1 target="_blank"}, [CODAH](/docs/datasets#codah){: .mr-1 target="_blank"}, [HellaSwag](/docs/datasets#swag-and-hellaswag){: .mr-1 target="_blank"}
 
-**Features:** `data-augmentation`{: .method-label}, `kg-aware`{: .method-label}, `multiple-choice`{: .method-label}
+**Tags:** `data-augmentation`{: .method-label}, `kg-aware`{: .method-label}, `multiple-choice`{: .method-label}
 
 <details markdown="block">
   <summary>Abstract</summary>
@@ -454,7 +454,7 @@ The following papers aim to use existing resources to create more supervision (t
 
 **Evaluation Tasks:** [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"}, [aNLI](/docs/datasets#anli){: .mr-1 target="_blank"}, [PhysicalIQA](/docs/datasets#physicaliqa){: .mr-1 target="_blank"}, [SocialIQA](/docs/datasets#socialiqa){: .mr-1 target="_blank"}, [WinoGrande](/docs/datasets#winogrande){: .mr-1 target="_blank"}
 
-**Features:** `data-augmentation`{: .method-label}, `kg-aware`{: .method-label}, `multiple-choice`{: .method-label}
+**Tags:** `data-augmentation`{: .method-label}, `kg-aware`{: .method-label}, `multiple-choice`{: .method-label}
 
 <details markdown="block">
   <summary>Abstract</summary>

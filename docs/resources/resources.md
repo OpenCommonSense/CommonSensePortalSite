@@ -35,10 +35,10 @@ Many resources for commonsense reasoning have been developed, spanning various a
 <tr>
 <th style="text-align:center">Name</th>
 <th style="text-align:center">Link</th>
-<th style="text-align:center">Features</th>
+<th style="text-align:center">Tags</th>
 <th style="text-align:center">Name</th>
 <th style="text-align:center">Link</th>
-<th style="text-align:center">Features</th>
+<th style="text-align:center">Tags</th>
 </tr>
 </thead>
 <thead>
@@ -188,9 +188,9 @@ These are sources that have been deliberately created to capture (either wide or
 </span>
 
 
-> - **Feature:** 
+> - **Tags:** 
 - **Size:**  Around 1.6 million edges connecting more than 300,000 nodes. 
-- **Dataset creation:** 
+- **Creation:** 
 ><details markdown="block">
 ><summary>Illustrative Example</summary>
 > {: .fs-3 .text-delta .text-red-100}
@@ -209,9 +209,9 @@ These are sources that have been deliberately created to capture (either wide or
 </span> 
 
 
-> - **Feature:** 
+> - **Tags:** 
 - **Size:** Around 877k textual descriptions of inferential knowledge.
-- **Dataset creation:** 
+- **Creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
 >  {: .fs-3 .text-delta .text-red-100}
@@ -243,9 +243,9 @@ These are sources that have been deliberately created to capture (either wide or
 </span> 
 
 
-> - **Feature:** 
+> - **Tags:** 
 - **Size:** Around 1.33M everyday inferential knowledge tuples about entities and events.
-- **Dataset creation:** 
+- **Creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
 >  {: .fs-3 .text-delta .text-red-100}
@@ -262,9 +262,9 @@ These are sources that have been deliberately created to capture (either wide or
    [Data](https://github.com/ElementalCognition/glucose/){: target="_blank" .btn .btn-green .mr-1 } 
 </span> 
 
-> - **Feature:** 
+> - **Tags:** 
 - **Size:** More than 670K (335K pair) of GLUCOSE annotations.
-- **Dataset creation:** 
+- **Creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
 >  {: .fs-3 .text-delta .text-red-100}
@@ -284,9 +284,9 @@ bike sharply</em>.</p>
    [Explore](https://gate.d5.mpi-inf.mpg.de/webchild/){: target="_blank" .btn .btn-purple .mr-1 } 
 </span> 
 
-> - **Feature:** 
+> - **Tags:** 
 - **Size:** 
-- **Dataset creation:** 
+- **Creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
 >  {: .fs-3 .text-delta .text-red-100}
@@ -311,9 +311,9 @@ bike sharply</em>.</p>
    [Explore](https://quasimodo.r2.enst.fr/){: target="_blank" .btn .btn-purple .mr-1 } 
 </span> 
 
-> - **Feature:** 
+> - **Tags:** 
 - **Size:** 
-- **Dataset creation:** 
+- **Creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
 >  {: .fs-3 .text-delta .text-red-100}
@@ -332,9 +332,9 @@ bike sharply</em>.</p>
    [Explore](https://ascent.mpi-inf.mpg.de/browse){: target="_blank" .btn .btn-purple .mr-1 } 
 </span> 
 
-> - **Feature:** 
+> - **Tags:** 
 - **Size:** 
-- **Dataset creation:** 
+- **Creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
 >  {: .fs-3 .text-delta .text-red-100}
@@ -353,9 +353,9 @@ bike sharply</em>.</p>
    [Explore](https://sentic.net/demos/){: target="_blank" .btn .btn-purple .mr-1 } 
 </span> 
 
-> - **Feature:** 
+> - **Tags:** 
 - **Size:** 
-- **Dataset creation:** 
+- **Creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
 >  {: .fs-3 .text-delta .text-red-100}
@@ -379,9 +379,9 @@ bike sharply</em>.</p>
    [Data](https://drive.google.com/drive/folders/1NzjXX46NnpxtgxBrkBWFiUbsXAMdd-lB){: target="_blank" .btn .btn-green .mr-1 } 
 </span> 
 
-> - **Feature:** 
+> - **Tags:** 
 - **Size:** 
-- **Dataset creation:** 
+- **Creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
 >  {: .fs-3 .text-delta .text-red-100}
@@ -392,6 +392,27 @@ bike sharply</em>.</p>
    matches: some carpels are part of snowdrops.
    ```
 ></details> 
+<hr class="thin" />
+
+{: .fs-4 .fw-800 .text-blue-100}
+**📜 *[ASER]* ASER: A Large-scale Eventuality Knowledge Graph**. <br> ✍ Hongming Zhang, Xin Liu, Haojie Pan, Yangqiu Song, Cane Wing-Ki Leung. *(WWW 2020)*
+ 
+<span class="fs-2">
+   [Paper](https://arxiv.org/abs/1905.00270){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Data](https://hkustconnect-my.sharepoint.com/personal/xliucr_connect_ust_hk/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fxliucr%5Fconnect%5Fust%5Fhk%2FDocuments%2FDocuments%2FHKUST%2FResearch%2FASER%2Fv1%2E0&originalPath=aHR0cHM6Ly9oa3VzdGNvbm5lY3QtbXkuc2hhcmVwb2ludC5jb20vOmY6L2cvcGVyc29uYWwveGxpdWNyX2Nvbm5lY3RfdXN0X2hrL0VvTkMtaEZORXNOTHJadmc3M2kxNGU4Qk1BVURSMjBUbXVMWTBXLTZ0RmhLRVE%5FcnRpbWU9ZjZBN1l0TUcyVWc){: target="_blank" .btn .btn-green .mr-1 }
+   [Github](https://github.com/HKUST-KnowComp/ASER/tree/release/1.0){: target="_blank" .btn .btn-white .mr-1 } 
+</span> 
+
+> - **Tags:** 
+- **Size:** 
+- **Creation:** 
+><details markdown="block">
+>  <summary>Illustrative Example</summary>
+>  {: .fs-3 .text-delta .text-red-100}
+>   <img src="../../images/resources/Comet.png" width="70%" height="auto" />
+>  <p>An example image of <em>PersonX acts quickly</em> from the COMET dataset.</p>
+></details> 
+
 
 <hr class="thin" />
 
@@ -405,9 +426,9 @@ bike sharply</em>.</p>
 
 Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cyc is not publicly available. 
 
-> - **Feature:** 
+> - **Tags:** 
 - **Size:** 
-- **Dataset creation:** 
+- **Creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
 >  {: .fs-3 .text-delta .text-red-100}
@@ -432,9 +453,9 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
    [Github](https://github.com/atcbosselut/comet-commonsense){: target="_blank" .btn .btn-white .mr-1 }
 </span> 
 
-> - **Feature:** 
+> - **Tags:** 
 - **Size:** 
-- **Dataset creation:** 
+- **Creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
 >  {: .fs-3 .text-delta .text-red-100}
@@ -452,9 +473,9 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
    [Data](https://drive.google.com/drive/folders/1vqfVXhJXJWuiiXbUa4rZjOgQoJvwZUoT){: target="_blank" .btn .btn-green .mr-1 } 
 </span> 
 
-> - **Feature:** 
+> - **Tags:** 
 - **Size:** 
-- **Dataset creation:** 
+- **Creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
 >  {: .fs-3 .text-delta .text-red-100}
@@ -479,26 +500,6 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
    ```
 ></details> 
 
-<hr class="thin" />
-
-{: .fs-4 .fw-800 .text-blue-100}
-**📜 *[ASER]* ASER: A Large-scale Eventuality Knowledge Graph**. <br> ✍ Hongming Zhang, Xin Liu, Haojie Pan, Yangqiu Song, Cane Wing-Ki Leung. *(WWW 2020)*
- 
-<span class="fs-2">
-   [Paper](https://arxiv.org/abs/1905.00270){: .btn .btn-blue .mr-1 target="_blank" } 
-   [Data](https://hkustconnect-my.sharepoint.com/personal/xliucr_connect_ust_hk/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fxliucr%5Fconnect%5Fust%5Fhk%2FDocuments%2FDocuments%2FHKUST%2FResearch%2FASER%2Fv1%2E0&originalPath=aHR0cHM6Ly9oa3VzdGNvbm5lY3QtbXkuc2hhcmVwb2ludC5jb20vOmY6L2cvcGVyc29uYWwveGxpdWNyX2Nvbm5lY3RfdXN0X2hrL0VvTkMtaEZORXNOTHJadmc3M2kxNGU4Qk1BVURSMjBUbXVMWTBXLTZ0RmhLRVE%5FcnRpbWU9ZjZBN1l0TUcyVWc){: target="_blank" .btn .btn-green .mr-1 }
-   [Github](https://github.com/HKUST-KnowComp/ASER/tree/release/1.0){: target="_blank" .btn .btn-white .mr-1 } 
-</span> 
-
-> - **Feature:** 
-- **Size:** 
-- **Dataset creation:** 
-><details markdown="block">
->  <summary>Illustrative Example</summary>
->  {: .fs-3 .text-delta .text-red-100}
->   <img src="../../images/resources/Comet.png" width="70%" height="auto" />
->  <p>An example image of <em>PersonX acts quickly</em> from the COMET dataset.</p>
-></details> 
 
 ---
 
@@ -514,9 +515,9 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
    [Explore](https://www.wikidata.org/wiki/Wikidata:Main_Page){: target="_blank" .btn .btn-purple .mr-1 } 
 </span> 
 
-> - **Feature:** 
+> - **Tags:** 
 - **Size:** 
-- **Dataset creation:** 
+- **Creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
 >  {: .fs-3 .text-delta .text-red-100}
@@ -534,9 +535,9 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
    [Data](https://zenodo.org/record/3983030#.YGdfk0hKimk){: target="_blank" .btn .btn-green .mr-1 } 
 </span> 
 
-> - **Feature:** 
+> - **Tags:** 
 - **Size:** 
-- **Dataset creation:** 
+- **Creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
 >  {: .fs-3 .text-delta .text-red-100}
@@ -559,9 +560,9 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
    [Explore](https://yago-knowledge.org/graph/Elvis_Presley){: target="_blank" .btn .btn-purple .mr-1 } 
 </span> 
 
-> - **Feature:** 
+> - **Tags:** 
 - **Size:** 
-- **Dataset creation:** 
+- **Creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
 >  {: .fs-3 .text-delta .text-red-100}
@@ -580,9 +581,9 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
    [Explore](https://sigma.ontologyportal.org:8443/sigma/Browse.jsp?kb=SUMO){: target="_blank" .btn .btn-purple .mr-1 } 
 </span> 
 
-> - **Feature:** 
+> - **Tags:** 
 - **Size:** 
-- **Dataset creation:** 
+- **Creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
 >  {: .fs-3 .text-delta .text-red-100}
@@ -600,9 +601,9 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
    [Data](http://www.loa.istc.cnr.it/dolce/overview.html){: target="_blank" .btn .btn-green .mr-1 } 
 </span> 
 
-> - **Feature:** 
+> - **Tags:** 
 - **Size:** 
-- **Dataset creation:** 
+- **Creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
 >  {: .fs-3 .text-delta .text-red-100} 
@@ -627,9 +628,9 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
    [Explore](http://wordnetweb.princeton.edu/perl/webwn){: target="_blank" .btn .btn-purple .mr-1 } 
 </span> 
 
-> - **Feature:** 
+> - **Tags:** 
 - **Size:** 
-- **Dataset creation:** 
+- **Creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
 >  {: .fs-3 .text-delta .text-red-100}
@@ -649,9 +650,9 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
 </span> 
 
 
-> - **Feature:** 
+> - **Tags:** 
 - **Size:** 
-- **Dataset creation:** 
+- **Creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
 >  {: .fs-3 .text-delta .text-red-100}
@@ -670,9 +671,9 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
 </span> 
 
 
-> - **Feature:** 
+> - **Tags:** 
 - **Size:** 
-- **Dataset creation:** 
+- **Creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
 >  {: .fs-3 .text-delta .text-red-100}
@@ -692,9 +693,9 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
 </span> 
 
 
-> - **Feature:** 
+> - **Tags:** 
 - **Size:** 
-- **Dataset creation:** 
+- **Creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
 >  {: .fs-3 .text-delta .text-red-100}
@@ -716,9 +717,9 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
    [Explore](http://visualgenome.org/VGViz/explore){: target="_blank" .btn .btn-purple .mr-1 } 
 </span> 
 
-> - **Feature:**
+> - **Tags:**
 - **Size:** 12,102 in total --- train (9,741), dev (1,221), test (1,140).
-- **Dataset creation:** 
+- **Creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
 >  {: .fs-3 .text-delta .text-red-100}
@@ -737,9 +738,9 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
 </span> 
 
 
-> - **Feature:** 
+> - **Tags:** 
 - **Size:** 
-- **Dataset creation:** 
+- **Creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
 >  {: .fs-3 .text-delta .text-red-100}
@@ -763,9 +764,9 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
 </span> 
 
 
-> - **Feature:** 
+> - **Tags:** 
 - **Size:** 
-- **Dataset creation:** 
+- **Creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
 >  {: .fs-3 .text-delta .text-red-100}
@@ -790,9 +791,9 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
 </span> 
 
 
-> - **Feature:** 
+> - **Tags:** 
 - **Size:** 
-- **Dataset creation:** 
+- **Creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
 >  {: .fs-3 .text-delta .text-red-100}
