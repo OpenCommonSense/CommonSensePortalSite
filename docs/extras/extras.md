@@ -60,7 +60,7 @@ Editors: [Bill Yuchen Lin](https://yuchenlin.xyz/),
 
 
 
-## Related Workshops 
+## Workshops
 
 - **COIN: COmmonsense INference in Natural Language Processing (EMNLP-IJCNLP 2019)**
     -  [https://coinnlp.github.io/](https://coinnlp.github.io/){: target="_blank"}
