@@ -11,12 +11,29 @@ permalink: /extras/
 
 Editors: [Bill Yuchen Lin](https://yuchenlin.xyz/), 
 
-## Surveys and Position Papers
+## Surveys & Position Papers
 
-- Commonsense Reasoning and Commonsense Knowledge in Artificial 
-Intelligence
+- [Programs with Common Sense](http://jmc.stanford.edu/articles/mcc59.html){: target="_blank"}
+    - [John McCarthy](http://jmc.stanford.edu/){: target="_blank"}, 1958, in Proc. of Teddington Conference on the Mechanization of Thought Processes
+    - "Programs with Common Sense was probably the first paper on logical AI, i.e. AI in which logic is the method of representing information in computer memory and not just the subject matter of the program. ... It may also be the first paper to propose common sense reasoning ability as the key to AI."
 
-- 
+- [Artificial Intelligence, Logic and Formalizing Common Sense](http://jmc.stanford.edu/articles/ailogic.html){: target="_blank"}
+    - [John McCarthy](http://jmc.stanford.edu/){: target="_blank"}, 1990
+    - "This is a position paper about the relations among artificial intelligence (AI), mathematical logic and the formalization of common-sense knowledge and reasoning. It also treats other problems of concern to both AI and philosophy. The position advocated is that philosophy can contribute to AI if it treats some of its traditional subject matter in more detail and that this will advance the philosophical goals also."
+
+- [Commonsense Reasoning and Commonsense Knowledge in Artificial Intelligence](https://cs.nyu.edu/davise/papers/CommonsenseFinal.pdf){: target="_blank"}
+    - Communications of the ACM (August 2015) 
+    - Ernest Davis, Gary Marcus
+    - [https://dl.acm.org/doi/10.1145/2701413](https://dl.acm.org/doi/10.1145/2701413){: target="_blank"}
+
+- [Commonsense Knowledge in Machine Intelligence](https://dl.acm.org/doi/10.1145/3186549.3186562){: target="_blank"}
+    - ACM SIGMOD Record (February 2018)
+    - Niket Tandon, Aparna S. Varde, Gerard de Melo
+    - [https://dl.acm.org/doi/10.1145/3186549.3186562](https://dl.acm.org/doi/10.1145/3186549.3186562){: target="_blank"}
+    
+- [Machine Common Sense Concept Paper](https://arxiv.org/abs/1810.07528){: target="_blank"}
+    - David Gunning, arXiv, 2018
+
 
 
 
@@ -38,7 +55,13 @@ Intelligence
 
 1. 
 
+
+
 ## Books 
+
+- [Formalizing common sense: Papers by John McCarthy](https://www.sciencedirect.com/science/article/pii/0004370295900187){: target="_blank"}
+    - Year: 1990
+    - Publisher: Ablex
 
 ## Useful links
 

@@ -38,8 +38,8 @@ A device that exhibits commonsense reasoning might be capable of drawing conclus
 
 1. "Commonsense knowledge includes the basic facts about *events* (including actions) and their *effects*, facts about knowledge and how it is obtained, facts about beliefs and desires. It also includes the basic facts about material *objects* and their *properties*." ([McCarthy, John; 1989]())
 1. "Commonsense knowledge **differs from *encyclopedic* knowledge** in that it deals with *general* knowledge rather than the details of specific entities." ([Tandon et al. 2018](https://dl.acm.org/doi/10.1145/3186549.3186562))
-1. Commonsense knowledge is "real world knowledge that can **provide a *basis*** for additional knowledge to be gathered and interpreted automatically". ([Matuszek, Cynthia, et al. 2005]())
-1. The commonsense world consists of "**time, space, physical interactions, people,** and so on". ([Ernest Davis; Gary Marcus 2015](https://www.aaai.org/Library/AAAI/2005/aaai05-227.php))
+1. Commonsense knowledge is "real world knowledge that can **provide a *basis*** for additional knowledge to be gathered and interpreted automatically". ([Matuszek, Cynthia, et al. 2005](https://www.aaai.org/Library/AAAI/2005/aaai05-227.php))
+1. The commonsense world consists of "**time, space, physical interactions, people,** and so on". ([Ernest Davis; Gary Marcus 2015](https://dl.acm.org/doi/10.1145/2701413))
 1. Common sense is "all the knowledge about the world that we **take for *granted* but *rarely state*** out loud". ([Clive Thompson 2020](https://www.wired.com/story/how-to-teach-artificial-intelligence-common-sense/))
 <!-- 1. Common sense is "broadly reusable background knowledge that's not specific to a particular subject area... knowledge that you ought to have." ([Pavlus, John; 2020](https://www.quantamagazine.org/common-sense-comes-to-computers-20200430/)) -->
 <!-- 1. Commonsense knowledge is "what a typical seven year old knows about the world", including physical objects, substances, plants, animals, and human society". ([Davis, Ernest 2017](https://doi.org/10.1613%2Fjair.5339)) -->
@@ -141,10 +141,9 @@ There are also other dimensions to describe a commonsense fact as follows:
 ## Why do we study commonsense reasoning?
 
 
+
 ## How do we study commonsense reasoning?
 
 
-
-<!-- Commonsense is essential for humans to navigate everyday situations seamlessly and interact with each other in a reasonable and safe way, and for AI to understand human needs and actions better. Yet, endowing machines with such human-like commonsense reasoning capabilities has remained an elusive goal of AI research for decades. Past attempts, in the 1960s and 1970s, resulted in an AI winter, i.e. reduced interest and funding for AI research due to failed over-hyped research directions. In recent years, new interest in machine commonsense has emerged, with the availability of stronger computing power and huge amounts of data. With that said, the path to machine commonsense is unlikely to be brute force training larger neural networks with deeper layers.    -->
-
  
+## Open Problems
