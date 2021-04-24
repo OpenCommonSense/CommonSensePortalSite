@@ -39,16 +39,25 @@ Editors: [Bill Yuchen Lin](https://yuchenlin.xyz/),
 
 ## Tutorials and Talks 
 
-| Title | Links | Presenters |  Date and Place  | 
+| Title | Links | Presenters |  Location  | 
 | :------------:| :-----: | :------: | :----------: |
 | **Commonsense Reasoning for Natural Language Processing** (ACL-20 Tutorial) | [Project Page](https://homes.cs.washington.edu/~msap/acl2020-commonsense/){: target="_blank"}, [Blog Post](http://veredshwartz.blogspot.com/2021/01/commonsense-reasoning-for-natural.html){: target="_blank"} | Maarten Sap, Vered Shwartz, Antoine Bosselut, Yejin Choi, Dan Roth |  ACL 2020 |
 
-## Blog posts and News Articles
+## Articles
+
+
+- [**How to Teach Artificial Intelligence Some Common Sense**](https://www.wired.com/story/how-to-teach-artificial-intelligence-common-sense/){: target="_blank"} by [Clive Thompson](https://twitter.com/pomeranian99){: target="_blank"} from [Wired](https://www.wired.com/){: target="_blank"}  on 2018-11-13
+
+
+- [**Common Sense Comes Closer to Computers**](https://www.quantamagazine.org/common-sense-comes-to-computers-20200430/){: target="_blank"} by [John Pavlus](https://www.quantamagazine.org/authors/john-pavlus/){: target="_blank"} from [QuantaMagazine](https://www.quantamagazine.org/){: target="_blank"}  on 2020-04-30
 
 
 - [**Commonsense Reasoning for Natural Language Processing**](http://veredshwartz.blogspot.com/2021/01/commonsense-reasoning-for-natural.html){: target="_blank"} by [Vered Shwartz](https://vered1986.github.io/){: target="_blank"} on 2021-01-12
 
-- [**Common Sense Comes Closer to Computers**](https://www.quantamagazine.org/common-sense-comes-to-computers-20200430/){: target="_blank"} by [John Pavlus](https://www.quantamagazine.org/authors/john-pavlus/){: target="_blank"} from [QuantaMagazine](https://www.quantamagazine.org/){: target="_blank"}  on 2020-04-30
+
+- [**The Best of NLP**](https://cacm.acm.org/magazines/2021/4/251336-the-best-of-nlp/fulltext){: target="_blank"} by [Chris Edwards](https://chrised.com/){: target="_blank"} in [Communications of the ACM](https://cacm.acm.org/){: target="_blank"}, 2021 April
+
+
 
 
 ## Related Workshops 
