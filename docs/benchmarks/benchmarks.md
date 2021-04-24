@@ -3,7 +3,7 @@ layout: default
 title: Benchmark Datasets
 nav_order: 3
 toc_list: true
-last_modified_date: April 24 2021
+last_modified_date: March 26 2021
 permalink: /docs/datasets
 ---
 
@@ -849,7 +849,30 @@ A) One  B) Two  C) Three  D) Four  E) Five
 <!-- {: .fs-4 .fw-600 .text-red-300}
 > **Comments** -->
 
+### RICA
+{: .no_toc }
 
+{: .fs-4 .fw-800 .text-blue-100}
+*RICA: Evaluating Robust Inference Capabilities Based on Commonsense Axioms*. <br> Pei Zhou, Rahul Khanna, Seyeon Lee, Bill Yuchen Lin, Daniel Ho, Jay Pujara, Xiang Ren. **arXiv 2020, accepted in EMNLP-Findings 2020**
+
+<span class="fs-1">
+[Paper](https://arxiv.org/abs/2005.00782){: .btn .btn-blue .mr-1 target="_blank" } [Projec Page](https://sites.google.com/usc.edu/rica){: target="_blank" .btn .btn-grey .mr-1 } [Leaderboard](https://eval.ai/web/challenges/challenge-page/832/overview){: target="_blank" .btn .btn-purple .mr-1 } </span>
+
+> - **Topics:** General. The dataset contains probes from different types of commonsense, such as physical, material, and social properties. It focuses on logicaly-equivalent probes to test models' robust inference abilities. It also uses unseen strings as entities to separate fact-based recall from abstract reasoning capabilities.
+- **Task format:** Given a masked sentence and two choices for the mask, the task is to selesct the correct choice. 
+- **Size & Split:** Two evaluation settings with the same test data of 1.6k human-curated probes: 1. zero-shot setting; 2. models are fine-tuned on 9k of the human-verified RICA probes (8k for training and 1k for validation).
+- **Dataset creation:** 
+><details markdown="block">
+>  <summary>Illustrative Example</summary>
+>  {: .fs-3 .text-delta .text-red-100}
+```
+Question: A prindag is lighter than a fluberg, so a prindag should float [MASK] than a fluberg.
+Choices: 
+A) more  B) less
+``` 
+></details> 
+<!-- {: .fs-4 .fw-600 .text-red-300}
+> **Comments** -->
 ---
 
 ## Reading Comprehension 
