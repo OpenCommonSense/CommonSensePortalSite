@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Guide
+title: Introduction
 nav_order: 2
 has_children: False
-permalink: /about/
+permalink: /intro/
 
 toc_list: true
 last_modified_date: March 23 2021
@@ -27,7 +27,7 @@ td{
 
 In general, commonsense reasoning is the ability to make decisions in *real-world situations* with the knowledge shared by most people. 
 Commonsense reasoning is hard to define, particularly due to the ambiguous boundary of commonsense knowledge. 
-In the following, we show some definitions and characterizations of common sense from different authors, and finally give a summary as **[our working definition]()**.
+In the following, we show some definitions and characterizations of common sense from different authors, and finally give a summary as **[our working definition](#our-working-definition)**.
 
 
 <table>
@@ -116,7 +116,7 @@ Within each topic, the knowledge can be further characterized by their basic uni
         - etc.
     - `events`{: .csk-label} (situations in everyday life)
         - `acceptability`{: .csk-label} (e.g., *commenting the weight/face/age of a co-worker is not accepted*)
-        - `motivation`{: .csk-label} (e.g., *X buys Y a gift **because** X wanted to make Y happy, ...*)
+        - `motivation`{: .csk-label} (e.g., *X buys Y a gift because X wanted to make Y happy, ...*)
         - `attributes`{: .csk-label} (e.g., *X buys Y a gift; X is seen as generous, polite, ...*)
         - `effect`{: .csk-label} (e.g., *X buys Y a gift; Y is surprised*)
         - etc.
@@ -139,6 +139,9 @@ There are also other dimensions to describe a commonsense fact as follows:
 
 
 ## Why do we study commonsense reasoning?
+
+
+## How do we study commonsense reasoning?
 
 
 
