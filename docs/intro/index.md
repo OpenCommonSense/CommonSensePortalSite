@@ -136,6 +136,7 @@ There are also other dimensions to describe a commonsense fact as follows:
 </td>
 </table>
 
+**Pleaser refer to the [surveys and position papers](/misc/#surveys--position-papers) for more information.**
 
 
 ## Why do we study commonsense reasoning?

@@ -18,7 +18,7 @@ We present a collection of insightful research papers that focus on teaching mac
 
  
 ## Table of contents
-{: .no_toc .text-delta }
+{: .no_toc .text-delta .fs-4 style="font-weight:800"}
 
 - TOC
 {:toc}

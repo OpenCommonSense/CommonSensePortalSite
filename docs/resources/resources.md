@@ -19,16 +19,31 @@ Many resources for commonsense reasoning have been developed, spanning various a
 ---
 
 ## Table of contents
-{: .no_toc .text-delta }
+{: .no_toc .text-delta .fs-4 style="font-weight:800"}
 
 - TOC
 {:toc}
 
+
+**Tags:**
+
+- `s|symbolic`{: .method-label}: symbolic knowledge resources, usually in graph structures.
+   - `s-t|symbolic-triple`{: .method-label}: RDF-style triples, e.g., `(apple, HasProperty, round)`
+- `n|neural`{: .method-label}: neural knowledge resources, typically a neural language model.
+- `c|corpus`{: .method-label}: an unstructured knowledge corpus consisting of commonsense facts.
+- `o|object`{: .method-label}: object-centric knowledge.
+- `e|event`{: .method-label}: event-centric knowledge.
+- `so|social`{: .method-label}: social commonsense knowledge.
+- `ph|physical`{: .method-label}: physical commonsense knowledge.
+- `a|auto-extracted`{: .method-label}: automatically extracted from the web.
+- `h|human-annotated`{: .method-label}: annotated by humans.
+- `ex|explanation`{: .method-label}: explanation-based knowledge resource.
+
 --- 
 
-<details markdown="block">
+<!-- <details markdown="block">
   <summary>Summary Table</summary>
-{: .fs-3 .text-delta .text-blue-200}
+{: .fs-3 .text-delta .text-blue-200} -->
 
 <table>
 <thead>
@@ -50,39 +65,39 @@ Many resources for commonsense reasoning have been developed, spanning various a
 <tbody>
 <tr>
 <td style="text-align:center"><a href="#commonsense-knowledge">ConceptNet</a></td>
-<td style="text-align:center"><a href="http://conceptnet.io/">Link</a></td>
-<td style="text-align:center"></td>
+<td style="text-align:center"><a target="_blank" href="http://conceptnet.io/">Link</a></td>
+<td style="text-align:center">s,</td>
 <td style="text-align:center"><a href="#common-knowledge">Wikidata</a></td>
-<td style="text-align:center"><a href="https://www.wikidata.org/wiki/Wikidata:Main\_Page">Link</a></td>
+<td style="text-align:center"><a target="_blank" href="https://www.wikidata.org/wiki/Wikidata:Main\_Page">Link</a></td>
 <td style="text-align:center"></td>
 </tr>
 <tr>
 <td style="text-align:center"><a href="#commonsense-knowledge">ATOMIC</a></td>
-<td style="text-align:center"><a href="https://mosaickg.apps.allenai.org/kg\_atomic">Link</a></td>
+<td style="text-align:center"><a target="_blank" href="https://mosaickg.apps.allenai.org/kg\_atomic">Link</a></td>
 <td style="text-align:center"></td>
 <td style="text-align:center"><a href="#common-knowledge">Wikidata-CS</a></td>
-<td style="text-align:center"><a href="https://zenodo.org/record/3983030#.YGdfk0hKimk">Link</a></td>
+<td style="text-align:center"><a target="_blank" href="https://zenodo.org/record/3983030#.YGdfk0hKimk">Link</a></td>
 <td style="text-align:center"></td>
 </tr>
 <tr>
 <td style="text-align:center"><a href="#commonsense-knowledge">ATOMIC2020</a></td>
-<td style="text-align:center"><a href="https://allenai.org/data/atomic-2020">Link</a></td>
+<td style="text-align:center"><a target="_blank" href="https://allenai.org/data/atomic-2020">Link</a></td>
 <td style="text-align:center"></td>
 <td style="text-align:center"><a href="#common-knowledge">YAGO</a></td>
-<td style="text-align:center"><a href="https://yago-knowledge.org/graph/Elvis\_Presley">Link</a></td>
+<td style="text-align:center"><a target="_blank" href="https://yago-knowledge.org/graph/Elvis\_Presley">Link</a></td>
 <td style="text-align:center"></td>
 </tr>
 <tr>
 <td style="text-align:center"><a href="#commonsense-knowledge">GLUCOSE</a></td>
-<td style="text-align:center"><a href="https://github.com/ElementalCognition/glucose/">Link</a></td>
+<td style="text-align:center"><a target="_blank" href="https://github.com/ElementalCognition/glucose/">Link</a></td>
 <td style="text-align:center"></td>
 <td style="text-align:center"><a href="#common-knowledge">SUMO</a></td>
-<td style="text-align:center"><a href="https://sigma.ontologyportal.org:8443/sigma/Browse.jsp?kb=SUMO">Link</a></td>
+<td style="text-align:center"><a target="_blank" href="https://sigma.ontologyportal.org:8443/sigma/Browse.jsp?kb=SUMO">Link</a></td>
 <td style="text-align:center"></td>
 </tr>
 <tr>
 <td style="text-align:center"><a href="#commonsense-knowledge">WebChild</a></td>
-<td style="text-align:center"><a href="https://gate.d5.mpi-inf.mpg.de/webchild/">Link</a></td>
+<td style="text-align:center"><a target="_blank" href="https://gate.d5.mpi-inf.mpg.de/webchild/">Link</a></td>
 <td style="text-align:center"></td>
 <td style="text-align:center"><a href="#common-knowledge">DOLCE</a></td>
 <td style="text-align:center"><a href="ttp://www.loa.istc.cnr.it/dolce/overview.html">Link</a></td>
@@ -90,91 +105,92 @@ Many resources for commonsense reasoning have been developed, spanning various a
 </tr>
 <tr>
 <td style="text-align:center"><a href="#commonsense-knowledge">QuasimodoKB</a></td>
-<td style="text-align:center"><a href="https://quasimodo.r2.enst.fr/">Link</a></td>
+<td style="text-align:center"><a target="_blank" href="https://quasimodo.r2.enst.fr/">Link</a></td>
 <td style="text-align:center"></td>
 <td colspan="3" style="text-align:center"><b>Lexical Knowledge</b></td>
 </tr>
 <tr>
 <td style="text-align:center"><a href="#commonsense-knowledge">ASCENT</a></td>
-<td style="text-align:center"><a href="https://ascent.mpi-inf.mpg.de/browse">Link</a></td>
+<td style="text-align:center"><a target="_blank" href="https://ascent.mpi-inf.mpg.de/browse">Link</a></td>
 <td style="text-align:center"></td>
 <td style="text-align:center"><a href="#lexical-knowledge">WordNet</a></td>
-<td style="text-align:center"><a href="http://wordnetweb.princeton.edu/perl/webwn">Link</a></td>
+<td style="text-align:center"><a target="_blank" href="http://wordnetweb.princeton.edu/perl/webwn">Link</a></td>
 <td style="text-align:center"></td>
 </tr>
 <tr>
 <td style="text-align:center"><a href="#commonsense-knowledge">SenticNet</a></td>
-<td style="text-align:center"><a href="https://sentic.net/demos/">Link</a></td>
+<td style="text-align:center"><a target="_blank" href="https://sentic.net/demos/">Link</a></td>
 <td style="text-align:center"></td>
 <td style="text-align:center"><a href="#lexical-knowledge">FrameNet</a></td>
-<td style="text-align:center"><a href="https://framenet.icsi.berkeley.edu/fndrupal/frameIndex">Link</a></td>
+<td style="text-align:center"><a target="_blank" href="https://framenet.icsi.berkeley.edu/fndrupal/frameIndex">Link</a></td>
 <td style="text-align:center"></td>
 </tr>
 <tr>
 <td style="text-align:center"><a href="#commonsense-knowledge">HasPartKB</a></td>
-<td style="text-align:center"><a href="https://drive.google.com/drive/folders/1NzjXX46NnpxtgxBrkBWFiUbsXAMdd-lB">Link</a></td>
+<td style="text-align:center"><a target="_blank" href="https://drive.google.com/drive/folders/1NzjXX46NnpxtgxBrkBWFiUbsXAMdd-lB">Link</a></td>
 <td style="text-align:center"></td>
 <td style="text-align:center"><a href="#lexical-knowledge">MetaNet</a></td>
-<td style="text-align:center"><a href="https://metaphor.icsi.berkeley.edu/pub/en/index.php/Category:Metaphor">Link</a></td>
+<td style="text-align:center"><a target="_blank" href="https://metaphor.icsi.berkeley.edu/pub/en/index.php/Category:Metaphor">Link</a></td>
 <td style="text-align:center"></td>
 </tr>
 <tr>
 <td style="text-align:center"><a href="#commonsense-knowledge">CYC</a></td>
-<td style="text-align:center"><a href="https://github.com/asanchez75/opencyc">Link</a></td>
+<td style="text-align:center"><a target="_blank" href="https://github.com/asanchez75/opencyc">Link</a></td>
 <td style="text-align:center"></td>
 <td style="text-align:center"><a href="#lexical-knowledge">VerbNet</a></td>
-<td style="text-align:center"><a href="https://verbs.colorado.edu/verb-index/vn3.3/">Link</a></td>
+<td style="text-align:center"><a target="_blank" href="https://verbs.colorado.edu/verb-index/vn3.3/">Link</a></td>
 <td style="text-align:center"></td>
 </tr>
 <tr>
 <td style="text-align:center"><a href="#commonsense-knowledge">COMET</a></td>
-<td style="text-align:center"><a href="https://mosaickg.apps.allenai.org/comet\_atomic">Link</a></td>
+<td style="text-align:center"><a target="_blank" href="https://mosaickg.apps.allenai.org/comet\_atomic">Link</a></td>
 <td style="text-align:center"></td>
 <td colspan="3" style="text-align:center"><b>Consolidation & Surveys</b></td>
 </tr>
 <tr>
 <td style="text-align:center"><a href="#commonsense-knowledge">GenericsKB</a></td>
-<td style="text-align:center"><a href="https://drive.google.com/drive/folders/1vqfVXhJXJWuiiXbUa4rZjOgQoJvwZUoT">Link</a></td>
+<td style="text-align:center"><a target="_blank" href="https://drive.google.com/drive/folders/1vqfVXhJXJWuiiXbUa4rZjOgQoJvwZUoT">Link</a></td>
 <td style="text-align:center"></td>
 <td style="text-align:center"><a href="#consolidation--surveys">CSKG</a></td>
-<td style="text-align:center"><a href="https://zenodo.org/record/4331372#.YGdj2EhKimk">Link</a></td>
+<td style="text-align:center"><a target="_blank" href="https://zenodo.org/record/4331372#.YGdj2EhKimk">Link</a></td>
 <td style="text-align:center"></td>
 </tr>
 <tr>
 <td style="text-align:center"><a href="#commonsense-knowledge">ASER</a></td>
-<td style="text-align:center"><a href="https://hkustconnect-my.sharepoint.com/personal/xliucr_connect_ust_hk/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fxliucr%5Fconnect%5Fust%5Fhk%2FDocuments%2FDocuments%2FHKUST%2FResearch%2FASER%2Fv1%2E0&originalPath=aHR0cHM6Ly9oa3VzdGNvbm5lY3QtbXkuc2hhcmVwb2ludC5jb20vOmY6L2cvcGVyc29uYWwveGxpdWNyX2Nvbm5lY3RfdXN0X2hrL0VvTkMtaEZORXNOTHJadmc3M2kxNGU4Qk1BVURSMjBUbXVMWTBXLTZ0RmhLRVE%5FcnRpbWU9ZjZBN1l0TUcyVWc">Link</a></td>
+<td style="text-align:center"><a target="_blank" href="https://hkustconnect-my.sharepoint.com/personal/xliucr_connect_ust_hk/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fxliucr%5Fconnect%5Fust%5Fhk%2FDocuments%2FDocuments%2FHKUST%2FResearch%2FASER%2Fv1%2E0&originalPath=aHR0cHM6Ly9oa3VzdGNvbm5lY3QtbXkuc2hhcmVwb2ludC5jb20vOmY6L2cvcGVyc29uYWwveGxpdWNyX2Nvbm5lY3RfdXN0X2hrL0VvTkMtaEZORXNOTHJadmc3M2kxNGU4Qk1BVURSMjBUbXVMWTBXLTZ0RmhLRVE%5FcnRpbWU9ZjZBN1l0TUcyVWc">Link</a></td>
 <td style="text-align:center"></td>
 <td style="text-align:center"><a href="#consolidation--surveys">Dimensions of CSK</a></td>
-<td style="text-align:center"><a href="https://drive.google.com/drive/u/1/folders/16347KHSloJJZIbgC9V5gH7\_pRx0CzjPQ">Link</a></td>
+<td style="text-align:center"><a target="_blank" href="https://drive.google.com/drive/u/1/folders/16347KHSloJJZIbgC9V5gH7\_pRx0CzjPQ">Link</a></td>
 <td style="text-align:center"></td>
 </tr>
 <tr>
 <td colspan="3" style="text-align:center"><b>Visual Knowledge</b></td>
 <td style="text-align:center"><a href="#consolidation--surveys">NextKB</a></td>
-<td style="text-align:center"><a href="https://www.qrg.northwestern.edu/nextkb/index.html">Link</a></td>
+<td style="text-align:center"><a target="_blank" href="https://www.qrg.northwestern.edu/nextkb/index.html">Link</a></td>
 <td style="text-align:center"></td>
 </tr>
 <tr>
 <td style="text-align:center"><a href="#visual-knowledge">Visual Genome</a></td>
-<td style="text-align:center"><a href="http://visualgenome.org/VGViz/explore">Link</a></td>
+<td style="text-align:center"><a target="_blank" href="http://visualgenome.org/VGViz/explore">Link</a></td>
 <td style="text-align:center"></td>
 <td colspan="3" style="text-align:center"></td>
 </tr>
 <tr>
 <td style="text-align:center"><a href="#visual-knowledge">Flickr30k</a></td>
-<td style="text-align:center"><a href="http://bryanplummer.com/Flickr30kEntities/">Link</a></td>
+<td style="text-align:center"><a target="_blank" href="http://bryanplummer.com/Flickr30kEntities/">Link</a></td>
 <td style="text-align:center"></td>
-<td colspan="3" style="text-align:center"></td>
+<td colspan="3" style="text-align:center">asd</td>
 </tr>
 </tbody>
 </table>
 
-</details>
+<!-- </details> -->
 ---
 
 ## Commonsense Knowledge
-These are sources that have been deliberately created to capture (either wide or narrow domain) commonsense knowledge. 
-<br>
+
+|<span class="fs-4">These are sources that have been deliberately created to capture (either wide or narrow domain) commonsense knowledge. </span>|
+
 
 
 
@@ -504,7 +520,8 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
 ---
 
 ## Common Knowledge
-<br>
+
+|<span class="fs-4">TODO</span>|
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 *[Wikidata]* Wikidata: a free collaborative knowledgebase**. <br> ✍ Vrandečić, D., & Krötzsch, M. *(ACM 2014)*
@@ -616,7 +633,8 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
 ---
 
 ## Lexical Knowledge
-<br>
+
+|<span class="fs-4">TODO</span>|
 
 
 {: .fs-4 .fw-800 .text-blue-100}
@@ -706,7 +724,8 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
 ---
 
 ## Visual Knowledge
-<br>
+
+|<span class="fs-4">TODO</span>|
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 *[Visual Genome]* Visual genome: Connecting language and vision using crowdsourced dense image annotations**. <br> ✍ Krishna, R., Zhu, Y., Groth, O., Johnson, J., Hata, K., Kravitz, J., Chen, S., Kalantidis, Y., Li, L.J., Shamma, D.A., Bernstein, M.S. *(IJCV 2017)*
@@ -753,7 +772,8 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
 
 
 ## Consolidation & Surveys
-<br>
+
+|<span class="fs-4">TODO </span>|
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 *[CSKG]* CSKG: The CommonSense Knowledge Graph**. <br> ✍ Ilievski, F., Szekely, P., Zhang, B. *(ESWC 2021)*

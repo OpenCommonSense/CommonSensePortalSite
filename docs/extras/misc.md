@@ -4,7 +4,7 @@ title: Miscellaneous
 nav_order: 7
 toc_list: true
 last_modified_date: March 26 2021
-permalink: /extras/
+permalink: /misc/
 ---
 # Additional materials
 {: .no_toc }
@@ -15,7 +15,7 @@ Editors: [Bill Yuchen Lin](https://yuchenlin.xyz/),
 
 - [***Programs with Common Sense***](http://jmc.stanford.edu/articles/mcc59.html){: target="_blank"}
     - [John McCarthy](http://jmc.stanford.edu/){: target="_blank"}, 1958, in Proc. of Teddington Conference on the Mechanization of Thought Processes
-    - "Programs with Common Sense was probably the first paper on logical AI, i.e. AI in which logic is the method of representing information in computer memory and not just the subject matter of the program. ... It may also be the first paper to propose common sense reasoning ability as the key to AI."
+    - "Programs with Common Sense was probably the first paper on logical AI, i.e. AI in which logic is the method of representing information in computer memory and not just the subject matter of the program. ... **It may also be the first paper to propose common sense reasoning ability as the key to AI.**"
 
 - [***Artificial Intelligence, Logic and Formalizing Common Sense***](http://jmc.stanford.edu/articles/ailogic.html){: target="_blank"}
     - [John McCarthy](http://jmc.stanford.edu/){: target="_blank"}, 1990

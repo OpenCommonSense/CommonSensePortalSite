@@ -18,7 +18,7 @@ We present a comprehensive collection of datasets for testing commonsense reason
 
  
 ## Table of contents
-{: .no_toc .text-delta }
+{: .no_toc .text-delta .fs-4 style="font-weight:800"}
 
 - TOC
 {:toc}
@@ -27,9 +27,9 @@ We present a comprehensive collection of datasets for testing commonsense reason
 
 <details markdown="block">
   <summary>Summary Table</summary>
-{: .fs-3 .text-delta .text-blue-200}
+{: .fs-4 .text-delta .text-blue-200 style="font-weight:800"}
   
-| Name | Link | Focus | Format |  SotA vs. Human 
+| Name | Link | Tags | Format |  SotA vs. Human 
 | :------------:| :-----: | :-----: | :------: | :---------: | :-------: | :-----------: |
 | [CommonsenseQA](#commonsenseqa) | [Link](https://www.tau-nlp.org/commonsenseqa) | General | [MC](#multiple-choice-tasks)  | 83.3 /  88.9 (**Acc. %**) 
 | [SocialIQA](#socialiqa) | [Link](https://leaderboard.allenai.org/socialiqa/submissions/get-started) | Social  | [MC](#multiple-choice-tasks)  | 83.2 /  88.1 (**Acc. %**) 

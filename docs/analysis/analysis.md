@@ -19,7 +19,7 @@ Here we present a collection of papers focusing on the analysis about commonsens
 ---
 
 ## Table of contents
-{: .no_toc .text-delta }
+{: .no_toc .text-delta .fs-4 style="font-weight:800"}
 
 - TOC
 {:toc}
