@@ -237,6 +237,56 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
    ```
 </details> 
 
+
+{: .fs-4 .fw-800 .text-blue-100}
+**📜 *[COMET]* Comet: Commonsense transformers for automatic knowledge graph construction**. <br> ✍ Bosselut, A., Rashkin, H., Sap, M., Malaviya, C., Celikyilmaz, A., & Choi, Y.  *(ACL 2019)*
+ 
+<span class="fs-2">
+   [Paper](https://www.aclweb.org/anthology/P19-1470.pdf){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Code](https://github.com/atcbosselut/comet-commonsense){: target="_blank" .btn .btn-green .mr-1 }
+   [Explore](https://mosaickg.apps.allenai.org/comet_atomic){: target="_blank" .btn .btn-purple .mr-1 } 
+</span> 
+<details markdown="block">
+  <summary>Illustrative Example</summary>
+  {: .fs-3 .text-delta .text-red-100}
+   <img src="../../images/resources/Comet.png" width="70%" height="auto" />
+   
+   An example image of <em>PersonX acts quickly</em> from the COMET dataset.
+</details> 
+
+
+{: .fs-4 .fw-800 .text-blue-100}
+**📜 *[GenericsKB]* Genericskb: A knowledge base of generic statements**. <br> ✍ Bhakthavatsalam, S., Anastasiades, C., & Clark, P. *(arXiv 2020)*
+ 
+<span class="fs-2">
+   [Paper](https://arxiv.org/pdf/2005.00660.pdf){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Data](https://drive.google.com/drive/folders/1vqfVXhJXJWuiiXbUa4rZjOgQoJvwZUoT){: target="_blank" .btn .btn-green .mr-1 } 
+</span> 
+<details markdown="block">
+  <summary>Illustrative Example</summary>
+  {: .fs-3 .text-delta .text-red-100}
+   Example generics about <em>tree</em> in GENERICSKB:
+   ```
+   1. Trees are perennial plants that have long woody trunks.
+   2. Trees are woody plants which continue growing until they die.
+   3. Most trees add one new ring for each year of growth.
+   4. Trees produce oxygen by absorbing carbon dioxide from the air.
+   5. Trees are large, generally single-stemmed, woody plants.
+   6. Trees live in cavities or hollows.
+   7. Trees grow using photosynthesis, absorbing carbon dioxide and releasing oxygen.
+   ```
+
+   An example entry, including metadata
+   ```
+   Term: tree
+   Sent: Most trees add one new ring for each year of growth.
+   Quantifier: Most
+   Score: 0.35
+   Before: ...Notice how the extractor holds the core as it is removed from inside the hollow center of the bit. Tree cores are extracted with an increment borer.
+   After: The width of each annual ring may be a reflection of forest stand dynamics. Dendrochronology, the study of annual growth rings, has become prominent in ecology...
+   ```
+</details> 
+
 ---
 
 ## Common Knowledge
@@ -449,67 +499,9 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
    Example images from the Flickr30k Entities dataset.
 </details> 
 
----
-
-## Semi/Un-Structured KB
-<br>
-
-{: .fs-4 .fw-800 .text-blue-100}
-**📜 *[GenericsKB]* Genericskb: A knowledge base of generic statements**. <br> ✍ Bhakthavatsalam, S., Anastasiades, C., & Clark, P. *(arXiv 2020)*
- 
-<span class="fs-2">
-   [Paper](https://arxiv.org/pdf/2005.00660.pdf){: .btn .btn-blue .mr-1 target="_blank" } 
-   [Data](https://drive.google.com/drive/folders/1vqfVXhJXJWuiiXbUa4rZjOgQoJvwZUoT){: target="_blank" .btn .btn-green .mr-1 } 
-</span> 
-<details markdown="block">
-  <summary>Illustrative Example</summary>
-  {: .fs-3 .text-delta .text-red-100}
-   Example generics about <em>tree</em> in GENERICSKB:
-   ```
-   1. Trees are perennial plants that have long woody trunks.
-   2. Trees are woody plants which continue growing until they die.
-   3. Most trees add one new ring for each year of growth.
-   4. Trees produce oxygen by absorbing carbon dioxide from the air.
-   5. Trees are large, generally single-stemmed, woody plants.
-   6. Trees live in cavities or hollows.
-   7. Trees grow using photosynthesis, absorbing carbon dioxide and releasing oxygen.
-   ```
-
-   An example entry, including metadata
-   ```
-   Term: tree
-   Sent: Most trees add one new ring for each year of growth.
-   Quantifier: Most
-   Score: 0.35
-   Before: ...Notice how the extractor holds the core as it is removed from inside the hollow center of the bit. Tree cores are extracted with an increment borer.
-   After: The width of each annual ring may be a reflection of forest stand dynamics. Dendrochronology, the study of annual growth rings, has become prominent in ecology...
-   ```
-</details> 
-
 
 ---
 
-
-## Neural KGs
-<br>
-
-{: .fs-4 .fw-800 .text-blue-100}
-**📜 *[COMET]* Comet: Commonsense transformers for automatic knowledge graph construction**. <br> ✍ Bosselut, A., Rashkin, H., Sap, M., Malaviya, C., Celikyilmaz, A., & Choi, Y.  *(ACL 2019)*
- 
-<span class="fs-2">
-   [Paper](https://www.aclweb.org/anthology/P19-1470.pdf){: .btn .btn-blue .mr-1 target="_blank" } 
-   [Code](https://github.com/atcbosselut/comet-commonsense){: target="_blank" .btn .btn-green .mr-1 }
-   [Explore](https://mosaickg.apps.allenai.org/comet_atomic){: target="_blank" .btn .btn-purple .mr-1 } 
-</span> 
-<details markdown="block">
-  <summary>Illustrative Example</summary>
-  {: .fs-3 .text-delta .text-red-100}
-   <img src="../../images/resources/Comet.png" width="70%" height="auto" />
-   
-   An example image of <em>PersonX acts quickly</em> from the COMET dataset.
-</details> 
-
----
 
 ## Consolidation & Surveys
 <br>

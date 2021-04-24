@@ -25,38 +25,43 @@ We present a comprehensive collection of datasets for testing commonsense reason
 
 ---
 
-| Name | Focus | Format |  SotA vs. Human 
-| :------------:| :-----: | :------: | :----------: | :-------: | :-----------: |
-| [CommonsenseQA](#commonsenseqa) | General | [MC](#multiple-choice-tasks)  | 83.3 /  88.9 (**Acc. %**) 
-| [SocialIQA](#socialiqa) | Social  | [MC](#multiple-choice-tasks)  | 83.2 /  88.1 (**Acc. %**) 
-| [PhysicalIQA](#physicaliqa) | Physical  | [MC](#multiple-choice-tasks)  | 90.1 /  94.9 (**Acc. %**) 
-| [ARC](#arc) | Science | [MC](#multiple-choice-tasks)  | 81.4 /  N/A (**Acc. %**) 
-| [OpenbookQA](#openbookqa) | Elementary Science | [MC](#multiple-choice-tasks)  | 87.2 /  91.7 (**Acc. %**) 
-| [SWAG](#swag-and-hellaswag) | Event | [MC](#multiple-choice-tasks)  | 91.7 /  88.0 (**Acc. %**) 
-| [HellaSWAG](#swag-and-hellaswag) | Event | [MC](#multiple-choice-tasks)  | 93.9 /  95.6 (**Acc. %**) 
-| [WSC](#wsc) | General, Coreference | [MC](#multiple-choice-tasks)  | 96.6 /  100 (**Acc. %**)
-| [WinoGrande](#winogrande) | General, Coreference | [MC](#multiple-choice-tasks)  | 91.28 /  94 (**Acc. %**) 
-| [COPA](#copa-and-x-copa) | Causality, Event | [MC](#multiple-choice-tasks)  | 98.4 /  100 (**Acc. %**)
-| [X-COPA](#copa-and-x-copa) | Causality, Event | [MC](#multiple-choice-tasks)  | 76.1 /  97.6 (**Acc. %**)
-| [CODAH](#codah) | General, Event | [MC](#multiple-choice-tasks)  | 69.5 /  95.3 (**Acc. %**)
-| [MC-TACO](#mc-taco) | Temporal Commonsense, Events | [MC](#multiple-choice-tasks)  | 80.9 /  75.8 (**Acc. %**) 
-| [aNLI](#anli) | Abductive Reasoning, Events | [MC](#multiple-choice-tasks)  | 89.7 /  92.9 (**Acc. %**) 
-| [RiddleSense](#riddlesense) | General, Figurative, Counterfactual | [MC](#multiple-choice-tasks)  | 68.8 /  91.3 (**Acc. %**) 
-| [VCR](#visual-commonsense-reasoning) | Visual Understanding, Complex Situation | [VQA](#visually-grounded-qa) | 70.8 / 85.0 (**Acc. %**) 
-| [ProtoQA](#protoqa) | Prototypical Situation | [OE](#open-ended-qa) | 56.0 / 78.4 (**WN. Sim.**)
-| [OpenCSR](#opencsr) | Science | [OE](#open-ended-qa) | 40.8 /  N/A (**Acc. %**) 
-| [CommonGen](#commongen) | General, Everyday Scenario | [CNLG](#constrained-nlg) | 33.3 / 52.4  (**SPICE %**) 
-| [Cos-E](#cos-e) | General, Everyday Events | [CNLG](#constrained-nlg) | 58.2 / 95.3  (**Acc. %**) 
-| [ComVE (SubTask C)](#comve-subtask-c) | Nonsensical Statement | [CNLG](#constrained-nlg) | 22.4 / 2.58  (**BLEU**)
-| [LAMA Probes](#lama-probes) | General | [LMP](#lm-probing-tasks) | N/A 
-| [NumerSense](#numersense) | Numerical | [LMP](#lm-probing-tasks) | 70.4 /  96.3 (**Acc. %**) 
-| [ReCoRD](#ReCoRD) | News Articles | [RC](#reading-comprehension) | 91.21 / 91.69 (**F1**) 
-| [CosmosQA](#cosmos-QA) | Everyday Narratives | [RC](#reading-comprehension) | 91.79 / 94.00  (**Acc. %**) 
-| [TWC](#twc) | Objects | [TG](#text-game) | N/A |
-| [LOCATEDNEAR](#locatednear-relation-extraction) | Objects | [Others](#other-related-datasets) | 65.3 / 68.0 (**Acc. %**) 
-| [GLUE](#glue-and-superglue-benchmark) | General | [Others](#other-related-datasets) | 97.8 / 97.8 (**Acc. %**) 
-| [SuperGLUE](#glue-and-superglue-benchmark) | General | [Others](#other-related-datasets) | 98.4 / 100 (**Acc. %**) 
+<details markdown="block">
+  <summary>Summary Table</summary>
+{: .fs-3 .text-delta .text-blue-200}
+  
+| Name | Quick Link | Focus | Format |  SotA vs. Human 
+| :------------:| :-----: | :-----: | :------: | :---------: | :-------: | :-----------: |
+| [CommonsenseQA](#commonsenseqa) | [Project Website](https://www.tau-nlp.org/commonsenseqa) | General | [MC](#multiple-choice-tasks)  | 83.3 /  88.9 (**Acc. %**) 
+| [SocialIQA](#socialiqa) | [Leaderboard](https://leaderboard.allenai.org/socialiqa/submissions/get-started) | Social  | [MC](#multiple-choice-tasks)  | 83.2 /  88.1 (**Acc. %**) 
+| [PhysicalIQA](#physicaliqa) | [Leaderboard](https://leaderboard.allenai.org/physicaliqa/submissions/get-started) | Physical  | [MC](#multiple-choice-tasks)  | 90.1 /  94.9 (**Acc. %**) 
+| [ARC](#arc) | [Leaderboard](https://leaderboard.allenai.org/arc/submissions/get-started) | Science | [MC](#multiple-choice-tasks)  | 81.4 /  N/A (**Acc. %**) 
+| [OpenbookQA](#openbookqa) | [Leaderboard](https://leaderboard.allenai.org/open_book_qa/submissions/get-started) | Elementary Science | [MC](#multiple-choice-tasks)  | 87.2 /  91.7 (**Acc. %**) 
+| [SWAG](#swag-and-hellaswag) | [Project Website](https://rowanzellers.com/swag/) | Event | [MC](#multiple-choice-tasks)  | 91.7 /  88.0 (**Acc. %**) 
+| [HellaSWAG](#swag-and-hellaswag) | [Project Website](https://rowanzellers.com/hellaswag/) | Event | [MC](#multiple-choice-tasks)  | 93.9 /  95.6 (**Acc. %**) 
+| [WSC](#wsc) | [Project Website](https://cs.nyu.edu/faculty/davise/papers/WinogradSchemas/WS.html) | General, Coreference | [MC](#multiple-choice-tasks)  | 96.6 /  100 (**Acc. %**)
+| [WinoGrande](#winogrande) | [Project Website](https://winogrande.allenai.org/) | General, Coreference | [MC](#multiple-choice-tasks)  | 91.28 /  94 (**Acc. %**) 
+| [COPA](#copa-and-x-copa) | [Paper](https://www.researchgate.net/publication/221251392_Choice_of_Plausible_Alternatives_An_Evaluation_of_Commonsense_Causal_Reasoning) | Causality, Event | [MC](#multiple-choice-tasks)  | 98.4 /  100 (**Acc. %**)
+| [X-COPA](#copa-and-x-copa) | [Github](https://github.com/cambridgeltl/xcopa) | Causality, Event | [MC](#multiple-choice-tasks)  | 76.1 /  97.6 (**Acc. %**)
+| [CODAH](#codah) | [Github](https://github.com/Websail-NU/CODAH) | General, Event | [MC](#multiple-choice-tasks)  | 69.5 /  95.3 (**Acc. %**)
+| [MC-TACO](#mc-taco) | [Leaderboard](https://leaderboard.allenai.org/mctaco/submissions/get-started) | Temporal Commonsense, Events | [MC](#multiple-choice-tasks)  | 80.9 /  75.8 (**Acc. %**) 
+| [aNLI](#anli) | [Leaderboard](https://leaderboard.allenai.org/anli/submissions/get-started) | Abductive Reasoning, Events | [MC](#multiple-choice-tasks)  | 89.7 /  92.9 (**Acc. %**) 
+| [RiddleSense](#riddlesense) | [Project Website](https://inklab.usc.edu/RiddleSense/) | General, Figurative, Counterfactual | [MC](#multiple-choice-tasks)  | 68.8 /  91.3 (**Acc. %**) 
+| [VCR](#visual-commonsense-reasoning) | [Project Website](https://visualcommonsense.com/) | Visual Understanding, Complex Situation | [VQA](#visually-grounded-qa) | 70.8 / 85.0 (**Acc. %**) 
+| [ProtoQA](#protoqa) | [Github](https://github.com/iesl/protoqa-data) | Prototypical Situation | [OE](#open-ended-qa) | 56.0 / 78.4 (**WN. Sim.**)
+| [OpenCSR](#opencsr) | [Paper](https://arxiv.org/abs/2010.14439) | Science | [OE](#open-ended-qa) | 40.8 /  N/A (**Acc. %**) 
+| [CommonGen](#commongen) | [Project Website](https://inklab.usc.edu/CommonGen/) | General, Everyday Scenario | [CNLG](#constrained-nlg) | 33.3 / 52.4  (**SPICE %**) 
+| [Cos-E](#cos-e) | [Github](https://github.com/salesforce/cos-e) | General, Everyday Events | [CNLG](#constrained-nlg) | 58.2 / 95.3  (**Acc. %**) 
+| [ComVE (SubTask C)](#comve-subtask-c) | [Github](https://github.com/wangcunxiang/SemEval2020-Task4-Commonsense-Validation-and-Explanation) | Nonsensical Statement | [CNLG](#constrained-nlg) | 22.4 / 2.58  (**BLEU**)
+| [LAMA Probes](#lama-probes) | [Github](https://github.com/facebookresearch/LAMA) | General | [LMP](#lm-probing-tasks) | N/A 
+| [NumerSense](#numersense) | [Github](https://github.com/INK-USC/NumerSense) | Numerical | [LMP](#lm-probing-tasks) | 70.4 /  96.3 (**Acc. %**) 
+| [ReCoRD](#ReCoRD) | [Project Website](https://sheng-z.github.io/ReCoRD-explorer/) |  News Articles | [RC](#reading-comprehension) | 91.21 / 91.69 (**F1**) 
+| [CosmosQA](#cosmos-QA) | [Project Website](https://wilburone.github.io/cosmos/) | Everyday Narratives | [RC](#reading-comprehension) | 91.79 / 94.00  (**Acc. %**) 
+| [TWC](#twc) | [Paper](https://arxiv.org/abs/2010.03790) | Objects | [TG](#text-game) | N/A |
+| [LOCATEDNEAR](#locatednear-relation-extraction) | [Paper](https://arxiv.org/abs/1711.04204) | Objects | [Others](#other-related-datasets) | 65.3 / 68.0 (**Acc. %**) 
+| [GLUE](#glue-and-superglue-benchmark) | [Project Website](https://gluebenchmark.com/) | General | [Others](#other-related-datasets) | 97.8 / 97.8 (**Acc. %**) 
+| [SuperGLUE](#glue-and-superglue-benchmark) | [Project Website](https://super.gluebenchmark.com/) | General | [Others](#other-related-datasets) | 98.4 / 100 (**Acc. %**) 
 
+</details>
 <!-- Check https://leaderboard.allenai.org/ for more -->
 
 ---
@@ -67,15 +72,8 @@ We present a comprehensive collection of datasets for testing commonsense reason
  and then convert it to markdown by https://tabletomarkdown.com/convert-spreadsheet-to-markdown/ -->
 
  
-| :------------:| 
-| |
-
 <table>
-<td>
-
-</td>
-</table>
-
+<td markdown="block">
 The task format for multiple-choice (**MC**) tasks for commonsense reasoning is as follows.
 - Input: a question, a few candidate answers (i.e., choices).
 - Output: the label of the correct choice. 
@@ -85,6 +83,8 @@ Notes:
 - There is **one and only one correct choice** for each input, and the others are distractors.
 - We do not consider the cases with additional input context (e.g., [passages](#CosmosQA), [images](#visual-commonsense-reasoning)) here.
 - The inputs can be either __interrogative sentences__ (as in CommonsenseQA, SocialIQA, etc.) or __incomplete statements__ (as in SWAG, COPA, WSC, etc.).
+</td>
+</table>
 
  
 ### CommonsenseQA
@@ -145,8 +145,8 @@ Correct Choice: B
 ``` 
 
 
-{: .fs-4 .fw-600 .text-red-300}
-> **Comments**
+<!-- {: .fs-4 .fw-600 .text-red-300}
+> **Comments** -->
 
 <!-- Mention the highlights or known issues of the dataset. -->
 
@@ -175,8 +175,8 @@ Correct Choice: B
 ``` 
 
 
-{: .fs-4 .fw-600 .text-red-300}
-> **Comments**
+<!-- {: .fs-4 .fw-600 .text-red-300}
+> **Comments** -->
 
 <!-- Mention the highlights or known issues of the dataset. -->
 
@@ -204,8 +204,8 @@ Correct Choice: A
 ``` 
 
 
-{: .fs-4 .fw-600 .text-red-300}
-> **Comments**
+<!-- {: .fs-4 .fw-600 .text-red-300}
+> **Comments** -->
 
 <!-- Mention the highlights or known issues of the dataset. -->
 
@@ -236,8 +236,8 @@ Correct Choice: B
 ``` 
 
 
-{: .fs-4 .fw-600 .text-red-300}
-> **Comments**
+<!-- {: .fs-4 .fw-600 .text-red-300}
+> **Comments** -->
 
 <!-- Mention the highlights or known issues of the dataset. -->
 
@@ -266,8 +266,8 @@ Choices:
 Correct Choice: D
 ``` 
 
-{: .fs-4 .fw-600 .text-red-300}
-> **Comments**
+<!-- {: .fs-4 .fw-600 .text-red-300}
+> **Comments** -->
 
 <!-- Mention the highlights or known issues of the dataset. -->
 
@@ -294,8 +294,8 @@ Correct Choice: C
 ``` 
 
 
-{: .fs-4 .fw-600 .text-red-300}
-> **Comments**
+<!-- {: .fs-4 .fw-600 .text-red-300}
+> **Comments** -->
 
 <!-- Mention the highlights or known issues of the dataset. -->
 
@@ -325,8 +325,8 @@ text: The city councilmen refused the demonstrators a permit because they feared
 ``` 
 
 
-{: .fs-4 .fw-600 .text-red-300}
-> **Comments**
+<!-- {: .fs-4 .fw-600 .text-red-300}
+> **Comments** -->
 
 <!-- Mention the highlights or known issues of the dataset. -->
 
@@ -352,8 +352,8 @@ Option2: Monica
 Correct Option: Option1
 ``` 
 
-{: .fs-4 .fw-600 .text-red-300}
-> **Comments**
+<!-- {: .fs-4 .fw-600 .text-red-300}
+> **Comments** -->
 
 <!-- Mention the highlights or known issues of the dataset. -->
 
@@ -380,8 +380,8 @@ Alternative 2: He dropped a hammer on his foot.
 Correct Choice: Alternative 2
 ``` 
 
-{: .fs-4 .fw-600 .text-red-300}
-> **Comments**
+<!-- {: .fs-4 .fw-600 .text-red-300}
+> **Comments** -->
 
 <!-- Mention the highlights or known issues of the dataset. -->
 
@@ -403,8 +403,9 @@ Alternative 2: Dell'acqua fluì dal beccuccio.
 Correct Choice: Alternative 1
 ``` 
 
+<!-- 
 {: .fs-4 .fw-600 .text-red-300}
-> **Comments**
+> **Comments** -->
 
 <!-- Mention the highlights or known issues of the dataset. -->
 
@@ -435,8 +436,8 @@ Correct Choice: D
 ``` 
 
 
-{: .fs-4 .fw-600 .text-red-300}
-> **Comments**
+<!-- {: .fs-4 .fw-600 .text-red-300}
+> **Comments** -->
 
 <!-- Mention the highlights or known issues of the dataset. -->
 
@@ -466,8 +467,8 @@ Correct Choice: C
 ``` 
 
 
-{: .fs-4 .fw-600 .text-red-300}
-> **Comments**
+<!-- {: .fs-4 .fw-600 .text-red-300}
+> **Comments** -->
 
 <!-- Mention the highlights or known issues of the dataset. -->
 
@@ -494,8 +495,8 @@ Correct Choice: Hyp1
 ``` 
 
 
-{: .fs-4 .fw-600 .text-red-300}
-> **Comments**
+<!-- {: .fs-4 .fw-600 .text-red-300}
+> **Comments** -->
 
 <!-- Mention the highlights or known issues of the dataset. -->
 
@@ -577,8 +578,8 @@ Correct Choice: D
 
 
 
-{: .fs-4 .fw-600 .text-red-300}
-> **Comments**
+<!-- {: .fs-4 .fw-600 .text-red-300}
+> **Comments** -->
 
 <!-- Mention the highlights or known issues of the dataset. -->
 
@@ -609,8 +610,8 @@ Categories:
     printer/copier (37), office furniture (15), computer equipment (17), stapler (11), files (10), office appliances (5), security systems (1)
 ``` 
 
-{: .fs-4 .fw-600 .text-red-300}
-> **Comments**
+<!-- {: .fs-4 .fw-600 .text-red-300}
+> **Comments** -->
 
 
 ### OpenCSR
@@ -636,8 +637,8 @@ Supporting Facts:
 Weighted Answers: Renewable energy (w1), tree (w2), solar battery (w3)
 ``` 
 
-{: .fs-4 .fw-600 .text-red-300}
-> **Comments**
+<!-- {: .fs-4 .fw-600 .text-red-300}
+> **Comments** -->
 
 ---
 
@@ -666,8 +667,8 @@ BART -- A dog throws a frisbee and a dog catches it.
 T5 -- dog catches a frisbee and throws it to a dog.
 ``` 
 
-{: .fs-4 .fw-600 .text-red-300}
-> **Comments**
+<!-- {: .fs-4 .fw-600 .text-red-300}
+> **Comments** -->
 
 ### Cos-E 
 {: .no_toc }
@@ -690,8 +691,8 @@ CoS-E: Usually a hamburger with friends indicates a good time.
 Correct Choice: have fun
 ``` 
 
-{: .fs-4 .fw-600 .text-red-300}
-> **Comments**
+<!-- {: .fs-4 .fw-600 .text-red-300}
+> **Comments** -->
 
 
 ### ComVE (SubTask C)
@@ -718,8 +719,8 @@ Generate the reason why this statement is against common sense and we will use B
         iii. Most of the fridges aren’t large enough to contain an elephant.
 ```
 
-{: .fs-4 .fw-600 .text-red-300}
-> **Comments**
+<!-- {: .fs-4 .fw-600 .text-red-300}
+> **Comments** -->
 
 
 ---
@@ -753,8 +754,8 @@ sub: alive
 uuid: d4f11631dde8a43beda613ec845ff7d1
 ```
 
-{: .fs-4 .fw-600 .text-red-300}
-> **Comments**
+<!-- {: .fs-4 .fw-600 .text-red-300}
+> **Comments** -->
 
 
 ### NumerSense
@@ -777,8 +778,8 @@ Choices:
 A) One  B) Two  C) Three  D) Four  E) Five
 ``` 
 
-{: .fs-4 .fw-600 .text-red-300}
-> **Comments**
+<!-- {: .fs-4 .fw-600 .text-red-300}
+> **Comments** -->
 
 
 ---
@@ -864,8 +865,8 @@ Correct Choice: B
 - **An illustrative example:** Example of a game walkthrough belonging to the <em>easy</em> difficulty level.
 <img src="../../images/benchmarks/twc.png" width="100%" height="auto" />
 
-{: .fs-4 .fw-600 .text-red-300}
-> **Comments**
+<!-- {: .fs-4 .fw-600 .text-red-300}
+> **Comments** -->
 
 ### AFLWorld
 {: .no_toc }
@@ -899,8 +900,8 @@ Object 2: sea
 Confidence: 1
 ``` 
 
-{: .fs-4 .fw-600 .text-red-300}
-> **Comments**
+<!-- {: .fs-4 .fw-600 .text-red-300}
+> **Comments** -->
 
 
 ### GLUE and SuperGLUE Benchmark 
@@ -982,5 +983,5 @@ Correct Alternative: 1
 ``` -->
 <!-- https://super.gluebenchmark.com/tasks -->
 
-{: .fs-4 .fw-600 .text-red-300}
-> **Comments**
+<!-- {: .fs-4 .fw-600 .text-red-300}
+> **Comments** -->
