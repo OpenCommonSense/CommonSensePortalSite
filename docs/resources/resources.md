@@ -29,23 +29,139 @@ Many resources for commonsense reasoning have been developed, spanning various a
 <details markdown="block">
   <summary>Summary Table</summary>
 {: .fs-3 .text-delta .text-blue-200}
-  
-| Name | Link | Features | Name | Link | Features |
-| :-------:| :-----: | :-----: |:-------:| :-----: | :-----: |
-| [ConceptNet](#commonsense-knowledge)   | [Explore](http://conceptnet.io/)             |       |  [Wikidata](#common-knowledge)     | [Explore](https://www.wikidata.org/wiki/Wikidata:Main\_Page)  |       |
-| [ATOMIC](#commonsense-knowledge)    | [Explore](https://mosaickg.apps.allenai.org/kg\_atomic)   |      | [Wikidata-CS](#common-knowledge)  | [Data](https://zenodo.org/record/3983030#.YGdfk0hKimk)        |      |
-| [ATOMIC2020](#commonsense-knowledge)   | [Data](https://allenai.org/data/atomic-2020)           |      | [YAGO](#common-knowledge) | [Explore](https://yago-knowledge.org/graph/Elvis\_Presley)            |      |
-| [GLUCOSE](#commonsense-knowledge)      | [Data](https://github.com/ElementalCognition/glucose/) |      |[SUMO](#common-knowledge) | [Explore](https://sigma.ontologyportal.org:8443/sigma/Browse.jsp?kb=SUMO)|       |
-| [WebChild](#commonsense-knowledge)     | [Explore](https://gate.d5.mpi-inf.mpg.de/webchild/)  |      | [DOLCE](#common-knowledge) | [Data](ttp://www.loa.istc.cnr.it/dolce/overview.html)              |      |
-| [QuasimodoKB](#commonsense-knowledge)  | [Explore](https://quasimodo.r2.enst.fr/)             |      | [WordNet](#lexical-knowledge)  | [Explore](http://wordnetweb.princeton.edu/perl/webwn)          |      |
-| [ASCENT](#commonsense-knowledge) | [Explore](https://ascent.mpi-inf.mpg.de/browse)            |      | [FrameNet](#lexical-knowledge)     | [Explore](https://framenet.icsi.berkeley.edu/fndrupal/frameIndex) |       |
-| [SenticNet](#commonsense-knowledge)    | [Explore](https://sentic.net/demos/)                 |      | [MetaNet](#lexical-knowledge) | [Explore](https://metaphor.icsi.berkeley.edu/pub/en/index.php/Category:Metaphor) |       |
-| [HasPartKB](#commonsense-knowledge)    | [Data](https://drive.google.com/drive/folders/1NzjXX46NnpxtgxBrkBWFiUbsXAMdd-lB) |       |  [VerbNet](#lexical-knowledge) | [Explore](https://verbs.colorado.edu/verb-index/vn3.3/)    |       |
-| [CYC](#commonsense-knowledge)        | [Data](https://github.com/asanchez75/opencyc)          |       | [Visual Genome](#visual-knowledge)| [Explore](http://visualgenome.org/VGViz/explore)            |       |
-| [COMET](#commonsense-knowledge)        | [Explore](https://mosaickg.apps.allenai.org/comet\_atomic) |       | [Flickr30k](#visual-knowledge)    | [Data](http://bryanplummer.com/Flickr30kEntities/)  |       |
-| [GenericsKB](#commonsense-knowledge)   | [Data](https://drive.google.com/drive/folders/1vqfVXhJXJWuiiXbUa4rZjOgQoJvwZUoT) |       | [CSKG](#consolidation--surveys) | [Data](https://zenodo.org/record/4331372#.YGdj2EhKimk)       |       |
-| | | | [Dimensions of CSK](#consolidation--surveys) | [Data](https://drive.google.com/drive/u/1/folders/16347KHSloJJZIbgC9V5gH7\_pRx0CzjPQ) |       |
-| | | | [NextKB](#consolidation--surveys)       | [Data](https://www.qrg.northwestern.edu/nextkb/index.html) |       |
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Name</th>
+<th style="text-align:center">Link</th>
+<th style="text-align:center">Features</th>
+<th style="text-align:center">Name</th>
+<th style="text-align:center">Link</th>
+<th style="text-align:center">Features</th>
+</tr>
+</thead>
+<thead>
+<tr>
+<th colspan="3" style="text-align:center">Commonsense Knowledge</th>
+<th colspan="3" style="text-align:center">Common Knowledge</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><a href="#commonsense-knowledge">ConceptNet</a></td>
+<td style="text-align:center"><a href="http://conceptnet.io/">Explore</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a href="#common-knowledge">Wikidata</a></td>
+<td style="text-align:center"><a href="https://www.wikidata.org/wiki/Wikidata:Main\_Page">Explore</a></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="#commonsense-knowledge">ATOMIC</a></td>
+<td style="text-align:center"><a href="https://mosaickg.apps.allenai.org/kg\_atomic">Explore</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a href="#common-knowledge">Wikidata-CS</a></td>
+<td style="text-align:center"><a href="https://zenodo.org/record/3983030#.YGdfk0hKimk">Data</a></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="#commonsense-knowledge">ATOMIC2020</a></td>
+<td style="text-align:center"><a href="https://allenai.org/data/atomic-2020">Data</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a href="#common-knowledge">YAGO</a></td>
+<td style="text-align:center"><a href="https://yago-knowledge.org/graph/Elvis\_Presley">Explore</a></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="#commonsense-knowledge">GLUCOSE</a></td>
+<td style="text-align:center"><a href="https://github.com/ElementalCognition/glucose/">Data</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a href="#common-knowledge">SUMO</a></td>
+<td style="text-align:center"><a href="https://sigma.ontologyportal.org:8443/sigma/Browse.jsp?kb=SUMO">Explore</a></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="#commonsense-knowledge">WebChild</a></td>
+<td style="text-align:center"><a href="https://gate.d5.mpi-inf.mpg.de/webchild/">Explore</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a href="#common-knowledge">DOLCE</a></td>
+<td style="text-align:center"><a href="ttp://www.loa.istc.cnr.it/dolce/overview.html">Data</a></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="#commonsense-knowledge">QuasimodoKB</a></td>
+<td style="text-align:center"><a href="https://quasimodo.r2.enst.fr/">Explore</a></td>
+<td style="text-align:center"></td>
+<td colspan="3" style="text-align:center"><b>Lexical Knowledge</b></td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="#commonsense-knowledge">ASCENT</a></td>
+<td style="text-align:center"><a href="https://ascent.mpi-inf.mpg.de/browse">Explore</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a href="#lexical-knowledge">WordNet</a></td>
+<td style="text-align:center"><a href="http://wordnetweb.princeton.edu/perl/webwn">Explore</a></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="#commonsense-knowledge">SenticNet</a></td>
+<td style="text-align:center"><a href="https://sentic.net/demos/">Explore</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a href="#lexical-knowledge">FrameNet</a></td>
+<td style="text-align:center"><a href="https://framenet.icsi.berkeley.edu/fndrupal/frameIndex">Explore</a></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="#commonsense-knowledge">HasPartKB</a></td>
+<td style="text-align:center"><a href="https://drive.google.com/drive/folders/1NzjXX46NnpxtgxBrkBWFiUbsXAMdd-lB">Data</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a href="#lexical-knowledge">MetaNet</a></td>
+<td style="text-align:center"><a href="https://metaphor.icsi.berkeley.edu/pub/en/index.php/Category:Metaphor">Explore</a></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="#commonsense-knowledge">CYC</a></td>
+<td style="text-align:center"><a href="https://github.com/asanchez75/opencyc">Data</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a href="#lexical-knowledge">VerbNet</a></td>
+<td style="text-align:center"><a href="https://verbs.colorado.edu/verb-index/vn3.3/">Explore</a></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="#commonsense-knowledge">COMET</a></td>
+<td style="text-align:center"><a href="https://mosaickg.apps.allenai.org/comet\_atomic">Explore</a></td>
+<td style="text-align:center"></td>
+<td colspan="3" style="text-align:center"><b>Consolidation & Surveys</b></td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="#commonsense-knowledge">GenericsKB</a></td>
+<td style="text-align:center"><a href="https://drive.google.com/drive/folders/1vqfVXhJXJWuiiXbUa4rZjOgQoJvwZUoT">Data</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a href="#consolidation--surveys">CSKG</a></td>
+<td style="text-align:center"><a href="https://zenodo.org/record/4331372#.YGdj2EhKimk">Data</a></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td colspan="3" style="text-align:center"><b>Visual Knowledge</b></td>
+<td style="text-align:center"><a href="#consolidation--surveys">Dimensions of CSK</a></td>
+<td style="text-align:center"><a href="https://drive.google.com/drive/u/1/folders/16347KHSloJJZIbgC9V5gH7\_pRx0CzjPQ">Data</a></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="#visual-knowledge">Visual Genome</a></td>
+<td style="text-align:center"><a href="http://visualgenome.org/VGViz/explore">Explore</a></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><a href="#consolidation--surveys">NextKB</a></td>
+<td style="text-align:center"><a href="https://www.qrg.northwestern.edu/nextkb/index.html">Data</a></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="#visual-knowledge">Flickr30k</a></td>
+<td style="text-align:center"><a href="http://bryanplummer.com/Flickr30kEntities/">Data</a></td>
+<td style="text-align:center"></td>
+<td colspan="3" style="text-align:center"></td>
+</tr>
+</tbody>
+</table>
 
 </details>
 ---
