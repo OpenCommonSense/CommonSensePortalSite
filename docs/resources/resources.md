@@ -141,18 +141,24 @@ Many resources for commonsense reasoning have been developed, spanning various a
 <td style="text-align:center"></td>
 </tr>
 <tr>
-<td colspan="3" style="text-align:center"><b>Visual Knowledge</b></td>
+<td style="text-align:center"><a href="#commonsense-knowledge">ASER</a></td>
+<td style="text-align:center"><a href="https://hkustconnect-my.sharepoint.com/personal/xliucr_connect_ust_hk/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fxliucr%5Fconnect%5Fust%5Fhk%2FDocuments%2FDocuments%2FHKUST%2FResearch%2FASER%2Fv1%2E0&originalPath=aHR0cHM6Ly9oa3VzdGNvbm5lY3QtbXkuc2hhcmVwb2ludC5jb20vOmY6L2cvcGVyc29uYWwveGxpdWNyX2Nvbm5lY3RfdXN0X2hrL0VvTkMtaEZORXNOTHJadmc3M2kxNGU4Qk1BVURSMjBUbXVMWTBXLTZ0RmhLRVE%5FcnRpbWU9ZjZBN1l0TUcyVWc">Data</a></td>
+<td style="text-align:center"></td>
 <td style="text-align:center"><a href="#consolidation--surveys">Dimensions of CSK</a></td>
 <td style="text-align:center"><a href="https://drive.google.com/drive/u/1/folders/16347KHSloJJZIbgC9V5gH7\_pRx0CzjPQ">Data</a></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td colspan="3" style="text-align:center"><b>Visual Knowledge</b></td>
+<td style="text-align:center"><a href="#consolidation--surveys">NextKB</a></td>
+<td style="text-align:center"><a href="https://www.qrg.northwestern.edu/nextkb/index.html">Data</a></td>
 <td style="text-align:center"></td>
 </tr>
 <tr>
 <td style="text-align:center"><a href="#visual-knowledge">Visual Genome</a></td>
 <td style="text-align:center"><a href="http://visualgenome.org/VGViz/explore">Explore</a></td>
 <td style="text-align:center"></td>
-<td style="text-align:center"><a href="#consolidation--surveys">NextKB</a></td>
-<td style="text-align:center"><a href="https://www.qrg.northwestern.edu/nextkb/index.html">Data</a></td>
-<td style="text-align:center"></td>
+<td colspan="3" style="text-align:center"></td>
 </tr>
 <tr>
 <td style="text-align:center"><a href="#visual-knowledge">Flickr30k</a></td>
@@ -183,7 +189,7 @@ These are sources that have been deliberately created to capture (either wide or
 
 
 > - **Feature:** 
-- **Size** 
+- **Size:** 
 - **Dataset creation:** 
 ><details markdown="block">
 ><summary>Illustrative Example</summary>
@@ -204,7 +210,7 @@ These are sources that have been deliberately created to capture (either wide or
 
 
 > - **Feature:** 
-- **Size** 
+- **Size:** 
 - **Dataset creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
@@ -238,7 +244,7 @@ These are sources that have been deliberately created to capture (either wide or
 
 
 > - **Feature:** 
-- **Size** 
+- **Size:** 
 - **Dataset creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
@@ -257,7 +263,7 @@ These are sources that have been deliberately created to capture (either wide or
 </span> 
 
 > - **Feature:** 
-- **Size** 
+- **Size:** 
 - **Dataset creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
@@ -279,7 +285,7 @@ bike sharply</em>.</p>
 </span> 
 
 > - **Feature:** 
-- **Size** 
+- **Size:** 
 - **Dataset creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
@@ -306,7 +312,7 @@ bike sharply</em>.</p>
 </span> 
 
 > - **Feature:** 
-- **Size** 
+- **Size:** 
 - **Dataset creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
@@ -327,7 +333,7 @@ bike sharply</em>.</p>
 </span> 
 
 > - **Feature:** 
-- **Size** 
+- **Size:** 
 - **Dataset creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
@@ -348,7 +354,7 @@ bike sharply</em>.</p>
 </span> 
 
 > - **Feature:** 
-- **Size** 
+- **Size:** 
 - **Dataset creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
@@ -374,7 +380,7 @@ bike sharply</em>.</p>
 </span> 
 
 > - **Feature:** 
-- **Size** 
+- **Size:** 
 - **Dataset creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
@@ -400,7 +406,7 @@ bike sharply</em>.</p>
 Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cyc is not publicly available. 
 
 > - **Feature:** 
-- **Size** 
+- **Size:** 
 - **Dataset creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
@@ -422,12 +428,12 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
  
 <span class="fs-2">
    [Paper](https://www.aclweb.org/anthology/P19-1470.pdf){: .btn .btn-blue .mr-1 target="_blank" } 
-   [Code](https://github.com/atcbosselut/comet-commonsense){: target="_blank" .btn .btn-green .mr-1 }
    [Explore](https://mosaickg.apps.allenai.org/comet_atomic){: target="_blank" .btn .btn-purple .mr-1 } 
+   [Github](https://github.com/atcbosselut/comet-commonsense){: target="_blank" .btn .btn-white .mr-1 }
 </span> 
 
 > - **Feature:** 
-- **Size** 
+- **Size:** 
 - **Dataset creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
@@ -447,7 +453,7 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
 </span> 
 
 > - **Feature:** 
-- **Size** 
+- **Size:** 
 - **Dataset creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
@@ -473,6 +479,27 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
    ```
 ></details> 
 
+<hr class="thin" />
+
+{: .fs-4 .fw-800 .text-blue-100}
+**📜 *[ASER]* ASER: A Large-scale Eventuality Knowledge Graph**. <br> ✍ Hongming Zhang, Xin Liu, Haojie Pan, Yangqiu Song, Cane Wing-Ki Leung. *(WWW 2020)*
+ 
+<span class="fs-2">
+   [Paper](https://arxiv.org/abs/1905.00270){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Data](https://hkustconnect-my.sharepoint.com/personal/xliucr_connect_ust_hk/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fxliucr%5Fconnect%5Fust%5Fhk%2FDocuments%2FDocuments%2FHKUST%2FResearch%2FASER%2Fv1%2E0&originalPath=aHR0cHM6Ly9oa3VzdGNvbm5lY3QtbXkuc2hhcmVwb2ludC5jb20vOmY6L2cvcGVyc29uYWwveGxpdWNyX2Nvbm5lY3RfdXN0X2hrL0VvTkMtaEZORXNOTHJadmc3M2kxNGU4Qk1BVURSMjBUbXVMWTBXLTZ0RmhLRVE%5FcnRpbWU9ZjZBN1l0TUcyVWc){: target="_blank" .btn .btn-green .mr-1 }
+   [Github](https://github.com/HKUST-KnowComp/ASER/tree/release/1.0){: target="_blank" .btn .btn-white .mr-1 } 
+</span> 
+
+> - **Feature:** 
+- **Size:** 
+- **Dataset creation:** 
+><details markdown="block">
+>  <summary>Illustrative Example</summary>
+>  {: .fs-3 .text-delta .text-red-100}
+>   <img src="../../images/resources/Comet.png" width="70%" height="auto" />
+>  <p>An example image of <em>PersonX acts quickly</em> from the COMET dataset.</p>
+></details> 
+
 ---
 
 ## Common Knowledge
@@ -488,7 +515,7 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
 </span> 
 
 > - **Feature:** 
-- **Size** 
+- **Size:** 
 - **Dataset creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
@@ -508,7 +535,7 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
 </span> 
 
 > - **Feature:** 
-- **Size** 
+- **Size:** 
 - **Dataset creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
@@ -533,7 +560,7 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
 </span> 
 
 > - **Feature:** 
-- **Size** 
+- **Size:** 
 - **Dataset creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
@@ -554,7 +581,7 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
 </span> 
 
 > - **Feature:** 
-- **Size** 
+- **Size:** 
 - **Dataset creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
@@ -574,7 +601,7 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
 </span> 
 
 > - **Feature:** 
-- **Size** 
+- **Size:** 
 - **Dataset creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
@@ -601,7 +628,7 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
 </span> 
 
 > - **Feature:** 
-- **Size** 
+- **Size:** 
 - **Dataset creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
@@ -623,7 +650,7 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
 
 
 > - **Feature:** 
-- **Size** 
+- **Size:** 
 - **Dataset creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
@@ -644,7 +671,7 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
 
 
 > - **Feature:** 
-- **Size** 
+- **Size:** 
 - **Dataset creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
@@ -666,7 +693,7 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
 
 
 > - **Feature:** 
-- **Size** 
+- **Size:** 
 - **Dataset creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
@@ -690,7 +717,7 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
 </span> 
 
 > - **Feature:**
-- **Size** 12,102 in total --- train (9,741), dev (1,221), test (1,140).
+- **Size:** 12,102 in total --- train (9,741), dev (1,221), test (1,140).
 - **Dataset creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
@@ -711,7 +738,7 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
 
 
 > - **Feature:** 
-- **Size** 
+- **Size:** 
 - **Dataset creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
@@ -737,7 +764,7 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
 
 
 > - **Feature:** 
-- **Size** 
+- **Size:** 
 - **Dataset creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
@@ -764,7 +791,7 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
 
 
 > - **Feature:** 
-- **Size** 
+- **Size:** 
 - **Dataset creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
