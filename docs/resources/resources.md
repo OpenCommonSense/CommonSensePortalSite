@@ -4,7 +4,7 @@ title: Knowledge Resources
 nav_order: 2
 toc_list: true
 last_modified_date: April 24 2021
-permalink: /resources
+permalink: /resources/
 ---
 
 # Knowledge Resources for Common Sense  

@@ -4,7 +4,7 @@ title: Analysis
 nav_order: 5
 toc_list: true
 last_modified_date: April 24 2021
-permalink: /analysis
+permalink: /analysis/
 ---
 
 # Analysis about Commonsense Reasoning

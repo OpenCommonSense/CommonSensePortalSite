@@ -4,7 +4,7 @@ title: Reasoning Methods
 nav_order: 4
 toc_list: true
 last_modified_date: April 24 2021
-permalink: /methods
+permalink: /methods/
 ---
 
 # Methods to Commonsense Reasoning
