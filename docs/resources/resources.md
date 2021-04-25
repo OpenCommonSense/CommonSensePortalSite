@@ -328,7 +328,7 @@ bike sharply</em>.</p>
 </span> 
 
 > - **Tags:** 
-- **Size:** 
+- **Size:** Over 2 million disambiguated concepts and activities, connected by over 18 million assertions.
 - **Creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
@@ -355,7 +355,7 @@ bike sharply</em>.</p>
 </span> 
 
 > - **Tags:** 
-- **Size:** 
+- **Size:** Include 80,145 subjects, 78,636 predicates, and 2,262,109 triples. 
 - **Creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
@@ -376,7 +376,7 @@ bike sharply</em>.</p>
 </span> 
 
 > - **Tags:** 
-- **Size:** 
+- **Size:** Contain more than 284,000 subgroups and 92,000 related aspects, with 8.6 million assertions and 4.4 million facets in total.
 - **Creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
@@ -391,13 +391,13 @@ bike sharply</em>.</p>
 **📜 *[SenticNet]* SenticNet 5: Discovering conceptual primitives for sentiment analysis by means of context embeddings**. <br> ✍ Cambria, E., Poria, S., Hazarika, D., & Kwok, K. *(AAAI 2018)*
  
 <span class="fs-2">
-   [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/11559/11418){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Paper](https://sentic.net/senticnet-5.pdf){: .btn .btn-blue .mr-1 target="_blank" } 
    [Data](https://sentic.net/downloads/){: target="_blank" .btn .btn-green .mr-1 } 
    [Explore](https://sentic.net/demos/){: target="_blank" .btn .btn-purple .mr-1 } 
 </span> 
 
 > - **Tags:** 
-- **Size:** 
+- **Size:** Contain around 100,000 commonsense concepts.
 - **Creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
@@ -423,7 +423,7 @@ bike sharply</em>.</p>
 </span> 
 
 > - **Tags:** 
-- **Size:** 
+- **Size:** Contain 50,752 commonsense concepts in total, and a subset of 15,200 concepts is within a Fifth Grade vocabulary.
 - **Creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
@@ -447,7 +447,7 @@ bike sharply</em>.</p>
 </span> 
 
 > - **Tags:** 
-- **Size:** 
+- **Size:** In total, ASER contains 194 million unique eventualities. After bootstrapping, ASER contains 64 million edges among eventualities.
 - **Creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
@@ -470,7 +470,7 @@ bike sharply</em>.</p>
 Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cyc is not publicly available. 
 
 > - **Tags:** 
-- **Size:** 
+- **Size:** The size is unavailable now since the entire CYC is not released publicly.
 - **Creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
@@ -497,7 +497,7 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
 </span> 
 
 > - **Tags:** 
-- **Size:** 
+- **Size:** The size is unavailable since COMET is an automatic knowledge base construction based on ATOMIC and ConceptNet.
 - **Creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
@@ -517,7 +517,7 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
 </span> 
 
 > - **Tags:** 
-- **Size:** 
+- **Size:** Contain around 3.5M+ generic sentence.
 - **Creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
@@ -560,7 +560,7 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
 </span> 
 
 > - **Tags:** 
-- **Size:** 
+- **Size:** Approximately 14.5 million items and 36 million language links.
 - **Creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
@@ -580,7 +580,7 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
 </span> 
 
 > - **Tags:** 
-- **Size:** 
+- **Size:** Contain 71,243 items and 106,103 language links.
 - **Creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
@@ -605,7 +605,7 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
 </span> 
 
 > - **Tags:** 
-- **Size:** 
+- **Size:** Contain 10,124 classes, 303M labels, 1,399M descriptions, 68M aliases, and 343M facts.
 - **Creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
@@ -626,7 +626,7 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
 </span> 
 
 > - **Tags:** 
-- **Size:** 
+- **Size:** Approximately 25,000 terms and 80,000 axioms when all domain ontologies are combined.
 - **Creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
@@ -646,7 +646,7 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
 </span> 
 
 > - **Tags:** 
-- **Size:** 
+- **Size:** The size is unavailable.
 - **Creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
@@ -674,7 +674,7 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
 </span> 
 
 > - **Tags:** 
-- **Size:** 
+- **Size:** 16MB (including 155,327 words organized in 175,979 synsets for a total of 207,016 word-sense pairs).
 - **Creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
@@ -696,7 +696,7 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
 
 
 > - **Tags:** 
-- **Size:** 
+- **Size:** The size is unavailable.
 - **Creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
@@ -717,7 +717,7 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
 
 
 > - **Tags:** 
-- **Size:** 
+- **Size:** The size is unavailable.
 - **Creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
@@ -739,7 +739,7 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
 
 
 > - **Tags:** 
-- **Size:** 
+- **Size:** Approximately 5800 English verbs, and groups verbs according to shared syntactic behaviors, thereby revealing generalizations of verb behavior.
 - **Creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
@@ -764,7 +764,7 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
 </span> 
 
 > - **Tags:**
-- **Size:** 12,102 in total --- train (9,741), dev (1,221), test (1,140).
+- **Size:** 108,077 Images, 5.4 Million Region Descriptions, 1.7 Million Visual Question Answers, 3.8 Million Object Instances, 2.8 Million Attributes, and 2.3 Million Relationships.
 - **Creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
@@ -785,7 +785,7 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
 
 
 > - **Tags:** 
-- **Size:** 
+- **Size:** Contain 244k coreference chains and 276k manually annotated bounding boxes for each of the 31,783 images and 158,915 English captions (five per image) in the original dataset.
 - **Creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
@@ -812,7 +812,7 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
 
 
 > - **Tags:** 
-- **Size:** 
+- **Size:** The size is unavailable.
 - **Creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
@@ -839,7 +839,6 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
 
 
 > - **Tags:** 
-- **Size:** 
 - **Creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
@@ -857,3 +856,7 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
    [Paper](https://ojs.aaai.org/index.php/aimagazine/article/view/2743/2672){: .btn .btn-blue .mr-1 target="_blank" } 
    [Data](https://www.qrg.northwestern.edu/nextkb/index.html){: target="_blank" .btn .btn-green .mr-1 } 
 </span> 
+
+> - **Tags:** 
+- **Size:** The size is unavailable.
+- **Creation:** 
