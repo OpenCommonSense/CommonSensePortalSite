@@ -12,7 +12,7 @@ permalink: /resources
 Editors: [Filip Ilievski](https://usc-isi-i2.github.io/ilievski/){: target="_blank"}, [Yang Qiao](https://www.linkedin.com/in/xiaoyang-qiao/){: target="_blank"}, [Bill Yuchen Lin](https://yuchenlin.xyz/)
 
 
-{: .fs-6 .fw-300 }
+{: .fs-5 .fw-300 }
 
 Many resources for commonsense reasoning have been developed, spanning various acquisition methods, representations, and intended applications. Here we group key resources based on the type of knowledge they capture.
 
