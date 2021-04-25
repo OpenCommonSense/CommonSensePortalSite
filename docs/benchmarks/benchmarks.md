@@ -532,7 +532,7 @@ Correct Choice: Hyp1
 
 ### ComVE (SemEval-2020 Task 4 SubTask A&B)
 {: .no_toc }
-<!-- https://arxiv.org/abs/2007.00236 -->
+
 {: .fs-4 .fw-800 .text-blue-100}
 *SemEval-2020 task 4: Commonsense validation and explanation*. <br> Cunxiang Wang, Shuailong Liang, Yili Jin, Yilong Wang, Xiaodan Zhu, Yue Zhang. **SemEval-2020**
 
