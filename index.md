@@ -12,7 +12,7 @@ last_modified_date: April 24 2021
 
 <table>
 <tr><td markdown="block" class="fs-4">
-An online compendium of commonsense reasoning, initiated by [Bill Yuchen Lin](https://yuchenlin.xyz){: target="_blank"} (PhD candidate at USC).
+--- ***An online compendium of commonsense reasoning research***, initiated by [Bill Yuchen Lin](https://yuchenlin.xyz){: target="_blank"} (PhD candidate at USC).
 </td></tr>
 <tr><td markdown="block" class="fs-4">
 **Main contributors:** [Bill Yuchen Lin](https://yuchenlin.xyz){: target="_blank"}, [Yang Qiao](https://www.linkedin.com/in/xiaoyang-qiao/){: target="_blank"}, [Filip Ilievski](https://usc-isi-i2.github.io/ilievski/){: target="_blank"}, [Pei Zhou](https://sites.google.com/g.ucla.edu/peizhou/home){: target="_blank"}, [Peifeng Wang](https://scholar.google.com/citations?user=3jfQnM4AAAAJ&hl=en){: target="_blank"}, ..., and [you](#how-can-i-contribute)!
@@ -66,3 +66,17 @@ This site needs your help to grow!
 Join us on Github to improve this portal site as editors. We also have a Slack workspace to collect suggestions for this site and to connect people working on commonsense reasoning. Feel free to just drop in and say hi! :)
 
 [Github](https://github.com/OpenCommonSense/CommonSensePortalSite){: .btn .btn-green .mr-2 target="_blank" .fs-3 }  [Slack](https://join.slack.com/t/opencommonsense/shared_invite/zt-odc5euyf-HXyMjROwwsH2wbc0poCAFg){: .btn .btn-blue.mr-2 target="_blank" .fs-3 } 
+
+
+--- 
+
+**Cited as**
+```bib
+@article{commonsenserun,
+  title   = "An Online Compendium for Commonsense Reasoning Research.",
+  author  = "Lin, Bill Yuchen and Qiao, Yang and Ilievski, Filip and Zhou, Pei and Wang, Peifeng and Ren, Xiang", 
+  journal = "commonsense.run",
+  year    = "2021",
+  url     = "https://commonsense.run"
+}
+```
