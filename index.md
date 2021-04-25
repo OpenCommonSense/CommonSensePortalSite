@@ -26,7 +26,7 @@ An online compendium of commonsense reasoning, initiated by [Bill Yuchen Lin](ht
 This portal site is here to provide easy access to a comprehensive collection of resources, datasets, publications that are related to *commonsense reasoning*. 
 
 
-![Machine Common Sense](https://www.darpa.mil/DDM_Gallery/teaching-machines-619-316.jpg){: style="width:80%"}
+![Machine Common Sense](https://www.darpa.mil/DDM_Gallery/teaching-machines-619-316.jpg){: style="width:60%"}
 
 
 
