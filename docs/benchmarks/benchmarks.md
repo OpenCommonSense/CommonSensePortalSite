@@ -541,7 +541,7 @@ Correct Choice: Hyp1
 
 > - **Topics:** General. General commonsense assertions in everyday life.
 - **Size & Split:**  11,997 instances splitted into 10,000 training set, 997 development set, and 1,000 test set.
-- **Dataset creation:**  
+- **Dataset creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
 >  {: .fs-3 .text-delta .text-red-100}
@@ -550,19 +550,19 @@ Task A: Validation
 Task: Which statement of the two is against common sense?
 Statement1: He put a turkey into the fridge.
 Statement2: He put an elephant into the fridge.
- 
 Task B: Explanation (Multi-Choice)
 Task: Select the most corresponding reason why this statement is against common sense.
 Statement: He put an elephant into the fridge.
 A: An elephant is much bigger than a fridge.
 B: Elephants are usually white while fridges are usually white.
 C: An elephant cannot eat a fridge.
-```  
+``` 
 ></details> 
-
 <!-- {: .fs-4 .fw-600 .text-red-300}
 > **Comments** -->
+
 <!-- Mention the highlights or known issues of the dataset. -->
+
 
 ### RiddleSense
 {: .no_toc }
