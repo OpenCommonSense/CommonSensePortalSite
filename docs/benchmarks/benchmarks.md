@@ -4,7 +4,7 @@ title: Benchmark Datasets
 nav_order: 3
 toc_list: true
 last_modified_date: March 26 2021
-permalink: /datasets/
+permalink: /datasets
 ---
 
 # Benchmark Datasets for Commonsense Reasoning
@@ -27,7 +27,7 @@ We present a comprehensive collection of datasets for testing commonsense reason
 
 <details markdown="block">
   <summary>Summary Table</summary>
-{: .fs-4 .text-delta .text-red-200 style="font-weight:800"}
+{: .fs-4 .text-delta .text-blue-200 style="font-weight:800"}
   
 | Name | Link | Tags | Format |  SotA vs. Human 
 | :------------:| :-----: | :-----: | :------: | :---------: | :-------: | :-----------: |
@@ -55,6 +55,7 @@ We present a comprehensive collection of datasets for testing commonsense reason
 | [ComVE (SubTask C)](#comve-subtask-c) | [Link](https://github.com/wangcunxiang/SemEval2020-Task4-Commonsense-Validation-and-Explanation) | Nonsensical Statement | [CNLG](#constrained-nlg) | 22.4 / 2.58  (**BLEU**)
 | [LAMA Probes](#lama-probes) | [Link](https://github.com/facebookresearch/LAMA) | General | [LMP](#lm-probing-tasks) | N/A 
 | [NumerSense](#numersense) | [Link](https://github.com/INK-USC/NumerSense) | Numerical | [LMP](#lm-probing-tasks) | 70.4 /  96.3 (**Acc. %**) 
+| [RICA](#RICA) | [Link](https://sites.google.com/usc.edu/rica) | General | [LMP](#lm-probing-tasks) | 52.2 /  91.7 (**Acc. %**)
 | [ReCoRD](#ReCoRD) | [Link](https://sheng-z.github.io/ReCoRD-explorer/) |  News Articles | [RC](#reading-comprehension) | 91.21 / 91.69 (**F1**) 
 | [CosmosQA](#cosmos-QA) | [Link](https://wilburone.github.io/cosmos/) | Everyday Narratives | [RC](#reading-comprehension) | 91.79 / 94.00  (**Acc. %**) 
 | [TWC](#twc) | [Link](https://arxiv.org/abs/2010.03790) | Objects | [TG](#text-game) | N/A |
@@ -532,7 +533,42 @@ Correct Choice: Hyp1
 ### ComVE (SemEval-2020 Task 4 SubTask A&B)
 {: .no_toc }
 <!-- https://arxiv.org/abs/2007.00236 -->
+{: .fs-4 .fw-800 .text-blue-100}
+*SemEval-2020 task 4: Commonsense validation and explanation*. <br> Cunxiang Wang, Shuailong Liang, Yili Jin, Yilong Wang, Xiaodan Zhu, Yue Zhang. **SemEval-2020**
 
+<span class="fs-1">
+[Paper](https://arxiv.org/abs/1906.00363){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://github.com/wangcunxiang/SemEval2020-Task4-Commonsense-Validation-and-Explanation){: target="_blank" .btn .btn-green .mr-1 } [CodaLab](https://competitions.codalab.org/competitions/21080){: target="_blank" .btn .btn-purple .mr-1 } </span>
+
+> - **Topics:** General. General commonsense assertions in everyday life.
+- **Size & Split:**  11,997 instances splitted into 10,000 training set, 997 development set, and 1,000 test set.
+- **Dataset creation:**  
+><details markdown="block">
+>  <summary>Illustrative Example</summary>
+>  {: .fs-3 .text-delta .text-red-100}
+Task A: Validation
+Task: Which statement of the two is against common sense?
+Statement1: He put a turkey into the fridge.
+Statement2: He put an elephant into the fridge.
+ 
+Task B: Explanation (Multi-Choice)
+Task: Select the most corresponding reason why this statement is against common sense.
+Statement: He put an elephant into the fridge.
+A: An elephant is much bigger than a fridge.
+B: Elephants are usually white while fridges are usually white.
+C: An elephant cannot eat a fridge.
+
+Task C: Explanation (Generation)
+Task: Generate the reason why this statement is against common sense and we will use BELU to evaluate it.
+Statement: He put an elephant into the fridge.
+Referential Reasons:
+1. An elephant is much bigger than a fridge.
+2. A fridge is much smaller than an elephant.
+3. Most of the fridges aren’t large enough to contain an elephant
+```  
+></details> 
+
+<!-- {: .fs-4 .fw-600 .text-red-300}
+> **Comments** -->
 
 
 ### RiddleSense
