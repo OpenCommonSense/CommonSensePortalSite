@@ -27,7 +27,7 @@ We present a comprehensive collection of datasets for testing commonsense reason
 
 <details markdown="block">
   <summary>Summary Table</summary>
-{: .fs-4 .text-delta .text-blue-200 style="font-weight:800"}
+{: .fs-4 .text-delta .text-red-200 style="font-weight:800"}
   
 | Name | Link | Tags | Format |  SotA vs. Human 
 | :------------:| :-----: | :-----: | :------: | :---------: | :-------: | :-----------: |
