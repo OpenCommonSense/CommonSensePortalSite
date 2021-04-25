@@ -41,7 +41,8 @@ Here we present a collection of papers focusing on the analysis about commonsens
    [Semantic Scholar](https://www.semanticscholar.org/paper/Language-Models-as-Knowledge-Bases-Petroni-Rockt%C3%A4schel/d0086b86103a620a86bc918746df0aa642e2a8a3){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
-**Used Resources:** [ConceptNet](https://conceptnet.io/){: .mr-1 target="_blank"}
+**Used Resources:** [ConceptNet](https://conceptnet.io/){: .mr-1 target="_blank"}, [DOQ](https://github.com/google-research-datasets/distribution-over-quantities){: .mr-1 target="_blank"}, [WordNet](https://wordnet.princeton.edu/){: .mr-1 target="_blank"}, [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page){: .mr-1 target="_blank"}[Wikidata](https://www.english-corpora.org/googlebooks/){: .mr-1 target="_blank"}
+
 
  
 <details markdown="block">
@@ -70,7 +71,7 @@ Here we present a collection of papers focusing on the analysis about commonsens
    [Semantic Scholar](https://www.semanticscholar.org/paper/oLMpics-On-What-Language-Model-Pre-training-Talmor-Elazar/75c85b07d31144af5426829ff79b2b061de32124){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
-**Used Resources:** 
+**Used Resources:** [ConceptNet](https://conceptnet.io/){: .mr-1 target="_blank"}
 <details markdown="block">
   <summary>Abstract</summary>
   {: .fs-3 .text-delta .text-blue-100}
