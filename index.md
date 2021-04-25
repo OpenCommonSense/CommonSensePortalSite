@@ -67,10 +67,9 @@ Join us on Github to improve this portal site as editors. We also have a Slack w
 
 [Github](https://github.com/OpenCommonSense/CommonSensePortalSite){: .btn .btn-green .mr-2 target="_blank" .fs-3 }  [Slack](https://join.slack.com/t/opencommonsense/shared_invite/zt-odc5euyf-HXyMjROwwsH2wbc0poCAFg){: .btn .btn-blue.mr-2 target="_blank" .fs-3 } 
 
+ 
 
---- 
-
-**Cited as**
+<!-- **Cited as**
 ```bib
 @article{commonsenserun,
   title   = "An Online Compendium for Commonsense Reasoning Research.",
@@ -79,4 +78,5 @@ Join us on Github to improve this portal site as editors. We also have a Slack w
   year    = "2021",
   url     = "https://commonsense.run"
 }
-```
+``` --> 
+<!-- used for generating the html -->
