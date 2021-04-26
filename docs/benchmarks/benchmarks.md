@@ -42,11 +42,12 @@ We present a comprehensive collection of datasets for testing commonsense reason
 | [WinoGrande](#winogrande) | [Link](https://winogrande.allenai.org/) | General, Coreference | [MC](#multiple-choice-tasks)  | 91.28 /  94 (**Acc. %**) 
 | [COPA](#copa-and-x-copa) | [Link](https://www.researchgate.net/publication/221251392_Choice_of_Plausible_Alternatives_An_Evaluation_of_Commonsense_Causal_Reasoning) | Causality, Event | [MC](#multiple-choice-tasks)  | 98.4 /  100 (**Acc. %**)
 | [X-COPA](#copa-and-x-copa) | [Link](https://github.com/cambridgeltl/xcopa) | Causality, Event | [MC](#multiple-choice-tasks)  | 76.1 /  97.6 (**Acc. %**)
-| [CODAH](#codah) | [Link](https://github.com/Websail-NU/CODAH) | General, Event | [MC](#multiple-choice-tasks)  | 69.5 /  95.3 (**Acc. %**)
+| [CODAH](#codah) | [Link](https://github.com/Websail-NU/CODAH) | General, Event | [MC](#multiple-choice-tasks)  | [84.3](https://arxiv.org/abs/1904.04365) /  95.3 (**Acc. %**)
 | [MC-TACO](#mc-taco) | [Link](https://leaderboard.allenai.org/mctaco/submissions/get-started) | Temporal Commonsense, Events | [MC](#multiple-choice-tasks)  | 80.9 /  75.8 (**Acc. %**) 
 | [aNLI](#anli) | [Link](https://leaderboard.allenai.org/anli/submissions/get-started) | Abductive Reasoning, Events | [MC](#multiple-choice-tasks)  | 89.7 /  92.9 (**Acc. %**) 
 | [RiddleSense](#riddlesense) | [Link](https://inklab.usc.edu/RiddleSense/) | General, Figurative, Counterfactual | [MC](#multiple-choice-tasks)  | 68.8 /  91.3 (**Acc. %**) 
 | [ROCStories](#rocstories) | [Link](https://www.cs.rochester.edu/nlp/rocstories/) | General, Story | [MC](#multiple-choice-tasks)  | 58.5 / 100  (**Acc. %**)
+| [QASC](#qasc) | [Link](https://allenai.org/data/qasc/) | Science | [MC](#multiple-choice-tasks)  | 89.57 / 93.33  (**Acc. %**)
 | [VCR](#visual-commonsense-reasoning) | [Link](https://visualcommonsense.com/) | Visual Understanding, Complex Situation | [VQA](#visually-grounded-qa) | 70.8 / 85.0 (**Acc. %**) 
 | [ProtoQA](#protoqa) | [Link](https://github.com/iesl/protoqa-data) | Prototypical Situation | [OE](#open-ended-qa) | 56.0 / 78.4 (**WN. Sim.**)
 | [OpenCSR](#opencsr) | [Link](https://arxiv.org/abs/2010.14439) | Science | [OE](#open-ended-qa) | 40.8 /  N/A (**Acc. %**) 
@@ -58,6 +59,7 @@ We present a comprehensive collection of datasets for testing commonsense reason
 | [RICA](#RICA) | [Link](https://sites.google.com/usc.edu/rica) | General | [LMP](#lm-probing-tasks) | 52.2 /  91.7 (**Acc. %**)
 | [ReCoRD](#ReCoRD) | [Link](https://sheng-z.github.io/ReCoRD-explorer/) |  News Articles | [RC](#reading-comprehension) | 91.21 / 91.69 (**F1**) 
 | [CosmosQA](#cosmos-QA) | [Link](https://wilburone.github.io/cosmos/) | Everyday Narratives | [RC](#reading-comprehension) | 91.79 / 94.00  (**Acc. %**) 
+| [DREAM](#dream) | [Link](https://dataset.org/dream/) | Everyday Dialogues | [RC](#reading-comprehension) | 91.8 / 95.5  (**Acc. %**) 
 | [TWC](#twc) | [Link](https://arxiv.org/abs/2010.03790) | Objects | [TG](#text-game) | N/A |
 | [LOCATEDNEAR](#locatednear-relation-extraction) | [Link](https://arxiv.org/abs/1711.04204) | Objects | [Others](#other-related-datasets) | 65.3 / 68.0 (**Acc. %**) 
 | [GLUE](#glue-and-superglue-benchmark) | [Link](https://gluebenchmark.com/) | General | [Others](#other-related-datasets) | 97.8 / 97.8 (**Acc. %**) 
@@ -619,6 +621,40 @@ Wrong Ending:
 ``` 
 ></details> 
 
+
+### QASC
+{: .no_toc }
+
+{: .fs-4 .fw-800 .text-blue-100}
+*QASC: A Dataset for Question Answering via Sentence Composition*. <br> Tushar Khot, Peter Clark, Michal Guerquin, Peter Jansen, Ashish Sabharwal. **AAAI, 2020**
+
+<span class="fs-1">
+[Paper](https://arxiv.org/abs/1910.11473){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://allenai.org/data/qasc/){: target="_blank" .btn .btn-green .mr-1 }
+
+> - **Topics:** Elementary and middle school level science, with a focus on fact composition.
+- **Size & Split:** 9,980 8-way multiple-choice questions about grade school science --- train (8,134), dev (926), test (920), with a corpus of 17M sentences.
+- **Dataset creation:** For each multiple-choice question, a worker is provided with one seed fact at the starting point, and asked to find other relevant facts from the corpus and create a question based on them.
+><details markdown="block">
+>  <summary>Illustrative Example</summary>
+>  {: .fs-3 .text-delta .text-red-100}
+```
+Question:: 
+    What can trigger immune response?
+Choices: 
+    (A) decrease strength
+    (B) transplanted organs
+    (C) desire
+    (D) matter vibrating
+    (E) death
+    (F) pain
+    (G) chemical weathering
+    (H) an automobile engine
+Correct choice:
+    (B)
+``` 
+></details> 
+
+
 ---
 
 ## Visually-Grounded QA
@@ -947,7 +983,7 @@ Reference Answers:
 
 > - **Topics:** Commonsense-based reading comprehension with a focus on people's everyday narratives, asking questions concerning on the likely causes or effects of events that require reasoning beyond the exact text spans in the context. 
 - **Task format:** Given a paragraph and a question, a model must select the correct answer from a set of choices.
-- **Size & Split:** Questions/Paragraphs 35,588/21,866 in total --- train (25,588/13,715), dev (26,534/2,460), test (25,263/(5,711).
+- **Size & Split:** Questions/Paragraphs 35,588/21,866 in total --- train (25,588/13,715), dev (26,534/2,460), test (25,263/5,711).
 - **Dataset creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
@@ -963,6 +999,43 @@ Choices:
     C) The writer is bad at doing his own hair.
     D) None of the above choices.
 Correct Choice: B
+``` 
+></details> 
+
+### DREAM
+{: .no_toc }
+
+{: .fs-4 .fw-800 .text-blue-100}
+*DREAM: A Challenge Dataset and Models for Dialogue-Based Reading Comprehension*.<br> Kai Sun, Dian Yu, Jianshu Chen, Dong Yu, Yejin Choi, Claire Cardie. **TACL-19**
+
+<span class="fs-1">
+[Paper](https://arxiv.org/abs/1902.00164){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://dataset.org/dream/){: target="_blank" .btn .btn-green .mr-1 } [Huggingface Card](https://huggingface.co/datasets/dream){: target="_blank" .btn .btn-purple .mr-1 } </span>
+
+> - **Topics:** General. It focuses on in-depth multi-turn multi-party dialogues covering a variety of topics and scenarios in daily life. 34% of questions involve commonsense reasoning.
+- **Task format:** Given a dialogue and a question, a model must select the correct answer from a set of choices.
+- **Size & Split:** Questions/Dialogues 10,197/6,444 in total --- train (6,116/3,869), dev (2,040/1,288), test (2,041/(1,287).
+- **Dataset creation:** The dialogues, questions, and answers are collected from English-as-a-foreign-language examinations designed by human experts.
+><details markdown="block">
+>  <summary>Illustrative Example</summary>
+>  {: .fs-3 .text-delta .text-red-100}
+```
+Dialogue: 
+    W: Tom, look at your shoes. How dirty they are! You must clean them.
+    M: Oh, mum, I just cleaned them yesterday.
+    W: They are dirty now. You must clean them again.
+    M: I do not want to clean them today. Even if I clean them today, they will get dirty again tomorrow.
+    W: All right, then.
+    M: Mum, give me something to eat, please.
+    W: You had your breakfast in the morning, Tom, and you had lunch at school.
+    M: I am hungry again.
+    W: Oh, hungry? But if I give you something to eat today, you will be hungry again tomorrow.
+Question:
+    Why did the woman say that she wouldn’t give him anything to eat?
+Choices:
+    (A) Because his mother wants to correct his bad habit.
+    (B) Because he had lunch at school.
+    (C) Because his mother wants to leave him hungry.
+Correct Choice: (A)
 ``` 
 ></details> 
 
