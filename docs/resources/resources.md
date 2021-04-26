@@ -578,7 +578,7 @@ An excerpt from a story on the TAKING A BATH script.
 
 ## Common Knowledge
 
-|<span class="fs-4">TODO</span>|
+|<span class="fs-4">These sources contain general-domain knowledge, known to many people, but not limited to commonsense knowledge. They include, for instance, knowledge abour entities and events.</span>|
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 *[Wikidata]* Wikidata: a free collaborative knowledgebase**. <br> ✍ Vrandečić, D., & Krötzsch, M. *(ACM 2014)*
@@ -691,7 +691,7 @@ An excerpt from a story on the TAKING A BATH script.
 
 ## Lexical Knowledge
 
-|<span class="fs-4">TODO</span>|
+|<span class="fs-4">These sources contain knowledge about words, their meaning, and their relations to other words.</span>|
 
 
 {: .fs-4 .fw-800 .text-blue-100}
@@ -782,7 +782,7 @@ An excerpt from a story on the TAKING A BATH script.
 
 ## Visual Knowledge
 
-|<span class="fs-4">TODO</span>|
+|<span class="fs-4">Visual knowledge sources make explicit the knowledge that is captured in images.</span>|
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 *[Visual Genome]* Visual genome: Connecting language and vision using crowdsourced dense image annotations**. <br> ✍ Krishna, R., Zhu, Y., Groth, O., Johnson, J., Hata, K., Kravitz, J., Chen, S., Kalantidis, Y., Li, L.J., Shamma, D.A., Bernstein, M.S. *(IJCV 2017)*
@@ -830,7 +830,7 @@ An excerpt from a story on the TAKING A BATH script.
 
 ## Consolidation & Surveys
 
-|<span class="fs-4">TODO </span>|
+|<span class="fs-4">Consolidation efforts consolidate existing sources into a single resource. Surveys provide a single theoretical framework about existing knowledge sources.</span>|
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 *[CSKG]* CSKG: The CommonSense Knowledge Graph**. <br> ✍ Ilievski, F., Szekely, P., Zhang, B. *(ESWC 2021)*
