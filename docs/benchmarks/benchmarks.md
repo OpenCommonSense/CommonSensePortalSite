@@ -60,6 +60,7 @@ We present a comprehensive collection of datasets for testing commonsense reason
 | [ReCoRD](#ReCoRD) | [Link](https://sheng-z.github.io/ReCoRD-explorer/) |  News Articles | [RC](#reading-comprehension) | 91.21 / 91.69 (**F1**) 
 | [CosmosQA](#cosmos-QA) | [Link](https://wilburone.github.io/cosmos/) | Everyday Narratives | [RC](#reading-comprehension) | 91.79 / 94.00  (**Acc. %**) 
 | [DREAM](#dream) | [Link](https://dataset.org/dream/) | Everyday Dialogues | [RC](#reading-comprehension) | 91.8 / 95.5  (**Acc. %**) 
+| [MCScript](#mcscript) | [Link](https://www.aclweb.org/anthology/L18-1564/) | General, Script | [RC](#reading-comprehension) | 72.0 / 98.2 (**Acc. %**) 
 | [TWC](#twc) | [Link](https://arxiv.org/abs/2010.03790) | Objects | [TG](#text-game) | N/A |
 | [LOCATEDNEAR](#locatednear-relation-extraction) | [Link](https://arxiv.org/abs/1711.04204) | Objects | [Others](#other-related-datasets) | 65.3 / 68.0 (**Acc. %**) 
 | [GLUE](#glue-and-superglue-benchmark) | [Link](https://gluebenchmark.com/) | General | [Others](#other-related-datasets) | 97.8 / 97.8 (**Acc. %**) 
@@ -1002,6 +1003,7 @@ Correct Choice: B
 ``` 
 ></details> 
 
+
 ### DREAM
 {: .no_toc }
 
@@ -1015,6 +1017,7 @@ Correct Choice: B
 - **Task format:** Given a dialogue and a question, a model must select the correct answer from a set of choices.
 - **Size & Split:** Questions/Dialogues 10,197/6,444 in total --- train (6,116/3,869), dev (2,040/1,288), test (2,041/(1,287).
 - **Dataset creation:** The dialogues, questions, and answers are collected from English-as-a-foreign-language examinations designed by human experts.
+
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
 >  {: .fs-3 .text-delta .text-red-100}
@@ -1038,6 +1041,37 @@ Choices:
 Correct Choice: (A)
 ``` 
 ></details> 
+
+ 
+
+### MCScript
+{: .no_toc }
+
+{: .fs-4 .fw-800 .text-blue-100}
+*MCScript: A Novel Dataset for Assessing Machine Comprehension Using Script Knowledge*.<br> Simon Ostermann, Ashutosh Modi, Michael Roth, Stefan Thater, Manfred Pinkal. **LREC-18**
+
+<span class="fs-1">
+[Paper](https://www.aclweb.org/anthology/L18-1564/){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](http://www.coli.uni-saarland.de/~simono/page.php?id=datacode){: target="_blank" .btn .btn-green .mr-1 } </span>
+
+> - **Topics:** Assession of the contribution of commonsense-based script knowledge to machine comprehension. Scripts are sequences of events describing stereotypical human activities.
+- **Task format:** Given a script and a subset of related questions, a model must select the correct answer from a set of choices to each question.
+- **Size & Split:** Approximately 2,100 texts and a total of approximately 14,000 questions in total --- train (9,731 questions on 1,470 texts), dev (1,411 questions on 219 texts), and test (2,797 questions on 430 texts).
+- **Dataset creation:** 
+
+><details markdown="block">
+>  <summary>Illustrative Example</summary>
+>  {: .fs-3 .text-delta .text-red-100}
+```
+T: I wanted to plant a tree. I went to the home and garden store and picked a nice oak. Afterwards, I planted it in my garden.
+Q1: What was used to dig the hole?
+A) a shovel  B) his bare hands
+Correct Answer: A
+Q2 When did he plant the tree?
+A) after watering it  B) after taking it home
+Correct Answer: B
+``` 
+></details> 
+
 
 ---
 
