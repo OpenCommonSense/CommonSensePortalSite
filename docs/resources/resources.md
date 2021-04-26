@@ -183,15 +183,23 @@ Many resources for commonsense reasoning have been developed, spanning various a
 <td style="text-align:center" markdown="block">
 </td>
 <td style="text-align:center"><a href="#consolidation--surveys">Dimensions of CSK</a></td>
-<td style="text-align:center"><a target="_blank" href="https://drive.google.com/drive/u/1/folders/16347KHSloJJZIbgC9V5gH7\_pRx0CzjPQ">Link</a></td>
+<td style="text-align:center"><a target="_blank" href="https://drive.google.com/drive/u/1/folders/16347KHSloJJZIbgC9V5gH7_pRx0CzjPQ">Link</a></td>
+<td style="text-align:center" markdown="block">
+</td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="#commonsense-knowledge">InScript</a></td>
+<td style="text-align:center"><a target="_blank" href="https://my.hidrive.com/lnk/AgAzHi6B#file">Link</a></td>
+<td style="text-align:center" markdown="block">
+</td>
+<td style="text-align:center"><a href="#consolidation--surveys">NextKB</a></td>
+<td style="text-align:center"><a target="_blank" href="https://www.qrg.northwestern.edu/nextkb/index.html">Link</a></td>
 <td style="text-align:center" markdown="block">
 </td>
 </tr>
 <tr>
 <td colspan="3" style="text-align:center"><b>Visual Knowledge</b></td>
-<td style="text-align:center"><a href="#consolidation--surveys">NextKB</a></td>
-<td style="text-align:center"><a target="_blank" href="https://www.qrg.northwestern.edu/nextkb/index.html">Link</a></td>
-<td style="text-align:center" markdown="block">
+<td colspan="3" style="text-align:center"></td>
 </td>
 </tr>
 <tr>
@@ -543,6 +551,28 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
    ```
 ></details> 
 
+<hr class="thin" />
+
+{: .fs-4 .fw-800 .text-blue-100}
+**📜 *[InScript]* InScript: Narrative texts annotated with script information**. <br> ✍ Ashutosh Modi, Tatjana Anikina, Simon Ostermann, Manfred Pinkal. *(LREC 2016)*
+ 
+<span class="fs-2">
+   [Paper](https://arxiv.org/abs/1703.05260){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Data](https://my.hidrive.com/lnk/AgAzHi6B#file){: target="_blank" .btn .btn-green .mr-1 }
+</span> 
+
+> - **Tags:** 
+- **Size:** Contain a corpus of 1,000 stories centered around 10 different scenarios, giving a total of 1,000 stories with about 200,000 words.
+- **Creation:** 
+><details markdown="block">
+>  <summary>Illustrative Example</summary>
+>  {: .fs-3 .text-delta .text-red-100}
+An excerpt from a story on the TAKING A BATH script.
+```
+   I was sitting on my couch when I decided that I hadn’t taken a bath in a while so I stood up and walked to the bathroom where I turned on the faucet in the sink and began filling the bath with hot water. 
+   While the tub was filling with hot water I put some bubble bath into the stream of hot water coming out of the faucet so that the tub filled with not only hot water[...]
+```
+></details> 
 
 ---
 
