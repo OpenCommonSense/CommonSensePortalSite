@@ -102,8 +102,23 @@ Editors: [Bill Yuchen Lin](https://yuchenlin.xyz/),
 
 - [***Common Sense, the Turing Test, and the Quest for Real AI***](https://mitpress.mit.edu/books/common-sense-turing-test-and-quest-real-ai){: target="_blank"}
     - [Hector J. Levesque](https://www.cs.toronto.edu/~hector/){: target="_blank"}, 2017
-    - Publisher: the MIT Press.
+    - Publisher: MIT Press
 
+- [***The Second Naive Physics Manifesto***](https://dl.acm.org/doi/10.5555/216000.216035){: target="_blank"}
+    - Patrick J. Hayes, 1985
+    - Publisher: Norwoord
+    
+- [***Qualitative Representations: How People Reason and Learn about the Continuous World***](https://mitpress.mit.edu/books/qualitative-representations){: target="_blank"}
+    - [Kenneth D. Forbus](https://users.cs.northwestern.edu/~forbus/){: target="_blank"}, 2019
+    - Publisher: MIT Press
+
+- [***A Formal Theory of Commonsense Psychology: How People Think People Think***](https://mitpress.mit.edu/books/qualitative-representations){: target="_blank"}
+    - [Andrew S. Gordon](https://people.ict.usc.edu/~gordon/){: target="_blank"}, [Jerry R. Hobbs](https://www.isi.edu/~hobbs/){: target="_blank"}, 2017
+    - Publisher: Cambridge University Press
+
+- [***Representations of commonsense knowledge***](https://www.elsevier.com/books/representations-of-commonsense-knowledge/davis/978-1-4832-0770-4){: target="_blank"}
+    - [Ernest Davis](http://www.cs.nyu.edu/faculty/davise/){: target="_blank"}, 2014
+    - Publisher: Morgan Kaufmann
 
 ## Useful links
 
