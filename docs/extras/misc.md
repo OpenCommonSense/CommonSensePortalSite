@@ -9,7 +9,7 @@ permalink: /misc/
 # Additional materials
 {: .no_toc }
 
-Editors: [Bill Yuchen Lin](https://yuchenlin.xyz/), 
+Editors: [Bill Yuchen Lin](https://yuchenlin.xyz/), [Jun Yan](https://junyann.github.io/){: target="_blank"}
 
 ## Table of contents
 {: .no_toc .text-delta .fs-4 style="font-weight:800"}
@@ -49,10 +49,11 @@ Editors: [Bill Yuchen Lin](https://yuchenlin.xyz/),
 
 | Title | Links | Presenters |  Location  | 
 | :------------:| :-----: | :------: | :----------: |
-| **Commonsense Reasoning for Natural Language Processing** <br> (ACL-20 Tutorial) | [Project Page](https://homes.cs.washington.edu/~msap/acl2020-commonsense/){: target="_blank"}, [Blog Post](http://veredshwartz.blogspot.com/2021/01/commonsense-reasoning-for-natural.html){: target="_blank"} | Maarten Sap, Vered Shwartz, Antoine Bosselut, Yejin Choi, Dan Roth |  ACL 2020 |
+| **Commonsense Reasoning for Natural Language Processing** <br> (ACL-20 Tutorial) | [Project Page](https://homes.cs.washington.edu/~msap/acl2020-commonsense/){: target="_blank"}, [Blog Post](http://veredshwartz.blogspot.com/2021/01/commonsense-reasoning-for-natural.html){: target="_blank"} | Maarten Sap (UW/AI2), Vered Shwartz (UW/AI2), Antoine Bosselut (UW/AI2), Yejin Choi (UW/AI2), Dan Roth  (UPenn) |  ACL 2020 |
+| **Common Sense Knowledge Graphs** <br> (ISWC-20 Tutorial) | [Project Page](https://usc-isi-i2.github.io/ISWC20/){: target="_blank"} | Filip Ilievski (USC/ISI), Pedro Szekely (USC/ISI), Mayank Kejriwal (USC/ISI) |  ISWC 2020 |
+
 
 ## Articles
-
 
 - [**How to Teach Artificial Intelligence Some Common Sense**](https://www.wired.com/story/how-to-teach-artificial-intelligence-common-sense/){: target="_blank"} by [Clive Thompson](https://twitter.com/pomeranian99){: target="_blank"} from [Wired](https://www.wired.com/){: target="_blank"}  on 2018-11-13
 
@@ -71,28 +72,35 @@ Editors: [Bill Yuchen Lin](https://yuchenlin.xyz/),
 ## Workshops
 
 - **COIN: COmmonsense INference in Natural Language Processing (EMNLP-IJCNLP 2019)**
-    -  [https://coinnlp.github.io/](https://coinnlp.github.io/){: target="_blank"}
+    - @EMNLP-IJCNLP 2019: [https://coinnlp.github.io/](https://coinnlp.github.io/){: target="_blank"}
     - Organizers: 
         - Peter Clark, Allen Institute for AI
         - Simon Ostermann, Saarland University
         - Michael Roth, Saarland University / University of Stuttgart
         - Sheng Zhang, Johns Hopkins University
 
-- **CSKGs: Workshop on Common Sense Knowledge Graphs (AAAI 2021 and ISWC 2020)**
-    - AAAI 2021: [https://usc-isi-i2.github.io/AAAI21workshop/](https://usc-isi-i2.github.io/AAAI21workshop/){: target="_blank"}
-        - Organizers: 
-            - Filip Ilievski (USC/ISI) 
-            - Alessandro Oltramari (Bosch Research and Technology Center)
-            - Deborah McGuinness (Rensselaer Polytechnic Institute)
-            - Pedro Szekely (USC/ISI)
-    - ISWC 2020: [https://usc-isi-i2.github.io/ISWC20/](https://usc-isi-i2.github.io/ISWC20/){: target="_blank"}
-        - Organizers: 
-            - Filip Ilievski (USC/ISI) 
-            - Pedro Szekely (USC/ISI)
-            - Mayank Kejriwal (USC/ISI)
+- **CSKGs: Workshop on Common Sense Knowledge Graphs (AAAI 2021)**
+    - @AAAI 2021: [https://usc-isi-i2.github.io/AAAI21workshop/](https://usc-isi-i2.github.io/AAAI21workshop/){: target="_blank"}
+    - Organizers: 
+        - Filip Ilievski (USC/ISI) 
+        - Alessandro Oltramari (Bosch Research and Technology Center)
+        - Deborah McGuinness (Rensselaer Polytechnic Institute)
+        - Pedro Szekely (USC/ISI)
 
 
 
+
+## Lectures 
+
+- CIS 700 - Commonsense Reasoning 
+    - 19'Spring @ UPenn 
+    - Instructed by Prof. Dan Roth
+    - [Course Website](https://www.seas.upenn.edu/~cis700dr/Spring19/){: target="_blank"}
+
+- CIS 700 - Reasoning for Natural Language Understanding
+    - 20'Spring @ UPenn
+    - Instructed by Prof. Dan Roth
+    - [Course Website](https://www.seas.upenn.edu/~cis700dr/Spring20/){: target="_blank"}
 
 ## Books 
 
