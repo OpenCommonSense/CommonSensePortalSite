@@ -99,7 +99,7 @@ Here we present a collection of papers focusing on the analysis about commonsens
    [Semantic Scholar](https://www.semanticscholar.org/paper/Evaluating-Commonsense-in-Pre-trained-Language-Zhou-Zhang/9399b0f7a7dfb7b3497fbd91d0bf6542513b0904){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
-**Used Resources:** [Sense Making](https://github.com/wangcunxiang/Sen-Making-and-Explanation){: .mr-1 target="_blank"}, [WSC](/docs/datasets#wsc){: .mr-1 target="_blank"}, [SWAG](/docs/datasets#swag-and-hellaswag){: .mr-1 target="_blank"}, [HellaSwag](/docs/datasets#swag-and-hellaswag){: .mr-1 target="_blank"},[Argument Reasoning Comprehension](https://github.com/UKPLab/argument-reasoning-comprehension-task){: .mr-1 target="_blank"}
+**Used Resources:** [Sense Making](https://github.com/wangcunxiang/Sen-Making-and-Explanation){: .mr-1 target="_blank"}, [WSC](/datasets#wsc){: .mr-1 target="_blank"}, [SWAG](/datasets#swag-and-hellaswag){: .mr-1 target="_blank"}, [HellaSwag](/datasets#swag-and-hellaswag){: .mr-1 target="_blank"},[Argument Reasoning Comprehension](https://github.com/UKPLab/argument-reasoning-comprehension-task){: .mr-1 target="_blank"}
 <details markdown="block">
   <summary>Abstract</summary>
   {: .fs-3 .text-delta .text-blue-100}
@@ -164,7 +164,7 @@ Here we present a collection of papers focusing on the analysis about commonsens
    [Semantic Scholar](https://www.semanticscholar.org/paper/Does-BERT-Solve-Commonsense-Task-via-Commonsense-Cui-Cheng/d8ea988072efb115ee8c85e159c1fa4a816360b5){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
-**Used Resources:** [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"}, [ConceptNet](https://conceptnet.io/){: .mr-1 target="_blank"}
+**Used Resources:** [CommonsenseQA](/datasets#commonsenseqa){: .mr-1 target="_blank"}, [ConceptNet](https://conceptnet.io/){: .mr-1 target="_blank"}
 <details markdown="block">
   <summary>Abstract</summary>
   {: .fs-3 .text-delta .text-blue-100}
@@ -192,7 +192,7 @@ Here we present a collection of papers focusing on the analysis about commonsens
    [Semantic Scholar](https://www.semanticscholar.org/paper/Learning-to-Deceive-Knowledge-Graph-Augmented-via-Raman-Agarwal/a5654d5244b908a08936fcb7c13c03124dd5648e){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
-**Used Resources:** [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"}, [ConceptNet](https://conceptnet.io/){: .mr-1 target="_blank"}
+**Used Resources:** [CommonsenseQA](/datasets#commonsenseqa){: .mr-1 target="_blank"}, [ConceptNet](https://conceptnet.io/){: .mr-1 target="_blank"}
 <details markdown="block">
   <summary>Abstract</summary>
   {: .fs-3 .text-delta .text-blue-100}
@@ -257,7 +257,7 @@ Ninareh Mehrabi\*, Pei Zhou\*, Fred Morstatter, Jay Pujara, Xiang Ren, Aram Gals
    [Semantic Scholar](https://www.semanticscholar.org/paper/WinoWhy%3A-A-Deep-Diagnosis-of-Essential-Commonsense-Zhang-Zhao/827ac6fd6bd5a0a7607085c10e27641a60b5e4fe){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
-**Used Resources:** [WSC](/docs/datasets#wsc){: .mr-1 target="_blank"}
+**Used Resources:** [WSC](/datasets#wsc){: .mr-1 target="_blank"}
 <details markdown="block">
   <summary>Abstract</summary>
   {: .fs-3 .text-delta .text-blue-100}
@@ -312,7 +312,7 @@ Ninareh Mehrabi\*, Pei Zhou\*, Fred Morstatter, Jay Pujara, Xiang Ren, Aram Gals
    [Semantic Scholar](https://www.semanticscholar.org/paper/An-Analysis-of-Dataset-Overlap-on-Winograd-Style-Emami-Trischler/16992445d3114d27fb64d2d00cd35b421bef7930){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
-**Used Resources:** [WSC](/docs/datasets#wsc){: .mr-1 target="_blank"}
+**Used Resources:** [WSC](/datasets#wsc){: .mr-1 target="_blank"}
 <details markdown="block">
   <summary>Abstract</summary>
   {: .fs-3 .text-delta .text-blue-100}

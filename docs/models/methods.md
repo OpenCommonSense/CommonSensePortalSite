@@ -58,7 +58,7 @@ This line of research focuses on how we can use a language model to solve common
    [Semantic Scholar](https://www.semanticscholar.org/paper/A-Simple-Method-for-Commonsense-Reasoning-Trinh-Le/d7b6753a2d4a2b286c396854063bde3a91b75535){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
-**Evaluation Tasks:** [WSC](/docs/datasets#wsc){: .mr-1 target="_blank"} 
+**Evaluation Tasks:** [WSC](/datasets#wsc){: .mr-1 target="_blank"} 
 
 **Tags:** `unsupervised`{: .method-label}, `coreference`{: .method-label}
 
@@ -90,7 +90,7 @@ This line of research focuses on how we can use a language model to solve common
    [Semantic Scholar](https://www.semanticscholar.org/paper/Attention-Is-(not)-All-You-Need-for-Commonsense-Klein-Nabi/8e82dd83df5023df86868c59a03fd7872fb5931e){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
-**Evaluation Tasks:** [WSC](/docs/datasets#wsc){: .mr-1 target="_blank"} 
+**Evaluation Tasks:** [WSC](/datasets#wsc){: .mr-1 target="_blank"} 
 
 **Tags:** `unsupervised`{: .method-label}, `coreference`{: .method-label}
 
@@ -112,6 +112,39 @@ This line of research focuses on how we can use a language model to solve common
 
 
 {: .fs-4 .fw-800 .text-blue-100}
+**📜 Unsupervised Commonsense Question Answering with Self-Talk**. <br> ✍ Vered Shwartz, Peter West, Ronan Le Bras, Chandra Bhagavatula, Yejin Choi *(EMNLP 2020)*
+ 
+<span class="fs-2">
+   [Paper](){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Code](https://github.com/vered1986/self_talk){: target="_blank" .btn .btn-green .mr-1 } 
+   [Semantic Scholar](https://www.semanticscholar.org/paper/Unsupervised-Commonsense-Question-Answering-with-Shwartz-West/a45b430f057a48b2d4c31c9278248c2b43780bf8){: .btn .btn-purple .mr-1 target="_blank" }
+</span> 
+
+**Evaluation Tasks:** [CommonsenseQA](/datasets#commonsenseqa){: .mr-1 target="_blank"}, [SocialIQa](/datasets#socialiqa){: .mr-1 target="_blank"}, [PIQA](/datasets#physicaliqa){: .mr-1 target="_blank"}, [MC-TACO](/datasets#mc-taco){: .mr-1 target="_blank"}, [COPA](/datasets#copa-and-x-copa){: .mr-1 target="_blank"}, [WinoGrande](/datasets#winogrande){: .mr-1 target="_blank"}
+
+**Tags**: `unsupervised`{: .method-label}, `text-to-text`{: .method-label}, `multi-task`{: .method-label}
+
+<details markdown="block">
+  <summary>Abstract</summary>
+  {: .fs-3 .text-delta .text-blue-100}
+  ```
+  Natural language understanding involves reading between the lines with implicit background knowledge. Current systems either rely on pre-trained language models as the sole implicit source of world knowledge, or resort to external knowledge bases (KBs) to incorporate additional relevant knowledge. We propose an unsupervised framework based on self-talk as a novel alternative to multiple-choice commonsense tasks. Inspired by inquiry-based discovery learning (Bruner, 1961), our approach inquires language models with a number of information seeking questions such as "what is the definition of ..." to discover additional background knowledge. Empirical results demonstrate that the self-talk procedure substantially improves the performance of zero-shot language model baselines on four out of six commonsense benchmarks, and competes with models that obtain knowledge from external KBs. While our approach improves performance on several benchmarks, the self-talk induced knowledge even when leading to correct answers is not always seen as useful by human judges, raising interesting questions about the inner-workings of pre-trained language models for commonsense reasoning.
+  ``` 
+</details> 
+{: .fs-5 .fw-600 .text-blue-300}
+
+<details markdown="block">
+  <summary>Comments</summary>
+  {: .fs-3 .text-delta .text-red-100}
+</details> 
+{: .fs-3 .fw-600 .text-red-300}
+
+<hr class="thin" /> 
+
+
+
+
+{: .fs-4 .fw-800 .text-blue-100}
 **📜 Pre-training Text-to-Text Transformers for Concept-centric Common Sense**. <br> ✍ Wangchunshu Zhou, Dong-Ho Lee, Ravi Kiran Selvam, Seyeon Lee, Bill Yuchen Lin, Xiang Ren *(ICLR 2021)*
  
 <span class="fs-2">
@@ -120,7 +153,7 @@ This line of research focuses on how we can use a language model to solve common
    [Semantic Scholar](https://www.semanticscholar.org/paper/Pre-training-Text-to-Text-Transformers-for-Common-Zhou-Lee/fffe61fbd225b59d084148611c49585860e24728){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
-**Evaluation Tasks:** [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"}, [OpenbookQA](/docs/datasets#openbookqa){: .mr-1 target="_blank"}, [PIQA](/docs/datasets#physicaliqa){: .mr-1 target="_blank"}, [aNLI](/docs/datasets#anli){: .mr-1 target="_blank"}, [CommonGEN](/docs/datasets#commongen){: .mr-1 target="_blank"}
+**Evaluation Tasks:** [CommonsenseQA](/datasets#commonsenseqa){: .mr-1 target="_blank"}, [OpenbookQA](/datasets#openbookqa){: .mr-1 target="_blank"}, [PIQA](/datasets#physicaliqa){: .mr-1 target="_blank"}, [aNLI](/datasets#anli){: .mr-1 target="_blank"}, [CommonGEN](/datasets#commongen){: .mr-1 target="_blank"}
 
 **Tags**: `pre-training`{: .method-label}, `supervised`{: .method-label}, `text-to-text`{: .method-label}, `multi-task`{: .method-label}
 
@@ -151,7 +184,7 @@ This line of research focuses on how we can use a language model to solve common
    [Demo](https://unifiedqa.apps.allenai.org/){: .btn .btn-yellow .mr-1 target="_blank" }
 </span> 
 
-**Evaluation Tasks:** [ARC](/docs/datasets#arc){: .mr-1 target="_blank"}, [OpenbookQA](/docs/datasets#openbookqa){: .mr-1 target="_blank"}, [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"}, etc.
+**Evaluation Tasks:** [ARC](/datasets#arc){: .mr-1 target="_blank"}, [OpenbookQA](/datasets#openbookqa){: .mr-1 target="_blank"}, [CommonsenseQA](/datasets#commonsenseqa){: .mr-1 target="_blank"}, etc.
 
 **Tags**: `pre-training`{: .method-label}, `supervised`{: .method-label}, `text-to-text`{: .method-label}, `multi-task`{: .method-label}
 
@@ -202,7 +235,7 @@ These methods uses external commonsense knowledge as during the training and inf
    [Semantic Scholar](https://www.semanticscholar.org/paper/KagNet%3A-Knowledge-Aware-Graph-Networks-for-Lin-Chen/710d183174844da5b7f392667f3cc25d2b098dde){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
-**Evaluation Tasks:** [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"} 
+**Evaluation Tasks:** [CommonsenseQA](/datasets#commonsenseqa){: .mr-1 target="_blank"} 
 
 **Tags**: `supervised`{: .method-label}, `lm+gnn`{: .method-label}, `kg-aware`{: .method-label}, `multiple-choice`{: .method-label}, `interpretable`{: .method-label}
 
@@ -232,7 +265,7 @@ These methods uses external commonsense knowledge as during the training and inf
    [Semantic Scholar](https://www.semanticscholar.org/paper/Scalable-Multi-Hop-Relational-Reasoning-for-Feng-Chen/9e979667aa81c294062c02ab3a48e87e47c54987){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
-**Evaluation Tasks:** [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"}, [OpenbookQA](/docs/datasets#openbookqa){: .mr-1 target="_blank"} 
+**Evaluation Tasks:** [CommonsenseQA](/datasets#commonsenseqa){: .mr-1 target="_blank"}, [OpenbookQA](/datasets#openbookqa){: .mr-1 target="_blank"} 
 
 **Tags**: `supervised`{: .method-label}, `lm+gnn`{: .method-label}, `kg-aware`{: .method-label}, `multiple-choice`{: .method-label}, `interpretable`{: .method-label}
 
@@ -261,7 +294,7 @@ These methods uses external commonsense knowledge as during the training and inf
    [Semantic Scholar](https://www.semanticscholar.org/paper/Connecting-the-Dots%3A-A-Knowledgeable-Path-Generator-Wang-Peng/ab7ab14f07321f6338c6f2364d3d3a46bf2045e2){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
-**Evaluation Tasks:** [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"}, [OpenbookQA](/docs/datasets#openbookqa){: .mr-1 target="_blank"} 
+**Evaluation Tasks:** [CommonsenseQA](/datasets#commonsenseqa){: .mr-1 target="_blank"}, [OpenbookQA](/datasets#openbookqa){: .mr-1 target="_blank"} 
 
 **Tags**: `supervised`{: .method-label}, `kg-aware`{: .method-label}, `multiple-choice`{: .method-label}, `interpretable`{: .method-label}
 
@@ -291,7 +324,7 @@ These methods uses external commonsense knowledge as during the training and inf
    [Semantic Scholar](https://www.semanticscholar.org/paper/Graph-Based-Reasoning-over-Heterogeneous-External-Lv-Guo/2e840854bcd7ff47f77acd9f88b61aba40560105){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
-**Evaluation Tasks:** [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"} 
+**Evaluation Tasks:** [CommonsenseQA](/datasets#commonsenseqa){: .mr-1 target="_blank"} 
 
 **Tags**: `supervised`{: .method-label}, `lm+gnn`{: .method-label}, `kg-aware`{: .method-label}, `multiple-choice`{: .method-label}, `interpretable`{: .method-label}
 
@@ -321,7 +354,7 @@ These methods uses external commonsense knowledge as during the training and inf
    [Semantic Scholar](https://www.semanticscholar.org/paper/Towards-Generalizable-Neuro-Symbolic-Systems-for-Ma-Francis/a078d53c1eff50123e2b065276663de539a40aa1){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
-**Evaluation Tasks:** [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"}, [DREAM](https://arxiv.org/abs/1902.00164){: .mr-1 target="_blank"}
+**Evaluation Tasks:** [CommonsenseQA](/datasets#commonsenseqa){: .mr-1 target="_blank"}, [DREAM](https://arxiv.org/abs/1902.00164){: .mr-1 target="_blank"}
 
 **Tags**: `supervised`{: .method-label}, `lm+gnn`{: .method-label}, `kg-aware`{: .method-label}, `multiple-choice`{: .method-label}, `interpretable`{: .method-label}
 
@@ -350,7 +383,7 @@ These methods uses external commonsense knowledge as during the training and inf
    [Semantic Scholar](https://www.semanticscholar.org/paper/KG-BART%3A-Knowledge-Graph-Augmented-BART-for-Liu-Wan/997887cff41577752dc832e9475d5bb22c265093){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
-**Evaluation Tasks:** [CommonGEN](/docs/datasets#commongen){: .mr-1 target="_blank"} 
+**Evaluation Tasks:** [CommonGEN](/datasets#commongen){: .mr-1 target="_blank"} 
 
 
 **Tags**: `supervised`{: .method-label}, `lm+gnn`{: .method-label}, `kg-aware`{: .method-label}, `text-generation`{: .method-label}, `interpretable`{: .method-label}
@@ -391,7 +424,7 @@ The following papers aim to use existing resources to create more supervision (t
    [Semantic Scholar](https://www.semanticscholar.org/paper/Align%2C-Mask-and-Select%3A-A-Simple-Method-for-into-Ye-Chen/0ff7f557203d1489110b9d2f89a76245def7b530){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
-**Evaluation Tasks:** [WSC](/docs/datasets#wsc){: .mr-1 target="_blank"}, [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"}
+**Evaluation Tasks:** [WSC](/datasets#wsc){: .mr-1 target="_blank"}, [CommonsenseQA](/datasets#commonsenseqa){: .mr-1 target="_blank"}
 
 **Tags:** `data-augmentation`{: .method-label}, `kg-aware`{: .method-label}, `multiple-choice`{: .method-label}
 
@@ -420,7 +453,7 @@ The following papers aim to use existing resources to create more supervision (t
    [Semantic Scholar](https://www.semanticscholar.org/paper/Generative-Data-Augmentation-for-Commonsense-Yang-Malaviya/dd6f3b6d92ae9448a2000d9690b921f545f00256){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
-**Evaluation Tasks:** [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"}, [WinoGrande](/docs/datasets#winogrande){: .mr-1 target="_blank"}, [CODAH](/docs/datasets#codah){: .mr-1 target="_blank"}, [HellaSwag](/docs/datasets#swag-and-hellaswag){: .mr-1 target="_blank"}
+**Evaluation Tasks:** [CommonsenseQA](/datasets#commonsenseqa){: .mr-1 target="_blank"}, [WinoGrande](/datasets#winogrande){: .mr-1 target="_blank"}, [CODAH](/datasets#codah){: .mr-1 target="_blank"}, [HellaSwag](/datasets#swag-and-hellaswag){: .mr-1 target="_blank"}
 
 **Tags:** `data-augmentation`{: .method-label}, `kg-aware`{: .method-label}, `multiple-choice`{: .method-label}
 
@@ -452,7 +485,7 @@ The following papers aim to use existing resources to create more supervision (t
    [Semantic Scholar](https://www.semanticscholar.org/paper/Knowledge-driven-Data-Construction-for-Zero-shot-in-Ma-Ilievski/c3b7714572bee365eef4f4dfa1839fa5a6ec2dea){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
-**Evaluation Tasks:** [CommonsenseQA](/docs/datasets#commonsenseqa){: .mr-1 target="_blank"}, [aNLI](/docs/datasets#anli){: .mr-1 target="_blank"}, [PhysicalIQA](/docs/datasets#physicaliqa){: .mr-1 target="_blank"}, [SocialIQA](/docs/datasets#socialiqa){: .mr-1 target="_blank"}, [WinoGrande](/docs/datasets#winogrande){: .mr-1 target="_blank"}
+**Evaluation Tasks:** [CommonsenseQA](/datasets#commonsenseqa){: .mr-1 target="_blank"}, [aNLI](/datasets#anli){: .mr-1 target="_blank"}, [PhysicalIQA](/datasets#physicaliqa){: .mr-1 target="_blank"}, [SocialIQA](/datasets#socialiqa){: .mr-1 target="_blank"}, [WinoGrande](/datasets#winogrande){: .mr-1 target="_blank"}
 
 **Tags:** `data-augmentation`{: .method-label}, `kg-aware`{: .method-label}, `multiple-choice`{: .method-label}
 
