@@ -198,6 +198,16 @@ Many resources for commonsense reasoning have been developed, spanning various a
 </td>
 </tr>
 <tr>
+<td style="text-align:center"><a href="#commonsense-knowledge">Social Chemistry 101</a></td>
+<td style="text-align:center"><a target="_blank" href="https://maxwellforbes.com/social-chemistry/">Link</a></td>
+<td style="text-align:center" markdown="block">
+</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center" markdown="block">
+</td>
+</tr>
+<tr>
 <td colspan="3" style="text-align:center"><b>Visual Knowledge</b></td>
 <td colspan="3" style="text-align:center"></td>
 </td>
@@ -567,12 +577,36 @@ Note that the data link is from OpenCyc, which is a subset of Cyc. The entire Cy
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
 >  {: .fs-3 .text-delta .text-red-100}
-An excerpt from a story on the TAKING A BATH script.
+An excerpt from a story on **TAKING A BATH script**.
 ```
    I was sitting on my couch when I decided that I hadn’t taken a bath in a while so I stood up and walked to the bathroom where I turned on the faucet in the sink and began filling the bath with hot water. 
    While the tub was filling with hot water I put some bubble bath into the stream of hot water coming out of the faucet so that the tub filled with not only hot water[...]
 ```
 ></details> 
+
+
+<hr class="thin" />
+
+{: .fs-4 .fw-800 .text-blue-100}
+**📜 *[Social Chemistry 101]* Social Chemistry 101: Learning to Reason about Social and Moral Norms**. <br> ✍ Maxwell Forbes, Jena D. Hwang, Vered Shwartz, Maarten Sap, Yejin Choi. *(EMNLP 2020)*
+ 
+<span class="fs-2">
+   [Paper](https://arxiv.org/abs/2011.00620){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Data](https://maxwellforbes.com/social-chemistry/){: target="_blank" .btn .btn-green .mr-1 }
+</span> 
+
+> - **Tags:** 
+- **Size:** 
+- **Creation:** 
+><details markdown="block">
+>  <summary>Illustrative Example</summary>
+>  {: .fs-3 .text-delta .text-red-100}
+
+```
+
+```
+></details> 
+
 
 ---
 
