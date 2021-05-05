@@ -1112,7 +1112,7 @@ Example of a game walkthrough belonging to the <em>easy</em> difficulty level.
 
 ## Other Related Datasets
 
-### Rainbow
+### Rainbow Benchmark
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
@@ -1125,6 +1125,19 @@ Example of a game walkthrough belonging to the <em>easy</em> difficulty level.
 - **Task format:**  text-to-text 
 - **Size & Split:**  
 - **Dataset creation:** reformatting specific versions of the above datasets to a text-to-text format so that models like T5 and BART.
+
+
+
+### GLUE and SuperGLUE Benchmark 
+{: .no_toc }
+
+{: .fs-4 .fw-800 .text-blue-100}
+*GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding*. <br> Alex Wang, Amanpreet Singh, Julian Michael, Felix Hill, Omer Levy, Samuel R. Bowman. **ICLR-19**
+
+<span class="fs-1">
+[Paper](https://arxiv.org/abs/1804.07461){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://gluebenchmark.com/){: target="_blank" .btn .btn-green .mr-1 } [Huggingface Card](https://huggingface.co/datasets/glue){: target="_blank" .btn .btn-purple .mr-1 }</span>
+
+
 
 ### LocatedNear Relation Extraction
 {: .no_toc }
@@ -1150,88 +1163,5 @@ Object 2: sea
 Confidence: 1
 ``` 
 ></details> 
-<!-- {: .fs-4 .fw-600 .text-red-300}
-> **Comments** -->
-
-
-### GLUE and SuperGLUE Benchmark 
-{: .no_toc }
-
-{: .fs-4 .fw-800 .text-blue-100}
-*GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding*. <br> Alex Wang, Amanpreet Singh, Julian Michael, Felix Hill, Omer Levy, Samuel R. Bowman. **ICLR-19**
-
-<span class="fs-1">
-[Paper](https://arxiv.org/abs/1804.07461){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://gluebenchmark.com/){: target="_blank" .btn .btn-green .mr-1 } [Huggingface Card](https://huggingface.co/datasets/glue){: target="_blank" .btn .btn-purple .mr-1 }</span>
-
-<!-- > - **Topics:** General. A collection of NLU tasks including question answering, sentiment analysis, and textual entailment, and an associated online platform for model evaluation, comparison, and analysis -->
-<!-- - **Task format:** Including single-sentence tasks, similarity and paraphrase tasks, and inference tasks.
-- **Size & Split:** 
-CoLA --- train(8,551), validation(1,043), test(1,063); 
-MultiNLI --- train(392,702), validation matched(9,815), validation mismatched(9,832), test matched(9,796), test mismatched(9,847); 
-SST-2 --- train(67k), test(1.8k); 
-MRPC --- train(3.7k), test(1.7k); 
-STS-B --- train(7k), test(1.4k); 
-QQP --- train(364k), test(391k); 
-QNLI --- train(105k), test(5.4k); 
-RTE --- train(2.5k), test(3k); 
-WNLI --- train(634), test(146).
-- **Dataset creation:** 
-- **An illustrative example:**
-Examples from the diagnostic set. <em>Fwd</em> (resp. <em>Bwd</em>) denotes the label when sentence 1
-(resp. sentence 2) is the premise. Labels are <em>entailment</em> (E), <em>neutral</em> (N), or <em>contradiction</em> (C).
-```
-Example 1
-    Tags: Lexical Entailment (Lexical Semantics), Downward Monotone (Logic)
-    Sentence 1: The timing of the meeting has not been set, according to a Starbucks spokesperson.
-    Sentence 2: The timing of the meeting has not been considered, according to a Starbucks spokesperson.
-    Fwd: N
-    Bwd: E
-Example 2 
-    Tags: Universal Quantifiers (Logic)
-    Sentence 1: Our deepest sympathies are with all those affected by this accident.
-    Sentence 2: Our deepest sympathies are with a victim who was affected by this accident.
-    Fwd: E
-    Bwd: N
-``` 
-
-{: .fs-4 .fw-600 .text-red-300}
-> **Comments**
-
-
-{: .fs-4 .fw-800 .text-blue-100}
-*SuperGLUE: A Stickier Benchmark for General-Purpose Language Understanding Systems*. <br> Alex Wang, Yada Pruksachatkun, Nikita Nangia, Amanpreet Singh, Julian Michael, Felix Hill, Omer Levy, Samuel R. Bowman. **NeurIPS-19**
-
-<span class="fs-1">
-[Paper](https://arxiv.org/abs/1905.00537){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://super.gluebenchmark.com/){: target="_blank" .btn .btn-green .mr-1 } [Huggingface Card](https://huggingface.co/datasets/super_glue){: target="_blank" .btn .btn-purple .mr-1 }</span>
-
-> - **Topics:** General. A new benchmark designed to pose a more rigorous test of language understanding.
-- **Task format:** Besides the task formats in GLUE, SuperGLUE also includes coreference resolution and question answering. 
-- **Size & Split:** 
-BoolQ --- train(9,427), dev(3,270), test(3,245); 
-CB --- train(250), dev(57), test(250);
-COPA --- train(400), dev(100), test(500); 
-MultiRC --- train(5,100), dev(953), test(1,800); 
-ReCoRD --- train(101k), dev(10k), test(10k); 
-RTE --- train(2,500), dev(278), test(300); 
-WiC --- train(6,000), dev(638), test(1,400); 
-WSC --- train(554), dev(104), test(146).
-- **Dataset creation:** 
-- **An illustrative example:**
-Example from BoolQ
-```
-Passage: Barq’s – Barq’s is an American soft drink. Its brand of root beer is notable for having caffeine. Barq’s, created by Edward Barq and bottled since the turn of the 20th century, is owned by the Barq family but bottled by the Coca-Cola Company. It was known as Barq’s Famous Olde Tyme Root Beer until 2012.
-Question: Is barq’s root beer a pepsi product?
-Answer: No
-``` 
-Example from COPA
-```
-Premise: My body cast a shadow over the grass. 
-Question: What’s the CAUSE for this?
-Alternative 1: The sun was rising. 
-Alternative 2: The grass was cut.
-Correct Alternative: 1
-``` -->
-<!-- https://super.gluebenchmark.com/tasks -->
-
 <!-- {: .fs-4 .fw-600 .text-red-300}
 > **Comments** -->
