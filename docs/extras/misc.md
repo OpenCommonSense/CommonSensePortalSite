@@ -130,6 +130,9 @@ Editors: [Bill Yuchen Lin](https://yuchenlin.xyz/), [Jun Yan](https://junyann.gi
 
 ## Useful links
 
+- [https://paperswithcode.com/task/common-sense-reasoning](https://paperswithcode.com/task/common-sense-reasoning){: target="_blank"}
+
 - [https://commonsensereasoning.org/](https://commonsensereasoning.org/){: target="_blank"}
  
 - [https://www.machinecommonsense.com/](https://www.machinecommonsense.com/){: target="_blank"} 
+
