@@ -1112,6 +1112,19 @@ Example of a game walkthrough belonging to the <em>easy</em> difficulty level.
 
 ## Other Related Datasets
 
+### Rainbow
+{: .no_toc }
+
+{: .fs-4 .fw-800 .text-blue-100}
+*UNICORN on RAINBOW: A Universal Commonsense Reasoning Model on a New Multitask Benchmark*.<br> Nicholas Lourie, Ronan Le Bras, Chandra Bhagavatula, Yejin Choi. **AAAI-21**
+
+<span class="fs-1">
+[Paper](https://arxiv.org/abs/2103.13009){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://allenai.org/data/rainbow){: target="_blank" .btn .btn-green .mr-1 } </span>
+
+> - **Topics:** Rainbow is a universal commonsense reasoning benchmark spanning both social and physical common sense. Rainbow brings together 6 existing commonsense reasoning tasks: aNLI, Cosmos QA, HellaSWAG, Physical IQa, Social IQa, and WinoGrande.
+- **Task format:**  text-to-text 
+- **Size & Split:**  
+- **Dataset creation:** reformatting specific versions of the above datasets to a text-to-text format so that models like T5 and BART.
 
 ### LocatedNear Relation Extraction
 {: .no_toc }
