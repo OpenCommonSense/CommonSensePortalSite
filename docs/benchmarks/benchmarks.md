@@ -62,9 +62,11 @@ We present a comprehensive collection of datasets for testing commonsense reason
 | [DREAM](#dream) | [Link](https://dataset.org/dream/) | Everyday Dialogues | [RC](#reading-comprehension) | 91.8 / 95.5  (**Acc. %**) 
 | [MCScript](#mcscript) | [Link](https://www.aclweb.org/anthology/L18-1564/) | General, Script | [RC](#reading-comprehension) | 72.0 / 98.2 (**Acc. %**) 
 | [TWC](#twc) | [Link](https://arxiv.org/abs/2010.03790) | Objects | [TG](#text-game) | N/A |
-| [LOCATEDNEAR](#locatednear-relation-extraction) | [Link](https://arxiv.org/abs/1711.04204) | Objects | [Others](#other-related-datasets) | 65.3 / 68.0 (**Acc. %**) 
-| [GLUE](#glue-and-superglue-benchmark) | [Link](https://gluebenchmark.com/) | General | [Others](#other-related-datasets) | 97.8 / 97.8 (**Acc. %**) 
-| [SuperGLUE](#glue-and-superglue-benchmark) | [Link](https://super.gluebenchmark.com/) | General | [Others](#other-related-datasets) | 98.4 / 100 (**Acc. %**) 
+| [Rainbow](#rainbow-benchmark) | [Link](https://allenai.org/data/rainbow) | General | [Others](#other-related-datasets) | N/A
+| [GLUE](#glue-and-superglue-benchmark) | [Link](https://gluebenchmark.com/) | General | [Others](#other-related-datasets) | 97.8 / 97.8  
+| [SuperGLUE](#glue-and-superglue-benchmark) | [Link](https://super.gluebenchmark.com/) | General | [Others](#other-related-datasets) | 98.4 / 100 
+| [LOCATEDNEAR](#locatednear-relation-extraction) | [Link](https://arxiv.org/abs/1711.04204) | Objects | [Others](#other-related-datasets) | N/A (**Acc. %**) 
+
 
 </details>
 <!-- Check https://leaderboard.allenai.org/ for more -->
