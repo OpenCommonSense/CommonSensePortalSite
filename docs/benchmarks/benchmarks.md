@@ -26,7 +26,7 @@ We present a comprehensive collection of datasets for testing commonsense reason
 ---
 
 <details markdown="block">
-  <summary>Summary Table</summary>
+  <summary>🌟 Summary Table 🌟</summary>
 {: .fs-4 .text-delta .text-red-200 style="font-weight:800"}
   
 | Name | Link | Tags | Format |  SotA vs. Human 
@@ -52,7 +52,6 @@ We present a comprehensive collection of datasets for testing commonsense reason
 | [ProtoQA](#protoqa) | [Link](https://github.com/iesl/protoqa-data) | Prototypical Situation | [OE](#open-ended-qa) | 56.0 / 78.4 (**WN. Sim.**)
 | [OpenCSR](#opencsr) | [Link](https://arxiv.org/abs/2010.14439) | Science | [OE](#open-ended-qa) | 40.8 /  N/A (**Acc. %**) 
 | [CommonGen](#commongen) | [Link](https://inklab.usc.edu/CommonGen/) | General, Everyday Scenario | [CNLG](#constrained-nlg) | 33.3 / 52.4  (**SPICE %**) 
-| [Cos-E](#cos-e) | [Link](https://github.com/salesforce/cos-e) | General, Everyday Events | [CNLG](#constrained-nlg) | 58.2 / 95.3  (**Acc. %**) 
 | [ComVE (SubTask C)](#comve-subtask-c) | [Link](https://github.com/wangcunxiang/SemEval2020-Task4-Commonsense-Validation-and-Explanation) | Nonsensical Statement | [CNLG](#constrained-nlg) | 22.4 / 2.58  (**BLEU**)
 | [LAMA Probes](#lama-probes) | [Link](https://github.com/facebookresearch/LAMA) | General | [LMP](#lm-probing-tasks) | N/A 
 | [NumerSense](#numersense) | [Link](https://github.com/INK-USC/NumerSense) | Numerical | [LMP](#lm-probing-tasks) | 70.4 /  96.3 (**Acc. %**) 
