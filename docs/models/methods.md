@@ -38,7 +38,7 @@ We present a collection of insightful research papers that focus on teaching mac
 
 ---
 
-## LM-only Methods
+## Neural Methods
 
 <table>
 <td>
