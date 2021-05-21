@@ -86,7 +86,7 @@ The task format for multiple-choice (**MC**) tasks for commonsense reasoning is 
 - Metric: accuracy. 
 
 Notes:
-- There is **one and only one correct choice** for each input, and the others are distractors.
+- There is **one and only one correct choice** for each input, and the others are distractors. Exception: MC-TACO allows multiple correct answers.
 - We do not consider the cases with additional input context (e.g., [passages](#CosmosQA), [images](#visual-commonsense-reasoning)) here.
 - The inputs can be either __interrogative sentences__ (as in CommonsenseQA, SocialIQA, etc.) or __incomplete statements__ (as in SWAG, COPA, WSC, etc.).
 </td>
