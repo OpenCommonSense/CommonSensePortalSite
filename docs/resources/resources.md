@@ -617,9 +617,13 @@ An excerpt from a story on **TAKING A BATH script**.
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
 >  {: .fs-3 .text-delta .text-red-100}
-
 ```
-
+SITUATION
+Narrator: "Asking my boyfriend to stop being friends with his ex"
+RULE-OF-THUMB 1 for Narrator
+It's okay to ask your significant other to stop doing something you're uncomfortable with
+RULE-OF-THUMB 2 for Narrator
+It's not right to tell another person who to spend time with
 ```
 ></details> 
 
@@ -735,6 +739,29 @@ An excerpt from a story on **TAKING A BATH script**.
 >   <img src="../../images/resources/DOLCE1.png" width="80%" height="auto" />
 >   <p>Examples of <em>leaf</em> basic categories:</p>
 >   <img src="../../images/resources/DOLCE2.png" width="60%" height="auto" />
+></details> 
+
+
+<hr class="thin" />
+
+{: .fs-4 .fw-800 .text-blue-100}
+**📜 *[NELL]* Never-ending learning**. <br> ✍ T. Mitchell, W. Cohen, E. Hruschka, P. Talukdar, B. Yang, J. Betteridge, A. Carlson, B. Dalvi, M. Gardner, B. Kisiel, J.Krishnamurthy, N. Lao, K. Mazaitis, T. Mohamed, N. Nakashole, E. Platanios, A. Ritter, M. Samadi, B. Settles, R. Wang, D. Wijaya, A. Gupta, X. Chen, A. Saparov, M. Greaves, and J. Welling. *(AAAI 2015)*
+ 
+<span class="fs-2">
+   [Paper](https://dl.acm.org/doi/abs/10.1145/3191513){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Explore](https://sites.google.com/site/neltutorialicml19/){: target="_blank" .btn .btn-purple .mr-1 }
+</span> 
+
+> - **Tags:** 
+- **NELL'S Learning Result:** KB with ~120 million confidence; weighted beliefs: learned to improve its reading ability, its reasoning ability, its learning ability; extended its ontology of known relations. 
+- **Creation:** 
+><details markdown="block">
+>  <summary>Illustrative Example</summary>
+>  {: .fs-3 .text-delta .text-red-100}
+> <p> NELL Learned Contexts for “Hotel” (~1% of total) </p>
+```
+   "_ is the only five  -star hotel” "_ is the only hotel” "_ is the perfect accommodation" "_ is the perfect address” "_ is the perfect lodging” "_ is the sister hotel” "_ is the ultimate hotel" "_ is the value choice” "_ is uniquely situated in” "_ is Walking Distance” "_ is wonderfully situated in” "_ las vegas hotel” "_ los angeles hotels” "_ Make an online hotel reservation” "_ makes a great home  -base” "_ mentions Downtown” "_ mette a disposizione” "_ miami south beach” "_ minded traveler” "_ mucha prague Map Hotel” "_ n'est qu'quelques minutes” "_ naturally has a pool” "_ is the perfect central location” "_ is the perfect extended stay hotel” "_ is the perfect headquarters” "_ is the perfect home base” "_ is the perfect lodging choice" "_ north reddington beach” "_ now offer guests” "_ now offers guests” "_ occupies a privileged location” "_ occupies an ideal location” "_ offer a king bed” "_ offer a large bedroom” "_ offer a master bedroom” "_ offer a refrigerator” "_ offer a separate living area" "_ offer a separate living room” "_ offer comfortable rooms” "_ offer complimentary shuttle service” "_ offer deluxe accommodations” "_ offer family rooms” "_ offer secure online reservations” "_ offer upscale amenities” "_ offering a complimentary continental breakfast” "_ offering
+```
 ></details> 
 
 ---
