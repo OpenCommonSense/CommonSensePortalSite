@@ -9,7 +9,7 @@ permalink: /misc/
 # Additional materials
 {: .no_toc }
 
-Editors: [Bill Yuchen Lin](https://yuchenlin.xyz/), [Jun Yan](https://junyann.github.io/){: target="_blank"}
+Editors: [Bill Yuchen Lin](https://yuchenlin.xyz/), [Jun Yan](https://junyann.github.io/){: target="_blank"}, [Yang Qiao](https://www.linkedin.com/in/xiaoyang-qiao/){: target="_blank"}
 
 ## Table of contents
 {: .no_toc .text-delta .fs-4 style="font-weight:800"}
@@ -51,6 +51,9 @@ Editors: [Bill Yuchen Lin](https://yuchenlin.xyz/), [Jun Yan](https://junyann.gi
 | :------------:| :-----: | :------: | :----------: |
 | **Commonsense Reasoning for Natural Language Processing** <br> (ACL-20 Tutorial) | [Project Page](https://homes.cs.washington.edu/~msap/acl2020-commonsense/){: target="_blank"}, [Blog Post](http://veredshwartz.blogspot.com/2021/01/commonsense-reasoning-for-natural.html){: target="_blank"} | Maarten Sap (UW/AI2), Vered Shwartz (UW/AI2), Antoine Bosselut (UW/AI2), Yejin Choi (UW/AI2), Dan Roth  (UPenn) |  ACL 2020 |
 | **Common Sense Knowledge Graphs** <br> (ISWC-20 Tutorial) | [Project Page](https://usc-isi-i2.github.io/ISWC20/){: target="_blank"} | Filip Ilievski (USC/ISI), Pedro Szekely (USC/ISI), Mayank Kejriwal (USC/ISI) |  ISWC 2020 |
+| **MH2: Commonsense Knowledge Acquisition and Representation** <br> (AAAI-21 Tutorial) | [Project Page](https://usc-isi-i2.github.io/AAAI21Tutorial/){: target="_blank"} | Filip Ilievski (USC/ISI), Antoine Bosselut (Stanford/EPFL), Simon Razniewski (Max Planck Institute for Informatics), Mayank Kejriwal (USC/ISI) |  AAAI 2021 |
+| **Information to Wisdom: Commonsense Knowledge Extraction and Compilation** <br> (WSDM-21 Tutorial) | [Project Page](https://dl.acm.org/doi/10.1145/3437963.3441664){: target="_blank"} | Simon Razniewski, Niket Tandon, Aparna S. Varde |  WSDM 2021 |
+
 
 
 ## Articles
